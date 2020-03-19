@@ -79,9 +79,16 @@ NAME="sanojp"
 rm -rf "./$NAME/"
 git clone "https://github.com/$GITHUBNAME/$GITHUBNAME.github.io.git"
 mv "$GITHUBNAME.github.io" "$NAME"
-echo "<li><strike><a href=\"https://tesla.ce.pdn.ac.lk/students/$NAME/\">$NAME</a><strike></strike></li>" >> index.html
+echo "<li><strike><a href=\"https://tesla.ce.pdn.ac.lk/students/$NAME/\">$NAME</a></strike></li>" >> index.html
 echo $NAME "completed"
 
+GITHUBNAME="shyaman"
+NAME="shyamanj"
+rm -rf "./$NAME/"
+git clone "https://github.com/$GITHUBNAME/$GITHUBNAME.github.io.git"
+mv "$GITHUBNAME.github.io" "$NAME"
+echo "<li><a href=\"https://tesla.ce.pdn.ac.lk/students/$NAME/\">$NAME</a></li>" >> index.html
+echo $NAME "completed"
 
 
 
