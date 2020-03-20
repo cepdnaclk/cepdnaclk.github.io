@@ -6,7 +6,7 @@ This is the code to update all the student websites in [https://tesla.ce.pdn.ac.
 
 ### How to update the websites
 
-Copy the [https://github.com/cepdnaclk/cepdnaclk.github.io/blob/master/students/update.sh](update.sh) file to the directory and run it.
+Copy the (https://github.com/cepdnaclk/cepdnaclk.github.io/blob/master/students/update.sh)[update.sh] file to the directory and run it.
 This is all you have to do. You do not need to download any other file.
 
 ### How to add a website
