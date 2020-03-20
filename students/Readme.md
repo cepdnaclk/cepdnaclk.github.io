@@ -7,7 +7,12 @@ This is the code to update all the student websites in [https://tesla.ce.pdn.ac.
 ### How to update the websites
 
 Delete everything in the directory, copy the [update.sh](https://github.com/cepdnaclk/cepdnaclk.github.io/blob/master/students/update.sh) file and run it.
-
+  ssh eXXYYY@tesla.ce.pdn.ac.lk
+  cd /var/www/html/students/
+  rm -rf *
+  wget https://raw.githubusercontent.com/cepdnaclk/cepdnaclk.github.io/master/students/update.sh
+  chmod 700 update.sh
+  ./update.sh
 
 This is all you have to do. You do not need to download any other file.
 
