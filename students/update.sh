@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #gihanjayatilaka[at]eng[dot]pdn[dot]ac[dot]lk 2020-03-20
-rm -rf *
+rm -rf !("update.sh")
 wget https://raw.githubusercontent.com/cepdnaclk/cepdnaclk.github.io/master/students/update.sh
 wget https://raw.githubusercontent.com/cepdnaclk/cepdnaclk.github.io/master/students/exceptions.sh
 wget https://raw.githubusercontent.com/cepdnaclk/cepdnaclk.github.io/master/students/gen-shell-script.py

@@ -44,12 +44,12 @@ if __name__=='__main__':
     outputBASH.write("OUTPUT_HTML={}\n".format(args.outputHTML))
     outputBASH.write("echo \"<html><title>Department of Computer Engineering, University of Peradeniya : Students</title><body><h3>Department of Computer Engineering, University of Peradeniya : Students</h3><ul>\" > $OUTPUT_HTML\n")
 
-    allSitesInfo=sorted(stripNestedList(list(allSitesInfo)))
+    allSitesInfo=stripNestedList(list(allSitesInfo))
+    allSitesInfo=sorted(allSitesInfo[1:])
 
 
 
-
-    for siteIdx in range(1,len(allSitesInfo)):
+    for siteIdx in range(len(allSitesInfo)):
         thisSite=allSitesInfo[siteIdx]
         if isOkay(thisSite,allStudentsInfo):
             outputBASH.write("git clone https://github.com/{}/{}.github.io.git\n".format(thisSite[1],thisSite[1]))
