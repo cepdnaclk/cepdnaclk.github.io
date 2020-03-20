@@ -16,6 +16,8 @@ This is all you have to do. You do not need to download any other file.
 
 Add your website information to [siteInfo.csv](https://github.com/cepdnaclk/cepdnaclk.github.io/blob/master/students/siteInfo.csv). If you do not have write access, fork the repo, edit and send a pull request.
 
+## Support:
+Contact [me](https://gihan.me/contact) or [Kisaru Liyanage](mailto:kisarul@eng.pdn.ac.lk)
 
 ## To do:
 1. Take this to students.ce.pdn.ac.lk
