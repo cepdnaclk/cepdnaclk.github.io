@@ -32,21 +32,19 @@ if __name__=='__main__':
     args.add_argument("--outputHTML", dest="outputHTML", type=str)
 
     args=args.parse_args()
-
-    siteInfoCSV=open(file=args.siteInfoCSV,mode='rt')
+    siteInfoCSV=open(args.siteInfoCSV,mode='rt')
     allSitesInfo = csv.reader(siteInfoCSV)
 
-    studentInfoCSV=open(file=args.studentInfoCSV,mode='rt')
+    studentInfoCSV=open(args.studentInfoCSV,mode='rt')
     allStudentsInfo = csv.reader(studentInfoCSV)
 
-    outputBASH=open(file=args.outputBASH,mode="w+")
+    outputBASH=open(args.outputBASH,mode="w+")
     outputBASH.write("#!/usr/bin/env bash\n")
 
     outputBASH.write("OUTPUT_HTML={}\n".format(args.outputHTML))
     outputBASH.write("echo \"<html><title>Department of Computer Engineering, University of Peradeniya : Students</title><body><h3>Department of Computer Engineering, University of Peradeniya : Students</h3><ul>\" > $OUTPUT_HTML\n")
 
-    print(allSitesInfo)
-    allSitesInfo=stripNestedList(list(allSitesInfo))
+    allSitesInfo=sorted(stripNestedList(list(allSitesInfo)))
 
 
 
