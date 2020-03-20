@@ -9,11 +9,11 @@ cd "$GITHUBNAME.github.io"
 git checkout 0d97480
 cd ../
 mv "$GITHUBNAME.github.io" "$NAME"
-echo "<li><a href=\"https://tesla.ce.pdn.ac.lk/students/$NAME/\">$NAME</a></li>" >> index.html
+echo "<li><a href=\"https://tesla.ce.pdn.ac.lk/students/$NAME/\">$NAME</a></li>" >> $OUTPUT_HTML
 
 
 
 NAME="nuwanj"
 git clone https://github.com/NuwanJ/my-site.git
 mv my-site "$NAME"
-echo "<li><a href=\"https://tesla.ce.pdn.ac.lk/students/$NAME/\">$NAME</a></li>" >> index.html
+echo "<li><a href=\"https://tesla.ce.pdn.ac.lk/students/$NAME/\">$NAME</a></li>" >> $OUTPUT_HTML
