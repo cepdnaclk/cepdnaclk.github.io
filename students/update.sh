@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #gihanjayatilaka[at]eng[dot]pdn[dot]ac[dot]lk 2020-03-20
-#rm -rf !("update.sh")
-wget --no-check-certificate --no-cache --no-cookies https://raw.githubusercontent.com/cepdnaclk/cepdnaclk.github.io/master/students/update.sh
+
+ls --hide=update.sh | xargs rm
 wget --no-check-certificate --no-cache --no-cookies https://raw.githubusercontent.com/cepdnaclk/cepdnaclk.github.io/master/students/exceptions.sh
 wget --no-check-certificate --no-cache --no-cookies https://raw.githubusercontent.com/cepdnaclk/cepdnaclk.github.io/master/students/gen-shell-script.py
 wget --no-check-certificate --no-cache --no-cookies https://raw.githubusercontent.com/cepdnaclk/cepdnaclk.github.io/master/students/siteInfo.csv
