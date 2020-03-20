@@ -62,7 +62,7 @@ if __name__=='__main__':
                     "echo \"<li><a href=\"https://tesla.ce.pdn.ac.lk/students/{}/\">{}</a></li>\" >> $OUTPUT_HTML\n".format(
                         thisSite[2], thisSite[2]))
 
-    exceptionsBASH=open(file=args.exceptionsBASH,mode="rt")
+    exceptionsBASH=open(args.exceptionsBASH,mode="rt")
     exceptionsBASH=exceptionsBASH.readlines()
     print(exceptionsBASH)
     for line in exceptionsBASH:
