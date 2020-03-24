@@ -1,6 +1,6 @@
 # tesla.ce.pdn.ac.lk/students/
 
-This is the code to update all the student websites in [https://tesla.ce.pdn.ac.lk/students/](https://tesla.ce.pdn.ac.lk/students/).
+This is the code to update all the student websites in [https://tesla.ce.pdn.ac.lk/students/](https://tesla.ce.pdn.ac.lk/students/). Students have to use github pages for their personal websites to take use of this. Read: [what are github pages?](https://pages.github.com/).
 
 ## How to use
 
