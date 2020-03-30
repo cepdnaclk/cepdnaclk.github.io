@@ -3,7 +3,7 @@ gihanjayatilaka[at]eng[dot]pdn[dot]ac[dot]lk 2020-03-20
 '''
 import argparse
 import csv
-
+from datetime import date,datetime
 
 def isOkay(thisSite,allStudents):
     '''
@@ -68,6 +68,9 @@ if __name__=='__main__':
     for line in exceptionsBASH:
         outputBASH.write(line)#The '\n' comes from the file read
 
-    outputBASH.write("echo \"</ul></body></html>\" >> $OUTPUT_HTML\n")
+
+    outputBASH.write("echo \"</ul>\" >> $OUTPUT_HTML\n")
+    outputBASH.write("echo \"Updated on: {} \" >> $OUTPUT_HTML\n".format(datetime.now().strftime("%d/%m/%Y %H:%M:%S")))
+    outputBASH.write("echo \"</body></html>\" >> $OUTPUT_HTML\n")
 
     print("PROGRAM END: gen-shell-scrpt.py")
