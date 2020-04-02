@@ -1,0 +1,10 @@
+PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games"
+http_proxy=http://cachex.pdn.ac.lk:3128/
+https_proxy=http://cachex.pdn.ac.lk:3128/
+ftp_proxy=http://cachex.pdn.ac.lk:3128/
+no_proxy="localhost,127.0.0.1,*.pdn.ac.lk"
+HTTP_PROXY=http://cachex.pdn.ac.lk:3128/
+HTTPS_PROXY=http://cachex.pdn.ac.lk:3128/
+FTP_PROXY=http://cachex.pdn.ac.lk:3128/
+NO_PROXY="localhost,127.0.0.1,*.pdn.ac.lk"
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/opt/NuSMV/NuSMV-2.5.4-x86_64-unknown-linux-gnu/bin
