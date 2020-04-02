@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="iso-8859-1" ?> 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">  
+<!--http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd-->  
+<html xmlns="http://www.w3.org/1999/xhtml"  
+> 
+<head><title>A session with Unix</title> 
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /> 
+<meta name="generator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)" /> 
+<meta name="originator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)" /> 
+<!-- xhtml,2,info,html --> 
+<meta name="src" content="unixone.tex" /> 
+<meta name="date" content="2017-01-25 21:04:00" /> 
+<link rel="stylesheet" type="text/css" href="unixone1.css" /> 
+</head><body 
+>
+<!--l. 309--><div class="crosslinks"><p class="noindent">[<a 
+href="unixonese3.html" >next</a>] [<a 
+href="unixonese1.html" >prev</a>] [<a 
+href="unixonese1.html#tailunixonese1.html" >prev-tail</a>] [<a 
+href="#tailunixonese2.html">tail</a>] [<a 
+href="unixone.html#unixonese2.html" >up</a>] </p></div>
+<h3 class="sectionHead"><span class="titlemark">2   </span> <a 
+ id="x6-100002"></a>A session with Unix</h3>
+<!--l. 312--><p class="noindent" >In this unid you will go through a longer session with Unix to get to know the system and the
+terminal a bit better.
+</p><!--l. 315--><p class="noindent" >From the time you logged on to the system you are &#8221;on session&#8221; until you log out. As you read this
+section try those commands yourself in the newly recieved shell account!
+</p><!--l. 319--><p class="noindent" >
+</p>
+<h4 class="subsectionHead"><span class="titlemark">2.1   </span> <a 
+ id="x6-110002.1"></a>Exploring your system environment</h4>
+<!--l. 321--><p class="noindent" >
+</p>
+<h5 class="subsubsectionHead"><span class="titlemark">2.1.1   </span> <a 
+ id="x6-120002.1.1"></a>Viewing the system date and time</h5>
+<!--l. 323--><p class="noindent" >Users can display the system&#8217;s current date and time using the <span 
+class="cmtt-10x-x-109">date </span>command: </p><!--l. 325-->
+<div class="lstlisting" id="listing-3"><span class="label"><a 
+ id="x6-12001r1"></a></span>$&#x00A0;date&#x00A0;<br /><span class="label"><a 
+ id="x6-12002r2"></a></span>Thu&#x00A0;Feb&#x00A0;29&#x00A0;21:21:12&#x00A0;IST&#x00A0;2015
+</div>
+<!--l. 330--><p class="noindent" >The date string above might look strange to you. It is the format originally chosen by
+the inventors of Unix and still the default format in most of the Unix-like systems. To
+change the format give the <span 
+class="cmtt-10x-x-109">date </span>command a format string as an option. Here are some
+examples:
+</p>
+<!--l. 335-->
+<div class="lstlisting" id="listing-4"><span class="label"><a 
+ id="x6-12003r1"></a></span>$&#x00A0;date&#x00A0;&#8221;+%T&#8221;&#x00A0;<br /><span class="label"><a 
+ id="x6-12004r2"></a></span>21:21:12&#x00A0;<br /><span class="label"><a 
+ id="x6-12005r3"></a></span>$&#x00A0;date&#x00A0;&#8221;+%Y&#8221;&#x00A0;<br /><span class="label"><a 
+ id="x6-12006r4"></a></span>2015
+</div>
+<!--l. 342--><p class="noindent" >Make a note of the timezone in the earlier example. In that IST stands for Indian Standard Time,
+which is also the time observed in Sri Lanka. IST is 5 h 30 min ahead of UTC, Coordinated
+                                                                                    
+
+                                                                                    
+Universal Time. Typically a Unix system&#8217;s hardware clock is synchronized to UTC. The system
+knows the local time from its timezone setting. (And if you carry a computer across timezones, you
+switch the timezone, not the system clock!)
+</p><!--l. 349--><p class="noindent" >The original designers of Unix have arbirtraliy chosen the instant 00:00:00 UTC of 1 January 1970
+as the origin of its system time or the &#8220;epoch&#8221;. This has become a part of the Unix
+standard and is widely used. You can get the this <span 
+class="cmti-10x-x-109">epoch time </span>in seconds by running <span 
+class="cmtt-10x-x-109">date</span>
+<span 
+class="cmtt-10x-x-109">"+%s"</span>.
+</p><!--l. 355--><p class="noindent" >The <span 
+class="cmtt-10x-x-109">date </span>command can also change the system time, but only the system administrator is allowed
+do that. In fact, Unix systems rely much on accurate clock time and therefore almost
+always synchronized with a time server. But system administration is out of scope right
+now.
+</p><!--l. 361--><p class="noindent" >
+</p>
+<h5 class="subsubsectionHead"><span class="titlemark">2.1.2   </span> <a 
+ id="x6-130002.1.2"></a>Monthly calenders</h5>
+<!--l. 363--><p class="noindent" >The standard calender program of Unix is called <span 
+class="cmtt-10x-x-109">cal</span>:
+</p>
+<!--l. 365-->
+<div class="lstlisting" id="listing-5"><span class="label"><a 
+ id="x6-13001r1"></a></span>$&#x00A0;cal&#x00A0;<br /><span class="label"><a 
+ id="x6-13002r2"></a></span>&#x00A0;&#x00A0;&#x00A0;&#x00A0;January&#x00A0;2015&#x00A0;<br /><span class="label"><a 
+ id="x6-13003r3"></a></span>Su&#x00A0;Mo&#x00A0;Tu&#x00A0;We&#x00A0;Th&#x00A0;Fr&#x00A0;Sa&#x00A0;<br /><span class="label"><a 
+ id="x6-13004r4"></a></span>&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;1&#x00A0;&#x00A0;2&#x00A0;&#x00A0;3&#x00A0;<br /><span class="label"><a 
+ id="x6-13005r5"></a></span>&#x00A0;4&#x00A0;&#x00A0;5&#x00A0;&#x00A0;6&#x00A0;&#x00A0;7&#x00A0;&#x00A0;8&#x00A0;&#x00A0;9&#x00A0;10&#x00A0;<br /><span class="label"><a 
+ id="x6-13006r6"></a></span>11&#x00A0;12&#x00A0;13&#x00A0;14&#x00A0;15&#x00A0;16&#x00A0;17&#x00A0;<br /><span class="label"><a 
+ id="x6-13007r7"></a></span>18&#x00A0;19&#x00A0;20&#x00A0;21&#x00A0;22&#x00A0;23&#x00A0;24&#x00A0;<br /><span class="label"><a 
+ id="x6-13008r8"></a></span>25&#x00A0;26&#x00A0;27&#x00A0;28&#x00A0;29&#x00A0;30&#x00A0;31
+</div>
+<!--l. 377--><p class="noindent" >The program <span 
+class="cmtt-10x-x-109">ncal </span>offers you an alternative layout. Try <span 
+class="cmtt-10x-x-109">cal -3 </span>and <span 
+class="cmtt-10x-x-109">ncal -3</span>.
+</p><!--l. 380--><p class="noindent" >
+</p>
+<h5 class="subsubsectionHead"><span class="titlemark">2.1.3   </span> <a 
+ id="x6-140002.1.3"></a>How busy is the machine</h5>
+<!--l. 382--><p class="noindent" >There is another time-related command called <span 
+class="cmtt-10x-x-109">uptime </span>which shows the duration for which the
+system has been running. In addition it tells you how many users are currently logged in and prints
+out three values for system load averages: the load average during the last 1, 5 and 15
+minutes.
+</p>
+<!--l. 387-->
+<div class="lstlisting" id="listing-6"><span class="label"><a 
+ id="x6-14001r1"></a></span>$&#x00A0;uptime&#x00A0;<br /><span class="label"><a 
+ id="x6-14002r2"></a></span>&#x00A0;17:19:20&#x00A0;up&#x00A0;13:34,&#x00A0;6&#x00A0;users,&#x00A0;load&#x00A0;average:&#x00A0;0.22,&#x00A0;0.18,&#x00A0;0.15
+</div>
+<!--l. 392--><p class="noindent" >The unit of measurement for load average is the number of CPUs (or hyperthreads) being utilized.
+If the machine is single CPU 1.00 means the CPU is fully utilized, if it has 2 CPUs, each with two
+                                                                                    
+
+                                                                                    
+hyperthreds a value of 4.00 means that all four CPU threads are being fully utilized. (Well, there is
+more to it. For now we have to leave it at that.)
+</p><!--l. 398--><p class="noindent" >There is another famous command called <span 
+class="cmtt-10x-x-109">top </span>which continously monitors the system
+state:
+</p>
+<!--l. 401-->
+<div class="lstlisting" id="listing-7"><span class="label"><a 
+ id="x6-14003r1"></a></span>top&#x00A0;<span 
+class="cmsy-10x-x-109">&minus;</span>&#x00A0;17:52:46&#x00A0;up&#x00A0;&#x00A0;1:42,&#x00A0;&#x00A0;7&#x00A0;users,&#x00A0;&#x00A0;load&#x00A0;average:&#x00A0;0.10,&#x00A0;0.09,&#x00A0;0.12&#x00A0;<br /><span class="label"><a 
+ id="x6-14004r2"></a></span>Tasks:&#x00A0;157&#x00A0;total,&#x00A0;&#x00A0;2&#x00A0;running,&#x00A0;155&#x00A0;sleeping,&#x00A0;0&#x00A0;stopped,&#x00A0;&#x00A0;&#x00A0;0&#x00A0;zombie&#x00A0;<br /><span class="label"><a 
+ id="x6-14005r3"></a></span>Cpu(s):&#x00A0;&#x00A0;1.0&#x00A0;us,&#x00A0;&#x00A0;1.1&#x00A0;sy,&#x00A0;&#x00A0;0.0&#x00A0;ni,&#x00A0;97.8&#x00A0;id,&#x00A0;&#x00A0;0.1&#x00A0;wa,&#x00A0;&#x00A0;0.0&#x00A0;hi,&#x00A0;&#x00A0;...&#x00A0;<br /><span class="label"><a 
+ id="x6-14006r4"></a></span>KiB&#x00A0;Mem:&#x00A0;&#x00A0;7987388&#x00A0;total,&#x00A0;1825888&#x00A0;used,&#x00A0;6161500&#x00A0;free,&#x00A0;&#x00A0;79584&#x00A0;buffers&#x00A0;<br /><span class="label"><a 
+ id="x6-14007r5"></a></span>KiB&#x00A0;Swap:&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;0&#x00A0;total,&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;0&#x00A0;used,&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;0&#x00A0;free,&#x00A0;854744&#x00A0;cached&#x00A0;<br /><span class="label"><a 
+ id="x6-14008r6"></a></span>&#x00A0;<br /><span class="label"><a 
+ id="x6-14009r7"></a></span>&#x00A0;&#x00A0;PID&#x00A0;USER&#x00A0;&#x00A0;&#x00A0;PR&#x00A0;&#x00A0;NI&#x00A0;&#x00A0;VIRT&#x00A0;&#x00A0;RES&#x00A0;&#x00A0;SHR&#x00A0;S&#x00A0;&#x00A0;%CPU&#x00A0;%MEM&#x00A0;&#x00A0;&#x00A0;&#x00A0;TIME+&#x00A0;&#x00A0;COMMAND&#x00A0;<br /><span class="label"><a 
+ id="x6-14010r8"></a></span>&#x00A0;2950&#x00A0;root&#x00A0;&#x00A0;&#x00A0;20&#x00A0;&#x00A0;&#x00A0;0&#x00A0;&#x00A0;162m&#x00A0;&#x00A0;22m&#x00A0;6884&#x00A0;S&#x00A0;&#x00A0;&#x00A0;5.0&#x00A0;&#x00A0;0.3&#x00A0;&#x00A0;&#x00A0;2:49.21&#x00A0;Xorg&#x00A0;<br /><span class="label"><a 
+ id="x6-14011r9"></a></span>&#x00A0;7829&#x00A0;foo&#x00A0;&#x00A0;&#x00A0;&#x00A0;20&#x00A0;&#x00A0;&#x00A0;0&#x00A0;&#x00A0;416m&#x00A0;&#x00A0;34m&#x00A0;&#x00A0;16m&#x00A0;S&#x00A0;&#x00A0;&#x00A0;1.0&#x00A0;&#x00A0;0.4&#x00A0;&#x00A0;&#x00A0;0:00.29&#x00A0;termin&#x00A0;<br /><span class="label"><a 
+ id="x6-14012r10"></a></span>&#x00A0;6863&#x00A0;bar&#x00A0;&#x00A0;&#x00A0;&#x00A0;20&#x00A0;&#x00A0;&#x00A0;0&#x00A0;&#x00A0;468m&#x00A0;&#x00A0;49m&#x00A0;&#x00A0;14m&#x00A0;S&#x00A0;&#x00A0;&#x00A0;0.7&#x00A0;&#x00A0;0.6&#x00A0;&#x00A0;&#x00A0;1:06.15&#x00A0;evince&#x00A0;<br /><span class="label"><a 
+ id="x6-14013r11"></a></span>&#x00A0;[...]
+</div>
+<!--l. 416--><p class="noindent" >
+</p>
+<h5 class="subsubsectionHead"><span class="titlemark">2.1.4   </span> <a 
+ id="x6-150002.1.4"></a>System information</h5>
+<!--l. 418--><p class="noindent" >The system&#8217;s DNS name can be querried through the command <span 
+class="cmtt-10x-x-109">hostname</span>. The command <span 
+class="cmtt-10x-x-109">uname</span>
+prints system information like the CPU architecture and the operating system:
+</p>
+<!--l. 422-->
+<div class="lstlisting" id="listing-8"><span class="label"><a 
+ id="x6-15001r1"></a></span>$&#x00A0;hostname&#x00A0;<br /><span class="label"><a 
+ id="x6-15002r2"></a></span>arm&#x00A0;<br /><span class="label"><a 
+ id="x6-15003r3"></a></span>$&#x00A0;uname&#x00A0;<span 
+class="cmsy-10x-x-109">&minus;</span>a&#x00A0;<br /><span class="label"><a 
+ id="x6-15004r4"></a></span>Linux&#x00A0;arm&#x00A0;4.4.11+&#x00A0;#709&#x00A0;SMP&#x00A0;Mon&#x00A0;May&#x00A0;23&#x00A0;15:28:00&#x00A0;BST&#x00A0;2016&#x00A0;<span 
+class="cmsy-10x-x-109">\</span>&#x00A0;<br /><span class="label"><a 
+ id="x6-15005r5"></a></span>&#x00A0;&#x00A0;armv6l&#x00A0;GNU/Linux
+</div>
+<!--l. 430--><p class="noindent" >Another source of system information are called <span 
+class="cmti-10x-x-109">environment variables</span>. This is an area in the
+memory space of the shell where a list of variables and their values are stored. One can querry them
+with the <span 
+class="cmtt-10x-x-109">echo </span>command. The value of a variable is addressed by prepending its name by the
+$-sign:
+</p>
+<!--l. 436-->
+<div class="lstlisting" id="listing-9"><span class="label"><a 
+ id="x6-15006r1"></a></span>$&#x00A0;echo&#x00A0;$OSTYPE&#x00A0;<br /><span class="label"><a 
+ id="x6-15007r2"></a></span>linux<span 
+class="cmsy-10x-x-109">&minus;</span>gnu&#x00A0;<br /><span class="label"><a 
+ id="x6-15008r3"></a></span>$&#x00A0;echo&#x00A0;$SHELL&#x00A0;<br /><span class="label"><a 
+ id="x6-15009r4"></a></span>/bin/bash
+</div>
+<!--l. 443--><p class="noindent" >Some other useful environment variables are: HOSTNAME, HOSTTYPE, TERM, USER. Try
+them!
+</p><!--l. 446--><p class="noindent" >Note that traditionally the environment variables are written in all capital.
+</p><!--l. 450--><p class="noindent" >
+</p>
+<h4 class="subsectionHead"><span class="titlemark">2.2   </span> <a 
+ id="x6-160002.2"></a>Screen handling</h4>
+                                                                                    
+
+                                                                                    
+<!--l. 452--><p class="noindent" >
+</p>
+<h5 class="subsubsectionHead"><span class="titlemark">2.2.1   </span> <a 
+ id="x6-170002.2.1"></a>Type-ahead</h5>
+<!--l. 454--><p class="noindent" >The terminal emulator reads the keys you type as you type them immediately pass them to the
+(remote) shell. The keys are normally &#8220;echoed&#8221; back to the terminal unless they are suppressed as
+in the case of passwords. If the shell is busy with something else or the connection is very slow, you
+might not see the echo immediately. But you don&#8217;t need to worry. The keys strokes are put to a
+queue and the shell answers wenn it is back. Which means, you can type blindly ahead of the shell
+output.
+</p><!--l. 462--><p class="noindent" >You can think of the keys strokes and the output of the shell as two independent streams of
+characters. They do not get in to the way of the other!
+</p><!--l. 466--><p class="noindent" >
+</p>
+<h5 class="subsubsectionHead"><span class="titlemark">2.2.2   </span> <a 
+ id="x6-180002.2.2"></a>Modifying the screen</h5>
+<!--l. 468--><p class="noindent" >If too much text is printed on terminal the <span 
+class="cmtt-10x-x-109">clear </span>command will clear it. Also watch the
+behaviour of the simple Enter key. In fact, it is a simple way of testing whether a shell is
+responding.
+</p><!--l. 472--><p class="noindent" >Programs may send special characters to the terminal to get various effects like colour
+or blinking text. Sometimes this leads to mishaps, where the display gets completely
+messed up. With the <span 
+class="cmtt-10x-x-109">reset </span>command you can recover, but you may have to type it
+blindly!
+</p><!--l. 477--><p class="noindent" >The original terminals had fixed sized fonts. Which meant that for a given resolution of the
+terminal the number of characters per line (called columns) and the number of lines displayed were
+always the same: 80 columns times 24 lines was a common standard. In today&#8217;s high resolution
+graphics there is no such correlation.
+</p><!--l. 483--><p class="noindent" >You can querry the terminal size through the <span 
+class="cmtt-10x-x-109">resize </span>command.
+</p>
+<!--l. 485-->
+<div class="lstlisting" id="listing-10"><span class="label"><a 
+ id="x6-18001r1"></a></span>$&#x00A0;resize&#x00A0;<br /><span class="label"><a 
+ id="x6-18002r2"></a></span>COLUMNS=92;&#x00A0;<br /><span class="label"><a 
+ id="x6-18003r3"></a></span>LINES=27;&#x00A0;<br /><span class="label"><a 
+ id="x6-18004r4"></a></span>export&#x00A0;COLUMNS&#x00A0;LINES;
+</div>
+<!--l. 493--><p class="noindent" >
+</p>
+<h5 class="subsubsectionHead"><span class="titlemark">2.2.3   </span> <a 
+ id="x6-190002.2.3"></a>Control keys</h5>
+                                                                                    
+
+                                                                                    
+<!--l. 495--><p class="noindent" >In dedicated terminals there was a BREAK key to stop whatever the command is running at that
+moment. Later this funtion was taken over by the Delete key. In todays keyboards the Delete key
+deletes the last character you typed. As you can see these things are system dependent. But a set of
+commands known as Control commands have a faily consistant behaviour throughout many
+systems.
+</p><!--l. 502--><p class="noindent" >You can break a running program by typing <span 
+class="cmtt-10x-x-109">Ctrl+c</span>. To delete a character, the equivalent to
+Delete, <span 
+class="cmtt-10x-x-109">ctrl+h</span>. <span 
+class="cmtt-10x-x-109">ctrl+u </span>deletes whole command line to the left of the cursor, <span 
+class="cmtt-10x-x-109">ctrl+k </span>kills the part
+to the right of it. <span 
+class="cmtt-10x-x-109">ctrl+d </span>signals the end of input, which will close the shell. Or, if you just want the
+output to pause, to keep something important disappearing off the screen, type <span 
+class="cmtt-10x-x-109">Ctrl+s</span>, the pause.
+To restart type <span 
+class="cmtt-10x-x-109">Ctrl+q</span>.
+</p><!--l. 510--><p class="noindent" >The following table lists some of the more important Ctrl keys. </p>
+<div class="center" 
+>
+<!--l. 511--><p class="noindent" >
+</p>
+<div class="tabular"> <table id="TBL-2" class="tabular" 
+cellspacing="0" cellpadding="0" rules="groups" 
+><colgroup id="TBL-2-1g"><col 
+id="TBL-2-1" /></colgroup><colgroup id="TBL-2-2g"><col 
+id="TBL-2-2" /></colgroup><tr 
+class="hline"><td><hr /></td><td><hr /></td></tr><tr  
+ style="vertical-align:baseline;" id="TBL-2-1-"><td  style="white-space:nowrap; text-align:left;" id="TBL-2-1-1"  
+class="td11">Shortcut</td><td  style="white-space:nowrap; text-align:left;" id="TBL-2-1-2"  
+class="td11">Effect                                                                   </td></tr><tr 
+class="hline"><td><hr /></td><td><hr /></td></tr><tr  
+ style="vertical-align:baseline;" id="TBL-2-2-"><td  style="white-space:nowrap; text-align:left;" id="TBL-2-2-1"  
+class="td11">Ctrl-a </td><td  style="white-space:nowrap; text-align:left;" id="TBL-2-2-2"  
+class="td11">Go to the beginning of the line</td>
+</tr><tr  
+ style="vertical-align:baseline;" id="TBL-2-3-"><td  style="white-space:nowrap; text-align:left;" id="TBL-2-3-1"  
+class="td11">Ctrl-c     </td><td  style="white-space:nowrap; text-align:left;" id="TBL-2-3-2"  
+class="td11">Kill the current process                                            </td>
+</tr><tr  
+ style="vertical-align:baseline;" id="TBL-2-4-"><td  style="white-space:nowrap; text-align:left;" id="TBL-2-4-1"  
+class="td11">Ctrl-d    </td><td  style="white-space:nowrap; text-align:left;" id="TBL-2-4-2"  
+class="td11">(on a line of its own) Exit the current shell                  </td>
+</tr><tr  
+ style="vertical-align:baseline;" id="TBL-2-5-"><td  style="white-space:nowrap; text-align:left;" id="TBL-2-5-1"  
+class="td11">        </td><td  style="white-space:nowrap; text-align:left;" id="TBL-2-5-2"  
+class="td11">(otherwise) delete the character under the cursor          </td>
+</tr><tr  
+ style="vertical-align:baseline;" id="TBL-2-6-"><td  style="white-space:nowrap; text-align:left;" id="TBL-2-6-1"  
+class="td11">Ctrl-e     </td><td  style="white-space:nowrap; text-align:left;" id="TBL-2-6-2"  
+class="td11">Go to the end of the line                                          </td>
+</tr><tr  
+ style="vertical-align:baseline;" id="TBL-2-7-"><td  style="white-space:nowrap; text-align:left;" id="TBL-2-7-1"  
+class="td11">Ctrl-h    </td><td  style="white-space:nowrap; text-align:left;" id="TBL-2-7-2"  
+class="td11">Delete the character to the left of the cursor (backspace)</td>
+</tr><tr  
+ style="vertical-align:baseline;" id="TBL-2-8-"><td  style="white-space:nowrap; text-align:left;" id="TBL-2-8-1"  
+class="td11">Ctrl-k    </td><td  style="white-space:nowrap; text-align:left;" id="TBL-2-8-2"  
+class="td11">Delete from the cursor position to the end of line          </td>
+</tr><tr  
+ style="vertical-align:baseline;" id="TBL-2-9-"><td  style="white-space:nowrap; text-align:left;" id="TBL-2-9-1"  
+class="td11">Ctrl-l     </td><td  style="white-space:nowrap; text-align:left;" id="TBL-2-9-2"  
+class="td11">Clear the screen                                                     </td>
+</tr><tr  
+ style="vertical-align:baseline;" id="TBL-2-10-"><td  style="white-space:nowrap; text-align:left;" id="TBL-2-10-1"  
+class="td11">Ctrl-u    </td><td  style="white-space:nowrap; text-align:left;" id="TBL-2-10-2"  
+class="td11">Delete from beginning of line to cursor position            </td>
+</tr><tr 
+class="hline"><td><hr /></td><td><hr /></td></tr><tr  
+ style="vertical-align:baseline;" id="TBL-2-11-"><td  style="white-space:nowrap; text-align:left;" id="TBL-2-11-1"  
+class="td11">        </td>
+</tr></table></div></div>
+<!--l. 531--><p class="noindent" >
+</p>
+<h4 class="subsectionHead"><span class="titlemark">2.3   </span> <a 
+ id="x6-200002.3"></a>More about ending the session</h4>
+<!--l. 533--><p class="noindent" >In the previous unit we said that the command <span 
+class="cmtt-10x-x-109">logout </span>is the right way to log out. Strictly speaking
+this is not right. You can log out only from the very first shell the login process gave you. You could
+have started more shells on top of it. (You just start another shell by typing its name. Try <span 
+class="cmtt-10x-x-109">bash </span>or
+<span 
+class="cmtt-10x-x-109">dash</span>, names of available shells.) Before you log out, you need to cloase those shells. The proper way
+to do that is to type <span 
+class="cmtt-10x-x-109">ctrl+d </span>(or <span 
+class="cmtt-10x-x-109">exit</span>). The &#8220;exit&#8221; from the last shell will automatically logs you
+out!
+</p><!--l. 544--><p class="noindent" >
+</p>
+<h4 class="subsectionHead"><span class="titlemark">2.4   </span> <a 
+ id="x6-210002.4"></a>Assignment 2</h4>
+<!--l. 546--><p class="noindent" >Preparation: When capturing a screen-cast the typical GUI user makes HD films, generating huge
+files which are sometimes not even sharp. The shell user captures his terminal in the terminal itself.
+                                                                                    
+
+                                                                                    
+The resulting files are thousand times smaller and always sharp!
+</p><!--l. 551--><p class="noindent" >This is quite easy: There are many terminal recording tools. We will use <span 
+class="cmtt-10x-x-109">ttyrec</span>. Just by
+issuing the command <span 
+class="cmtt-10x-x-109">ttyrec </span>it will begin capturing everything that happens in the
+terminal to a file. To end the capture, type <span 
+class="cmtt-10x-x-109">exit</span>. You will find the recording in a file called
+<span 
+class="cmtt-10x-x-109">ttyrecord</span>. To give it a different name, simply provide the file name as a parameter. For
+example:
+</p>
+<!--l. 558-->
+<div class="lstlisting" id="listing-11"><span class="label"><a 
+ id="x6-21001r1"></a></span>$&#x00A0;ttyrec&#x00A0;&#x00A0;mywork.ttyrec&#x00A0;<br /><span class="label"><a 
+ id="x6-21002r2"></a></span>[work&#x00A0;in&#x00A0;the&#x00A0;terminal]&#x00A0;<br /><span class="label"><a 
+ id="x6-21003r3"></a></span>$&#x00A0;exit&#x00A0;<br /><span class="label"><a 
+ id="x6-21004r4"></a></span>exit
+</div>
+<!--l. 565--><p class="noindent" >Please be careful not to press non-printable keys like arrows during the recording. They tend to
+upset the recording!
+</p><!--l. 568--><p class="noindent" >To play back, run: </p><!--l. 569-->
+<div class="lstlisting" id="listing-12"><span class="label"><a 
+ id="x6-21005r1"></a></span>$&#x00A0;ttyplay&#x00A0;mywork.ttyrec
+</div>
+<!--l. 573--><p class="noindent" >Assignment: Login to your shell account and first go through the steps given below. Once you are
+confident capture your work to a file named eNNNNN_assignment2.ttyrec. If you still make a
+mistake, just start ttyrec again with the same file name.
+</p><!--l. 578--><p class="noindent" >Step 1. Display the system clock time.
+</p><!--l. 580--><p class="noindent" >Step 2. How many seconds have passed from 00:00:00 UTC of 1 January 1970 to the time you are
+doing the assignment?
+</p><!--l. 583--><p class="noindent" >Step 3. Display the output of uptime.
+</p><!--l. 585--><p class="noindent" >Step 4. Get the values of the environment variables HOSTNAME, HOSTTYPE, USER and
+HOME?
+</p><!--l. 588--><p class="noindent" >Step 5. Clear the screen.
+</p><!--l. 590--><p class="noindent" >Step 6. Find the size of your terminal in columns x lines. Hint: resize.
+</p><!--l. 592--><p class="noindent" >Now exit the ttyrec. Check the recording by running ttyplay. If everything is OK then
+go back to the Assignment in Moodle, write a note saying that you have finished the
+assignment. (You don&#8217;t have to upload anything, the superuser can play back the script
+file.)
+</p><!--l. 597--><p class="noindent" >
+</p>
+<h4 class="likesubsectionHead"><a 
+ id="x6-220002.4"></a>Summary</h4>
+                                                                                    
+
+                                                                                    
+     <ul class="itemize1">
+     <li class="itemize">You know that the system clocks of Unix computers are synchronized to UTC and they
+     calculate the local time from their timezones.
+     </li>
+     <li class="itemize">That the time keeper of Unix ticks relative to the &#8220;epoch&#8221;, which was 00:00:00 UTC
+     on 1 January 1970.
+     </li>
+     <li class="itemize">Simple usage of the commands <span 
+class="cmtt-10x-x-109">date</span>, <span 
+class="cmtt-10x-x-109">cal </span>and <span 
+class="cmtt-10x-x-109">ncal</span>.
+     </li>
+     <li class="itemize">Can get information about the operating system and the working environment from the
+     commands <span 
+class="cmtt-10x-x-109">hostname</span>, <span 
+class="cmtt-10x-x-109">uname </span>and the environment variables OSTYPE, HOSTNAME,
+     HOSTTYPE, SHELL, TERM.
+     </li>
+     <li class="itemize">You know that the terminals measure their resolution in no. of columns x no. of lines
+     - 80x24 being the standard - and that you can querry your terminal program with the
+     <span 
+class="cmtt-10x-x-109">resize </span>command.
+     </li></ul>
+<!--l. 620--><p class="noindent" >
+                                                                                    
+
+                                                                                    
+                                                                                    
+
+                                                                                    
+</p>
+<!--l. 623--><div class="crosslinks"><p class="noindent">[<a 
+href="unixonese3.html" >next</a>] [<a 
+href="unixonese1.html" >prev</a>] [<a 
+href="unixonese1.html#tailunixonese1.html" >prev-tail</a>] [<a 
+href="unixonese2.html" >front</a>] [<a 
+href="unixone.html#unixonese2.html" >up</a>] </p></div>
+<!--l. 623--><p class="noindent" ><a 
+ id="tailunixonese2.html"></a> </p> 
+</body></html> 

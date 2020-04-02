@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="BookId" version="2.0">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+    <dc:identifier id="BookId" opf:scheme="UUID">urn:uuid:078a7ae1-4279-4a8b-82e2-66d607ff0dad</dc:identifier>
+    <dc:generator>TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)</dc:generator>
+    <dc:originator>TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)</dc:originator>
+    <dc:src>unixone.tex</dc:src>
+    <dc:date opf:event="">2015-02-18</dc:date>
+    <meta content="0.8.0" name="Sigil version" />
+    <dc:date opf:event="modification">2015-02-20</dc:date>
+  </metadata>
+  <manifest>
+    <item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml" />
+    <item href="Styles/unixone1.css" id="unixone1.css" media-type="text/css" />
+    <item href="Text/unixone.html" id="unixone.html" media-type="application/xhtml+xml" />
+    <item href="Styles/unixone.css" id="unixone.css" media-type="text/css" />
+    <item href="Images/unixone2x.png" id="unixone2x.png" media-type="image/png" />
+    <item href="Images/unixone3x.png" id="unixone3x.png" media-type="image/png" />
+    <item href="Text/unixone4.html" id="unixone4.html" media-type="application/xhtml+xml" />
+    <item href="Images/unixone4x.png" id="unixone4x.png" media-type="image/png" />
+    <item href="Text/unixone5.html" id="unixone5.html" media-type="application/xhtml+xml" />
+    <item href="Images/unixone5x.png" id="unixone5x.png" media-type="image/png" />
+    <item href="Images/unixone6x.png" id="unixone6x.png" media-type="image/png" />
+    <item href="Images/unixone7x.png" id="unixone7x.png" media-type="image/png" />
+    <item href="Text/unixoneli1.html" id="unixoneli1.html" media-type="application/xhtml+xml" />
+    <item href="Text/unixoneli2.html" id="unixoneli2.html" media-type="application/xhtml+xml" />
+    <item href="Images/unixone0x.png" id="unixone0x.png" media-type="image/png" />
+    <item href="Images/unixone1x.png" id="unixone1x.png" media-type="image/png" />
+    <item href="Text/unixonese1.html" id="unixonese1.html" media-type="application/xhtml+xml" />
+    <item href="Text/unixonese2.html" id="unixonese2.html" media-type="application/xhtml+xml" />
+    <item href="Text/unixonese3.html" id="unixonese3.html" media-type="application/xhtml+xml" />
+    <item href="Text/unixonese4.html" id="unixonese4.html" media-type="application/xhtml+xml" />
+    <item href="Text/unixonese5.html" id="unixonese5.html" media-type="application/xhtml+xml" />
+    <item href="Text/unixonese6.html" id="unixonese6.html" media-type="application/xhtml+xml" />
+    <item href="Text/unixonese7.html" id="unixonese7.html" media-type="application/xhtml+xml" />
+    <item href="Images/unixone1x0001.png" id="unixone1x0001.png" media-type="image/png" />
+    <item href="Images/unixone0x0001.png" id="unixone0x0001.png" media-type="image/png" />
+    <item href="Misc/README.txt" id="README.txt" media-type="text/plain" />
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="unixone.html" />
+    <itemref idref="unixone4.html" />
+    <itemref idref="unixone5.html" />
+    <itemref idref="unixoneli1.html" />
+    <itemref idref="unixoneli2.html" />
+    <itemref idref="unixonese1.html" />
+    <itemref idref="unixonese2.html" />
+    <itemref idref="unixonese3.html" />
+    <itemref idref="unixonese4.html" />
+    <itemref idref="unixonese5.html" />
+    <itemref idref="unixonese6.html" />
+    <itemref idref="unixonese7.html" />
+  </spine>
+  <guide />
+</package>
