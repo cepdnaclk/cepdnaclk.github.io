@@ -31,10 +31,10 @@ None: ~~Striked through~~ links do not lead to a landing page.
 		* [https://cepdnaclk.github.io/projects/finalyear/2010/](https://cepdnaclk.github.io/projects/finalyear/2010/)
 		* [https://cepdnaclk.github.io/projects/finalyear/2015/](https://cepdnaclk.github.io/projects/finalyear/2015/)
 * [~~https://cepdnaclk.github.io/sites/~~](https://cepdnaclk.github.io/sites/)
-	* [https://cepdnaclk.github.io/escal/](https://cepdnaclk.github.io/escal/)
-	* [https://cepdnaclk.github.io/sinhalaocr/](https://cepdnaclk.github.io/sinhalaocr/)
-	* [https://cepdnaclk.github.io/tesla/](https://cepdnaclk.github.io/tesla/)
-	* [https://cepdnaclk.github.io/unixone/](https://cepdnaclk.github.io/unixone/)
+	* [https://cepdnaclk.github.io/sites/escal/](https://cepdnaclk.github.io/sites/escal/)
+	* [https://cepdnaclk.github.io/sites/sinhalaocr/](https://cepdnaclk.github.io/sites/sinhalaocr/)
+	* [https://cepdnaclk.github.io/sites/tesla/](https://cepdnaclk.github.io/sites/tesla/)
+	* [https://cepdnaclk.github.io/sites/unixone/](https://cepdnaclk.github.io/sites/unixone/)
 * [https://cepdnaclk.github.io/students/](https://cepdnaclk.github.io/students/)
 
 
