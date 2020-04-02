@@ -15,7 +15,7 @@ None: ~~Striked through~~ links do not lead to a landing page.
 * [~~https://cepdnaclk.github.io/marks~~](https://cepdnaclk.github.io/marks/)
 	* [~~https://cepdnaclk.github.io/marks/CO221/~~](https://cepdnaclk.github.io/marks/CO221/)
 		* [https://cepdnaclk.github.io/marks/CO221/2016/](https://cepdnaclk.github.io/marks/CO221/2016/)
-	* [~~https://cepdnaclk.github.io/marks/CO221/~~](https://cepdnaclk.github.io/marks/CO222/)
+	* [~~https://cepdnaclk.github.io/marks/CO222/~~](https://cepdnaclk.github.io/marks/CO222/)
 		* [https://cepdnaclk.github.io/marks/CO222/2016/](https://cepdnaclk.github.io/marks/CO222/2016/)
 		* [https://cepdnaclk.github.io/marks/CO222/2016/](https://cepdnaclk.github.io/marks/CO222/2017/)
 		* [https://cepdnaclk.github.io/marks/CO222/2016/](https://cepdnaclk.github.io/marks/CO222/2018/)
