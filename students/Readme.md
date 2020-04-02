@@ -14,7 +14,7 @@ Your github.io website should be a **public repository**.
 
 Run [update.sh](https://github.com/cepdnaclk/cepdnaclk.github.io/blob/master/students/update.sh).
 
-<code>user@tesla.ce.pdn.ac.lk$ /var/www/html/students/update.sh</code>
+<pre><code>user@tesla.ce.pdn.ac.lk$ /var/www/html/students/update.sh</code></pre>
 
 This is all you have to do. You do not need to download any other file.
 
