@@ -44,3 +44,5 @@ None: ~~Striked through~~ links do not lead to a landing page.
 ## To do
 
 1. Create landing pages and remove strike through in the above list.
+2. projects/finalyear/2011, 2012, 2013, 2014, 2016
+2. projects/embeddedsys/
