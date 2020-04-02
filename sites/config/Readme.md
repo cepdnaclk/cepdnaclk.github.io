@@ -1,4 +1,4 @@
-# https://cepdnaclk.github.io/config/
+# https://cepdnaclk.github.io/sites/config/
 
 This site is originally hosted at [https://tesla.ce.pdn.ac.lk/config/](https://tesla.ce.pdn.ac.lk/config/)
 
