@@ -41,3 +41,6 @@ None: ~~Striked through~~ links do not lead to a landing page.
 * [https://cepdnaclk.github.io/students/](https://cepdnaclk.github.io/students/)
 
 
+## To do
+
+1. Create landing pages and remove strike through in the above list.
