@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="iso-8859-1" ?> 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">  
+<!--http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd-->  
+<html xmlns="http://www.w3.org/1999/xhtml"  
+> 
+<head><title>Collaboration tools</title> 
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /> 
+<meta name="generator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)" /> 
+<meta name="originator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)" /> 
+<!-- xhtml,2,info,html --> 
+<meta name="src" content="unixone.tex" /> 
+<meta name="date" content="2017-01-25 21:04:00" /> 
+<link rel="stylesheet" type="text/css" href="unixone1.css" /> 
+</head><body 
+>
+<!--l. 1372--><div class="crosslinks"><p class="noindent">[<a 
+href="unixonese6.html" >next</a>] [<a 
+href="unixonese4.html" >prev</a>] [<a 
+href="unixonese4.html#tailunixonese4.html" >prev-tail</a>] [<a 
+href="#tailunixonese5.html">tail</a>] [<a 
+href="unixone.html#unixonese5.html" >up</a>] </p></div>
+<h3 class="sectionHead"><span class="titlemark">5   </span> <a 
+ id="x9-430005"></a>Collaboration tools</h3>
+<!--l. 1374--><p class="noindent" >In the early days it was common for many people to work in one machine, often at the same time.
+Naturally ideas like messaging, chat, mail, etc. were part of Unix right from the beginning. This
+week&#8217;s unit you will get to know those original tools for viewing users logged on at a specific time,
+write and talk to them get information on users who are off-line and finally how to e-mail in the
+command line.
+</p><!--l. 1382--><p class="noindent" >
+</p>
+<h4 class="subsectionHead"><span class="titlemark">5.1   </span> <a 
+ id="x9-440005.1"></a>Who are my neighbours</h4>
+<!--l. 1385--><p class="noindent" >
+</p>
+<h5 class="subsubsectionHead"><span class="titlemark">5.1.1   </span> <a 
+ id="x9-450005.1.1"></a>who, what, last, etc.</h5>
+<!--l. 1388--><p class="noindent" >Let&#8217;s see what manual pages exist related to &#8217;who&#8217;:
+</p>
+<!--l. 1390-->
+<div class="lstlisting" id="listing-41"><span class="label"><a 
+ id="x9-45001r1"></a></span>$&#x00A0;man&#x00A0;<span 
+class="cmsy-10x-x-109">&minus;</span>k&#x00A0;&#x00A0;who&#x00A0;<br /><span class="label"><a 
+ id="x9-45002r2"></a></span>[...]&#x00A0;<br /><span class="label"><a 
+ id="x9-45003r3"></a></span>w&#x00A0;(1)&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;<span 
+class="cmsy-10x-x-109">&minus;</span>&#x00A0;Show&#x00A0;who&#x00A0;is&#x00A0;logged&#x00A0;on&#x00A0;and&#x00A0;what&#x00A0;they&#x00A0;are&#x00A0;doing.&#x00A0;<br /><span class="label"><a 
+ id="x9-45004r4"></a></span>w.procps&#x00A0;(1)&#x00A0;<span 
+class="cmsy-10x-x-109">&minus;</span>&#x00A0;Show&#x00A0;who&#x00A0;is&#x00A0;logged&#x00A0;on&#x00A0;and&#x00A0;what&#x00A0;they&#x00A0;are&#x00A0;doing.&#x00A0;<br /><span class="label"><a 
+ id="x9-45005r5"></a></span>who&#x00A0;(1)&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;<span 
+class="cmsy-10x-x-109">&minus;</span>&#x00A0;show&#x00A0;who&#x00A0;is&#x00A0;logged&#x00A0;on&#x00A0;<br /><span class="label"><a 
+ id="x9-45006r6"></a></span>who@&#x00A0;(1)&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;<span 
+class="cmsy-10x-x-109">&minus;</span>&#x00A0;prints&#x00A0;the&#x00A0;list&#x00A0;of&#x00A0;active&#x00A0;users&#x00A0;on&#x00A0;a&#x00A0;remote&#x00A0;host.&#x00A0;<br /><span class="label"><a 
+ id="x9-45007r7"></a></span>whoami&#x00A0;(1)&#x00A0;&#x00A0;&#x00A0;<span 
+class="cmsy-10x-x-109">&minus;</span>&#x00A0;print&#x00A0;effective&#x00A0;userid&#x00A0;<br /><span class="label"><a 
+ id="x9-45008r8"></a></span>[...]
+</div>
+<!--l. 1401--><p class="noindent" >The commands <span 
+class="cmtt-10x-x-109">who </span>(who is logged in), <span 
+class="cmtt-10x-x-109">w </span>(what they are doing) and <span 
+class="cmtt-10x-x-109">whoami </span>are interesting for
+us:
+</p>
+<!--l. 1404-->
+<div class="lstlisting" id="listing-42"><span class="label"><a 
+ id="x9-45009r1"></a></span>$&#x00A0;who&#x00A0;<span 
+class="cmsy-10x-x-109">&minus;</span>H&#x00A0;<br /><span class="label"><a 
+ id="x9-45010r2"></a></span>NAME&#x00A0;&#x00A0;&#x00A0;&#x00A0;LINE&#x00A0;&#x00A0;TIME&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;COMMENT&#x00A0;<br /><span class="label"><a 
+ id="x9-45011r3"></a></span>user0&#x00A0;&#x00A0;pts/0&#x00A0;2015<span 
+class="cmsy-10x-x-109">&minus;</span>02<span 
+class="cmsy-10x-x-109">&minus;</span>14&#x00A0;16:26&#x00A0;(1.2.3.4)&#x00A0;<br /><span class="label"><a 
+ id="x9-45012r4"></a></span>user1&#x00A0;&#x00A0;pts/1&#x00A0;2015<span 
+class="cmsy-10x-x-109">&minus;</span>02<span 
+class="cmsy-10x-x-109">&minus;</span>14&#x00A0;16:47&#x00A0;(5.6.7.8)&#x00A0;<br /><span class="label"><a 
+ id="x9-45013r5"></a></span>user1&#x00A0;&#x00A0;pts/2&#x00A0;2015<span 
+class="cmsy-10x-x-109">&minus;</span>02<span 
+class="cmsy-10x-x-109">&minus;</span>14&#x00A0;17:32&#x00A0;(5.6.7.8)&#x00A0;<br /><span class="label"><a 
+ id="x9-45014r6"></a></span>$&#x00A0;who&#x00A0;am&#x00A0;i&#x00A0;<br /><span class="label"><a 
+ id="x9-45015r7"></a></span>user1&#x00A0;pts/1&#x00A0;2015<span 
+class="cmsy-10x-x-109">&minus;</span>02<span 
+class="cmsy-10x-x-109">&minus;</span>14&#x00A0;16:47&#x00A0;(5.6.7.8)&#x00A0;<br /><span class="label"><a 
+ id="x9-45016r8"></a></span>$&#x00A0;w&#x00A0;<br /><span class="label"><a 
+ id="x9-45017r9"></a></span>&#x00A0;17:34:06&#x00A0;up&#x00A0;&#x00A0;8:15,&#x00A0;&#x00A0;3&#x00A0;users,&#x00A0;&#x00A0;load&#x00A0;average:&#x00A0;0.08,&#x00A0;0.09,&#x00A0;0.12&#x00A0;<br /><span class="label"><a 
+ id="x9-45018r10"></a></span>USER&#x00A0;&#x00A0;TTY&#x00A0;&#x00A0;&#x00A0;FROM&#x00A0;&#x00A0;&#x00A0;&#x00A0;LOGIN@&#x00A0;&#x00A0;IDLE&#x00A0;&#x00A0;JCPU&#x00A0;&#x00A0;&#x00A0;PCPU&#x00A0;&#x00A0;WHAT&#x00A0;<br /><span class="label"><a 
+ id="x9-45019r11"></a></span>user0&#x00A0;pts/0&#x00A0;1.2.3.4&#x00A0;&#x00A0;16:26&#x00A0;49:26&#x00A0;&#x00A0;1:13&#x00A0;&#x00A0;&#x00A0;0.39s&#x00A0;sshd:&#x00A0;pi&#x00A0;[priv]&#x00A0;<br /><span class="label"><a 
+ id="x9-45020r12"></a></span>user1&#x00A0;pts/1&#x00A0;5.6.7.8&#x00A0;&#x00A0;16:47&#x00A0;&#x00A0;6.00s&#x00A0;2.17s&#x00A0;&#x00A0;0.39s&#x00A0;sshd:&#x00A0;pi&#x00A0;[priv]&#x00A0;<br /><span class="label"><a 
+ id="x9-45021r13"></a></span>user1&#x00A0;pts/2&#x00A0;5.6.7.8&#x00A0;&#x00A0;17:32&#x00A0;&#x00A0;1:26&#x00A0;&#x00A0;1.21s&#x00A0;&#x00A0;1.21s&#x00A0;<span 
+class="cmsy-10x-x-109">&minus;</span>bash&#x00A0;<br /><span class="label"><a 
+ id="x9-45022r14"></a></span>$&#x00A0;whoami&#x00A0;<br /><span class="label"><a 
+ id="x9-45023r15"></a></span>user1
+</div>
+<!--l. 1422--><p class="noindent" >As you can see in the example above, <span 
+class="cmtt-10x-x-109">who -H </span>prints headers to the columns. <span 
+class="cmtt-10x-x-109">who am i </span>is a special
+                                                                                    
+
+                                                                                    
+version of <span 
+class="cmtt-10x-x-109">who </span>showing details of one&#8217;s own session. The output of <span 
+class="cmtt-10x-x-109">w </span>above shows that two users are
+logged in remotely, user1 has two sessions open.
+</p><!--l. 1427--><p class="noindent" >The command <span 
+class="cmtt-10x-x-109">last </span>(last logged in) lists the users logged in last.
+</p>
+<!--l. 1430-->
+<div class="lstlisting" id="listing-43"><span class="label"><a 
+ id="x9-45024r1"></a></span>#&#x00A0;last&#x00A0;<span 
+class="cmsy-10x-x-109">&minus;</span>5&#x00A0;<br /><span class="label"><a 
+ id="x9-45025r2"></a></span>user1&#x00A0;&#x00A0;pts/1&#x00A0;&#x00A0;1.2.3.4&#x00A0;Sat&#x00A0;Feb&#x00A0;14&#x00A0;17:50&#x00A0;&#x00A0;&#x00A0;still&#x00A0;logged&#x00A0;in&#x00A0;<br /><span class="label"><a 
+ id="x9-45026r3"></a></span>user1&#x00A0;&#x00A0;pts/0&#x00A0;&#x00A0;1.2.3.4&#x00A0;Sat&#x00A0;Feb&#x00A0;14&#x00A0;17:47&#x00A0;&#x00A0;&#x00A0;still&#x00A0;logged&#x00A0;in&#x00A0;<br /><span class="label"><a 
+ id="x9-45027r4"></a></span>reboot&#x00A0;system&#x00A0;3.18.7+&#x00A0;Sat&#x00A0;Feb&#x00A0;14&#x00A0;09:13&#x00A0;<span 
+class="cmsy-10x-x-109">&minus;</span>&#x00A0;17:56&#x00A0;&#x00A0;(00:10)&#x00A0;<br /><span class="label"><a 
+ id="x9-45028r5"></a></span>user0&#x00A0;&#x00A0;pts/2&#x00A0;&#x00A0;5.6.7.8&#x00A0;Sat&#x00A0;Feb&#x00A0;14&#x00A0;17:32&#x00A0;<span 
+class="cmsy-10x-x-109">&minus;</span>&#x00A0;down&#x00A0;&#x00A0;&#x00A0;(00:13)&#x00A0;<br /><span class="label"><a 
+ id="x9-45029r6"></a></span>user5&#x00A0;&#x00A0;pts/2&#x00A0;&#x00A0;8.7.6.5&#x00A0;Sat&#x00A0;Feb&#x00A0;14&#x00A0;17:03&#x00A0;<span 
+class="cmsy-10x-x-109">&minus;</span>&#x00A0;17:24&#x00A0;&#x00A0;(00:20)
+</div>
+<!--l. 1439--><p class="noindent" >The user &#8217;reboot&#8217; is a special kind of a user. It shows that the local time is 17:56 and the machine
+has been running since 09:13 the same day.
+</p><!--l. 1443--><p class="noindent" >
+</p>
+<h5 class="subsubsectionHead"><span class="titlemark">5.1.2   </span> <a 
+ id="x9-460005.1.2"></a>finger</h5>
+<!--l. 1446--><p class="noindent" >The command <span 
+class="cmtt-10x-x-109">finger </span>gives you some information of other users, in the system: . </p><!--l. 1449-->
+<div class="lstlisting" id="listing-44"><span class="label"><a 
+ id="x9-46001r1"></a></span>$&#x00A0;finger&#x00A0;e00000&#x00A0;<br /><span class="label"><a 
+ id="x9-46002r2"></a></span>Login:&#x00A0;e00000&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;Name:&#x00A0;Bindu&#x00A0;Raj&#x00A0;<br /><span class="label"><a 
+ id="x9-46003r3"></a></span>Directory:&#x00A0;/home/e00000&#x00A0;&#x00A0;Shell:&#x00A0;/bin/bash&#x00A0;<br /><span class="label"><a 
+ id="x9-46004r4"></a></span>Office:&#x00A0;PR21,&#x00A0;34&#x00A0;56&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;Home&#x00A0;Phone:&#x00A0;012&#x00A0;345&#x00A0;67&#x00A0;89&#x00A0;<br /><span class="label"><a 
+ id="x9-46005r5"></a></span>Last&#x00A0;login&#x00A0;Mon&#x00A0;Dec&#x00A0;29&#x00A0;19:33&#x00A0;(IST)&#x00A0;on&#x00A0;pts/0&#x00A0;from&#x00A0;10.20.30.40&#x00A0;<br /><span class="label"><a 
+ id="x9-46006r6"></a></span>Mail&#x00A0;last&#x00A0;read&#x00A0;Sun&#x00A0;Feb&#x00A0;15&#x00A0;00:14&#x00A0;2015&#x00A0;(IST)
+</div>
+<!--l. 1458--><p class="noindent" >This information is called GECOS (General Electric Comprehensive Operating System) in Unix. It
+is a term originated in a now extinct operating system. Some information like the phone number
+can be can be set by the user. The command is <span 
+class="cmtt-10x-x-109">chfn </span>(change user name and information). In the
+practice computer only the super user can change the user names, but you can set other
+values.
+</p><!--l. 1465--><p class="noindent" >Excercise: Add (hypothetical) home and office phone numbers and a room number to your
+GECOS.
+</p><!--l. 1468--><p class="noindent" >You will leave additional information like vacation notices or about your current work. See for
+example: </p><!--l. 1470-->
+<div class="lstlisting" id="listing-45"><span class="label"><a 
+ id="x9-46007r1"></a></span>$&#x00A0;finger&#x00A0;e00000&#x00A0;<br /><span class="label"><a 
+ id="x9-46008r2"></a></span>[...]&#x00A0;<br /><span class="label"><a 
+ id="x9-46009r3"></a></span>Project:&#x00A0;<br /><span class="label"><a 
+ id="x9-46010r4"></a></span>Working&#x00A0;on&#x00A0;the&#x00A0;Apollo&#x00A0;mission&#x00A0;;)&#x00A0;<br /><span class="label"><a 
+ id="x9-46011r5"></a></span>Plan:&#x00A0;<br /><span class="label"><a 
+ id="x9-46012r6"></a></span>I&#x00A0;am&#x00A0;out&#x00A0;of&#x00A0;office&#x00A0;till&#x00A0;25&#x00A0;February.
+</div>
+<!--l. 1479--><p class="noindent" >The trick is to create special files like <span 
+class="cmtt-10x-x-109">.project </span>and <span 
+class="cmtt-10x-x-109">.plan </span>in your home directory. Since we haven&#8217;t
+done file editing yet, you can create those files through the following hack:
+</p>
+<!--l. 1483-->
+<div class="lstlisting" id="listing-46"><span class="label"><a 
+ id="x9-46013r1"></a></span>$&#x00A0;echo&#x00A0;&#8221;Working&#x00A0;on&#x00A0;the&#x00A0;Apollo&#x00A0;mission&#x00A0;;)&#8221;&#x00A0;<span 
+class="cmmi-10x-x-109">&#x003E;</span>&#x00A0;.project&#x00A0;<br /><span class="label"><a 
+ id="x9-46014r2"></a></span>$&#x00A0;echo&#x00A0;&#8221;I&#x00A0;am&#x00A0;out&#x00A0;of&#x00A0;office&#x00A0;till&#x00A0;25&#x00A0;February.&#8221;&#x00A0;<span 
+class="cmmi-10x-x-109">&#x003E;</span>&#x00A0;.plan
+</div>
+                                                                                    
+
+                                                                                    
+<!--l. 1489--><p class="noindent" >
+</p>
+<h4 class="subsectionHead"><span class="titlemark">5.2   </span> <a 
+ id="x9-470005.2"></a>Messaging</h4>
+<!--l. 1492--><p class="noindent" >
+</p>
+<h5 class="subsubsectionHead"><span class="titlemark">5.2.1   </span> <a 
+ id="x9-480005.2.1"></a>write</h5>
+<!--l. 1494--><p class="noindent" >If you are working in a multi-user Unix system, you are bound to see messages like <span 
+class="cmtt-10x-x-109">Message from</span>
+<span 
+class="cmtt-10x-x-109">userX pts/2 ... </span>accompanied by a beep tone. UserX wants to write to you, to respond you
+start <span 
+class="cmtt-10x-x-109">write </span>giving the login name (and the terminal, if userX is logged in more than
+one).
+</p><!--l. 1499--><p class="noindent" >The <span 
+class="cmtt-10x-x-109">write </span>program imposes no rules, doesn&#8217;t have a protocol except that pressing Return sends
+complete lines to the other side. The convention is to take turns, ending turn with (o), which stands
+for &#8220;over&#8221;, and to signal your intent to quit with (oo), for &#8220;over and out&#8221;. Finally, Ctrl-d ends the
+connection.
+</p><!--l. 1505--><p class="noindent" >The following screen artificially seperates the messages of the two partners:
+</p>
+<!--l. 1508-->
+<div class="lstlisting" id="listing-47"><span class="label"><a 
+ id="x9-48001r1"></a></span>&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;userX&#8217;s&#x00A0;terminal&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;userY&#8217;s&#x00A0;terminal&#x00A0;<br /><span class="label"><a 
+ id="x9-48002r2"></a></span>&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;<span 
+class="cmsy-10x-x-109">&minus;</span><span 
+class="cmsy-10x-x-109">&minus;</span><span 
+class="cmsy-10x-x-109">&minus;</span><span 
+class="cmsy-10x-x-109">&minus;</span><span 
+class="cmsy-10x-x-109">&minus;</span><span 
+class="cmsy-10x-x-109">&minus;</span><span 
+class="cmsy-10x-x-109">&minus;</span><span 
+class="cmsy-10x-x-109">&minus;</span><span 
+class="cmsy-10x-x-109">&minus;</span><span 
+class="cmsy-10x-x-109">&minus;</span><span 
+class="cmsy-10x-x-109">&minus;</span><span 
+class="cmsy-10x-x-109">&minus;</span><span 
+class="cmsy-10x-x-109">&minus;</span><span 
+class="cmsy-10x-x-109">&minus;</span><span 
+class="cmsy-10x-x-109">&minus;</span><span 
+class="cmsy-10x-x-109">&minus;</span>&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;<span 
+class="cmsy-10x-x-109">&minus;</span><span 
+class="cmsy-10x-x-109">&minus;</span><span 
+class="cmsy-10x-x-109">&minus;</span><span 
+class="cmsy-10x-x-109">&minus;</span><span 
+class="cmsy-10x-x-109">&minus;</span><span 
+class="cmsy-10x-x-109">&minus;</span><span 
+class="cmsy-10x-x-109">&minus;</span><span 
+class="cmsy-10x-x-109">&minus;</span><span 
+class="cmsy-10x-x-109">&minus;</span><span 
+class="cmsy-10x-x-109">&minus;</span><span 
+class="cmsy-10x-x-109">&minus;</span><span 
+class="cmsy-10x-x-109">&minus;</span><span 
+class="cmsy-10x-x-109">&minus;</span><span 
+class="cmsy-10x-x-109">&minus;</span><span 
+class="cmsy-10x-x-109">&minus;</span><span 
+class="cmsy-10x-x-109">&minus;</span>&#x00A0;<br /><span class="label"><a 
+ id="x9-48003r3"></a></span>$&#x00A0;write&#x00A0;userY&#x00A0;<br /><span class="label"><a 
+ id="x9-48004r4"></a></span>&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;Message&#x00A0;from&#x00A0;userX&#x00A0;...&#x00A0;<br /><span class="label"><a 
+ id="x9-48005r5"></a></span>&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;$&#x00A0;write&#x00A0;userX&#x00A0;<br /><span class="label"><a 
+ id="x9-48006r6"></a></span>Message&#x00A0;from&#x00A0;userY&#x00A0;...&#x00A0;<br /><span class="label"><a 
+ id="x9-48007r7"></a></span>How&#x00A0;about&#x00A0;lunch?&#x00A0;(o)&#x00A0;<br /><span class="label"><a 
+ id="x9-48008r8"></a></span>&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;How&#x00A0;about&#x00A0;lunch?&#x00A0;(o)&#x00A0;<br /><span class="label"><a 
+ id="x9-48009r9"></a></span>&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;In&#x00A0;ten&#x00A0;minutes.&#x00A0;(o)&#x00A0;<br /><span class="label"><a 
+ id="x9-48010r10"></a></span>In&#x00A0;ten&#x00A0;minutes.&#x00A0;(o)&#x00A0;<br /><span class="label"><a 
+ id="x9-48011r11"></a></span>Fine!&#x00A0;(oo)&#x00A0;<br /><span class="label"><a 
+ id="x9-48012r12"></a></span>&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;Fine!&#x00A0;(oo)&#x00A0;<br /><span class="label"><a 
+ id="x9-48013r13"></a></span>&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;Agreed.&#x00A0;(oo)&#x00A0;<br /><span class="label"><a 
+ id="x9-48014r14"></a></span>&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;Ctrl<span 
+class="cmsy-10x-x-109">&minus;</span>d&#x00A0;<br /><span class="label"><a 
+ id="x9-48015r15"></a></span>EOF&#x00A0;<br /><span class="label"><a 
+ id="x9-48016r16"></a></span>Ctrl<span 
+class="cmsy-10x-x-109">&minus;</span>d&#x00A0;<br /><span class="label"><a 
+ id="x9-48017r17"></a></span>&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;EOF
+</div>
+<!--l. 1528--><p class="noindent" >If you don&#8217;t want to be bothered with such messages, refer <span 
+class="cmtt-10x-x-109">mesg</span>.
+</p><!--l. 1531--><p class="noindent" >
+</p>
+<h5 class="subsubsectionHead"><span class="titlemark">5.2.2   </span> <a 
+ id="x9-490005.2.2"></a>talk</h5>
+<!--l. 1534--><p class="noindent" ><span 
+class="cmtt-10x-x-109">talk </span>is what is today known as &#8220;chat&#8221;. In the example below userX starts a conversation by typing
+<span 
+class="cmtt-10x-x-109">talk userY@localhost</span>. Then userY responds as requested, that will join them in a full screen chat
+setup.
+</p>
+<!--l. 1539-->
+<div class="lstlisting" id="listing-48"><span class="label"><a 
+ id="x9-49001r1"></a></span>&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;userX&#8217;s&#x00A0;terminal&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;userY&#8217;s&#x00A0;terminal&#x00A0;<br /><span class="label"><a 
+ id="x9-49002r2"></a></span>&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;<span 
+class="cmsy-10x-x-109">&minus;</span><span 
+class="cmsy-10x-x-109">&minus;</span><span 
+class="cmsy-10x-x-109">&minus;</span><span 
+class="cmsy-10x-x-109">&minus;</span><span 
+class="cmsy-10x-x-109">&minus;</span><span 
+class="cmsy-10x-x-109">&minus;</span><span 
+class="cmsy-10x-x-109">&minus;</span><span 
+class="cmsy-10x-x-109">&minus;</span><span 
+class="cmsy-10x-x-109">&minus;</span><span 
+class="cmsy-10x-x-109">&minus;</span><span 
+class="cmsy-10x-x-109">&minus;</span><span 
+class="cmsy-10x-x-109">&minus;</span><span 
+class="cmsy-10x-x-109">&minus;</span><span 
+class="cmsy-10x-x-109">&minus;</span><span 
+class="cmsy-10x-x-109">&minus;</span><span 
+class="cmsy-10x-x-109">&minus;</span>&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;<span 
+class="cmsy-10x-x-109">&minus;</span><span 
+class="cmsy-10x-x-109">&minus;</span><span 
+class="cmsy-10x-x-109">&minus;</span><span 
+class="cmsy-10x-x-109">&minus;</span><span 
+class="cmsy-10x-x-109">&minus;</span><span 
+class="cmsy-10x-x-109">&minus;</span><span 
+class="cmsy-10x-x-109">&minus;</span><span 
+class="cmsy-10x-x-109">&minus;</span><span 
+class="cmsy-10x-x-109">&minus;</span><span 
+class="cmsy-10x-x-109">&minus;</span><span 
+class="cmsy-10x-x-109">&minus;</span><span 
+class="cmsy-10x-x-109">&minus;</span><span 
+class="cmsy-10x-x-109">&minus;</span><span 
+class="cmsy-10x-x-109">&minus;</span><span 
+class="cmsy-10x-x-109">&minus;</span><span 
+class="cmsy-10x-x-109">&minus;</span>&#x00A0;<br /><span class="label"><a 
+ id="x9-49003r3"></a></span>$&#x00A0;talk&#x00A0;userY@localhost&#x00A0;<br /><span class="label"><a 
+ id="x9-49004r4"></a></span>&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;Message&#x00A0;from&#x00A0;Talk_Deamon...&#x00A0;<br /><span class="label"><a 
+ id="x9-49005r5"></a></span>&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;talk:&#x00A0;connection&#x00A0;requested&#x00A0;<br /><span class="label"><a 
+ id="x9-49006r6"></a></span>&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;talk:&#x00A0;respond&#x00A0;with:&#x00A0;...&#x00A0;<br /><span class="label"><a 
+ id="x9-49007r7"></a></span>&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;$&#x00A0;talk&#x00A0;userX@localhost&#x00A0;<br /><span class="label"><a 
+ id="x9-49008r8"></a></span>&#x00A0;<br /><span class="label"><a 
+ id="x9-49009r9"></a></span>&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;[connection&#x00A0;established]&#x00A0;<br /><span class="label"><a 
+ id="x9-49010r10"></a></span>&#x00A0;<br /><span class="label"><a 
+ id="x9-49011r11"></a></span>X&#x00A0;types&#x00A0;here&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;Y&#x00A0;types&#x00A0;here&#x00A0;<br /><span class="label"><a 
+ id="x9-49012r12"></a></span>Ctrl<span 
+class="cmsy-10x-x-109">&minus;</span>c&#x00A0;to&#x00A0;end&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;Ctrl<span 
+class="cmsy-10x-x-109">&minus;</span>c&#x00A0;to&#x00A0;end&#x00A0;<br /><span class="label"><a 
+ id="x9-49013r13"></a></span>_____________________&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;______________________&#x00A0;<br /><span class="label"><a 
+ id="x9-49014r14"></a></span>&#x00A0;<br /><span class="label"><a 
+ id="x9-49015r15"></a></span>&#x00A0;<br /><span class="label"><a 
+ id="x9-49016r16"></a></span>Typing&#x00A0;of&#x00A0;Y&#x00A0;reflected&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;Typing&#x00A0;of&#x00A0;X&#x00A0;reflected
+</div>
+                                                                                    
+
+                                                                                    
+<!--l. 1559--><p class="noindent" >
+</p>
+<h4 class="subsectionHead"><span class="titlemark">5.3   </span> <a 
+ id="x9-500005.3"></a>Mail</h4>
+<!--l. 1561--><p class="noindent" >The system provides a postal system for communicating with other users. You must have noticed
+the message about mail as you logged in. You might even get notices of newly arriaved
+mail.
+</p><!--l. 1565--><p class="noindent" >To read your mail, open your mail client, often simply called <span 
+class="cmtt-10x-x-109">mail</span>. An overview of your mails,
+called mail headers, will be printed. To read a the current message, just type &#8217;p&#8217; (print), or to
+read a specific message type &#8217;p msg.no&#8217;. &#8217;h&#8217; (headers) gives you the listing of headers.
+&#8217;s filename&#8217; (save) will save a message in a file. &#8217;d&#8217; deletes messages, and &#8217;q&#8217; quits the
+program.
+</p>
+<!--l. 1573-->
+<div class="lstlisting" id="listing-49"><span class="label"><a 
+ id="x9-50001r1"></a></span>$&#x00A0;mail&#x00A0;<br /><span class="label"><a 
+ id="x9-50002r2"></a></span>Heirloom&#x00A0;mailx&#x00A0;version&#x00A0;12.5&#x00A0;6/20/10.&#x00A0;&#x00A0;Type&#x00A0;?&#x00A0;for&#x00A0;help.&#x00A0;<br /><span class="label"><a 
+ id="x9-50003r3"></a></span>&#8221;/var/mail/e00000&#8221;:&#x00A0;2&#x00A0;messages&#x00A0;<br /><span class="label"><a 
+ id="x9-50004r4"></a></span><span 
+class="cmmi-10x-x-109">&#x003E;</span>O&#x00A0;&#x00A0;1&#x00A0;Imran&#x00A0;Khan&#x00A0;Fri&#x00A0;Feb&#x00A0;11&#x00A0;19:27&#x00A0;&#x00A0;&#x00A0;31/794&#x00A0;&#x00A0;&#x00A0;Hi&#x00A0;there!&#x00A0;<br /><span class="label"><a 
+ id="x9-50005r5"></a></span><span 
+class="cmmi-10x-x-109">&#x003E;</span>O&#x00A0;&#x00A0;2&#x00A0;Sharuk&#x00A0;Khan&#x00A0;Fri&#x00A0;Feb&#x00A0;12&#x00A0;21:12&#x00A0;&#x00A0;&#x00A0;31/794&#x00A0;&#x00A0;&#x00A0;Greetings&#x00A0;<br /><span class="label"><a 
+ id="x9-50006r6"></a></span><span 
+class="cmmi-10x-x-109">&#x003E;</span>O&#x00A0;&#x00A0;2&#x00A0;Kublai&#x00A0;Khan&#x00A0;Fri&#x00A0;Feb&#x00A0;12&#x00A0;09:13&#x00A0;&#x00A0;&#x00A0;31/794&#x00A0;&#x00A0;&#x00A0;Bye&#x00A0;bye&#x00A0;<br /><span class="label"><a 
+ id="x9-50007r7"></a></span>p&#x00A0;1&#x00A0;<br /><span class="label"><a 
+ id="x9-50008r8"></a></span>Message&#x00A0;&#x00A0;1:&#x00A0;<br /><span class="label"><a 
+ id="x9-50009r9"></a></span>From&#x00A0;Imran&#x00A0;Khan&#x00A0;&#x00A0;Fri&#x00A0;Feb&#x00A0;11&#x00A0;19:27:50&#x00A0;2015&#x00A0;<br /><span class="label"><a 
+ id="x9-50010r10"></a></span>[...]&#x00A0;<br /><span class="label"><a 
+ id="x9-50011r11"></a></span>Date:&#x00A0;Fri,&#x00A0;13&#x00A0;Feb&#x00A0;2015&#x00A0;19:27:50&#x00A0;+0530&#x00A0;<br /><span class="label"><a 
+ id="x9-50012r12"></a></span>Subject:&#x00A0;Hi&#x00A0;there!&#x00A0;<br /><span class="label"><a 
+ id="x9-50013r13"></a></span>User<span 
+class="cmsy-10x-x-109">&minus;</span>Agent:&#x00A0;Heirloom&#x00A0;mailx&#x00A0;12.5&#x00A0;6/20/10&#x00A0;<br /><span class="label"><a 
+ id="x9-50014r14"></a></span>Content<span 
+class="cmsy-10x-x-109">&minus;</span>Type:&#x00A0;text/plain;&#x00A0;charset=us<span 
+class="cmsy-10x-x-109">&minus;</span>ascii&#x00A0;<br /><span class="label"><a 
+ id="x9-50015r15"></a></span>From:&#x00A0;e00000@arm&#x00A0;(Dummy&#x00A0;User)&#x00A0;<br /><span class="label"><a 
+ id="x9-50016r16"></a></span>Status:&#x00A0;RO&#x00A0;<br /><span class="label"><a 
+ id="x9-50017r17"></a></span>&#x00A0;<br /><span class="label"><a 
+ id="x9-50018r18"></a></span>Hi&#x00A0;<br /><span class="label"><a 
+ id="x9-50019r19"></a></span>[...]
+</div>
+<!--l. 1595--><p class="noindent" >Sending mail to someone is straightforward:
+</p>
+<!--l. 1597-->
+<div class="lstlisting" id="listing-50"><span class="label"><a 
+ id="x9-50020r1"></a></span>$&#x00A0;mail&#x00A0;userY&#x00A0;<br /><span class="label"><a 
+ id="x9-50021r2"></a></span>[or&#x00A0;within&#x00A0;mail,&#x00A0;&#8217;m&#x00A0;userY&#8217;]&#x00A0;<br /><span class="label"><a 
+ id="x9-50022r3"></a></span>Subject:&#x00A0;Just&#x00A0;to&#x00A0;say&#x00A0;hi!&#x00A0;<br /><span class="label"><a 
+ id="x9-50023r4"></a></span>[Now&#x00A0;type&#x00A0;in&#x00A0;the&#x00A0;text&#x00A0;of&#x00A0;the&#x00A0;letter&#x00A0;<br /><span class="label"><a 
+ id="x9-50024r5"></a></span>on&#x00A0;as&#x00A0;many&#x00A0;lines&#x00A0;as&#x00A0;you&#x00A0;like...&#x00A0;<br /><span class="label"><a 
+ id="x9-50025r6"></a></span>...&#x00A0;<br /><span class="label"><a 
+ id="x9-50026r7"></a></span>To&#x00A0;finish,&#x00A0;type&#x00A0;a&#x00A0;Ctrl<span 
+class="cmsy-10x-x-109">&minus;</span>d&#x00A0;on&#x00A0;a&#x00A0;new&#x00A0;line]&#x00A0;<br /><span class="label"><a 
+ id="x9-50027r8"></a></span>Ctrl<span 
+class="cmsy-10x-x-109">&minus;</span>d&#x00A0;<br /><span class="label"><a 
+ id="x9-50028r9"></a></span>EOT&#x00A0;<br /><span class="label"><a 
+ id="x9-50029r10"></a></span>?
+</div>
+<!--l. 1610--><p class="noindent" >The Ctrl-d signals the EOT (end of text).
+</p><!--l. 1612--><p class="noindent" >For practice, send mails to yourself. (It is not as odd as it may sound - it&#8217;s a handy way of taking
+notes.)
+</p><!--l. 1615--><p class="noindent" >There are other ways of sending mail &#8211; you can send a previously prepared letter, you
+can mail to a number of people all at once, and you may be even able to send mail to
+people on other machines. In this week&#8217;s assignment you will learn more about these
+things.
+</p><!--l. 1620--><p class="noindent" >Note that the simple mail program we have in the Raspberry is a full featured with a rich set of
+encryption like SMIME, SSL, SMTP-Auth, etc. Which are beyond this course. Here you can
+demonstrate that the common &#8220;signature&#8221; attachment works by creating a file called .signature
+(note the dot as the first character) in your home directory.
+</p><!--l. 1626--><p class="noindent" >
+</p>
+<h5 class="subsubsectionHead"><span class="titlemark">5.3.1   </span> <a 
+ id="x9-510005.3.1"></a>Command line calender, only for freaks</h5>
+<!--l. 1628--><p class="noindent" >The original calendar program <span 
+class="cmtt-10x-x-109">cal </span>is &#8216;read only&#8221;, you can not enter your appointments in to it.
+Such a calendar program is included in the Raspberry, called <span 
+class="cmtt-10x-x-109">pal</span>.
+                                                                                    
+
+                                                                                    
+</p><!--l. 1632--><p class="noindent" >See how you could maintain your appointments in <span 
+class="cmtt-10x-x-109">pal</span>. This is only for the freaks. ;)
+</p><!--l. 1635--><p class="noindent" >
+</p>
+<h4 class="subsectionHead"><span class="titlemark">5.4   </span> <a 
+ id="x9-520005.4"></a>Assignment for the week</h4>
+<!--l. 1637--><p class="noindent" >There are two time slots reserved for the assignment: see the on-line platform for details.
+</p><!--l. 1640--><p class="noindent" >This assignment is fun, only if there are many users logged in at the same time. So, be there! This
+assignment is open to all who have collected their account in assignment 1, irrespective whether you
+passed the other assignments.
+</p><!--l. 1645--><p class="noindent" >Please note that, you might need some &#8220;training&#8221; before the fun begins. So do a rehearsal before
+the session.
+</p><!--l. 1648--><p class="noindent" >During the assignment you will be collecting the data to be submitted in a text file and will mail
+the file to user e00000. To do that you need to know few things which we haven&#8217;t covered yet. Here
+they are, without explanations: </p>
+     <ul class="itemize1">
+     <li class="itemize">When you execute a command, you can record its output by directing its output:
+     <!--l. 1654-->
+     <div class="lstlisting" id="listing-51"><span class="label"><a 
+ id="x9-52001r1"></a></span>$&#x00A0;command&#x00A0;<span 
+class="cmmi-10x-x-109">&#x003E;</span>&#x00A0;file
+     
+     </div>
+     </li>
+     <li class="itemize">To add more outputs to the same file you direct the output with two arrows, otherwise it will
+     be overwritten: <!--l. 1660-->
+     <div class="lstlisting" id="listing-52"><span class="label"><a 
+ id="x9-52002r1"></a></span>$&#x00A0;command&#x00A0;<span 
+class="cmmi-10x-x-109">&#x003E;&#x003E;</span>&#x00A0;file
+     
+     </div>
+     </li>
+     <li class="itemize">You can mail a file to another user by reading it as input to mail: <!--l. 1665-->
+     <div class="lstlisting" id="listing-53"><span class="label"><a 
+ id="x9-52003r1"></a></span>$&#x00A0;mail&#x00A0;userX&#x00A0;<span 
+class="cmsy-10x-x-109">&minus;</span>s&#x00A0;Subject&#x00A0;<span 
+class="cmmi-10x-x-109">&#x003C;</span>&#x00A0;file
+     
+     </div>
+     <!--l. 1669--><p class="noindent" >At this time, just use a one-word subject!
+</p>
+     </li></ul>
+<!--l. 1673--><p class="noindent" >Except otherwise stated, add the outputs of the steps below to a file called &#8217;evidence&#8217;:
+</p><!--l. 1676--><p class="noindent" >Step 1: Print the system date.
+                                                                                    
+
+                                                                                    
+</p><!--l. 1678--><p class="noindent" >Step 2: Print &#8217;who am i&#8217;.
+</p><!--l. 1680--><p class="noindent" >Step 3: Record the &#8217;who&#8217; and &#8217;what&#8217; of the others who are logged in.
+</p><!--l. 1682--><p class="noindent" >Step 4: Get the last 5 logins in to the system
+</p><!--l. 1684--><p class="noindent" >Step 5: Find out when the system was last rebooted
+</p><!--l. 1686--><p class="noindent" >Step 6: Create your own .project file
+</p><!--l. 1688--><p class="noindent" >Step 7. Finger a couple of users and record one with a .project file.
+</p><!--l. 1690--><p class="noindent" >Step 8: Send a couple of &#8217;write&#8217; messages to others. (This one you can not record)
+</p><!--l. 1692--><p class="noindent" >Step 9: &#8217;talk&#8217; with sombody. (This too you can not record)
+</p><!--l. 1694--><p class="noindent" >Step 10: Read your mail. There will be a mail from e00000. Reply to it! (If you delete the message
+by mistake, you can just write a new mail.)
+</p><!--l. 1697--><p class="noindent" >Step 11: Mail the your recording of steps 1 - 7 to e00000.
+</p><!--l. 1699--><p class="noindent" >Addition: You need to &#8221;submit&#8221; in the assignment tool with a short note like &#8221;I have sent the mail
+to e00000&#8221;, as explained the Announcement forum.
+</p><!--l. 1701--><p class="noindent" >
+</p>
+<h4 class="likesubsectionHead"><a 
+ id="x9-530005.4"></a>Summary</h4>
+<!--l. 1703--><p class="noindent" >In this week you&#8217;ve learnt: </p>
+     <ul class="itemize1">
+     <li class="itemize">That the <span 
+class="cmtt-10x-x-109">who </span>and <span 
+class="cmtt-10x-x-109">w </span>(what) commands tell you who is logged in
+     </li>
+     <li class="itemize">that  last  and  finger  commands  tells  you  about  off-line  users,  and  to  make  use  of
+     <span 
+class="cmtt-10x-x-109">.project </span>and <span 
+class="cmtt-10x-x-109">.plan </span>files
+     </li>
+     <li class="itemize">to &#8217;write&#8217; and &#8217;talk&#8217; to others
+     </li>
+     <li class="itemize">to use the built in postal system &#8217;mail&#8217;
+     </li></ul>
+<!--l. 1717--><p class="noindent" >
+                                                                                    
+
+                                                                                    
+                                                                                    
+
+                                                                                    
+</p>
+<!--l. 1720--><div class="crosslinks"><p class="noindent">[<a 
+href="unixonese6.html" >next</a>] [<a 
+href="unixonese4.html" >prev</a>] [<a 
+href="unixonese4.html#tailunixonese4.html" >prev-tail</a>] [<a 
+href="unixonese5.html" >front</a>] [<a 
+href="unixone.html#unixonese5.html" >up</a>] </p></div>
+<!--l. 1720--><p class="noindent" ><a 
+ id="tailunixonese5.html"></a> </p> 
+</body></html> 

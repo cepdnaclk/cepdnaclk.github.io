@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="iso-8859-1" ?> 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">  
+<!--http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd-->  
+<html xmlns="http://www.w3.org/1999/xhtml"  
+> 
+<head><title>Text editors</title> 
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /> 
+<meta name="generator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)" /> 
+<meta name="originator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)" /> 
+<!-- xhtml,2,info,html --> 
+<meta name="src" content="unixone.tex" /> 
+<meta name="date" content="2017-01-25 21:04:00" /> 
+<link rel="stylesheet" type="text/css" href="unixone1.css" /> 
+</head><body 
+>
+<!--l. 1720--><div class="crosslinks"><p class="noindent">[<a 
+href="unixoneli2.html" >next</a>] [<a 
+href="unixonese5.html" >prev</a>] [<a 
+href="unixonese5.html#tailunixonese5.html" >prev-tail</a>] [<a 
+href="#tailunixonese6.html">tail</a>] [<a 
+href="unixone.html#unixonese6.html" >up</a>] </p></div>
+<h3 class="sectionHead"><span class="titlemark">6   </span> <a 
+ id="x10-540006"></a>Text editors</h3>
+<!--l. 1722--><p class="noindent" >The aim of this week is </p>
+     <ul class="itemize1">
+     <li class="itemize">to understand the concept of modal editor
+     </li>
+     <li class="itemize">to learn the basics of the single-key commands in the original series of Unix text editors
+     <span 
+class="cmtt-10x-x-109">ed</span>, <span 
+class="cmtt-10x-x-109">vi</span>, etc.</li></ul>
+<!--l. 1729--><p class="noindent" >An editor is application software, in which you create and modify documents. In a text editor you
+create and modify text documents. Not only plain text but also program source code or HTML and
+other mark-up source and many other files are text in its wider sense as human readable and
+editable files.
+</p><!--l. 1735--><p class="noindent" >There are a large number of terminal based text editors in Unix. They fall in to four main
+categories according to their user interface. In a GUI based editors the seperatation between text
+input and and control commands like font, alignment, etc. are clearly seperated through the tools
+available in the GUI. For text input there is a seperate area. Once you click on it, the editor
+knows where the text input that follows should flow. In the terminal you dont have this
+clear seperation. One has to invent a method of seperating control input from the text
+input.
+</p><!--l. 1744--><p class="noindent" >In terminal based text editors there are basically four ways of achieving this:
+</p>
+     <ul class="itemize1">
+     <li class="itemize">The original <span 
+class="cmtt-10x-x-109">ed </span>and its successors <span 
+class="cmtt-10x-x-109">vi</span>, <span 
+class="cmtt-10x-x-109">ViM</span>, etc.
+     <!--l. 1751--><p class="noindent" >Here simple keystrokes are used as control commands. To diffentiate them from text
+     input, you change the mode of the editor. This is not much different from a paint
+     program: if you select the brush, dragging mouse will paint something &#8211; if you&#8217;ve selected
+     the eraser, the same movement will erase!
+     </p></li>
+     <li class="itemize">Emacs (edit macros editor) and its derivatives
+     <!--l. 1759--><p class="noindent" >All control commands are entered by Ctrl or Alt key combinations.
+                                                                                    
+
+                                                                                    
+     </p></li>
+     <li class="itemize">joe (Joe&#8217;s Own Editor)
+     <!--l. 1764--><p class="noindent" >Also uses the Ctrl key to enter control commands. But their arrangment is different
+     from Emacs. Joe follows the pioneering wordprocessor WordStar.
+     </p></li>
+     <li class="itemize">pico, nano
+     <!--l. 1769--><p class="noindent" >Designed specifically for the PC keyboard making use of its special keys for movement
+     like the arrow keys, page-up/down, etc. These editors follow the arrangement which
+     one finds in the Windows Notepad or in the <span 
+class="cmtt-10x-x-109">pine </span>mail reader. These editors are the
+     most natural for the Windows user. They use only a few control keys, which are always
+     displayed at the bottom of the screen.
+</p>
+     </li></ul>
+<!--l. 1778--><p class="noindent" >We are going to look at the first category only, the ed-vi line. The main reason for chosing this is
+that their control keys have a language of their own, which appear in many other places in Unix.
+Added to that vi is found in almost any Unix variation.
+</p><!--l. 1783--><p class="noindent" >
+</p>
+<h4 class="subsectionHead"><span class="titlemark">6.1   </span> <a 
+ id="x10-550006.1"></a>The original text editor &#8217;ed&#8217;</h4>
+<!--l. 1785--><p class="noindent" ><span 
+class="cmtt-10x-x-109">ed </span>was one of the first end-user programs hosted on Unix and has been there ever since. Due to its
+simplicity the programm is so small, only 47 kB in todays x86 Linux, that it doesn&#8217;t cost any
+space.
+</p><!--l. 1790--><p class="noindent" >The interface is archaic in the sense that <span 
+class="cmtt-10x-x-109">ed </span>is a line editor - an editor in which each editing
+command applies to one or more complete lines of text designated by the user. Let us illustrate this
+with an example. This is how you create a file in <span 
+class="cmtt-10x-x-109">ed</span>:
+</p>
+<!--l. 1796-->
+<div class="lstlisting" id="listing-54"><span class="label"><a 
+ id="x10-55001r1"></a></span>$&#x00A0;ed&#x00A0;<br /><span class="label"><a 
+ id="x10-55002r2"></a></span>a&#x00A0;<br /><span class="label"><a 
+ id="x10-55003r3"></a></span>Great&#x00A0;fleas&#x00A0;have&#x00A0;little&#x00A0;fleas&#x00A0;<br /><span class="label"><a 
+ id="x10-55004r4"></a></span>&#x00A0;&#x00A0;upon&#x00A0;their&#x00A0;backs&#x00A0;to&#x00A0;bite&#x00A0;&#8217;em,&#x00A0;<br /><span class="label"><a 
+ id="x10-55005r5"></a></span>And&#x00A0;little&#x00A0;fleas&#x00A0;have&#x00A0;lesser&#x00A0;fleas,&#x00A0;<br /><span class="label"><a 
+ id="x10-55006r6"></a></span>&#x00A0;&#x00A0;and&#x00A0;so&#x00A0;ad&#x00A0;infinitum.&#x00A0;<br /><span class="label"><a 
+ id="x10-55007r7"></a></span>&#x00A0;<br /><span class="label"><a 
+ id="x10-55008r8"></a></span>And&#x00A0;the&#x00A0;great&#x00A0;fleas&#x00A0;themselves,&#x00A0;in&#x00A0;turn,&#x00A0;<br /><span class="label"><a 
+ id="x10-55009r9"></a></span>&#x00A0;&#x00A0;have&#x00A0;greater&#x00A0;fleas&#x00A0;to&#x00A0;go&#x00A0;on;&#x00A0;<br /><span class="label"><a 
+ id="x10-55010r10"></a></span>While&#x00A0;these&#x00A0;again&#x00A0;have&#x00A0;greate&#x00A0;still,&#x00A0;<br /><span class="label"><a 
+ id="x10-55011r11"></a></span>&#x00A0;&#x00A0;and&#x00A0;greater&#x00A0;still,&#x00A0;and&#x00A0;so&#x00A0;on.&#x00A0;<br /><span class="label"><a 
+ id="x10-55012r12"></a></span>.&#x00A0;<br /><span class="label"><a 
+ id="x10-55013r13"></a></span>w&#x00A0;poem&#x00A0;<br /><span class="label"><a 
+ id="x10-55014r14"></a></span>263&#x00A0;<br /><span class="label"><a 
+ id="x10-55015r15"></a></span>q
+</div>
+<!--l. 1814--><p class="noindent" ><span 
+class="cmtt-10x-x-109">ed </span>starts with its own buffer, if no file name is mentioned. In the example the command
+&#8217;a&#8217; (append) instructed the editor to interprets the next keystrokes as text. One says
+that the editor changed from the <span 
+class="cmti-10x-x-109">command mode </span>to <span 
+class="cmti-10x-x-109">input mode</span>. To return to command
+mode, one needs to enter a line with &#8217;.&#8217; as its only content. (Which is not written to the
+buffer.)
+</p><!--l. 1821--><p class="noindent" >The command &#8217;w file&#8217; (write) writes the buffer to the <span 
+class="cmtt-10x-x-109">file</span>. Its output says that &#8217;poem&#8217; is 263 bytes
+long, which you can verify by counting characters or with &#8217;wc&#8217; (word count):
+</p>
+<!--l. 1825-->
+                                                                                    
+
+                                                                                    
+<div class="lstlisting" id="listing-55"><span class="label"><a 
+ id="x10-55016r1"></a></span>$&#x00A0;wc&#x00A0;poem&#x00A0;<br /><span class="label"><a 
+ id="x10-55017r2"></a></span>&#x00A0;&#x00A0;9&#x00A0;&#x00A0;46&#x00A0;263&#x00A0;poem
+</div>
+<!--l. 1830--><p class="noindent" >Let us say, now we want to change the word &#8217;little&#8217; somewhere in the first stanza to &#8217;small&#8217;. We
+don&#8217;t remember the exact line, so we need to print the full stanza, then change to the correct line
+and to do a search and replace. Finally take a quick look at the line, save the file and
+quit.
+</p>
+<!--l. 1835-->
+<div class="lstlisting" id="listing-56"><span class="label"><a 
+ id="x10-55018r1"></a></span>$&#x00A0;ed&#x00A0;poem&#x00A0;<br /><span class="label"><a 
+ id="x10-55019r2"></a></span>263&#x00A0;<br /><span class="label"><a 
+ id="x10-55020r3"></a></span>1,4p&#x00A0;<br /><span class="label"><a 
+ id="x10-55021r4"></a></span>Great&#x00A0;fleas&#x00A0;have&#x00A0;little&#x00A0;fleas&#x00A0;<br /><span class="label"><a 
+ id="x10-55022r5"></a></span>&#x00A0;&#x00A0;upon&#x00A0;their&#x00A0;backs&#x00A0;to&#x00A0;bite&#x00A0;&#8217;em,&#x00A0;<br /><span class="label"><a 
+ id="x10-55023r6"></a></span>And&#x00A0;little&#x00A0;fleas&#x00A0;have&#x00A0;lesser&#x00A0;fleas,&#x00A0;<br /><span class="label"><a 
+ id="x10-55024r7"></a></span>&#x00A0;&#x00A0;and&#x00A0;so&#x00A0;ad&#x00A0;infinitum.&#x00A0;<br /><span class="label"><a 
+ id="x10-55025r8"></a></span>3p&#x00A0;<br /><span class="label"><a 
+ id="x10-55026r9"></a></span>And&#x00A0;little&#x00A0;fleas&#x00A0;have&#x00A0;lesser&#x00A0;fleas,&#x00A0;<br /><span class="label"><a 
+ id="x10-55027r10"></a></span>s/little/small/&#x00A0;<br /><span class="label"><a 
+ id="x10-55028r11"></a></span>p&#x00A0;<br /><span class="label"><a 
+ id="x10-55029r12"></a></span>And&#x00A0;small&#x00A0;fleas&#x00A0;have&#x00A0;lesser&#x00A0;fleas,&#x00A0;<br /><span class="label"><a 
+ id="x10-55030r13"></a></span>w&#x00A0;<br /><span class="label"><a 
+ id="x10-55031r14"></a></span>262&#x00A0;<br /><span class="label"><a 
+ id="x10-55032r15"></a></span>q
+</div>
+<!--l. 1853--><p class="noindent" >As we know &#8217;a&#8217; appends text. Let&#8217;s say, we want to add the chorus between to two stanzas. This is
+how it would go:
+</p>
+<!--l. 1856-->
+<div class="lstlisting" id="listing-57"><span class="label"><a 
+ id="x10-55033r1"></a></span>$&#x00A0;ed&#x00A0;poem&#x00A0;<br /><span class="label"><a 
+ id="x10-55034r2"></a></span>262&#x00A0;<br /><span class="label"><a 
+ id="x10-55035r3"></a></span>5p&#x00A0;<br /><span class="label"><a 
+ id="x10-55036r4"></a></span>&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;<span 
+class="cmmi-10x-x-109">&#x003C;</span><span 
+class="cmsy-10x-x-109">&minus;</span>&#x00A0;empty&#x00A0;line&#x00A0;<br /><span class="label"><a 
+ id="x10-55037r5"></a></span>a&#x00A0;<br /><span class="label"><a 
+ id="x10-55038r6"></a></span>[Chorus]&#x00A0;<br /><span class="label"><a 
+ id="x10-55039r7"></a></span>&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;<span 
+class="cmmi-10x-x-109">&#x003C;</span><span 
+class="cmsy-10x-x-109">&minus;</span>&#x00A0;empty&#x00A0;line&#x00A0;<br /><span class="label"><a 
+ id="x10-55040r8"></a></span>.&#x00A0;<br /><span class="label"><a 
+ id="x10-55041r9"></a></span>5,7p&#x00A0;<br /><span class="label"><a 
+ id="x10-55042r10"></a></span>&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;<span 
+class="cmmi-10x-x-109">&#x003C;</span><span 
+class="cmsy-10x-x-109">&minus;</span>&#x00A0;empty&#x00A0;line&#x00A0;<br /><span class="label"><a 
+ id="x10-55043r11"></a></span>[Chorus]&#x00A0;<br /><span class="label"><a 
+ id="x10-55044r12"></a></span>&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;<span 
+class="cmmi-10x-x-109">&#x003C;</span><span 
+class="cmsy-10x-x-109">&minus;</span>&#x00A0;empty&#x00A0;line&#x00A0;<br /><span class="label"><a 
+ id="x10-55045r13"></a></span>w&#x00A0;<br /><span class="label"><a 
+ id="x10-55046r14"></a></span>272
+</div>
+<!--l. 1874--><p class="noindent" >
+</p>
+<h4 class="subsectionHead"><span class="titlemark">6.2   </span> <a 
+ id="x10-560006.2"></a>&#8217;Vi&#8217;, the visual editor</h4>
+<!--l. 1876--><p class="noindent" >The <span 
+class="cmtt-10x-x-109">vi</span>, which now has cult status, is a natural extension of <span 
+class="cmtt-10x-x-109">ed </span>taking it to from its single line
+operatio to full screen. In <span 
+class="cmtt-10x-x-109">ed </span>the command &#8217;a&#8217; switched it from the command mode to the input
+mode. <span 
+class="cmtt-10x-x-109">vi </span>is similar. In addition to &#8217;a&#8217; (append after the cursor) there are a couple of more
+commands to switch to input mode. For example &#8217;i&#8217; (inserts at the cursor) does exactly what it
+says.
+</p><!--l. 1883--><p class="noindent" >In <span 
+class="cmtt-10x-x-109">ed </span>&#8217;.&#8217; returned the editor to command mode &#8211; in <span 
+class="cmtt-10x-x-109">vi </span>it is the &#8217;Esc&#8217; key.
+</p><!--l. 1886--><p class="noindent" >Since Vi is a screen editor, it needs more keys to move the cursor around. The standard is h (left), j
+(down), k (up) and l (right). You&#8217;ll realize that you operate those keys with the the three
+pointing fingers of your right hand! In todays PC keyboards the arrow keys react as
+expected. But there are a whole lot of movements which you can not get from those special
+keys.
+</p><!--l. 1893--><p class="noindent" >In addition there is a series of delete commands: &#8217;x&#8217; (delete character under the cursor), &#8217;dd&#8217; (delete
+line).
+</p><!--l. 1896--><p class="noindent" >The command &#8217;u&#8217; (undo) does what it says.
+</p><!--l. 1898--><p class="noindent" >Right now, it is more important to understand the philosophy of vi. For that we limit our command
+                                                                                    
+
+                                                                                    
+vocabulary to: a, i, Esc, h, j, k, l, x, X, dd and u. You can practice them in this week&#8217;s
+assignment.
+</p><!--l. 1902--><p class="noindent" >
+</p>
+<h4 class="subsectionHead"><span class="titlemark">6.3   </span> <a 
+ id="x10-570006.3"></a>Assignment for the week</h4>
+<!--l. 1903--><p class="noindent" >(see Assignment Week 6 in Moodle)
+</p><!--l. 1963--><p class="noindent" >
+</p>
+<h4 class="likesubsectionHead"><a 
+ id="x10-580006.3"></a>Summary</h4>
+     <ul class="itemize1">
+     <li class="itemize">You know why the characters in the keyboard get two meaning when you are in a
+     terminal based text editor.
+     </li>
+     <li class="itemize">You have learned the commands a, p, q, s and w in <span 
+class="cmtt-10x-x-109">ed</span>.
+     </li>
+     <li class="itemize">You have learned the basic use of the following commands in Vi: a, i, Esc, h, j, k, l, x,
+     X, dd and u.</li></ul>
+<!--l. 1976--><p class="noindent" >
+                                                                                    
+
+                                                                                    
+                                                                                    
+
+                                                                                    
+</p>
+<!--l. 1979--><div class="crosslinks"><p class="noindent">[<a 
+href="unixoneli2.html" >next</a>] [<a 
+href="unixonese5.html" >prev</a>] [<a 
+href="unixonese5.html#tailunixonese5.html" >prev-tail</a>] [<a 
+href="unixonese6.html" >front</a>] [<a 
+href="unixone.html#unixonese6.html" >up</a>] </p></div>
+<!--l. 1979--><p class="noindent" ><a 
+ id="tailunixonese6.html"></a> </p> 
+</body></html> 

@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="iso-8859-1" ?> 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">  
+<!--http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd-->  
+<html xmlns="http://www.w3.org/1999/xhtml"  
+> 
+<head><title>Introduction, Your first log in</title> 
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /> 
+<meta name="generator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)" /> 
+<meta name="originator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)" /> 
+<!-- xhtml,2,info,html --> 
+<meta name="src" content="unixone.tex" /> 
+<meta name="date" content="2017-01-25 21:04:00" /> 
+<link rel="stylesheet" type="text/css" href="unixone1.css" /> 
+</head><body 
+>
+<!--l. 90--><div class="crosslinks"><p class="noindent">[<a 
+href="unixonese2.html" >next</a>] [<a 
+href="unixoneli1.html" >prev</a>] [<a 
+href="unixoneli1.html#tailunixoneli1.html" >prev-tail</a>] [<a 
+href="#tailunixonese1.html">tail</a>] [<a 
+href="unixone.html#unixonese1.html" >up</a>] </p></div>
+<h3 class="sectionHead"><span class="titlemark">1   </span> <a 
+ id="x3-20001"></a>Introduction, Your first log in</h3>
+<!--l. 94--><p class="noindent" >You will get a shell account, which you can access from anywhere in the faculty network, or in two
+steps from anywhere in the Internet. To access the shell you need a terminal emulator on your
+machine. In the process you familiarize yourself with terms like terminal, remote log in, shell,
+prompt, etc.
+</p><!--l. 100--><p class="noindent" >
+</p>
+<h4 class="subsectionHead"><span class="titlemark">1.1   </span> <a 
+ id="x3-30001.1"></a>Why use a command interface</h4>
+<hr class="figure" /><div class="figure" 
+>
+                                                                                    
+
+                                                                                    
+<a 
+ id="x3-30011"></a>
+                                                                                    
+
+                                                                                    
+<div class="center" 
+>
+<!--l. 103--><p class="noindent" >
+</p><!--l. 104--><p class="noindent" ><img 
+src="unixone0x.png" alt="PIC" class="graphics" width="284.52756pt" height="216.0253pt"  /><!--tex4ht:graphics  
+name="unixone0x.png" src="images/scr_casesense.eps"  
+-->
+<br /> </p><div class="caption" 
+><span class="id">Figure&#x00A0;1: </span><span  
+class="content">A terminal session</span></div><!--tex4ht:label?: x3-30011 -->
+</div>
+                                                                                    
+
+                                                                                    
+</div><hr class="endfigure" />
+<!--l. 109--><p class="noindent" >Experienced system administrators maintain their machines from the command prompt. They
+compile source code, install programs, troubleshoot their operation, automate routine
+tasks; all in this text environment. Unix relies heavily on text, whether in the form of
+configuration files or as scripts, and Unix masters an elaborate system of pattern matching in
+text called <span 
+class="cmti-10x-x-109">regular expressions</span>. The Unix command language is also a programming
+language. One can write interactive programs in this language or paste other specialized
+programs together in scripts or pack routine tasks into scripts and schedule them to run
+regularly.
+</p><!--l. 119--><p class="noindent" >Graphical User Interfaces (GUI) are convenient but they don&#8217;t tell you exactly what
+they do behind the interface. Once something unexpected happens or if you have a task
+for which there is no option in the GUI, you are stuck. In addition to that the text
+terminal doesn&#8217;t require the overhead a GUI needs which is a critical factor in remote
+administration.
+</p>
+<h4 class="subsectionHead"><span class="titlemark">1.2   </span> <a 
+ id="x3-40001.2"></a>Your login to the Unix shell</h4>
+<!--l. 129--><p class="noindent" >In the early days people went to great lengths to access a Unix terminal. Only the system
+administrators had access to the system console itself. Users accessed the machine through
+terminals - in the same building through serial lines or from a distances through telephone
+lines<span class="footnote-mark"><a 
+href="unixone4.html#fn1x0"><sup class="textsuperscript">1</sup></a></span><a 
+ id="x3-4001f1"></a> .
+The machines were simply too expensive to be duplicated!
+</p><!--l. 136--><p class="noindent" >Today it is the opposite. Computers are everywhere! Because of their diversity there are also
+numerous ways of accessing them. There lies a problem for the beginner. Even within Unix the
+multitude of flavours make them seemingly different to each other. Which means that the
+inexperienced can not rely on the exact behaviour of individual examples.
+</p>
+<hr class="figure" /><div class="figure" 
+>
+                                                                                    
+
+                                                                                    
+<a 
+ id="x3-40022"></a>
+                                                                                    
+
+                                                                                    
+<div class="center" 
+>
+<!--l. 143--><p class="noindent" >
+</p><!--l. 144--><p class="noindent" ><img 
+src="unixone1x.png" alt="PIC" class="graphics" width="227.62204pt" height="170.71231pt"  /><!--tex4ht:graphics  
+name="unixone1x.png" src="images/20150126_152213_scaled.eps"  
+-->
+<br /> </p><div class="caption" 
+><span class="id">Figure&#x00A0;2: </span><span  
+class="content">The Raspberry Pi miniature computer</span></div><!--tex4ht:label?: x3-40022 -->
+</div>
+                                                                                    
+
+                                                                                    
+</div><hr class="endfigure" />
+<!--l. 149--><p class="noindent" >Therefore in this course all the participants will be working together in the same enviroment - in a
+Raspberry Pi running a Debian GNU/Linux port, which you access remotely through the network.
+(See the assignment of this week for details.)
+</p>
+<h4 class="subsectionHead"><span class="titlemark">1.3   </span> <a 
+ id="x3-50001.3"></a>Your first login</h4>
+<!--l. 157--><p class="noindent" >Typically a Unix terminal &#8220;greets&#8221; the user by printing something about itself on the screen and
+then requests the user to identify himself:
+</p>
+<hr class="figure" /><div class="figure" 
+>
+                                                                                    
+
+                                                                                    
+<a 
+ id="x3-50013"></a>
+                                                                                    
+
+                                                                                    
+<div class="center" 
+>
+<!--l. 161--><p class="noindent" >
+</p><!--l. 162--><p class="noindent" ><img 
+src="unixone2x.png" alt="PIC" class="graphics" width="284.52756pt" height="213.39183pt"  /><!--tex4ht:graphics  
+name="unixone2x.png" src="images/fedora_console.eps"  
+-->
+<br /> </p><div class="caption" 
+><span class="id">Figure&#x00A0;3: </span><span  
+class="content">A terminal session</span></div><!--tex4ht:label?: x3-50013 -->
+</div>
+                                                                                    
+
+                                                                                    
+</div><hr class="endfigure" />
+<!--l. 167--><p class="noindent" >The terminal shown in the above figure has printed the Unix flavour, the version number of the
+kernel, the machine architecture and the host name. Then it requests the user to identify himself by
+presenting him with a <span 
+class="cmti-10x-x-109">login prompt</span>. The user has to sign in by entering his login name and the
+password. Here is another example:
+</p>
+<!--l. 173-->
+<div class="lstlisting" id="listing-1"><span class="label"><a 
+ id="x3-5002r1"></a></span>CrunchBang&#x00A0;Linux&#x00A0;waldorf&#x00A0;cherry&#x00A0;tty4&#x00A0;<br /><span class="label"><a 
+ id="x3-5003r2"></a></span>Kernel&#x00A0;3.13&#x00A0;on&#x00A0;an&#x00A0;i686&#x00A0;<br /><span class="label"><a 
+ id="x3-5004r3"></a></span>cherry&#x00A0;login:&#x00A0;john&#x00A0;<br /><span class="label"><a 
+ id="x3-5005r4"></a></span>Password:&#x00A0;[suppressed]&#x00A0;<br /><span class="label"><a 
+ id="x3-5006r5"></a></span>Last&#x00A0;login:&#x00A0;Mon&#x00A0;Feb&#x00A0;29&#x00A0;12:34:56&#x00A0;on&#x00A0;tty6&#x00A0;<br /><span class="label"><a 
+ id="x3-5007r6"></a></span>Linux&#x00A0;cherry&#x00A0;3.2.0<span 
+class="cmsy-10x-x-109">&minus;</span>4<span 
+class="cmsy-10x-x-109">&minus;</span>amd64&#x00A0;<br /><span class="label"><a 
+ id="x3-5008r7"></a></span>[...]&#x00A0;<br /><span class="label"><a 
+ id="x3-5009r8"></a></span>john@cherry:&#x02DC;$
+</div>
+<!--l. 184--><p class="noindent" >The first lesson: Unix is case sensitive! Don&#8217;t type <span 
+class="cmtt-10x-x-109">John</span>, if your login name is <span 
+class="cmtt-10x-x-109">john</span>. This might
+come as a surprise for the typical MS Windows user, but Unix was case sensitive right
+from the beginning with a strong orientation towards lower case - supposedly for easy
+typing.
+</p><!--l. 189--><p class="noindent" >The original terminals used serial connections, as a result there were many switches
+to be set - transmission speed or <span 
+class="cmti-10x-x-109">baud rate</span>, handshake method, duplex method (full
+or half), etc. - and even required handling a telephone! That was magic which didn&#8217;t
+work without the help of a local expert. The result of all that effort was to get the login
+prompt.
+</p><!--l. 195--><p class="noindent" >Today the world is different. Most of the users have a Microsoft Windows desktop
+in front of them and they want to connect to the Unix across the Internet. If
+you are one of them get the free terminal emulator program PuTTY from its site
+<span class="footnote-mark"><a 
+href="unixone5.html#fn2x0"><sup class="textsuperscript">2</sup></a></span><a 
+ id="x3-5010f2"></a>. Just
+copy the &#8217;exe&#8217; file to any directory and run it! You might want to make a profile (Figure 2) so that
+you don&#8217;t have to enter the same information every time. </p><hr class="figure" /><div class="figure" 
+>
+                                                                                    
+
+                                                                                    
+<a 
+ id="x3-50114"></a>
+                                                                                    
+
+                                                                                    
+<div class="center" 
+>
+<!--l. 204--><p class="noindent" >
+</p><!--l. 205--><p class="noindent" ><img 
+src="unixone3x.png" alt="PIC" class="graphics" width="284.52756pt" height="272.12001pt"  /><!--tex4ht:graphics  
+name="unixone3x.png" src="images/putty.eps"  
+-->
+<br /> </p><div class="caption" 
+><span class="id">Figure&#x00A0;4: </span><span  
+class="content">Setting up PuTTY</span></div><!--tex4ht:label?: x3-50114 -->
+</div>
+                                                                                    
+
+                                                                                    
+</div><hr class="endfigure" />
+<!--l. 210--><p class="noindent" >If you are on a Unix machine like Mac or Linux, you definitely have a terminal <span 
+class="cmsl-10x-x-109">emulator</span>. Look for a
+program called Terminal, Konsole, Command, or something similar. What you need is just the SSH
+client, which is unimpressively called <span 
+class="cmtt-10x-x-109">ssh</span>. Try <span 
+class="cmtt-10x-x-109">ssh </span><span 
+class="cmitt-10x-x-109">login</span><span 
+class="cmtt-10x-x-109">@</span><span 
+class="cmitt-10x-x-109">host </span>at the command prompt. (Here
+<span 
+class="cmitt-10x-x-109">login </span>stand for you login name; the <span 
+class="cmitt-10x-x-109">host </span>is the DNS name or the IP address of the
+host.
+</p>
+<hr class="figure" /><div class="figure" 
+>
+                                                                                    
+
+                                                                                    
+<a 
+ id="x3-50125"></a>
+                                                                                    
+
+                                                                                    
+<div class="center" 
+>
+<!--l. 219--><p class="noindent" >
+</p><!--l. 220--><p class="noindent" ><img 
+src="unixone4x.png" alt="PIC" class="graphics" width="284.52756pt" height="176.82184pt"  /><!--tex4ht:graphics  
+name="unixone4x.png" src="images/macos-logged-in.eps"  
+-->
+<br /> </p><div class="caption" 
+><span class="id">Figure&#x00A0;5: </span><span  
+class="content">Connecting from Mac OS X or Linux</span></div><!--tex4ht:label?: x3-50125 -->
+</div>
+                                                                                    
+
+                                                                                    
+</div><hr class="endfigure" />
+<!--l. 225--><p class="noindent" >In all these cases, the first time you log in you will get a warning about establishing the
+authenticity of the host. Accept it only if the finger print is correct, in the case of our &#8217;arm&#8217; it is
+22:2f:cd:f3:df:d1:af:5d:66:dc:c0:74:68:86:14:22.
+</p><!--l. 230--><p class="noindent" >Once successfully logged in, the login procedure starts an interpreter which will be &#8220;talking&#8221; to you.
+This is called the <span 
+class="cmti-10x-x-109">shell</span>. The shell signals that it is listening by printing its <span 
+class="cmti-10x-x-109">prompt</span>. In the
+example above <span 
+class="cmtt-10x-x-109">john@cherry:</span><img 
+src="unixone5x.png" alt="~$  "  class="tilde"  /> is the shell prompt. Certain information in it are
+easily guessed. Note the general format <span 
+class="cmtt-10x-x-109">login@host</span>, which we are going to encounter
+often.
+</p><!--l. 237--><p class="noindent" >Also note that the default shell prompt vary from system to system. Since the user can
+customize it anyway, in this documentation we use simply the &#8217;<span 
+class="cmtt-10x-x-109">$</span>&#8217; character as the shell
+prompt.
+</p><!--l. 241--><p class="noindent" >You can now start working in Unix.
+</p>
+<h4 class="subsectionHead"><span class="titlemark">1.4   </span> <a 
+ id="x3-60001.4"></a>Changing the password</h4>
+<!--l. 244--><p class="noindent" >You should change the initial password you received from the system administrator to one of your
+own. You enter the command <span 
+class="cmtt-10x-x-109">passwd </span>to change your password:
+</p>
+<!--l. 248-->
+<div class="lstlisting" id="listing-2"><span class="label"><a 
+ id="x3-6001r1"></a></span>$&#x00A0;passwd&#x00A0;<br /><span class="label"><a 
+ id="x3-6002r2"></a></span>Changing&#x00A0;password&#x00A0;for&#x00A0;john.&#x00A0;<br /><span class="label"><a 
+ id="x3-6003r3"></a></span>(current)&#x00A0;UNIX&#x00A0;password:&#x00A0;<br /><span class="label"><a 
+ id="x3-6004r4"></a></span>Enter&#x00A0;new&#x00A0;UNIX&#x00A0;password:&#x00A0;<br /><span class="label"><a 
+ id="x3-6005r5"></a></span>Retype&#x00A0;new&#x00A0;UNIX&#x00A0;password:&#x00A0;<br /><span class="label"><a 
+ id="x3-6006r6"></a></span>passwd:&#x00A0;password&#x00A0;changed
+</div>
+<!--l. 257--><p class="noindent" >When changing password not only that you should know the old password but you need to
+type the new password twice. Also notice that certain systems may have restrictions
+on the password like minimum length and whether you must use digits and/or special
+characters.
+</p><!--l. 262--><p class="noindent" >Note that the superuser can change password without providing the current password. Which
+means that the superuser can not find out the current password of a user, he can only set it to a
+new value.
+</p><!--l. 267--><p class="noindent" >
+</p>
+<h4 class="subsectionHead"><span class="titlemark">1.5   </span> <a 
+ id="x3-70001.5"></a>Logging out</h4>
+<!--l. 269--><p class="noindent" >The command to log out is, you guessed it, <span 
+class="cmtt-10x-x-109">logout</span>. It instructs the shell to terminate your session.
+That will close the shell and reset the terminal so that it will fall back to the login prompt you saw
+at the beginning. Try it!
+</p><!--l. 274--><p class="noindent" >On a side note: It is not meaningfull to shut down the machine as a normal user: this is obviously
+                                                                                    
+
+                                                                                    
+something for the superuser!
+</p><!--l. 277--><p class="noindent" >
+</p>
+<h4 class="subsectionHead"><span class="titlemark">1.6   </span> <a 
+ id="x3-80001.6"></a>Assignment 1</h4>
+<!--l. 279--><p class="noindent" >Step 1: If you are on Windows, install a terminal emulator like PuTTY and then log in to either
+aiken.ce.pdn.ac.lk or tesla.ce.pdn.ac.lk. If you are on a Unix you can simply type &#8217;ssh
+eNUMBER@server.name&#8217; in a terminal.
+</p><!--l. 283--><p class="noindent" >From there login to the &#8217;arm&#8217;, a Raspberry Pi, by entering &#8217;ssh eNUMBER@arm.ce.pdn.ac.lk&#8217;.
+</p><!--l. 286--><p class="noindent" >Step 2: Take a screen-shot just after logging in and upload it to the assignment tool.
+</p><!--l. 289--><p class="noindent" >
+</p>
+<h4 class="likesubsectionHead"><a 
+ id="x3-90001.6"></a>Summary</h4>
+<!--l. 290--><p class="noindent" >In this week you have learned: </p>
+     <ul class="itemize1">
+     <li class="itemize">the advantages of the Unix command interface
+     </li>
+     <li class="itemize">the difference between the console and a terminal
+     </li>
+     <li class="itemize">the more common remote login over the network
+     </li>
+     <li class="itemize">to recognize the login prompt of a Unix terminal
+     </li>
+     <li class="itemize">to recognize a Unix shell prompt
+     </li>
+     <li class="itemize">to remotely log in to a Unix shell through the network
+     </li></ul>
+<!--l. 306--><p class="noindent" >
+                                                                                    
+
+                                                                                    
+                                                                                    
+
+                                                                                    
+</p>
+<!--l. 309--><div class="crosslinks"><p class="noindent">[<a 
+href="unixonese2.html" >next</a>] [<a 
+href="unixoneli1.html" >prev</a>] [<a 
+href="unixoneli1.html#tailunixoneli1.html" >prev-tail</a>] [<a 
+href="unixonese1.html" >front</a>] [<a 
+href="unixone.html#unixonese1.html" >up</a>] </p></div>
+<!--l. 309--><p class="noindent" ><a 
+ id="tailunixonese1.html"></a> </p> 
+</body></html> 

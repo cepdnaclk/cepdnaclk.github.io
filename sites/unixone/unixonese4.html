@@ -1,0 +1,617 @@
+<?xml version="1.0" encoding="iso-8859-1" ?> 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">  
+<!--http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd-->  
+<html xmlns="http://www.w3.org/1999/xhtml"  
+> 
+<head><title>Files and directories</title> 
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /> 
+<meta name="generator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)" /> 
+<meta name="originator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)" /> 
+<!-- xhtml,2,info,html --> 
+<meta name="src" content="unixone.tex" /> 
+<meta name="date" content="2017-01-25 21:04:00" /> 
+<link rel="stylesheet" type="text/css" href="unixone1.css" /> 
+</head><body 
+>
+<!--l. 947--><div class="crosslinks"><p class="noindent">[<a 
+href="unixonese5.html" >next</a>] [<a 
+href="unixonese3.html" >prev</a>] [<a 
+href="unixonese3.html#tailunixonese3.html" >prev-tail</a>] [<a 
+href="#tailunixonese4.html">tail</a>] [<a 
+href="unixone.html#unixonese4.html" >up</a>] </p></div>
+<h3 class="sectionHead"><span class="titlemark">4   </span> <a 
+ id="x8-310004"></a>Files and directories</h3>
+<!--l. 949--><p class="noindent" >At the end of this chapter you: </p>
+     <ul class="itemize1">
+     <li class="itemize">can copy, move and delete files
+     </li>
+     <li class="itemize">how to get meta information on files
+     </li>
+     <li class="itemize">know safe names for files
+     </li>
+     <li class="itemize">can take hexdumps of files
+     </li>
+     <li class="itemize">can display the content of text files
+     </li>
+     <li class="itemize">can create, move and delete directories
+     </li>
+     <li class="itemize">know the difference between absolute and relative paths
+     </li>
+     <li class="itemize">can navigate a file system
+     </li>
+     <li class="itemize">know the short cuts to some directories
+     </li></ul>
+<!--l. 971--><p class="noindent" >In this chapter we go through the day-to-day use of a computer. During the process you
+will come across a number of new commands. Since you learned how to get help from
+the system in chapter 3 the commands will simply be used without much explanation.
+All these commands and their on-line help are available in your practice acccount. It
+is highly recommended that you repeat those examples and refer the on-line help as
+we progress. Some options we discuss are subtle, taking notes will help to remember
+them.
+                                                                                    
+
+                                                                                    
+</p><!--l. 980--><p class="noindent" >
+</p>
+<h4 class="subsectionHead"><span class="titlemark">4.1   </span> <a 
+ id="x8-320004.1"></a>Handling files</h4>
+<!--l. 983--><p class="noindent" >
+</p>
+<h5 class="subsubsectionHead"><span class="titlemark">4.1.1   </span> <a 
+ id="x8-330004.1.1"></a>What is a file</h5>
+<!--l. 985--><p class="noindent" >Like any other operating system Unix stores information in chunks called <span 
+class="cmti-10x-x-109">files </span>due to their
+similarity to ordinary office files. Each file has a name, content and some administrative information
+like file size, the physical place in the storage medium, various timestamps, the owner, etc.
+sometimes called the meta information, because they are about the content, not the content
+itself.
+</p><!--l. 992--><p class="noindent" >The file system in Unix is organized in such a way that you can maintain your own personal files
+without interfering with files belonging to others. In Unix jargon it is called your <span 
+class="cmti-10x-x-109">home</span>. Every user
+has a &#8217;home&#8217; of his own. (Remember the HOME environment variable from the assignment last
+week?)
+</p><!--l. 998--><p class="noindent" >For the examples below we have copied two files to your home. The <span 
+class="cmtt-10x-x-109">ls </span>(list) command lists the
+names of files:
+</p>
+<!--l. 1001-->
+<div class="lstlisting" id="listing-21"><span class="label"><a 
+ id="x8-33001r1"></a></span>$&#x00A0;ls&#x00A0;<br /><span class="label"><a 
+ id="x8-33002r2"></a></span>knave&#x00A0;&#x00A0;queen
+</div>
+<!--l. 1006--><p class="noindent" >So the files are named <span 
+class="cmtt-10x-x-109">knave </span>and <span 
+class="cmtt-10x-x-109">queen</span>. Notice that the list is sorted alphabetically.
+</p><!--l. 1009--><p class="noindent" >Hint: We will be manipulating those files. Don&#8217;t be afraid you might break something. You can
+always get a fresh copy from user e00000. The command for this is &#8217;cp /home/e00000/<span 
+class="cmti-10x-x-109">file knave</span>&#8217;.
+The meaning will be discussed below.
+</p><!--l. 1014--><p class="noindent" >It is important to note that you can not &#8217;open&#8217; a file without knowing the kind of information in it
+and how exactly they are coded. For example, if you somehow open a HTML file with a photo
+viewer, you won&#8217;t see anything useful. People use filename extensions like .txt, .c, .html, ... as a
+convenience, but there is no mechanism to gurentee that the content matches the extension!
+The <span 
+class="cmtt-10x-x-109">file </span>(file type) command will tell you the kind of information <span 
+class="cmti-10x-x-109">in </span>a file. Let&#8217;s try
+it:
+</p>
+<!--l. 1022-->
+<div class="lstlisting" id="listing-22"><span class="label"><a 
+ id="x8-33003r1"></a></span>$&#x00A0;file&#x00A0;knave&#x00A0;<br /><span class="label"><a 
+ id="x8-33004r2"></a></span>knave:&#x00A0;ASCII&#x00A0;text&#x00A0;<br /><span class="label"><a 
+ id="x8-33005r3"></a></span>$&#x00A0;file&#x00A0;queen&#x00A0;<br /><span class="label"><a 
+ id="x8-33006r4"></a></span>queen:&#x00A0;ASCII&#x00A0;text
+</div>
+<!--l. 1029--><p class="noindent" >So both files are simple text files.
+                                                                                    
+
+                                                                                    
+</p><!--l. 1031--><p class="noindent" >To get the time of last modification run <span 
+class="cmtt-10x-x-109">ls </span>with the option <span 
+class="cmtt-10x-x-109">-l </span>(long). If the time resolution is not
+good enough use the <span 
+class="cmtt-10x-x-109">ls --full-time </span>option:
+</p>
+<!--l. 1035-->
+<div class="lstlisting" id="listing-23"><span class="label"><a 
+ id="x8-33007r1"></a></span>$&#x00A0;ls&#x00A0;<span 
+class="cmsy-10x-x-109">&minus;</span>l&#x00A0;knave&#x00A0;<br /><span class="label"><a 
+ id="x8-33008r2"></a></span><span 
+class="cmsy-10x-x-109">&minus;</span>rw<span 
+class="cmsy-10x-x-109">&minus;</span>r<span 
+class="cmsy-10x-x-109">&minus;</span><span 
+class="cmsy-10x-x-109">&minus;</span>r<span 
+class="cmsy-10x-x-109">&minus;</span><span 
+class="cmsy-10x-x-109">&minus;</span>&#x00A0;1&#x00A0;user&#x00A0;group&#x00A0;91&#x00A0;Dez&#x00A0;30&#x00A0;22:15&#x00A0;knave&#x00A0;<br /><span class="label"><a 
+ id="x8-33009r3"></a></span>$&#x00A0;ls&#x00A0;<span 
+class="cmsy-10x-x-109">&minus;</span><span 
+class="cmsy-10x-x-109">&minus;</span>full<span 
+class="cmsy-10x-x-109">&minus;</span>time&#x00A0;knave&#x00A0;<br /><span class="label"><a 
+ id="x8-33010r4"></a></span><span 
+class="cmsy-10x-x-109">&minus;</span>rw<span 
+class="cmsy-10x-x-109">&minus;</span>r<span 
+class="cmsy-10x-x-109">&minus;</span><span 
+class="cmsy-10x-x-109">&minus;</span>r<span 
+class="cmsy-10x-x-109">&minus;</span><span 
+class="cmsy-10x-x-109">&minus;</span>&#x00A0;1&#x00A0;user&#x00A0;group&#x00A0;111&#x00A0;2014<span 
+class="cmsy-10x-x-109">&minus;</span>12<span 
+class="cmsy-10x-x-109">&minus;</span>30&#x00A0;22:15:47.787031906&#x00A0;+0100&#x00A0;knave
+</div>
+<!--l. 1042--><p class="noindent" >You can update the time stamp of a file by &#8220;touching&#8221; it:
+</p>
+<!--l. 1044-->
+<div class="lstlisting" id="listing-24"><span class="label"><a 
+ id="x8-33011r1"></a></span>$&#x00A0;ls&#x00A0;<span 
+class="cmsy-10x-x-109">&minus;</span>l&#x00A0;knave&#x00A0;<br /><span class="label"><a 
+ id="x8-33012r2"></a></span><span 
+class="cmsy-10x-x-109">&minus;</span>rw<span 
+class="cmsy-10x-x-109">&minus;</span>r<span 
+class="cmsy-10x-x-109">&minus;</span><span 
+class="cmsy-10x-x-109">&minus;</span>r<span 
+class="cmsy-10x-x-109">&minus;</span><span 
+class="cmsy-10x-x-109">&minus;</span>&#x00A0;1&#x00A0;user&#x00A0;group&#x00A0;&#x00A0;91&#x00A0;Dez&#x00A0;30&#x00A0;22:15&#x00A0;knave&#x00A0;<br /><span class="label"><a 
+ id="x8-33013r3"></a></span>$&#x00A0;touch&#x00A0;knave&#x00A0;<br /><span class="label"><a 
+ id="x8-33014r4"></a></span>$&#x00A0;ls&#x00A0;<span 
+class="cmsy-10x-x-109">&minus;</span>l&#x00A0;knave&#x00A0;<br /><span class="label"><a 
+ id="x8-33015r5"></a></span><span 
+class="cmsy-10x-x-109">&minus;</span>rw<span 
+class="cmsy-10x-x-109">&minus;</span>r<span 
+class="cmsy-10x-x-109">&minus;</span><span 
+class="cmsy-10x-x-109">&minus;</span>r<span 
+class="cmsy-10x-x-109">&minus;</span><span 
+class="cmsy-10x-x-109">&minus;</span>&#x00A0;1&#x00A0;user&#x00A0;group&#x00A0;&#x00A0;91&#x00A0;Feb&#x00A0;11&#x00A0;22:15&#x00A0;knave
+</div>
+<!--l. 1052--><p class="noindent" >Hint: The <span 
+class="cmtt-10x-x-109">touch </span>command can be abused to create empty files, because <span 
+class="cmtt-10x-x-109">touch </span>creates an empty file
+if the given file does not exist.
+</p>
+<!--l. 1055-->
+<div class="lstlisting" id="listing-25"><span class="label"><a 
+ id="x8-33016r1"></a></span>$&#x00A0;touch&#x00A0;king&#x00A0;<br /><span class="label"><a 
+ id="x8-33017r2"></a></span>$&#x00A0;ls&#x00A0;<span 
+class="cmsy-10x-x-109">&minus;</span>l&#x00A0;king&#x00A0;<br /><span class="label"><a 
+ id="x8-33018r3"></a></span><span 
+class="cmsy-10x-x-109">&minus;</span>rw<span 
+class="cmsy-10x-x-109">&minus;</span>r<span 
+class="cmsy-10x-x-109">&minus;</span><span 
+class="cmsy-10x-x-109">&minus;</span>r<span 
+class="cmsy-10x-x-109">&minus;</span><span 
+class="cmsy-10x-x-109">&minus;</span>&#x00A0;1&#x00A0;user&#x00A0;group&#x00A0;&#x00A0;0&#x00A0;Feb&#x00A0;11&#x00A0;22:30&#x00A0;king
+</div>
+<!--l. 1063--><p class="noindent" >In fact <span 
+class="cmtt-10x-x-109">ls -l </span>brings a whole list of meta information. In this chapter we are going to discuss
+only a few of them. For the sake of completness you will find the full list in the next
+table:
+</p>
+<div class="center" 
+>
+<!--l. 1067--><p class="noindent" >
+</p>
+<div class="tabular"> <table id="TBL-5" class="tabular" 
+cellspacing="0" cellpadding="0" rules="groups" 
+><colgroup id="TBL-5-1g"><col 
+id="TBL-5-1" /></colgroup><colgroup id="TBL-5-2g"><col 
+id="TBL-5-2" /></colgroup><tr 
+class="hline"><td><hr /></td><td><hr /></td></tr><tr  
+ style="vertical-align:baseline;" id="TBL-5-1-"><td  style="white-space:nowrap; text-align:center;" id="TBL-5-1-1"  
+class="td11">Column nr.</td><td  style="white-space:nowrap; text-align:left;" id="TBL-5-1-2"  
+class="td11">Description                                                     </td>
+</tr><tr 
+class="hline"><td><hr /></td><td><hr /></td></tr><tr  
+ style="vertical-align:baseline;" id="TBL-5-2-"><td  style="white-space:nowrap; text-align:center;" id="TBL-5-2-1"  
+class="td11">     1       </td><td  style="white-space:nowrap; text-align:left;" id="TBL-5-2-2"  
+class="td11">File type and file access permissions                    </td>
+</tr><tr  
+ style="vertical-align:baseline;" id="TBL-5-3-"><td  style="white-space:nowrap; text-align:center;" id="TBL-5-3-1"  
+class="td11">     2       </td><td  style="white-space:nowrap; text-align:left;" id="TBL-5-3-2"  
+class="td11">Number of links                                               </td></tr><tr  
+ style="vertical-align:baseline;" id="TBL-5-4-"><td  style="white-space:nowrap; text-align:center;" id="TBL-5-4-1"  
+class="td11"> 3 </td><td  style="white-space:nowrap; text-align:left;" id="TBL-5-4-2"  
+class="td11">File owner</td>
+</tr><tr  
+ style="vertical-align:baseline;" id="TBL-5-5-"><td  style="white-space:nowrap; text-align:center;" id="TBL-5-5-1"  
+class="td11">     4       </td><td  style="white-space:nowrap; text-align:left;" id="TBL-5-5-2"  
+class="td11">Group owner                                                   </td>
+</tr><tr  
+ style="vertical-align:baseline;" id="TBL-5-6-"><td  style="white-space:nowrap; text-align:center;" id="TBL-5-6-1"  
+class="td11">     5       </td><td  style="white-space:nowrap; text-align:left;" id="TBL-5-6-2"  
+class="td11">File size (in bytes)                                            </td>
+</tr><tr  
+ style="vertical-align:baseline;" id="TBL-5-7-"><td  style="white-space:nowrap; text-align:center;" id="TBL-5-7-1"  
+class="td11"> 6, 7 and 8 </td><td  style="white-space:nowrap; text-align:left;" id="TBL-5-7-2"  
+class="td11">Month, day and time of last modification to the file</td>
+</tr><tr  
+ style="vertical-align:baseline;" id="TBL-5-8-"><td  style="white-space:nowrap; text-align:center;" id="TBL-5-8-1"  
+class="td11">     9       </td><td  style="white-space:nowrap; text-align:left;" id="TBL-5-8-2"  
+class="td11">Name of file                                                    </td>
+</tr><tr 
+class="hline"><td><hr /></td><td><hr /></td></tr><tr  
+ style="vertical-align:baseline;" id="TBL-5-9-"><td  style="white-space:nowrap; text-align:center;" id="TBL-5-9-1"  
+class="td11">          </td>
+</tr></table></div></div>
+<!--l. 1083--><p class="noindent" >The final meta information we are going to look at is where a file is kept in the file system. When
+the file system was created it organizes the space in blocks and gives an index to each block called
+<span 
+class="cmti-10x-x-109">inode</span>. The inode of the starting block of a file is all what the file system needs to find a file. The <span 
+class="cmtt-10x-x-109">ls</span>
+<span 
+class="cmtt-10x-x-109">-i </span>lists the inodes of files:
+                                                                                    
+
+                                                                                    
+</p>
+<!--l. 1089-->
+<div class="lstlisting" id="listing-26"><span class="label"><a 
+ id="x8-33019r1"></a></span>$&#x00A0;ls&#x00A0;<span 
+class="cmsy-10x-x-109">&minus;</span>i&#x00A0;<br /><span class="label"><a 
+ id="x8-33020r2"></a></span>3156545&#x00A0;knave&#x00A0;&#x00A0;3156550&#x00A0;queen
+</div>
+<!--l. 1095--><p class="noindent" >
+</p>
+<h5 class="subsubsectionHead"><span class="titlemark">4.1.2   </span> <a 
+ id="x8-340004.1.2"></a>What&#8217;s in a file name</h5>
+<!--l. 1097--><p class="noindent" >So far we have used filenames without saying what a legal name is. First, in its initial design Unix
+filenames were limited to 14 characters. In today&#8217;s Unix systems a file name could be upto 254
+characters long, which should be ample, and should be utilized. Second, although you can use
+almost any character in a filename, common sense says you should avoid non-printable
+(invisible) characters and characters that have other meanings. We have already seen that
+the hyphen and double hyphens are used by Unix commands to denote their options.
+So if you had a file whose name was <span 
+class="cmtt-10x-x-109">-t</span>, you would have a tough time listing it with
+<span 
+class="cmtt-10x-x-109">ls</span>.
+</p><!--l. 1107--><p class="noindent" >Besides the hyphen as a first character, there are other characters with special meaning. To avoid
+pitfalls, you would do well to use only the latin characters a-z and A-Z, the digits 0-9, the period &#8217;.&#8217;,
+the underscore &#8217;_&#8217; and the hyphen &#8217;-&#8217;. The hyphen should not be used as the first character. The
+period, the underscore and the hyphen are conveniently used to divide filenames into chunks, as
+in <span 
+class="cmtt-10x-x-109">assignment1</span><span 
+class="cmtt-10x-x-109">_perera</span><span 
+class="cmtt-10x-x-109">_sunil.txt </span>or <span 
+class="cmtt-10x-x-109">draft-2015-02-13.odt</span>. Finally don&#8217;t forget
+that the case distinctions matter - <span 
+class="cmtt-10x-x-109">Assignment1</span><span 
+class="cmtt-10x-x-109">_Perera</span><span 
+class="cmtt-10x-x-109">_Sunil.txt </span>is not the same as
+<span 
+class="cmtt-10x-x-109">assignment1</span><span 
+class="cmtt-10x-x-109">_perera</span><span 
+class="cmtt-10x-x-109">_sunil.txt</span>! The command line user tends to prefer lowercase - for easy
+typing.
+</p><!--l. 1119--><p class="noindent" >
+</p>
+<h5 class="subsubsectionHead"><span class="titlemark">4.1.3   </span> <a 
+ id="x8-350004.1.3"></a>Copying, moving and deleting files</h5>
+<!--l. 1121--><p class="noindent" >The <span 
+class="cmtt-10x-x-109">cp </span>(copy) command duplicates files. Its syntax is <span 
+class="cmtt-10x-x-109">cp source target</span>. Example:
+</p>
+<!--l. 1124-->
+<div class="lstlisting" id="listing-27"><span class="label"><a 
+ id="x8-35001r1"></a></span>$&#x00A0;cp&#x00A0;knave&#x00A0;knave2&#x00A0;<br /><span class="label"><a 
+ id="x8-35002r2"></a></span>$&#x00A0;ls&#x00A0;<br /><span class="label"><a 
+ id="x8-35003r3"></a></span>knave&#x00A0;&#x00A0;knave2&#x00A0;&#x00A0;queen
+</div>
+<!--l. 1130--><p class="noindent" >Keep in mind that if the target exists, it will simply be overwritten. If you want to be informed
+when that happens, use the <span 
+class="cmtt-10x-x-109">-i </span>(interactive) option.
+</p><!--l. 1134--><p class="noindent" >To move files use the <span 
+class="cmtt-10x-x-109">mv </span>(move) command: </p><!--l. 1135-->
+                                                                                    
+
+                                                                                    
+<div class="lstlisting" id="listing-28"><span class="label"><a 
+ id="x8-35004r1"></a></span>$&#x00A0;mv&#x00A0;knave&#x00A0;knave2&#x00A0;<br /><span class="label"><a 
+ id="x8-35005r2"></a></span>$&#x00A0;ls&#x00A0;<br /><span class="label"><a 
+ id="x8-35006r3"></a></span>knave2&#x00A0;&#x00A0;queen
+</div>
+<!--l. 1141--><p class="noindent" >The <span 
+class="cmtt-10x-x-109">rm </span>(remove) command deletes files: </p><!--l. 1142-->
+<div class="lstlisting" id="listing-29"><span class="label"><a 
+ id="x8-35007r1"></a></span>$&#x00A0;ls&#x00A0;<br /><span class="label"><a 
+ id="x8-35008r2"></a></span>knave&#x00A0;knave2&#x00A0;&#x00A0;queen&#x00A0;<br /><span class="label"><a 
+ id="x8-35009r3"></a></span>$&#x00A0;rm&#x00A0;knave2&#x00A0;<br /><span class="label"><a 
+ id="x8-35010r4"></a></span>$&#x00A0;ls&#x00A0;<br /><span class="label"><a 
+ id="x8-35011r5"></a></span>knave&#x00A0;queen
+</div>
+<!--l. 1150--><p class="noindent" >Note that the file will be silently removed. If you want add confirmation to it, use the <span 
+class="cmtt-10x-x-109">-i</span>
+option:
+</p>
+<!--l. 1153-->
+<div class="lstlisting" id="listing-30"><span class="label"><a 
+ id="x8-35012r1"></a></span>$&#x00A0;ls&#x00A0;<br /><span class="label"><a 
+ id="x8-35013r2"></a></span>knave&#x00A0;&#x00A0;knave2&#x00A0;&#x00A0;queen&#x00A0;<br /><span class="label"><a 
+ id="x8-35014r3"></a></span>$&#x00A0;cp&#x00A0;<span 
+class="cmsy-10x-x-109">&minus;</span>i&#x00A0;knave&#x00A0;knave2&#x00A0;<br /><span class="label"><a 
+ id="x8-35015r4"></a></span>cp:&#x00A0;overwrite&#x00A0;&#8216;knave2&#8217;?&#x00A0;y
+</div>
+<!--l. 1160--><p class="noindent" >
+</p>
+<h5 class="subsubsectionHead"><span class="titlemark">4.1.4   </span> <a 
+ id="x8-360004.1.4"></a>Content of a file</h5>
+<!--l. 1162--><p class="noindent" >To look at the content of a file byte-by-byte you take a &#8217;dump&#8217;. The original Unix program
+for this is <span 
+class="cmtt-10x-x-109">od </span>(octal dump). It was common those days to work in the octal (base 8)
+system!
+</p>
+<!--l. 1166-->
+<div class="lstlisting" id="listing-31"><span class="label"><a 
+ id="x8-36001r1"></a></span>$&#x00A0;od&#x00A0;knave&#x00A0;<br /><span class="label"><a 
+ id="x8-36002r2"></a></span>0000000&#x00A0;062163&#x00A0;005146&#x00A0;066040&#x00A0;066154&#x00A0;000012&#x00A0;<br /><span class="label"><a 
+ id="x8-36003r3"></a></span>0000011&#x00A0;<br /><span class="label"><a 
+ id="x8-36004r4"></a></span>$&#x00A0;od&#x00A0;<span 
+class="cmsy-10x-x-109">&minus;</span>h&#x00A0;knave&#x00A0;<br /><span class="label"><a 
+ id="x8-36005r5"></a></span>0000000&#x00A0;6473&#x00A0;0a66&#x00A0;6c20&#x00A0;6c6c&#x00A0;000a&#x00A0;<br /><span class="label"><a 
+ id="x8-36006r6"></a></span>0000011&#x00A0;<br /><span class="label"><a 
+ id="x8-36007r7"></a></span>$&#x00A0;od&#x00A0;<span 
+class="cmsy-10x-x-109">&minus;</span>c&#x00A0;knave&#x00A0;<br /><span class="label"><a 
+ id="x8-36008r8"></a></span>0000000&#x00A0;&#x00A0;&#x00A0;s&#x00A0;&#x00A0;&#x00A0;d&#x00A0;&#x00A0;&#x00A0;f&#x00A0;&#x00A0;<span 
+class="cmsy-10x-x-109">\</span>n&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;l&#x00A0;&#x00A0;&#x00A0;l&#x00A0;&#x00A0;&#x00A0;l&#x00A0;&#x00A0;<span 
+class="cmsy-10x-x-109">\</span>n&#x00A0;<br /><span class="label"><a 
+ id="x8-36009r9"></a></span>0000011
+</div>
+<!--l. 1178--><p class="noindent" >The example above demonstrates that the default behaviour of <span 
+class="cmtt-10x-x-109">od </span>could be changed by using
+options: <span 
+class="cmtt-10x-x-109">-h </span>(hexadecimal), <span 
+class="cmtt-10x-x-109">-c </span>(ASCII character).
+</p><!--l. 1182--><p class="noindent" >There is another command which is often abused to display the content of text files. It is the <span 
+class="cmtt-10x-x-109">cat</span>
+(concatenate, to join) command, which was originally meant to join two or more files
+in to one. But you can just make it print the content of files by giving their names as
+arguments:
+</p>
+<!--l. 1188-->
+<div class="lstlisting" id="listing-32"><span class="label"><a 
+ id="x8-36010r1"></a></span>$&#x00A0;cat&#x00A0;queen&#x00A0;<br /><span class="label"><a 
+ id="x8-36011r2"></a></span>The&#x00A0;Queen&#x00A0;of&#x00A0;Hearts,&#x00A0;<br /><span class="label"><a 
+ id="x8-36012r3"></a></span>she&#x00A0;made&#x00A0;some&#x00A0;tarts,
+</div>
+                                                                                    
+
+                                                                                    
+<!--l. 1194--><p class="noindent" >Print <span 
+class="cmtt-10x-x-109">knave </span>too. How do you print the full poem out of them?
+</p><!--l. 1196--><p class="noindent" >
+</p>
+<h4 class="subsectionHead"><span class="titlemark">4.2   </span> <a 
+ id="x8-370004.2"></a>Handling directories</h4>
+<!--l. 1198--><p class="noindent" >
+</p>
+<h5 class="subsubsectionHead"><span class="titlemark">4.2.1   </span> <a 
+ id="x8-380004.2.1"></a>Absolute paths</h5>
+<!--l. 1200--><p class="noindent" >When you are logged in to a shell, you are always &#8220;in&#8221; some directory called <span 
+class="cmti-10x-x-109">current</span>
+<span 
+class="cmti-10x-x-109">directory </span>or <span 
+class="cmti-10x-x-109">working directory</span>. The <span 
+class="cmtt-10x-x-109">pwd </span>(print the name of working directory) command
+tells you where you are. Immediately after log in, you begin the session in your home
+directory:
+</p>
+<!--l. 1206-->
+<div class="lstlisting" id="listing-33"><span class="label"><a 
+ id="x8-38001r1"></a></span>$&#x00A0;pwd&#x00A0;<br /><span class="label"><a 
+ id="x8-38002r2"></a></span>/home/e00000&#x00A0;<br /><span class="label"><a 
+ id="x8-38003r3"></a></span>$&#x00A0;echo&#x00A0;$HOME&#x00A0;<br /><span class="label"><a 
+ id="x8-38004r4"></a></span>/home/e00000
+</div>
+<!--l. 1213--><p class="noindent" >The <span 
+class="cmtt-10x-x-109">cd </span>(change directory) command changes the current directory to the directory specified:
+</p>
+<!--l. 1216-->
+<div class="lstlisting" id="listing-34"><span class="label"><a 
+ id="x8-38005r1"></a></span>$&#x00A0;pwd&#x00A0;<br /><span class="label"><a 
+ id="x8-38006r2"></a></span>/home/e00000&#x00A0;<br /><span class="label"><a 
+ id="x8-38007r3"></a></span>$&#x00A0;cd&#x00A0;/usr/bin&#x00A0;<br /><span class="label"><a 
+ id="x8-38008r4"></a></span>$&#x00A0;pwd&#x00A0;<br /><span class="label"><a 
+ id="x8-38009r5"></a></span>/usr/bin
+</div>
+<!--l. 1224--><p class="noindent" >Paths to directories in the examples above always started with a /, the &#8217;root&#8217;, which is the
+beginning of a Unix file system. Such paths are therefore called absolute pathes.
+</p><!--l. 1228--><p class="noindent" >Now to come back to your home, you can of course enter &#8217;cd /home/e00000&#8217;. But that kind of
+typing is prohibitive. Unix allows many short cuts. For example just <span 
+class="cmtt-10x-x-109">cd </span>without any arguments
+takes you to your home.
+</p><!--l. 1232--><p class="noindent" >Another short cut is the hyphen: &#8217;cd -&#8217; takes you to the previous directory you were in. Try them
+out!
+</p><!--l. 1236--><p class="noindent" >
+</p>
+<h5 class="subsubsectionHead"><span class="titlemark">4.2.2   </span> <a 
+ id="x8-390004.2.2"></a>Relative paths</h5>
+                                                                                    
+
+                                                                                    
+<!--l. 1238--><p class="noindent" >The <span 
+class="cmtt-10x-x-109">cd </span>command also allows relative paths. For example, let&#8217;s assume that you are in /usr. Then
+change to /usr/bin it is enough to type <span 
+class="cmtt-10x-x-109">cd bin </span>because the directory bin is where you
+&#8220;stand&#8221;.
+</p>
+<!--l. 1242-->
+<div class="lstlisting" id="listing-35"><span class="label"><a 
+ id="x8-39001r1"></a></span>$&#x00A0;cd&#x00A0;/usr&#x00A0;<br /><span class="label"><a 
+ id="x8-39002r2"></a></span>$&#x00A0;pwd&#x00A0;<br /><span class="label"><a 
+ id="x8-39003r3"></a></span>/usr&#x00A0;<br /><span class="label"><a 
+ id="x8-39004r4"></a></span>$&#x00A0;cd&#x00A0;bin&#x00A0;<br /><span class="label"><a 
+ id="x8-39005r5"></a></span>$&#x00A0;pwd&#x00A0;<br /><span class="label"><a 
+ id="x8-39006r6"></a></span>/usr/bin
+</div>
+<!--l. 1251--><p class="noindent" >In every directory, except in the root, there is a special directory with the symbol &#8217;<span 
+class="cmtt-10x-x-109">..</span>&#8217; (two dots)
+which points to the directory above it, the so called parent directory. For example to go back to
+/usr from /usr/bin, you could do <span 
+class="cmtt-10x-x-109">cd ..</span>:
+</p>
+<!--l. 1256-->
+<div class="lstlisting" id="listing-36"><span class="label"><a 
+ id="x8-39007r1"></a></span>$&#x00A0;pwd&#x00A0;<br /><span class="label"><a 
+ id="x8-39008r2"></a></span>/usr/bin&#x00A0;<br /><span class="label"><a 
+ id="x8-39009r3"></a></span>$&#x00A0;cd&#x00A0;..&#x00A0;<br /><span class="label"><a 
+ id="x8-39010r4"></a></span>$&#x00A0;pwd&#x00A0;<br /><span class="label"><a 
+ id="x8-39011r5"></a></span>/usr
+</div>
+<!--l. 1264--><p class="noindent" >Another short cut to remember is the &#8217;<img 
+src="unixone6x.png" alt="~  "  class="tilde"  />&#8217; (tilde), which denotes your home directory. More
+interestingly, <img 
+src="unixone7x.png" alt="&#x02DC;  "  class="tilde"  /><span 
+class="cmitt-10x-x-109">loginname </span>stands for the home directory of the user <span 
+class="cmti-10x-x-109">loginname</span>. Try changing to
+the home directories of others!
+</p><!--l. 1269--><p class="noindent" >Note for the experts: Don&#8217;t close your home directories for others yet. That&#8217;ll take the fun out of
+the game!
+</p><!--l. 1272--><p class="noindent" >
+</p>
+<h5 class="subsubsectionHead"><span class="titlemark">4.2.3   </span> <a 
+ id="x8-400004.2.3"></a>Creating, moving and deleting directories</h5>
+<!--l. 1274--><p class="noindent" >The <span 
+class="cmtt-10x-x-109">mkdir </span>(make directory) command is used to create directories:
+</p>
+<!--l. 1276-->
+<div class="lstlisting" id="listing-37"><span class="label"><a 
+ id="x8-40001r1"></a></span>$&#x00A0;mkdir&#x00A0;progs&#x00A0;<br /><span class="label"><a 
+ id="x8-40002r2"></a></span>$&#x00A0;ls&#x00A0;<br /><span class="label"><a 
+ id="x8-40003r3"></a></span>knave&#x00A0;&#x00A0;progs&#x00A0;&#x00A0;queen&#x00A0;<br /><span class="label"><a 
+ id="x8-40004r4"></a></span>$&#x00A0;ls&#x00A0;<span 
+class="cmsy-10x-x-109">&minus;</span>F&#x00A0;<br /><span class="label"><a 
+ id="x8-40005r5"></a></span>knave&#x00A0;&#x00A0;progs/&#x00A0;&#x00A0;queen
+</div>
+<!--l. 1284--><p class="noindent" >The previous example shows that the command <span 
+class="cmtt-10x-x-109">ls </span>alone would not mark directories differently.
+The option <span 
+class="cmtt-10x-x-109">-F </span>prints a slash behind directory names. (OK, in RasPi color is activated. Remember,
+the shell should also work on monochrome monitors!)
+</p><!--l. 1289--><p class="noindent" >You can move directories, just like files: </p><!--l. 1290-->
+<div class="lstlisting" id="listing-38"><span class="label"><a 
+ id="x8-40006r1"></a></span>$&#x00A0;mkdir&#x00A0;progs&#x00A0;<br /><span class="label"><a 
+ id="x8-40007r2"></a></span>$&#x00A0;mv&#x00A0;progs&#x00A0;/tmp&#x00A0;<br /><span class="label"><a 
+ id="x8-40008r3"></a></span>knave&#x00A0;&#x00A0;progs&#x00A0;&#x00A0;queen&#x00A0;<br /><span class="label"><a 
+ id="x8-40009r4"></a></span>$&#x00A0;ls&#x00A0;<span 
+class="cmsy-10x-x-109">&minus;</span>F&#x00A0;<br /><span class="label"><a 
+ id="x8-40010r5"></a></span>knave&#x00A0;&#x00A0;progs/&#x00A0;&#x00A0;queen
+                                                                                    
+
+                                                                                    
+</div>
+<!--l. 1299--><p class="noindent" >The <span 
+class="cmtt-10x-x-109">rmdir </span>(remove directory) command removes the dirctory specified as an argument to
+it:
+</p>
+<!--l. 1302-->
+<div class="lstlisting" id="listing-39"><span class="label"><a 
+ id="x8-40011r1"></a></span>$&#x00A0;ls&#x00A0;<span 
+class="cmsy-10x-x-109">&minus;</span>F&#x00A0;<br /><span class="label"><a 
+ id="x8-40012r2"></a></span>knave&#x00A0;&#x00A0;progs/&#x00A0;&#x00A0;queen&#x00A0;<br /><span class="label"><a 
+ id="x8-40013r3"></a></span>$&#x00A0;rmdir&#x00A0;progs&#x00A0;<br /><span class="label"><a 
+ id="x8-40014r4"></a></span>OR&#x00A0;<br /><span class="label"><a 
+ id="x8-40015r5"></a></span>$&#x00A0;rmdir&#x00A0;progs&#x00A0;<br /><span class="label"><a 
+ id="x8-40016r6"></a></span>rmdir:&#x00A0;failed&#x00A0;to&#x00A0;remove&#x00A0;&#8216;progs&#8217;:&#x00A0;Directory&#x00A0;not&#x00A0;empty&#x00A0;<br /><span class="label"><a 
+ id="x8-40017r7"></a></span>$&#x00A0;rmdir&#x00A0;<span 
+class="cmsy-10x-x-109">&minus;</span>rf&#x00A0;progs&#x00A0;<br /><span class="label"><a 
+ id="x8-40018r8"></a></span>$&#x00A0;ls&#x00A0;<br /><span class="label"><a 
+ id="x8-40019r9"></a></span>knave&#x00A0;&#x00A0;queen
+</div>
+<!--l. 1315--><p class="noindent" >
+</p>
+<h4 class="subsectionHead"><span class="titlemark">4.3   </span> <a 
+ id="x8-410004.3"></a>Assignment for the week</h4>
+<!--l. 1316--><p class="noindent" >The agents of a call center were maintaining there logs by throwing all their log files in to a single
+directory. Each agent had his own way of naming files. You have the job of bringing order in to this.
+Your proposed solution is the hierarchial directory structure: the top directory, called <span 
+class="cmtt-10x-x-109">calls</span>, will
+have subdirectories <span 
+class="cmtt-10x-x-109">tech </span>(the tech team), <span 
+class="cmtt-10x-x-109">sales </span>(the sales team), etc. Within those team
+directories the agents will have their own directories, named after their IDs, say <span 
+class="cmtt-10x-x-109">anula</span>, <span 
+class="cmtt-10x-x-109">saman</span>,
+...
+</p><!--l. 1325--><p class="noindent" >Assignment: </p>
+     <ul class="itemize1">
+     <li class="itemize">Crete the top directory <span 
+class="cmtt-10x-x-109">calls </span>in your home.
+     </li>
+     <li class="itemize">Under <span 
+class="cmtt-10x-x-109">calls </span>create the directory <span 
+class="cmtt-10x-x-109">tech</span>.
+     </li>
+     <li class="itemize">Inside <span 
+class="cmtt-10x-x-109">tech </span>create the directories <span 
+class="cmtt-10x-x-109">anula </span>and <span 
+class="cmtt-10x-x-109">saman</span>.
+     </li>
+     <li class="itemize">Inside <span 
+class="cmtt-10x-x-109">anula </span>create two empty files <span 
+class="cmtt-10x-x-109">jan </span>and <span 
+class="cmtt-10x-x-109">feb</span>.</li></ul>
+<!--l. 1337--><p class="noindent" >Submission: Make a record of all the commands you issued in you practice Unix to the assignment
+tool in Moodle so that you will have clear record like in the examples in the lecture note.
+Also add your comments to the right of the commands. Your solution finally look like
+this:
+</p>
+<!--l. 1343-->
+<div class="lstlisting" id="listing-40"><span class="label"><a 
+ id="x8-41001r1"></a></span>$&#x00A0;cd&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;#&#x00A0;change&#x00A0;to&#x00A0;my&#x00A0;home&#x00A0;<br /><span class="label"><a 
+ id="x8-41002r2"></a></span>$&#x00A0;mkdir&#x00A0;...&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;#&#x00A0;create&#x00A0;...&#x00A0;<br /><span class="label"><a 
+ id="x8-41003r3"></a></span>$&#x00A0;cd&#x00A0;...&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;#&#x00A0;change&#x00A0;to&#x00A0;...&#x00A0;<br /><span class="label"><a 
+ id="x8-41004r4"></a></span>...
+</div>
+                                                                                    
+
+                                                                                    
+<!--l. 1351--><p class="noindent" >
+</p>
+<h4 class="likesubsectionHead"><a 
+ id="x8-420004.3"></a>Summary</h4>
+<!--l. 1353--><p class="noindent" >You have learned the meaning and the basic usage of the following commands:
+</p>
+     <ul class="itemize1">
+     <li class="itemize"><span 
+class="cmtt-10x-x-109">ls </span>(list)
+     </li>
+     <li class="itemize"><span 
+class="cmtt-10x-x-109">od </span>(octal dump)
+     </li>
+     <li class="itemize"><span 
+class="cmtt-10x-x-109">cat </span>(concatenate)
+     </li>
+     <li class="itemize"><span 
+class="cmtt-10x-x-109">cp </span>(copy)
+     </li>
+     <li class="itemize"><span 
+class="cmtt-10x-x-109">mv </span>(move)
+     </li>
+     <li class="itemize"><span 
+class="cmtt-10x-x-109">rm </span>(remove)
+     </li>
+     <li class="itemize"><span 
+class="cmtt-10x-x-109">pwd </span>(print working directory)
+     </li>
+     <li class="itemize"><span 
+class="cmtt-10x-x-109">cd </span>(change directory)
+     </li>
+     <li class="itemize"><span 
+class="cmtt-10x-x-109">mkdir </span>(mkdir)
+     </li>
+     <li class="itemize"><span 
+class="cmtt-10x-x-109">rmdir </span>(remove diectroy)</li></ul>
+<!--l. 1369--><p class="noindent" >
+                                                                                    
+
+                                                                                    
+                                                                                    
+
+                                                                                    
+</p>
+<!--l. 1372--><div class="crosslinks"><p class="noindent">[<a 
+href="unixonese5.html" >next</a>] [<a 
+href="unixonese3.html" >prev</a>] [<a 
+href="unixonese3.html#tailunixonese3.html" >prev-tail</a>] [<a 
+href="unixonese4.html" >front</a>] [<a 
+href="unixone.html#unixonese4.html" >up</a>] </p></div>
+<!--l. 1372--><p class="noindent" ><a 
+ id="tailunixonese4.html"></a> </p> 
+</body></html> 

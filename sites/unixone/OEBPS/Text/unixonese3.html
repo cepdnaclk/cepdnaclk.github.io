@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="iso-8859-1" ?> 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">  
+<!--http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd-->  
+<html xmlns="http://www.w3.org/1999/xhtml"  
+> 
+<head><title>Getting help from the system itself</title> 
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /> 
+<meta name="generator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)" /> 
+<meta name="originator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)" /> 
+<!-- xhtml,2,info,html --> 
+<meta name="src" content="unixone.tex" /> 
+<meta name="date" content="2017-01-25 21:04:00" /> 
+<link rel="stylesheet" type="text/css" href="unixone1.css" /> 
+</head><body 
+>
+<!--l. 623--><div class="crosslinks"><p class="noindent">[<a 
+href="unixonese4.html" >next</a>] [<a 
+href="unixonese2.html" >prev</a>] [<a 
+href="unixonese2.html#tailunixonese2.html" >prev-tail</a>] [<a 
+href="#tailunixonese3.html">tail</a>] [<a 
+href="unixone.html#unixonese3.html" >up</a>] </p></div>
+<h3 class="sectionHead"><span class="titlemark">3   </span> <a 
+ id="x7-230003"></a>Getting help from the system itself</h3>
+<!--l. 625--><p class="noindent" >In this chapter you&#8217;ll be introduced to: </p>
+     <ul class="itemize1">
+     <li class="itemize">the <span 
+class="cmti-10x-x-109">manual pages </span>and the <span 
+class="cmti-10x-x-109">GNU Info</span>, the two primary documentation systems which
+     should be built into any Unix system
+     </li>
+     <li class="itemize">the  <span 
+class="cmtt-10x-x-109">--help </span>option  provided  by  almost  all  the  command  line  tools  and  the  <span 
+class="cmtt-10x-x-109">help</span>
+     command of the shell
+     </li>
+     <li class="itemize"><span 
+class="cmti-10x-x-109">command completion </span>and <span 
+class="cmti-10x-x-109">command history </span>- two features which greatly simplify your
+     typing.
+     </li></ul>
+<!--l. 638--><p class="noindent" >
+</p>
+<h4 class="subsectionHead"><span class="titlemark">3.1   </span> <a 
+ id="x7-240003.1"></a>The manual pages</h4>
+<!--l. 640--><p class="noindent" >The original <span 
+class="cmti-10x-x-109">UNIX Programmer&#8217;s Manual </span>documents the sytem divided into nine sections: Section
+1 deals with the commands for the end user, the commands we discuss in this course. Incidentally
+games too were a part of the system, section 6 contains information on games. The remaining
+sections handle details which are aimed for the programmer and the system administrator. This
+documentation was always a part of the system.
+</p><!--l. 647--><p class="noindent" >The <span 
+class="cmtt-10x-x-109">man </span>program searches, formats, and displays the information contained in those manual pages.
+Because many topics have a lot of information, output is piped through a terminal pager program
+for convenient viewing one page at a time; at the same time the information is formatted for a good
+visual display. You can call <span 
+class="cmtt-10x-x-109">man </span>just by giving the name of the program which would like to know
+more about. For example:
+</p>
+<!--l. 654-->
+<div class="lstlisting" id="listing-13"><span class="label"><a 
+ id="x7-24001r1"></a></span>$&#x00A0;man&#x00A0;uname&#x00A0;<br /><span class="label"><a 
+ id="x7-24002r2"></a></span>UNAME(1)&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;User&#x00A0;Commands&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;UNAME(1)&#x00A0;<br /><span class="label"><a 
+ id="x7-24003r3"></a></span>&#x00A0;<br /><span class="label"><a 
+ id="x7-24004r4"></a></span>NAME&#x00A0;<br /><span class="label"><a 
+ id="x7-24005r5"></a></span>&#x00A0;&#x00A0;uname&#x00A0;<span 
+class="cmsy-10x-x-109">&minus;</span>&#x00A0;print&#x00A0;system&#x00A0;information&#x00A0;<br /><span class="label"><a 
+ id="x7-24006r6"></a></span>&#x00A0;<br /><span class="label"><a 
+ id="x7-24007r7"></a></span>SYNOPSIS&#x00A0;<br /><span class="label"><a 
+ id="x7-24008r8"></a></span>&#x00A0;&#x00A0;uname&#x00A0;[OPTION]...&#x00A0;<br /><span class="label"><a 
+ id="x7-24009r9"></a></span>&#x00A0;<br /><span class="label"><a 
+ id="x7-24010r10"></a></span>DESCRIPTION&#x00A0;<br /><span class="label"><a 
+ id="x7-24011r11"></a></span>&#x00A0;&#x00A0;Print&#x00A0;certain&#x00A0;system&#x00A0;information.&#x00A0;&#x00A0;With&#x00A0;no&#x00A0;OPTION,&#x00A0;same&#x00A0;as&#x00A0;<span 
+class="cmsy-10x-x-109">&minus;</span>s.&#x00A0;<br /><span class="label"><a 
+ id="x7-24012r12"></a></span>&#x00A0;<br /><span class="label"><a 
+ id="x7-24013r13"></a></span>&#x00A0;&#x00A0;<span 
+class="cmsy-10x-x-109">&minus;</span>a,&#x00A0;<span 
+class="cmsy-10x-x-109">&minus;</span><span 
+class="cmsy-10x-x-109">&minus;</span>all&#x00A0;<br /><span class="label"><a 
+ id="x7-24014r14"></a></span>&#x00A0;&#x00A0;&#x00A0;&#x00A0;print&#x00A0;all&#x00A0;information,&#x00A0;in&#x00A0;the&#x00A0;following&#x00A0;order,&#x00A0;except&#x00A0;omit&#x00A0;<span 
+class="cmsy-10x-x-109">&minus;</span>p&#x00A0;<br /><span class="label"><a 
+ id="x7-24015r15"></a></span>&#x00A0;&#x00A0;&#x00A0;&#x00A0;and&#x00A0;<span 
+class="cmsy-10x-x-109">&minus;</span>i&#x00A0;if&#x00A0;unknown:&#x00A0;<br /><span class="label"><a 
+ id="x7-24016r16"></a></span>&#x00A0;<br /><span class="label"><a 
+ id="x7-24017r17"></a></span>&#x00A0;&#x00A0;<span 
+class="cmsy-10x-x-109">&minus;</span>s,&#x00A0;<span 
+class="cmsy-10x-x-109">&minus;</span><span 
+class="cmsy-10x-x-109">&minus;</span>kernel<span 
+class="cmsy-10x-x-109">&minus;</span>name&#x00A0;<br /><span class="label"><a 
+ id="x7-24018r18"></a></span>&#x00A0;&#x00A0;&#x00A0;&#x00A0;print&#x00A0;the&#x00A0;kernel&#x00A0;name&#x00A0;<br /><span class="label"><a 
+ id="x7-24019r19"></a></span>[...]
+                                                                                    
+
+                                                                                    
+</div>
+<!--l. 676--><p class="noindent" >The output says that the page is from section 1 &#8217;User Commands&#8217; and explains its usage.
+</p><!--l. 679--><p class="noindent" >Note that the man pages have a well defined structure, part of which is listed in next table. Thanks
+to their structure the man pages can be automatically converted to HTML, to book form or to
+graphical help programs. You will encounter them if you continue working in the shell after the
+course, but during this course we expect you to refer the local man pages with the help of
+<span 
+class="cmtt-10x-x-109">man</span>.
+</p>
+<div class="center" 
+>
+<!--l. 686--><p class="noindent" >
+</p>
+<div class="tabular"> <table id="TBL-3" class="tabular" 
+cellspacing="0" cellpadding="0" rules="groups" 
+><colgroup id="TBL-3-1g"><col 
+id="TBL-3-1" /></colgroup><colgroup id="TBL-3-2g"><col 
+id="TBL-3-2" /></colgroup><tr 
+class="hline"><td><hr /></td><td><hr /></td></tr><tr  
+ style="vertical-align:baseline;" id="TBL-3-1-"><td  style="white-space:nowrap; text-align:left;" id="TBL-3-1-1"  
+class="td11">Item              </td><td  style="white-space:nowrap; text-align:left;" id="TBL-3-1-2"  
+class="td11">Description                                                                                </td>
+</tr><tr 
+class="hline"><td><hr /></td><td><hr /></td></tr><tr  
+ style="vertical-align:baseline;" id="TBL-3-2-"><td  style="white-space:nowrap; text-align:left;" id="TBL-3-2-1"  
+class="td11">SYNOPSIS      </td><td  style="white-space:nowrap; text-align:left;" id="TBL-3-2-2"  
+class="td11">Command usage along with the optional and non-optional arguments    </td>
+</tr><tr  
+ style="vertical-align:baseline;" id="TBL-3-3-"><td  style="white-space:nowrap; text-align:left;" id="TBL-3-3-1"  
+class="td11">DESCRIPTION</td><td  style="white-space:nowrap; text-align:left;" id="TBL-3-3-2"  
+class="td11">Details on how to use the command and and explanation of each section</td>
+</tr><tr  
+ style="vertical-align:baseline;" id="TBL-3-4-"><td  style="white-space:nowrap; text-align:left;" id="TBL-3-4-1"  
+class="td11">EXAMPLE      </td><td  style="white-space:nowrap; text-align:left;" id="TBL-3-4-2"  
+class="td11">Examples of how to use the command                                             </td>
+</tr><tr  
+ style="vertical-align:baseline;" id="TBL-3-5-"><td  style="white-space:nowrap; text-align:left;" id="TBL-3-5-1"  
+class="td11">FILES             </td><td  style="white-space:nowrap; text-align:left;" id="TBL-3-5-2"  
+class="td11">Files that have to be available for this command to work                     </td>
+</tr><tr  
+ style="vertical-align:baseline;" id="TBL-3-6-"><td  style="white-space:nowrap; text-align:left;" id="TBL-3-6-1"  
+class="td11">SEE ALSO      </td><td  style="white-space:nowrap; text-align:left;" id="TBL-3-6-2"  
+class="td11">Commands that are similar in purpose                                             </td>
+</tr><tr  
+ style="vertical-align:baseline;" id="TBL-3-7-"><td  style="white-space:nowrap; text-align:left;" id="TBL-3-7-1"  
+class="td11">DIAGNOSTICS</td><td  style="white-space:nowrap; text-align:left;" id="TBL-3-7-2"  
+class="td11">Explanation of error messages                                                        </td>
+</tr><tr  
+ style="vertical-align:baseline;" id="TBL-3-8-"><td  style="white-space:nowrap; text-align:left;" id="TBL-3-8-1"  
+class="td11">WARNINGS     </td><td  style="white-space:nowrap; text-align:left;" id="TBL-3-8-2"  
+class="td11">Things to be careful about when using the command                          </td>
+</tr><tr  
+ style="vertical-align:baseline;" id="TBL-3-9-"><td  style="white-space:nowrap; text-align:left;" id="TBL-3-9-1"  
+class="td11">BUGS             </td><td  style="white-space:nowrap; text-align:left;" id="TBL-3-9-2"  
+class="td11">Known problems and suggested improvements                                   </td>
+</tr><tr 
+class="hline"><td><hr /></td><td><hr /></td></tr><tr  
+ style="vertical-align:baseline;" id="TBL-3-10-"><td  style="white-space:nowrap; text-align:left;" id="TBL-3-10-1"  
+class="td11">              </td>
+</tr></table></div></div>
+<!--l. 704--><p class="noindent" >For reading long manual pages on screen <span 
+class="cmtt-10x-x-109">man </span>delivers them through a pager, which depends on
+the Unix flavour. The pager used in Linux is called <span 
+class="cmtt-10x-x-109">less</span>. You navigate in <span 
+class="cmtt-10x-x-109">less </span>with
+single key strokes: f, Ctrl+f or space bar to scroll page-wise forward or b, Ctrl+b, or
+Shift+space to scroll back and &#8217;q&#8217; for quit. The key &#8217;h&#8217; gives your the the full list of
+commands.
+</p><!--l. 711--><p class="noindent" >Another useful key is <span 
+class="cmtt-10x-x-109">/ </span>(forward slash), the search key. Often all you need to know is what a
+specific option of a command does, for example what &#8217;uname -s&#8217; really means. In such cases just call
+&#8217;man uname&#8217; and then press <span 
+class="cmtt-10x-x-109">/ - s</span>. If the first hit is not the one you were looking for, keep on
+pressing <span 
+class="cmtt-10x-x-109">n </span>(for next).
+</p><!--l. 717--><p class="noindent" >Exercise. Call the man pages of the commands you already know and note down options you find
+interesting. Don&#8217;t forget &#8217;man man&#8217; too!
+</p><!--l. 720--><p class="noindent" >By default the <span 
+class="cmtt-10x-x-109">man </span>command prints only the dedicated page specifically about the topic. You can
+broaden this to view all man pages containing a particular string in their name by using the -f
+option. The following dialog shows that there is only one <span 
+class="cmtt-10x-x-109">date </span>command whereas there are two
+<span 
+class="cmtt-10x-x-109">time </span>commands.
+</p>
+<!--l. 726-->
+<div class="lstlisting" id="listing-14"><span class="label"><a 
+ id="x7-24020r1"></a></span>$&#x00A0;man&#x00A0;<span 
+class="cmsy-10x-x-109">&minus;</span>f&#x00A0;date&#x00A0;<br /><span class="label"><a 
+ id="x7-24021r2"></a></span>date&#x00A0;(1)&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;<span 
+class="cmsy-10x-x-109">&minus;</span>&#x00A0;print&#x00A0;or&#x00A0;set&#x00A0;the&#x00A0;system&#x00A0;date&#x00A0;and&#x00A0;time&#x00A0;<br /><span class="label"><a 
+ id="x7-24022r3"></a></span>$&#x00A0;man&#x00A0;<span 
+class="cmsy-10x-x-109">&minus;</span>f&#x00A0;time&#x00A0;<br /><span class="label"><a 
+ id="x7-24023r4"></a></span>time&#x00A0;(7)&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;<span 
+class="cmsy-10x-x-109">&minus;</span>&#x00A0;overview&#x00A0;of&#x00A0;time&#x00A0;and&#x00A0;timers&#x00A0;<br /><span class="label"><a 
+ id="x7-24024r5"></a></span>time&#x00A0;(2)&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;<span 
+class="cmsy-10x-x-109">&minus;</span>&#x00A0;get&#x00A0;time&#x00A0;in&#x00A0;seconds
+</div>
+<!--l. 734--><p class="noindent" >You select the section of the manual by giving its number as an optin:
+                                                                                    
+
+                                                                                    
+</p>
+<!--l. 736-->
+<div class="lstlisting" id="listing-15"><span class="label"><a 
+ id="x7-24025r1"></a></span>$&#x00A0;man&#x00A0;2&#x00A0;time&#x00A0;<br /><span class="label"><a 
+ id="x7-24026r2"></a></span>TIME(2)&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;Linux&#x00A0;Programmer&#8217;s&#x00A0;Manual&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;TIME(2)&#x00A0;<br /><span class="label"><a 
+ id="x7-24027r3"></a></span>&#x00A0;<br /><span class="label"><a 
+ id="x7-24028r4"></a></span>NAME&#x00A0;<br /><span class="label"><a 
+ id="x7-24029r5"></a></span>&#x00A0;&#x00A0;time&#x00A0;<span 
+class="cmsy-10x-x-109">&minus;</span>&#x00A0;get&#x00A0;time&#x00A0;in&#x00A0;seconds&#x00A0;<br /><span class="label"><a 
+ id="x7-24030r6"></a></span>[...]&#x00A0;<br /><span class="label"><a 
+ id="x7-24031r7"></a></span>&#x00A0;<br /><span class="label"><a 
+ id="x7-24032r8"></a></span>$&#x00A0;man&#x00A0;7&#x00A0;time&#x00A0;<br /><span class="label"><a 
+ id="x7-24033r9"></a></span>TIME(7)&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;Linux&#x00A0;Programmer&#8217;s&#x00A0;Manual&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;TIME(7)&#x00A0;<br /><span class="label"><a 
+ id="x7-24034r10"></a></span>&#x00A0;<br /><span class="label"><a 
+ id="x7-24035r11"></a></span>NAME&#x00A0;<br /><span class="label"><a 
+ id="x7-24036r12"></a></span>&#x00A0;&#x00A0;time&#x00A0;<span 
+class="cmsy-10x-x-109">&minus;</span>&#x00A0;overview&#x00A0;of&#x00A0;time&#x00A0;and&#x00A0;timers&#x00A0;<br /><span class="label"><a 
+ id="x7-24037r13"></a></span>[...]
+</div>
+<!--l. 752--><p class="noindent" >You get the same effect of &#8217;man -f&#8217; by the command <span 
+class="cmtt-10x-x-109">whatis</span>.
+</p>
+<!--l. 754-->
+<div class="lstlisting" id="listing-16"><span class="label"><a 
+ id="x7-24038r1"></a></span>$&#x00A0;whatis&#x00A0;time&#x00A0;<br /><span class="label"><a 
+ id="x7-24039r2"></a></span>time&#x00A0;(7)&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;<span 
+class="cmsy-10x-x-109">&minus;</span>&#x00A0;overview&#x00A0;of&#x00A0;time&#x00A0;and&#x00A0;timers&#x00A0;<br /><span class="label"><a 
+ id="x7-24040r3"></a></span>time&#x00A0;(2)&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;<span 
+class="cmsy-10x-x-109">&minus;</span>&#x00A0;get&#x00A0;time&#x00A0;in&#x00A0;seconds
+</div>
+<!--l. 760--><p class="noindent" >A common problem with the man command is that you need to know the name of the command
+you want to know more about. The -k option broaden the search by including all commands whose
+description contains the search string:
+</p>
+<!--l. 765-->
+<div class="lstlisting" id="listing-17"><span class="label"><a 
+ id="x7-24041r1"></a></span>$&#x00A0;man&#x00A0;<span 
+class="cmsy-10x-x-109">&minus;</span>f&#x00A0;&#x00A0;user&#x00A0;<br /><span class="label"><a 
+ id="x7-24042r2"></a></span>user:&#x00A0;nothing&#x00A0;appropriate.&#x00A0;<br /><span class="label"><a 
+ id="x7-24043r3"></a></span>$&#x00A0;man&#x00A0;<span 
+class="cmsy-10x-x-109">&minus;</span>k&#x00A0;user&#x00A0;<br /><span class="label"><a 
+ id="x7-24044r4"></a></span>adduser.conf&#x00A0;(5)&#x00A0;<span 
+class="cmsy-10x-x-109">&minus;</span>&#x00A0;configuration&#x00A0;file&#x00A0;for&#x00A0;adduser(8)&#x00A0;and&#x00A0;addgroup(8)&#x00A0;<br /><span class="label"><a 
+ id="x7-24045r5"></a></span>deluser.conf&#x00A0;(5)&#x00A0;<span 
+class="cmsy-10x-x-109">&minus;</span>&#x00A0;configuration&#x00A0;file&#x00A0;for&#x00A0;deluser(8)&#x00A0;and&#x00A0;delgroup(8)&#x00A0;<br /><span class="label"><a 
+ id="x7-24046r6"></a></span>[...]
+</div>
+<!--l. 774--><p class="noindent" >The <span 
+class="cmtt-10x-x-109">apropos </span>command is equivalent to &#8217;man -k&#8217;: </p><!--l. 775-->
+<div class="lstlisting" id="listing-18"><span class="label"><a 
+ id="x7-24047r1"></a></span>$&#x00A0;apropos&#x00A0;user&#x00A0;<br /><span class="label"><a 
+ id="x7-24048r2"></a></span>adduser.conf&#x00A0;(5)&#x00A0;<span 
+class="cmsy-10x-x-109">&minus;</span>&#x00A0;configuration&#x00A0;file&#x00A0;for&#x00A0;adduser(8)&#x00A0;and&#x00A0;addgroup(8)&#x00A0;<br /><span class="label"><a 
+ id="x7-24049r3"></a></span>deluser.conf&#x00A0;(5)&#x00A0;<span 
+class="cmsy-10x-x-109">&minus;</span>&#x00A0;configuration&#x00A0;file&#x00A0;for&#x00A0;deluser(8)&#x00A0;and&#x00A0;delgroup(8)&#x00A0;<br /><span class="label"><a 
+ id="x7-24050r4"></a></span>[...]
+</div>
+<!--l. 783--><p class="noindent" >
+</p>
+<h4 class="subsectionHead"><span class="titlemark">3.2   </span> <a 
+ id="x7-250003.2"></a>GNU info</h4>
+<!--l. 786--><p class="noindent" >The GNU Project distributes most of its on-line manuals in the <span 
+class="cmti-10x-x-109">Info format</span>, which is more
+free-form than man pages. Functionally, the GNU Info System resembles <span 
+class="cmtt-10x-x-109">man </span>in many ways.
+However, topics are connected using links (even though its design predates the World Wide Web).
+There are two primary Info readers: the text-based program <span 
+class="cmtt-10x-x-109">info </span>designed just for this purpose and
+the &#8217;info&#8217; package in GNU Emacs, which supports using a mouse. In this course we look at <span 
+class="cmtt-10x-x-109">info</span>
+only.
+</p><!--l. 795--><p class="noindent" >Typing &#8217;info&#8217; in a terminal with no arguments displays an index of the available topics. You can
+browse through the topic list using the regular movement keys: arrows, Page-Up, and
+Page-Down.
+</p><!--l. 799--><p class="noindent" >You can view the documentation for a particular topic by typing &#8217;info <span 
+class="cmsl-10x-x-109">topic</span>&#8217;. The system then
+                                                                                    
+
+                                                                                    
+searches for the <span 
+class="cmsl-10x-x-109">topic </span>in all available info files. Some useful keys are: h for help, and Enter to select
+a menu item and q for quit.
+</p><!--l. 804--><p class="noindent" >The topic which you view in the info page is called a node. Nodes are similar to sections and
+subsections in written documentation. You can move between nodes or view each node sequentially.
+Each node may contain menus and linked subtopics, or items.
+</p><!--l. 809--><p class="noindent" >Items can be compared to Internet hyperlinks. They are identified by an asterisk (*)
+at the beginning of the item name. Named items (outside a menu) are identified with
+double-colons (::) at the end of the item name. Items can refer to other nodes within the
+file or to other files. The folloing table lists the basic keystrokes for moving between
+nodes.
+</p>
+<div class="center" 
+>
+<!--l. 815--><p class="noindent" >
+</p>
+<div class="tabular"> <table id="TBL-4" class="tabular" 
+cellspacing="0" cellpadding="0" rules="groups" 
+><colgroup id="TBL-4-1g"><col 
+id="TBL-4-1" /></colgroup><colgroup id="TBL-4-2g"><col 
+id="TBL-4-2" /></colgroup><tr 
+class="hline"><td><hr /></td><td><hr /></td></tr><tr  
+ style="vertical-align:baseline;" id="TBL-4-1-"><td  style="white-space:nowrap; text-align:left;" id="TBL-4-1-1"  
+class="td11">Key</td><td  style="white-space:nowrap; text-align:left;" id="TBL-4-1-2"  
+class="td11">Function                             </td>
+</tr><tr 
+class="hline"><td><hr /></td><td><hr /></td></tr><tr  
+ style="vertical-align:baseline;" id="TBL-4-2-"><td  style="white-space:nowrap; text-align:left;" id="TBL-4-2-1"  
+class="td11">n     </td><td  style="white-space:nowrap; text-align:left;" id="TBL-4-2-2"  
+class="td11">Go to the next node              </td></tr><tr  
+ style="vertical-align:baseline;" id="TBL-4-3-"><td  style="white-space:nowrap; text-align:left;" id="TBL-4-3-1"  
+class="td11">p </td><td  style="white-space:nowrap; text-align:left;" id="TBL-4-3-2"  
+class="td11">Go to the previous node</td>
+</tr><tr  
+ style="vertical-align:baseline;" id="TBL-4-4-"><td  style="white-space:nowrap; text-align:left;" id="TBL-4-4-1"  
+class="td11">u     </td><td  style="white-space:nowrap; text-align:left;" id="TBL-4-4-2"  
+class="td11">Move one node up in the index</td>
+</tr><tr 
+class="hline"><td><hr /></td><td><hr /></td></tr><tr  
+ style="vertical-align:baseline;" id="TBL-4-5-"><td  style="white-space:nowrap; text-align:left;" id="TBL-4-5-1"  
+class="td11">    </td>
+</tr></table></div></div>
+<!--l. 828--><p class="noindent" >
+</p>
+<h4 class="subsectionHead"><span class="titlemark">3.3   </span> <a 
+ id="x7-260003.3"></a>The help option</h4>
+<!--l. 831--><p class="noindent" >The third source of Linux documentation is to use the help option.
+</p><!--l. 833--><p class="noindent" >Most commands have short help screen available which can be viewed using the &#8211;help or the -h
+option along with the command or application. For example, to learn more about the uname
+command, you can run: </p><!--l. 836-->
+<div class="lstlisting" id="listing-19"><span class="label"><a 
+ id="x7-26001r1"></a></span>$&#x00A0;uname&#x00A0;<span 
+class="cmsy-10x-x-109">&minus;</span><span 
+class="cmsy-10x-x-109">&minus;</span>help&#x00A0;<br /><span class="label"><a 
+ id="x7-26002r2"></a></span>Usage:&#x00A0;uname&#x00A0;[OPTION]...&#x00A0;<br /><span class="label"><a 
+ id="x7-26003r3"></a></span>Print&#x00A0;certain&#x00A0;system&#x00A0;information.&#x00A0;With&#x00A0;no&#x00A0;OPTION,&#x00A0;same&#x00A0;as&#x00A0;<span 
+class="cmsy-10x-x-109">&minus;</span>s.&#x00A0;<br /><span class="label"><a 
+ id="x7-26004r4"></a></span>&#x00A0;<br /><span class="label"><a 
+ id="x7-26005r5"></a></span>&#x00A0;&#x00A0;<span 
+class="cmsy-10x-x-109">&minus;</span>a,&#x00A0;<span 
+class="cmsy-10x-x-109">&minus;</span><span 
+class="cmsy-10x-x-109">&minus;</span>all&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;print&#x00A0;all&#x00A0;information,&#x00A0;in&#x00A0;the&#x00A0;following&#x00A0;<br /><span class="label"><a 
+ id="x7-26006r6"></a></span>&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;order,&#x00A0;except&#x00A0;omit&#x00A0;<span 
+class="cmsy-10x-x-109">&minus;</span>p&#x00A0;and&#x00A0;<span 
+class="cmsy-10x-x-109">&minus;</span>i&#x00A0;if&#x00A0;unknown:&#x00A0;<br /><span class="label"><a 
+ id="x7-26007r7"></a></span>&#x00A0;&#x00A0;<span 
+class="cmsy-10x-x-109">&minus;</span>s,&#x00A0;<span 
+class="cmsy-10x-x-109">&minus;</span><span 
+class="cmsy-10x-x-109">&minus;</span>kernel<span 
+class="cmsy-10x-x-109">&minus;</span>name&#x00A0;&#x00A0;&#x00A0;&#x00A0;print&#x00A0;the&#x00A0;kernel&#x00A0;name&#x00A0;<br /><span class="label"><a 
+ id="x7-26008r8"></a></span>&#x00A0;&#x00A0;<span 
+class="cmsy-10x-x-109">&minus;</span>n,&#x00A0;<span 
+class="cmsy-10x-x-109">&minus;</span><span 
+class="cmsy-10x-x-109">&minus;</span>nodename&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;print&#x00A0;the&#x00A0;network&#x00A0;node&#x00A0;hostname&#x00A0;<br /><span class="label"><a 
+ id="x7-26009r9"></a></span>[...]
+</div>
+<!--l. 848--><p class="noindent" >The help option is useful as a quick reference and it displays information faster than the man or
+info pages.
+</p><!--l. 852--><p class="noindent" >
+</p>
+<h4 class="subsectionHead"><span class="titlemark">3.4   </span> <a 
+ id="x7-270003.4"></a>The <span 
+class="cmtt-10x-x-109">help </span>command</h4>
+                                                                                    
+
+                                                                                    
+<!--l. 854--><p class="noindent" >Some popular shell commands (such as echo) silently run their own built-in versions of system
+programs or utilities, because it is more efficient to do so. To view a synopsis of these built-in
+commands, you can use the <span 
+class="cmtt-10x-x-109">help </span>command of the shell.
+</p>
+<!--l. 859-->
+<div class="lstlisting" id="listing-20"><span class="label"><a 
+ id="x7-27001r1"></a></span>$&#x00A0;help&#x00A0;time&#x00A0;<br /><span class="label"><a 
+ id="x7-27002r2"></a></span>time:&#x00A0;time&#x00A0;[<span 
+class="cmsy-10x-x-109">&minus;</span>p]&#x00A0;pipeline&#x00A0;<br /><span class="label"><a 
+ id="x7-27003r3"></a></span>&#x00A0;Report&#x00A0;time&#x00A0;consumed&#x00A0;by&#x00A0;pipeline&#8217;s&#x00A0;execution.&#x00A0;<br /><span class="label"><a 
+ id="x7-27004r4"></a></span>&#x00A0;<br /><span class="label"><a 
+ id="x7-27005r5"></a></span>&#x00A0;Execute&#x00A0;PIPELINE&#x00A0;and&#x00A0;print&#x00A0;a&#x00A0;summary&#x00A0;of&#x00A0;the&#x00A0;real&#x00A0;time,&#x00A0;user&#x00A0;<br /><span class="label"><a 
+ id="x7-27006r6"></a></span>&#x00A0;CPU&#x00A0;time,&#x00A0;and&#x00A0;system&#x00A0;CPU&#x00A0;time&#x00A0;spent&#x00A0;executing&#x00A0;PIPELINE&#x00A0;when&#x00A0;<br /><span class="label"><a 
+ id="x7-27007r7"></a></span>&#x00A0;it&#x00A0;terminates.&#x00A0;<br /><span class="label"><a 
+ id="x7-27008r8"></a></span>&#x00A0;<br /><span class="label"><a 
+ id="x7-27009r9"></a></span>&#x00A0;Options:&#x00A0;<br /><span class="label"><a 
+ id="x7-27010r10"></a></span>&#x00A0;&#x00A0;&#x00A0;<span 
+class="cmsy-10x-x-109">&minus;</span>p&#x00A0;&#x00A0;print&#x00A0;the&#x00A0;timing&#x00A0;summary&#x00A0;in&#x00A0;the&#x00A0;portable&#x00A0;Posix&#x00A0;format&#x00A0;<br /><span class="label"><a 
+ id="x7-27011r11"></a></span>[...]
+</div>
+<!--l. 873--><p class="noindent" >To get a list of the available topics, just run <span 
+class="cmtt-10x-x-109">help</span>. For these built-in commands, help performs the
+same basic function as the -h and &#8211;help arguments (which we will discuss shortly) perform for
+stand-alone programs.
+</p><!--l. 879--><p class="noindent" >
+</p>
+<h4 class="subsectionHead"><span class="titlemark">3.5   </span> <a 
+ id="x7-280003.5"></a>Command completion, command history</h4>
+<!--l. 882--><p class="noindent" >Most of the Unix shells have a feature called <span 
+class="cmti-10x-x-109">command completion</span>. If for example you know only
+the beginning of a command, let&#8217;s say &#8217;up&#8217; for &#8217;uptime&#8217;, you can type &#8217;up&#8217; and then press the
+Tab-key. Since there are many commands which starts with &#8217;up&#8217; the shell will not react. Press
+the Tab-kay a second time and it will list all the available commands which start with
+&#8217;up&#8217;.
+</p><!--l. 889--><p class="noindent" >On the other hand, if what you typed unique, the shell will immediately complete the command
+once you press the Tab-kay.
+</p><!--l. 892--><p class="noindent" >The same thing with file names. You can start typing a file name and then press Tab for the shell to
+complete it.
+</p><!--l. 895--><p class="noindent" >Another very useful feature to minimize typing is the command history. In its simplest
+form, just press the Up-arrow for the shell to bring the stack of previous commands
+one-by-one.
+</p><!--l. 899--><p class="noindent" >
+</p>
+<h4 class="subsectionHead"><span class="titlemark">3.6   </span> <a 
+ id="x7-290003.6"></a>Assignment for the week</h4>
+<!--l. 900--><p class="noindent" >Take the test in the course platform: </p>
+     <ul class="itemize1">
+     <li class="itemize">All the MC questions have a single correct answer.
+     </li>
+     <li class="itemize">The fill-in fields expect a single word, the case (simple or capitol) is important.
+     </li>
+                                                                                    
+
+                                                                                    
+     <li class="itemize">There is no time limit for the test.
+     </li>
+     <li class="itemize">You have three attempts. The best score counts.</li></ul>
+<!--l. 909--><p class="noindent" >Allowed material: You are allowed to consult only the course lecture note and the help built in to
+the shell of the Raspberry Pi you are working in.
+</p><!--l. 912--><p class="noindent" >Hint: You can open two terminals to your training computer at the same time. In one
+you can consult the built-in documentation and in the other test your answers to the
+questions.
+</p><!--l. 916--><p class="noindent" >
+</p>
+<h4 class="likesubsectionHead"><a 
+ id="x7-300003.6"></a>Summary</h4>
+     <ul class="itemize1">
+     <li class="itemize">The  main  sources  of  Linux  documentation  are  the  manual  pages,  the  GNU  Info
+     documents, the &#8211;help option and the <span 
+class="cmtt-10x-x-109">help </span>command.
+     </li>
+     <li class="itemize">The <span 
+class="cmtt-10x-x-109">man </span>utility searches, formats, and displays man pages.
+     </li>
+     <li class="itemize">The manual pages provide in-depth documentation about programs and other topics
+     about the system including configuration files, system calls, library routines, and the
+     kernel.
+     </li>
+     <li class="itemize">The GNU Info is the starndard documentation system of the GNU project. Its nodes
+     are hyperlinked and accessible via command line, web, and graphical tools using Info.
+     </li>
+     <li class="itemize">Short descriptions for commands are usually displayed with the &#8211;help argument.
+     </li>
+     <li class="itemize">The <span 
+class="cmtt-10x-x-109">help </span>command displays a synopsis of the commands built-in to the shell.
+     </li>
+     <li class="itemize">The Tab-key and the Up-arrow greatly simplfy the typing: the former auto-completes
+     program and file names, the latter brings up previous commands from the command
+     buffer.
+     </li></ul>
+<!--l. 944--><p class="noindent" >
+                                                                                    
+
+                                                                                    
+                                                                                    
+
+                                                                                    
+</p>
+<!--l. 947--><div class="crosslinks"><p class="noindent">[<a 
+href="unixonese4.html" >next</a>] [<a 
+href="unixonese2.html" >prev</a>] [<a 
+href="unixonese2.html#tailunixonese2.html" >prev-tail</a>] [<a 
+href="unixonese3.html" >front</a>] [<a 
+href="unixone.html#unixonese3.html" >up</a>] </p></div>
+<!--l. 947--><p class="noindent" ><a 
+ id="tailunixonese3.html"></a> </p> 
+</body></html> 
