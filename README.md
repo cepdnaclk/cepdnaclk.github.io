@@ -10,37 +10,50 @@ The source code is hosted at [https://github.com/cepdnaclk/cepdnaclk.github.io](
 
 None: ~~Striked through~~ links do not lead to a landing page.
 
-* [~~https://cepdnaclk.github.io/fieldselection~~](https://cepdnaclk.github.io/fieldselection/)
-	* [https://cepdnaclk.github.io/fieldselection/2016](https://cepdnaclk.github.io/fieldselection/2016/)
-	* [https://cepdnaclk.github.io/fieldselection/2017](https://cepdnaclk.github.io/fieldselection/2017/)
-	* [https://cepdnaclk.github.io/fieldselection/2018](https://cepdnaclk.github.io/fieldselection/2018/)
-	* [https://cepdnaclk.github.io/fieldselection/2019](https://cepdnaclk.github.io/fieldselection/2019/)
-* [~~https://cepdnaclk.github.io/marks~~](https://cepdnaclk.github.io/marks/)
-	* [~~https://cepdnaclk.github.io/marks/CO221/~~](https://cepdnaclk.github.io/marks/CO221/)
-		* [https://cepdnaclk.github.io/marks/CO221/2016/](https://cepdnaclk.github.io/marks/CO221/2016/)
-	* [~~https://cepdnaclk.github.io/marks/CO222/~~](https://cepdnaclk.github.io/marks/CO222/)
-		* [https://cepdnaclk.github.io/marks/CO222/2016/](https://cepdnaclk.github.io/marks/CO222/2016/)
-		* [https://cepdnaclk.github.io/marks/CO222/2017/](https://cepdnaclk.github.io/marks/CO222/2017/)
-		* [https://cepdnaclk.github.io/marks/CO222/2018/](https://cepdnaclk.github.io/marks/CO222/2018/)
-		* [https://cepdnaclk.github.io/marks/CO222/2020/](https://cepdnaclk.github.io/marks/CO222/2020/)
-	* [~~https://cepdnaclk.github.io/marks/CO224/~~](https://cepdnaclk.github.io/marks/CO224/)
-		* [https://cepdnaclk.github.io/marks/CO224/2015/](https://cepdnaclk.github.io/marks/CO224/2015/)
-	* [~~https://cepdnaclk.github.io/marks/CO321/~~](https://cepdnaclk.github.io/marks/CO321/)
-		* [https://cepdnaclk.github.io/marks/CO321/2015/](https://cepdnaclk.github.io/marks/CO321/2015/)
-* [~~https://cepdnaclk.github.io/projects/~~](https://cepdnaclk.github.io/projects/)
-	* [~~https://cepdnaclk.github.io/projects/finalyear/~~](https://cepdnaclk.github.io/projects/finalyear/)
-		* [https://cepdnaclk.github.io/projects/finalyear/2008/](https://cepdnaclk.github.io/projects/finalyear/2008/)
-		* [https://cepdnaclk.github.io/projects/finalyear/2009/](https://cepdnaclk.github.io/projects/finalyear/2009/)
-		* [https://cepdnaclk.github.io/projects/finalyear/2010/](https://cepdnaclk.github.io/projects/finalyear/2010/)
-		* [https://cepdnaclk.github.io/projects/finalyear/2015/](https://cepdnaclk.github.io/projects/finalyear/2015/)
-* [https://cepdnaclk.github.io/results/](https://cepdnaclk.github.io/results/)
+* [https://cepdnaclk.github.io/maintenance/](https://cepdnaclk.github.io/maintenance/)
+
+
 * [~~https://cepdnaclk.github.io/sites/~~](https://cepdnaclk.github.io/sites/)
+
 	* [https://cepdnaclk.github.io/sites/config/](https://cepdnaclk.github.io/sites/config/)
+
 	* [https://cepdnaclk.github.io/sites/escal/](https://cepdnaclk.github.io/sites/escal/)
+	
+	* [~~https://cepdnaclk.github.io/sites/fieldselection~~](https://cepdnaclk.github.io/sites/fieldselection/)
+		* [https://cepdnaclk.github.io/sites/fieldselection/2016](https://cepdnaclk.github.io/sites/fieldselection/2016/)
+		* [https://cepdnaclk.github.io/sites/fieldselection/2017](https://cepdnaclk.github.io/sites/fieldselection/2017/)
+		* [https://cepdnaclk.github.io/sites/fieldselection/2018](https://cepdnaclk.github.io/sites/fieldselection/2018/)
+		* [https://cepdnaclk.github.io/sites/fieldselection/2019](https://cepdnaclk.github.io/sites/fieldselection/2019/)
+	
+	* [~~https://cepdnaclk.github.io/sites/marks~~](https://cepdnaclk.github.io/sites/marks/)
+		* [~~https://cepdnaclk.github.io/sites/marks/CO221/~~](https://cepdnaclk.github.io/sites/marks/CO221/)
+			* [https://cepdnaclk.github.io/sites/marks/CO221/2016/](https://cepdnaclk.github.io/sites/marks/CO221/2016/)
+		* [~~https://cepdnaclk.github.io/sites/marks/CO222/~~](https://cepdnaclk.github.io/sites/marks/CO222/)
+			* [https://cepdnaclk.github.io/sites/marks/CO222/2016/](https://cepdnaclk.github.io/sites/marks/CO222/2016/)
+			* [https://cepdnaclk.github.io/sites/marks/CO222/2017/](https://cepdnaclk.github.io/sites/marks/CO222/2017/)
+			* [https://cepdnaclk.github.io/sites/marks/CO222/2018/](https://cepdnaclk.github.io/sites/marks/CO222/2018/)
+			* [https://cepdnaclk.github.io/sites/marks/CO222/2020/](https://cepdnaclk.github.io/sites/marks/CO222/2020/)
+		* [~~https://cepdnaclk.github.io/sites/marks/CO224/~~](https://cepdnaclk.github.io/sites/marks/CO224/)
+			* [https://cepdnaclk.github.io/sites/marks/CO224/2015/](https://cepdnaclk.github.io/sites/marks/CO224/2015/)
+		* [~~https://cepdnaclk.github.io/sites/marks/CO321/~~](https://cepdnaclk.github.io/sites/marks/CO321/)
+			* [https://cepdnaclk.github.io/sites/marks/CO321/2015/](https://cepdnaclk.github.io/sites/marks/CO321/2015/)
+	
+	* [~~https://cepdnaclk.github.io/sites/projects/~~](https://cepdnaclk.github.io/sites/projects/)
+		* [~~https://cepdnaclk.github.io/sites/projects/finalyear/~~](https://cepdnaclk.github.io/sites/projects/finalyear/)
+			* [https://cepdnaclk.github.io/sites/projects/finalyear/2008/](https://cepdnaclk.github.io/sites/projects/finalyear/2008/)
+			* [https://cepdnaclk.github.io/sites/projects/finalyear/2009/](https://cepdnaclk.github.io/sites/projects/finalyear/2009/)
+			* [https://cepdnaclk.github.io/sites/projects/finalyear/2010/](https://cepdnaclk.github.io/sites/projects/finalyear/2010/)
+			* [https://cepdnaclk.github.io/sites/projects/finalyear/2015/](https://cepdnaclk.github.io/sites/projects/finalyear/2015/)
+	
+	* [https://cepdnaclk.github.io/sites/results/](https://cepdnaclk.github.io/sites/results/)
+
+	* [https://cepdnaclk.github.io/sites/students/](https://cepdnaclk.github.io/sites/students/)
+
 	* [https://cepdnaclk.github.io/sites/sinhalaocr/](https://cepdnaclk.github.io/sites/sinhalaocr/)
+
 	* [https://cepdnaclk.github.io/sites/tesla/](https://cepdnaclk.github.io/sites/tesla/)
+
 	* [https://cepdnaclk.github.io/sites/unixone/](https://cepdnaclk.github.io/sites/unixone/)
-* [https://cepdnaclk.github.io/students/](https://cepdnaclk.github.io/students/)
 
 
 ## To do
