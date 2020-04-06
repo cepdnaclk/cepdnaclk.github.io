@@ -15,16 +15,16 @@ None: ~~Striked through~~ links do not lead to a landing page.
 
 * [~~https://cepdnaclk.github.io/sites/~~](https://cepdnaclk.github.io/sites/)
 
-	* [https://cepdnaclk.github.io/sites/config/](https://cepdnaclk.github.io/sites/config/)
-
-	* [https://cepdnaclk.github.io/sites/escal/](https://cepdnaclk.github.io/sites/escal/)
-	
 	* [~~https://cepdnaclk.github.io/sites/fieldselection~~](https://cepdnaclk.github.io/sites/fieldselection/)
 		* [https://cepdnaclk.github.io/sites/fieldselection/2016](https://cepdnaclk.github.io/sites/fieldselection/2016/)
 		* [https://cepdnaclk.github.io/sites/fieldselection/2017](https://cepdnaclk.github.io/sites/fieldselection/2017/)
 		* [https://cepdnaclk.github.io/sites/fieldselection/2018](https://cepdnaclk.github.io/sites/fieldselection/2018/)
 		* [https://cepdnaclk.github.io/sites/fieldselection/2019](https://cepdnaclk.github.io/sites/fieldselection/2019/)
-	
+
+	* [~~https://cepdnaclk.github.io/sites/labs~~](https://cepdnaclk.github.io/sites/labs/)
+		* [https://cepdnaclk.github.io/sites/labs/escal/](https://cepdnaclk.github.io/sites/labs/escal/)
+		* [https://cepdnaclk.github.io/sites/labs/tesla/](https://cepdnaclk.github.io/sites/labs/tesla/)
+
 	* [~~https://cepdnaclk.github.io/sites/marks~~](https://cepdnaclk.github.io/sites/marks/)
 		* [~~https://cepdnaclk.github.io/sites/marks/CO221/~~](https://cepdnaclk.github.io/sites/marks/CO221/)
 			* [https://cepdnaclk.github.io/sites/marks/CO221/2016/](https://cepdnaclk.github.io/sites/marks/CO221/2016/)
@@ -37,7 +37,12 @@ None: ~~Striked through~~ links do not lead to a landing page.
 			* [https://cepdnaclk.github.io/sites/marks/CO224/2015/](https://cepdnaclk.github.io/sites/marks/CO224/2015/)
 		* [~~https://cepdnaclk.github.io/sites/marks/CO321/~~](https://cepdnaclk.github.io/sites/marks/CO321/)
 			* [https://cepdnaclk.github.io/sites/marks/CO321/2015/](https://cepdnaclk.github.io/sites/marks/CO321/2015/)
-	
+
+	* [~~https://cepdnaclk.github.io/sites/other/~~](https://cepdnaclk.github.io/sites/other/)
+		* [https://cepdnaclk.github.io/sites/other/config/](https://cepdnaclk.github.io/sites/other/config/)
+		* [https://cepdnaclk.github.io/sites/other/sinhalaocr/](https://cepdnaclk.github.io/sites/other/sinhalaocr/)
+		* [https://cepdnaclk.github.io/sites/other/unixone/](https://cepdnaclk.github.io/sites/other/unixone/)
+
 	* [~~https://cepdnaclk.github.io/sites/projects/~~](https://cepdnaclk.github.io/sites/projects/)
 		* [~~https://cepdnaclk.github.io/sites/projects/finalyear/~~](https://cepdnaclk.github.io/sites/projects/finalyear/)
 			* [https://cepdnaclk.github.io/sites/projects/finalyear/2008/](https://cepdnaclk.github.io/sites/projects/finalyear/2008/)
@@ -49,11 +54,7 @@ None: ~~Striked through~~ links do not lead to a landing page.
 
 	* [https://cepdnaclk.github.io/sites/students/](https://cepdnaclk.github.io/sites/students/)
 
-	* [https://cepdnaclk.github.io/sites/sinhalaocr/](https://cepdnaclk.github.io/sites/sinhalaocr/)
 
-	* [https://cepdnaclk.github.io/sites/tesla/](https://cepdnaclk.github.io/sites/tesla/)
-
-	* [https://cepdnaclk.github.io/sites/unixone/](https://cepdnaclk.github.io/sites/unixone/)
 
 
 ## To do
