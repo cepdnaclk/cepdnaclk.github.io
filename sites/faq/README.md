@@ -8,9 +8,9 @@ The source code from 2015 is avaliable [here](src/). Unfortunately, the MySQL da
 
 This is an attempt to collect a list of frequently asked questions and answers. If you can remember questions from the earlier site or has suggestions for questions that should go into a FAQ site, add them here.
 
-* GETTING STARTED: [**How to add questions to this FAQ list?**](qa/#how-to-add-questions-to-this-faq-list)
+* **GETTING STARTED:** [**How to add questions to this FAQ list?**](qa/#how-to-add-questions-to-this-faq-list)
 * Servers
-    * How to connect to department servers?
+    * [How to connect to department servers?](qa/#How-to-connect-to-department-servers)
 * Wifi
     * What are my Wifi networks and login credentials?
     * How to setup proxy settings in linux based operating systems?
