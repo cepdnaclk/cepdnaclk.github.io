@@ -8,7 +8,7 @@
 5. Send a pull request.
 
 ##### How to connect to department servers?
-Refer to the cewiki article by @DhanushkiMapitigama
+See https://ce-pdn-ac-lk.com/cewiki/server_use:use_of_servers
 
 ##### What are my Wifi networks and login credentials?
 <table>
