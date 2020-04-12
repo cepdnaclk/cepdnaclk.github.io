@@ -1,7 +1,7 @@
 # cepdnaclk.github.io/sites/faq/qa
 
 ##### How to add questions to this FAQ list?
-1. Go to https://github.com/cepdnaclk/cepdnaclk.github.io/blob/master/sites/faq/qa/README.md
+1. Go to [https://github.com/cepdnaclk/cepdnaclk.github.io/blob/master/sites/faq/qa/README.md](https://github.com/cepdnaclk/cepdnaclk.github.io/blob/master/sites/faq/qa/README.md)
 2. Sign in to github.
 3. Fork the repo.
 4. Edit the file. (You may answer an existing question, and a new question or add a new question along with the answer)
