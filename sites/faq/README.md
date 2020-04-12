@@ -2,16 +2,13 @@
 
 ## Source code
 
-The source code from 2015 is avaliable [here](src/). Unfortunately, the MySQL database structure is not found.
-
-To do: Find the mysql database backup and restore the website.
+The source code from 2015 is avaliable [here](src/). Unfortunately, the MySQL database structure is not found. **To do:** Find the mysql database backup and restore the website.
 
 ## List of frequenty asked questions
 
-This is an attempt to list the set of questions and answers from the 2015 implementation. Feel free to contribute to this list. 
+This is an attempt to collect a list of frequently asked questions and answers. If you can remember questions from the earlier site or has suggestions for questions that should go into a FAQ site, add them here.
 
-To do: Move this content to the FAQ site once implemented.
-
+* GETTING STARTED: [**How to add questions to this FAQ list?**](qa/#how-to-add-questions-to-this-faq-list)
 * Servers
     * How to connect to department servers?
 * Wifi
@@ -27,3 +24,4 @@ To do: Move this content to the FAQ site once implemented.
         * How to compile and run ARM assembly code?
 
 
+**To do:** Move this content to the FAQ site once implemented. Move these to the cewiki if we are not going to build a FAQ site.
