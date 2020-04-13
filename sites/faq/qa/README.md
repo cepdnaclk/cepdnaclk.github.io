@@ -53,3 +53,19 @@ As of now (2020-04-12) you do not need any proxy settings to access the internet
 </code></pre>
 
 ---
+##### What server (tesla/aiken/kepler) to use for what purpose?
+
+---
+##### How to automatically connect to a server without typing a password
+See https://www.tecmint.com/ssh-passwordless-login-using-ssh-keygen-in-5-easy-steps/
+
+---
+##### Why can't have sudo privileges to install software on servers?
+
+---
+##### Can my laptop be set to automatically turn on/off proxy?
+
+---
+##### Will my exxx@ce.pdn.ac.lk mail address and xxx@eng.pdn.ac.lk mail address expire after graduation?
+
+---
