@@ -60,7 +60,7 @@ As of now (2020-04-12) you do not need any proxy settings to access the internet
 See https://www.tecmint.com/ssh-passwordless-login-using-ssh-keygen-in-5-easy-steps/
 
 ---
-##### Why can't have sudo privileges to install software on servers?
+##### Why can't I have sudo privileges to install software on servers?
 
 ---
 ##### Can my laptop be set to automatically turn on/off proxy?
