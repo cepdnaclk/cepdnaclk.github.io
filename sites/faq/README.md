@@ -12,7 +12,7 @@ This is an attempt to collect a list of frequently asked questions and answers. 
 * General
     * [Will my @ce.pdn.ac.lk mail address and @eng.pdn.ac.lk mail address expire after graduation?](qa#will-my-cepdnaclk-mail-address-and-engpdnaclk-mail-address-expire-after-graduation)
     * [What are my usernames and passwords for university websites?](qa#what-are-my-usernames-and-passwords-for-university-websites)
-    * [How can I get help to recover passwords or create accounts?](qa#what-are-my-usernames-and-passwords-for-university-websites)
+    * [How can I get help to recover passwords or create accounts?](qa#how-can-i-get-help-to-recover-passwords-or-create-accounts)
 
 * Servers
     * [How to connect to department servers?](qa/#how-to-connect-to-department-servers)
