@@ -9,8 +9,15 @@ The source code from 2015 is avaliable [here](src/). Unfortunately, the MySQL da
 This is an attempt to collect a list of frequently asked questions and answers. If you can remember questions from the earlier site or has suggestions for questions that should go into a FAQ site, add them here.
 
 * **GETTING STARTED:** [**How to add questions to this FAQ list?**](qa/#how-to-add-questions-to-this-faq-list)
+* General
+    * [Will my @ce.pdn.ac.lk mail address and @eng.pdn.ac.lk mail address expire after graduation?](qa/#)
+    * [What are my usernames and passwords for university websites?](qa/#)
+    * [How can I get help to recover passwords or create accounts?](qa/#)
+
 * Servers
     * [How to connect to department servers?](qa/#how-to-connect-to-department-servers)
+    * [How to automatically connect to a server without typing a password?](qa/#)
+    * [How can I install a software package on a department server without sudo access?](qa/#)
 * Wifi
     * [What are my Wifi networks and login credentials?](qa/#what-are-my-wifi-networks-and-login-credentials)
     * [How to setup proxy settings in linux based operating systems?](qa/#how-to-setup-proxy-settings-in-linux-based-operating-systems)
