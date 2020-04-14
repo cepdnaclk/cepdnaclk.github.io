@@ -53,19 +53,59 @@ As of now (2020-04-12) you do not need any proxy settings to access the internet
 </code></pre>
 
 ---
+
 ##### What server (tesla/aiken/kepler) to use for what purpose?
 
 ---
-##### How to automatically connect to a server without typing a password
+
+##### How to automatically connect to a server without typing a password?
 See https://www.tecmint.com/ssh-passwordless-login-using-ssh-keygen-in-5-easy-steps/
 
 ---
-##### Why can't I have sudo privileges to install software on servers?
+
+##### How can I install a software package on a department server without sudo access?
+
+1. Contact any instructor/lecturer and request them to install the software.
+2. Request a virtual machine contact: rajitharamanayake[at]gmail[dot]com
+3. There are many workarounds that do not require sudo access such as "pip install --user", "conda install" if all you want to do is indtalling a python package.
 
 ---
+
 ##### Can my laptop be set to automatically turn on/off proxy?
 
----
-##### Will my exxx@ce.pdn.ac.lk mail address and xxx@eng.pdn.ac.lk mail address expire after graduation?
 
 ---
+
+##### Will my @ce.pdn.ac.lk mail address and @eng.pdn.ac.lk mail address expire after graduation?
+
+As of now (2020/04/14): @ce.pdn.ac.lk will be deleted one year after the graduation. @eng.pdn.ac.lk will not be deleted in the foreseeable future.
+
+---
+
+##### What are my usernames and passwords for university websites?
+
+<table>
+<tr><td>https://feels.pdn.ac.lk/</td><td>eXXYYY</td><td>Given to you during faculty orientation</td></tr>
+<tr><td>CO Top floor lab linux computers, tesla, aiken, babbage, [at]ce.pdn.ac.lk email, results.ce.pdn.ac.lk</td><td>eXXYYY</td><td>Given to you during the department orientation</td></tr>
+<tr><td>CO Top floor windows password</td><td>eXXYYY</td><td>Given on the first day of using windows software for a lab after enrolling in the department</td></tr>
+<tr><td>CC windows password</td><td>eXXYYY</td><td>FILL THIS</td></tr>
+<tr> <td>[at]eng.pdn.ac.lk password</td><td>You choose</td><td>You choose</td></tr>
+<tr><td>https://ce-pdn-ac-lk.com/</td><td>You choose</td><td>You choose</td></tr>
+<tr><td>https://ce-pdn-ac-lk.com/my_coursemgmnt/</td><td>You choose</td><td>You choose</td></tr>
+<tr><td>http://me.pefaa.net/</td><td>You choose</td><td>You choose</td></tr>
+</table>
+
+---
+
+##### How can I get help to recover passwords or create accounts?
+
+<table>
+<tr><td>https://feels.pdn.ac.lk/</td><td>feels[at]eng[dot]pdn[dot]ac[dot]lk</td></tr>
+<tr><td>CO Top floor lab linux computers, tesla, aiken, babbage, [at]ce.pdn.ac.lk email, results.ce.pdn.ac.lk</td><td>Any CO instructor</td</tr>
+<tr><td>CO Top floor windows password</td><td>Any CO instructor</td></tr>
+<tr><td>CC windows password</td><td>Any CC instructor</td></tr>
+<tr><td>[at]eng.pdn.ac.lk password</td><td>roshanr[at]]eng[dot]pdn[dot]ac[dot]lk</td></tr>
+<tr><td>https://ce-pdn-ac-lk.com/</td><td>kamalanath[at]eng[dot]pdn[dot]ac[dot]lk</td></tr>
+<tr><td>https://ce-pdn-ac-lk.com/my_coursemgmnt/</td><td>kamalanath[at]eng[dot]pdn[dot]ac[dot]lk</td></tr>
+<tr><td>http://me.pefaa.net/</td><td>kamalanath[at]eng[dot]pdn[dot]ac[dot]lk</td></tr>
+</table>
