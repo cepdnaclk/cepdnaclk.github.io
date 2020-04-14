@@ -86,10 +86,10 @@ As of now (2020/04/14): @ce.pdn.ac.lk will be deleted one year after the graduat
 
 <table>
 <tr><td>https://feels.pdn.ac.lk/</td><td>eXXYYY</td><td>Given to you during faculty orientation</td></tr>
-<tr><td>CO Top floor lab linux computers, tesla, aiken, babbage, @ce.pdn.ac.lk email, results.ce.pdn.ac.lk</td><td>eXXYYY</td><td>Given to you during the department orientation</td></tr>
+<tr><td>CO Top floor lab linux computers, tesla, aiken, babbage, [at]ce.pdn.ac.lk email, results.ce.pdn.ac.lk</td><td>eXXYYY</td><td>Given to you during the department orientation</td></tr>
 <tr><td>CO Top floor windows password</td><td>eXXYYY</td><td>Given on the first day of using windows software for a lab after enrolling in the department</td></tr>
 <tr><td>CC windows password</td><td>eXXYYY</td><td>FILL THIS</td></tr>
-<tr>@eng.pdn.ac.lk password</td><td>You choose</td><td>You choose</td></tr>
+<tr> [at]eng.pdn.ac.lk password</td><td>You choose</td><td>You choose</td></tr>
 <tr><td>https://ce-pdn-ac-lk.com/</td><td>You choose</td><td>You choose</td></tr>
 <tr><td>https://ce-pdn-ac-lk.com/my_coursemgmnt/</td><td>You choose</td><td>You choose</td></tr>
 <tr><td>http://me.pefaa.net/</td><td>You choose</td><td>You choose</td></tr>
@@ -98,11 +98,11 @@ As of now (2020/04/14): @ce.pdn.ac.lk will be deleted one year after the graduat
 ##### How can I get help to recover passwords or create accounts?
 
 <table>
-<tr><td>https://feels.pdn.ac.lk/</td>feels@eng.pdn.ac.lk</td></tr>
-<tr><td>CO Top floor lab linux computers, tesla, aiken, babbage, @ce.pdn.ac.lk email, results.ce.pdn.ac.lk</td>Any CO instructor</tr>
+<tr><td>https://feels.pdn.ac.lk/</td>feels[at]eng[dot]pdn[dot]ac[dot]lk</td></tr>
+<tr><td>CO Top floor lab linux computers, tesla, aiken, babbage, [at]ce.pdn.ac.lk email, results.ce.pdn.ac.lk</td>Any CO instructor</tr>
 <tr><td>CO Top floor windows password</td>Any CO instructor</td></tr>
 <tr><td>CC windows password</td><td>Any CC instructor</td></tr>
-<tr>@eng.pdn.ac.lk password</td><td>roshanr[at]]eng[dot]pdn[dot]ac[dot]lk</td></tr>
+<tr> [at]eng.pdn.ac.lk password</td><td>roshanr[at]]eng[dot]pdn[dot]ac[dot]lk</td></tr>
 <tr><td>https://ce-pdn-ac-lk.com/</td><td>kamalanath[at]eng[dot]pdn[dot]ac[dot]lk</td></tr>
 <tr><td>https://ce-pdn-ac-lk.com/my_coursemgmnt/</td><td>kamalanath[at]eng[dot]pdn[dot]ac[dot]lk</td></tr>
 <tr><td>http://me.pefaa.net/</td><td>kamalanath[at]eng[dot]pdn[dot]ac[dot]lk</td></tr>
