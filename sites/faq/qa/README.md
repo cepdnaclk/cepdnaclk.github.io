@@ -95,12 +95,14 @@ As of now (2020/04/14): @ce.pdn.ac.lk will be deleted one year after the graduat
 <tr><td>http://me.pefaa.net/</td><td>You choose</td><td>You choose</td></tr>
 </table>
 
+---
+
 ##### How can I get help to recover passwords or create accounts?
 
 <table>
 <tr><td>https://feels.pdn.ac.lk/</td><td>feels[at]eng[dot]pdn[dot]ac[dot]lk</td></tr>
 <tr><td>CO Top floor lab linux computers, tesla, aiken, babbage, [at]ce.pdn.ac.lk email, results.ce.pdn.ac.lk</td><td>Any CO instructor</td</tr>
-<tr><td>CO Top floor windows password</td>Any CO instructor</td></tr>
+<tr><td>CO Top floor windows password</td><td>Any CO instructor</td></tr>
 <tr><td>CC windows password</td><td>Any CC instructor</td></tr>
 <tr> [at]eng.pdn.ac.lk password</td><td>roshanr[at]]eng[dot]pdn[dot]ac[dot]lk</td></tr>
 <tr><td>https://ce-pdn-ac-lk.com/</td><td>kamalanath[at]eng[dot]pdn[dot]ac[dot]lk</td></tr>
