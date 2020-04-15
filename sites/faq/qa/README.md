@@ -71,6 +71,20 @@ See https://www.tecmint.com/ssh-passwordless-login-using-ssh-keygen-in-5-easy-st
 
 ---
 
+##### How can I get a linux virtual machine on a department server?
+
+Ask for permission from roshanr[at]eng[dot]pdn[dot]ac[dot]lk and help from rajitharamanayake[at]gmail[dot]com (update this answer if someone else is in charge now).
+
+---
+
+##### Why is my linux virtual machine on a department server unable to connect to the internet?
+
+Ask chandima[dot]s[at]eng[dot]pdn[dot]ac[dot]lk and fill this answer.
+
+---
+
+
+
 ##### Can my laptop be set to automatically turn on/off proxy?
 
 
