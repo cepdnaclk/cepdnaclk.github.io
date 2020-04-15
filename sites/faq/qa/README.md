@@ -99,6 +99,7 @@ As of now (2020/04/14): @ce.pdn.ac.lk will be deleted one year after the graduat
 ##### What are my usernames and passwords for university websites?
 
 <table>
+<tr><th>Account</th><th>Username</th><th>Password</th></tr>
 <tr><td>https://feels.pdn.ac.lk/</td><td>eXXYYY</td><td>Given to you during faculty orientation</td></tr>
 <tr><td>CO Top floor lab linux computers, tesla, aiken, babbage, [at]ce.pdn.ac.lk email, results.ce.pdn.ac.lk</td><td>eXXYYY</td><td>Given to you during the department orientation</td></tr>
 <tr><td>CO Top floor windows password</td><td>eXXYYY</td><td>Given on the first day of using windows software for a lab after enrolling in the department</td></tr>
@@ -114,6 +115,7 @@ As of now (2020/04/14): @ce.pdn.ac.lk will be deleted one year after the graduat
 ##### How can I get help to recover passwords or create accounts?
 
 <table>
+<tr><th>Account</th><th>Whom to ask</th></tr>
 <tr><td>https://feels.pdn.ac.lk/</td><td>feels[at]eng[dot]pdn[dot]ac[dot]lk</td></tr>
 <tr><td>CO Top floor lab linux computers, tesla, aiken, babbage, [at]ce.pdn.ac.lk email, results.ce.pdn.ac.lk</td><td>Any CO instructor</td</tr>
 <tr><td>CO Top floor windows password</td><td>Any CO instructor</td></tr>
