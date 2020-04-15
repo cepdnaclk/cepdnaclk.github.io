@@ -18,6 +18,8 @@ This is an attempt to collect a list of frequently asked questions and answers. 
     * [How to connect to department servers?](qa/#how-to-connect-to-department-servers)
     * [How to automatically connect to a server without typing a password?](qa#how-to-automatically-connect-to-a-server-without-typing-a-password)
     * [How can I install a software package on a department server without sudo access?](qa#how-can-i-install-a-software-package-on-a-department-server-without-sudo-access)
+    * [How can I get a linux virtual machine on a department server?](qa#how-can-i-get-a-linux-virtual-machine-on-a-department-server)
+    * [Why is my linux virtual machine on a department server unable to connect to the internet?](qa#why-is-my-linux-virtual-machine-on-a-department-server-unable-to-connect-to-the-internet)
 * Wifi
     * [What are my Wifi networks and login credentials?](qa/#what-are-my-wifi-networks-and-login-credentials)
     * [How to setup proxy settings in linux based operating systems?](qa/#how-to-setup-proxy-settings-in-linux-based-operating-systems)
