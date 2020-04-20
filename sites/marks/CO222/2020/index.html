@@ -3,7 +3,7 @@
 Marks
 </title>
 <head>
-<script src="https://code.jquery.com/jquery.js"></script>
+<script src="js/jquery.js"></script>
 <script src="https://code.highcharts.com/highcharts.js"></script>
 <script src="https://code.highcharts.com/modules/exporting.js"></script>
 
@@ -24,20 +24,41 @@ Marks
 #field li{
 	background-color:lavender;
 }
+.tooltipImage {
+	display: inline-block;
+	width: 100px;
+	height: 150px;
+	border-radius: 3px;
+}
 </style>
+
+
+
+ <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
 
 </head>
 
 <body>
 
 <div class="container-fluid">
-  <div id="container" style="min-width: 310px; height: 780px; margin: 0 auto"></div>
+
+<div id="stacked" style="min-width: 310px; height: 40vh; margin: 0 auto"></div>
+ <p>
+	 <input type="checkbox" id="sortcheck" />
+	 <label for="sortcheck">Sort</label>
+ </p>
+
+
   
   <div class="row">
     <!-- select student -->
 	<div class="col-sm-2"></div>
 	<div class="dropdown col-sm-2">
-	  <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Registration Number
+	  <button class="btn dropdown-toggle waves-effect waves-light" type="button" data-toggle="dropdown">Registration Number
 	  <span class="caret"></span></button>
 	  <ul class="dropdown-menu" id="dropdown">
 	  <li><a href="#">ALL</a></li>
@@ -67,6 +88,8 @@ Marks
 	
 	<div class="col-sm-2"></div>
 </div>
+  <div id="container" style="min-width: 310px; height: 40vh; margin: 0 auto"></div>
+
 
 
 
