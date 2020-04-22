@@ -46,6 +46,12 @@ This directory contains the instructions for the maintenance of the content pres
         
 ## URL structure after this repo is integrated into ce.pdn.ac.lk
 
+Contact kisarul[at]eng[dot]pdn[dot]ac[dot]lk
+
 ## Shell scripts
 
+[https://github.com/cepdnaclk/cepdnaclk.github.io/blob/master/maintenance/update_sites.sh](https://github.com/cepdnaclk/cepdnaclk.github.io/blob/master/maintenance/update_sites.sh)
+
 ## Maintenance routine instructions
+
+Contact kisarul[at]eng[dot]pdn[dot]ac[dot]lk
