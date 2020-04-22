@@ -4,6 +4,7 @@ This page contains the supplementary material to [http://www.ce.pdn.ac.lk/resear
 
 [Facebook](https://www.facebook.com/CambioWearableComputing/)
 
+You can contribute to improving this page by editing [https://github.com/cepdnaclk/cepdnaclk.github.io/tree/master/sites/labs/wearable](https://github.com/cepdnaclk/cepdnaclk.github.io/tree/master/sites/labs/wearable) and sending a pull request.
 
 ## Our Team
 
