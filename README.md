@@ -31,7 +31,7 @@ Note: ~~Striked through~~ links do not lead to a landing page.
 	* [https://cepdnaclk.github.io/sites/labs](sites/labs/)
 		* [https://cepdnaclk.github.io/sites/labs/escal/](sites/labs/escal/)
 		* [https://cepdnaclk.github.io/sites/labs/tesla/](sites/labs/tesla/)
-		* [https://cepdnaclk.github.io/sites/labs/wearable/](sites/wearable/)
+		* [https://cepdnaclk.github.io/sites/labs/wearable/](sites/labs/wearable/)
 
 
 	* [https://cepdnaclk.github.io/sites/marks](sites/marks/)
