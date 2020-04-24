@@ -9,11 +9,11 @@ You can contribute to improving this page by editing [https://github.com/cepdnac
 ## Our Team
 
 ### Academic Staff
-* Prof. Roshan Ragel [ [Web](http://www.ce.pdn.ac.lk/academic-staff/roshan-g-ragel/), [Scholar](https://scholar.google.com/citations?hl=en&user=UTYj8usAAAAJ) ]
+* Prof. Roshan Ragel [[Web](http://www.ce.pdn.ac.lk/academic-staff/roshan-g-ragel/), [Scholar](https://scholar.google.com/citations?hl=en&user=UTYj8usAAAAJ), [Email](mailto:roshanr@eng.pdn.ac.lk)]
 * Dr. Isuru Nawinne [ [Web](http://www.ce.pdn.ac.lk/academic-staff/isuru-nawinne/),  [Scholar](https://scholar.google.com/citations?hl=en&user=8qqGvuwAAAAJ) ]
 
 ### Students
-* Mabeesha Wijekoon (Undergraduate thesis student)
+* Mabeesha Wijekoon (Undergraduate thesis student) [[Email](mailto:mabeesha.wijekoon@eng.pdn.ac.lk)]
 * Rahal Mewadawwa (Undergraduate thesis student)
 * Dinuka Chathuranga (Undergraduate thesis student)
 
@@ -61,4 +61,4 @@ You can contribute to improving this page by editing [https://github.com/cepdnac
 * Sanjeeva Kumara (Undergraduate thesis student)
 * Chamini Perera (Undergraduate thesis student)
 * Sasitha Rajapaksha (Undergraduate thesis student)
-* Titus Nanda Kumara (Undergraduate thesis student, graduate researcher) : now at Western Sydney University. [[Researchgate](https://www.researchgate.net/profile/Titus_Nanda_Kumara), [Google scholar](https://scholar.google.com/citations?user=9BrdpSYAAAAJ&hl=nl)]
+* Titus Nanda Kumara (Undergraduate thesis student, graduate researcher) : now at Western Sydney University. [[Researchgate](https://www.researchgate.net/profile/Titus_Nanda_Kumara), [Google scholar](https://scholar.google.com/citations?user=9BrdpSYAAAAJ&hl=nl),[Email](mailto:titus.nandakumara@gmail.com)]
