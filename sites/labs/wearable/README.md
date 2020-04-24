@@ -52,13 +52,13 @@ You can contribute to improving this page by editing [https://github.com/cepdnac
 ## Alumni
 * Theekshana Dissanayake (Undergraduate thesis student, graduate researcher) : now at Queensland University of Technology. [[Linkedin](https://www.linkedin.com/in/thekzn), [Researchgate](https://www.researchgate.net/profile/Theekshana_Dissanayake)]
 * Yasitha Rajapaksha (Undergraduate thesis student) : now at XXXX. [[LinkedIn](https://www.linkedin.com/in/yasitha-rajapaksha/), [Researchgate](https://www.researchgate.net/profile/Yasitha_Rajapaksha)]
+* Titus Nanda Kumara (Undergraduate thesis student, graduate researcher) : now at Western Sydney University. [[Researchgate](https://www.researchgate.net/profile/Titus_Nanda_Kumara), [Google scholar](https://scholar.google.com/citations?user=9BrdpSYAAAAJ&hl=nl),[Email](mailto:titus.nandakumara@gmail.com)]
+* Brian Udugama (Undergraduate thesis student) : now at Qubits lab, University of Peradeniya.
 * Amila Ukwaththage (Undergraduate thesis student)
 * Asanka Kumara (Undergraduate thesis student)
 * Thushani Kallamullage (Undergraduate thesis student)
 * Ching Tien Shi (Undergraduate thesis student) : now at wso2
 * Vimukthi Perera (Undergraduate thesis student) : now at wso2
-* Brian Udugama (Undergraduate thesis student) : now at Qubits lab, University of Peradeniya
 * Sanjeeva Kumara (Undergraduate thesis student)
 * Chamini Perera (Undergraduate thesis student)
 * Sasitha Rajapaksha (Undergraduate thesis student)
-* Titus Nanda Kumara (Undergraduate thesis student, graduate researcher) : now at Western Sydney University. [[Researchgate](https://www.researchgate.net/profile/Titus_Nanda_Kumara), [Google scholar](https://scholar.google.com/citations?user=9BrdpSYAAAAJ&hl=nl),[Email](mailto:titus.nandakumara@gmail.com)]
