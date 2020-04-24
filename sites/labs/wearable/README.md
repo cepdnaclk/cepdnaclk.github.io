@@ -2,7 +2,7 @@
 
 This page contains the supplementary material to [http://www.ce.pdn.ac.lk/research/wearable-computing/](http://www.ce.pdn.ac.lk/research/wearable-computing/), [http://www.ce.pdn.ac.lk/facilities/cambio-wearable-computing-lab/](http://www.ce.pdn.ac.lk/facilities/cambio-wearable-computing-lab/) and [http://www.ce.pdn.ac.lk/projects/](http://www.ce.pdn.ac.lk/projects/) > Wearable Computing.
 
-[Facebook](https://www.facebook.com/CambioWearableComputing/)
+[Introduction](/cambio-lab-intro.pdf), [Facebook page](https://www.facebook.com/CambioWearableComputing/)
 
 You can contribute to improving this page by editing [https://github.com/cepdnaclk/cepdnaclk.github.io/tree/master/sites/labs/wearable](https://github.com/cepdnaclk/cepdnaclk.github.io/tree/master/sites/labs/wearable) and sending a pull request.
 
