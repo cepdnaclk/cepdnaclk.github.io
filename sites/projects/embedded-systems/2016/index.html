@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Embedded Systems - Project Symposium</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/agency.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <script src="js/createjs-2015.11.26.min.js"></script>
+    <script src="js/gallery.js"></script>
+    <script>
+    var canvas, stage, exportRoot;
+
+    $(window).resize(function(){
+        init();
+    });
+    function init() {
+        // --- write your JS code here ---
+        canvas = document.getElementById("canvas");
+        if(window.innerWidth < 768){
+            $("#canvas").hide();
+            document.getElementById("canvas").remove();
+            return;
+        } else {
+            $("#browseProjects_btn").hide();
+            canvas.width = window.innerWidth;
+            canvas.height = 600;
+            images = images||{};
+            ss = ss||{};
+
+            var loader = new createjs.LoadQueue(false);
+            loader.addEventListener("fileload", handleFileLoad);
+            loader.addEventListener("complete", handleComplete);
+            loader.loadFile({src:"images/gallery_atlas_.json?1465664571368", type:"spritesheet", id:"gallery_atlas_"}, true);
+            loader.loadManifest(lib.properties.manifest);
+            
+        }
+    }
+
+    function handleFileLoad(evt) {
+        if (evt.item.type == "image") { images[evt.item.id] = evt.result; }
+    }
+
+    function handleComplete(evt) {
+        var queue = evt.target;
+        ss["gallery_atlas_"] = queue.getResult("gallery_atlas_");
+        exportRoot = new lib.gallery();
+
+        stage = new createjs.Stage(canvas);
+        stage.addChild(exportRoot);
+        stage.update();
+        stage.enableMouseOver();
+
+        createjs.Ticker.setFPS(lib.properties.fps);
+        createjs.Ticker.addEventListener("tick", stage);
+    }
+
+    </script>
+    <style>
+        header .intro-text{
+            padding-top: 100px;   
+        }
+        #canvas{
+            margin-top:-230px;
+        }
+    </style>
+</head>
+
+<body onload="init()" id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Embedded Systems Projects 2016</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#overview">Overview</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#portfolio">Projects</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="intro-text">
+                <div class="intro-lead-in">E12 batch presents</div>
+                <div class="intro-heading">Embedded Systems Projects</div>
+                <a id="browseProjects_btn" href="#overview" class="page-scroll btn btn-xl">Browse Projects</a>
+            </div>
+        </div>
+        <canvas id="canvas" width="1024" height="0" style="background-color:none"></canvas>
+    </header>
+
+    <!-- links Section -->
+    <section id="overview">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                  <h2 class="section-heading">Embedded Systems Projects Expo 2016</h2>
+                  <h2 class="section-subheading text-muted">Overview</h2><br>
+                    <p class="col-md-10 col-md-offset-1" style="font-size: large;">Embedded systems, which include all computing devices except desktops, laptops and servers have become pervasive. In this event, Embedded Systems Projects Expo 2016, the third year students of the Department of Computer Engineering, University of Peradeniya are showcasing their embedded system projects, completed as part of their coursework. </p><p class="col-md-10 col-md-offset-1" style="font-size: large;">Embedded Systems became a core course with the latest syllabus update that happened a couple of years ago, which enabled us to organize an event of this nature since 2015. The projects on display include a broad spectrum of applications for which embedded systems can be designed for.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Grid Section -->
+<section id="portfolio" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">This year projects</h2>
+                    <h3 class="section-subheading text-muted">Read more on our projects, this year.</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div  id="project_1"  class="row project_item">
+                <div class="col-sm-6 project_preview">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe class="embed-responsive-item" height="315" src="https://www.youtube.com/embed/-kYK6lAeVCs" frameborder="0" allowfullscreen></iframe>
+                </div></div>
+                <div class="col-sm-6 project_description container">
+                    <div class="container wrapper_details col-sm-12">
+                        <h3>Pet feeder</h3>
+                        <p class="project_author">by J. Alupotha, P. Balasooriya, K. Chamodani, N. Dahanayaka</p>
+                        <p>Today many have pets. However, due to their busy lifestyles, they can't afford to be with the pet all the time and feed them. Sometimes they even have to be away from home for a few days. During such times, they cannot keep feeding their pet. Automatic pet feeders are developed to solve the particular problem. People can give food at any time in any amount using the pet feeder by controlling the device via the internet. A wifi server is used here to connect to the Internet. An indicator is used to check the food availability, a rotating disc with a stepper motor is used to control the food amount when supplying food, and a load cell is used to detect the remaining food in the plate.</p>
+                    </div>
+                </div>
+                </div>
+                <div id="project_2" class="row project_item">
+                <div class="col-sm-6 project_preview">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe class="embed-responsive-item" height="315" src="https://www.youtube.com/embed/gYkJwuBF3V0" frameborder="0" allowfullscreen></iframe>
+                </div></div>
+                <div class="col-sm-6 project_description">
+
+                        <div class="container wrapper_details col-sm-12">
+                            <h3>Smart medicine box</h3>
+                            <p class="project_author">by B. Dassanayake, N. Deshapriya, L. Dias, L. Dilshan
+</p>
+                            <p>Taking medicine regularly has become a general practice and an essential activity in day-to-day life of most people. Even though it is advised that drug should regularly be taken, people always forget to take their medicine on time. Smart medicine box targeted on senior citizens who forget to take their medicine and the nurses who take care of senior citizens. This product informs the user the time by ringing an alarm and help the user by displaying the number of pills to be taken in front of the each box simplifying the process.</p>
+                        </div></div>
+                </div>
+                <div id="project_3" class="row project_item">
+                <div class="col-sm-6 project_preview">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/xAEnHeIjQlg" frameborder="0" allowfullscreen></iframe>
+                </div></div>
+                <div class="col-sm-6 project_description">
+
+                        <div class="container wrapper_details col-sm-12">
+                            <h3>Dream fields: Farm with fun</h3>
+                            <p class="project_author">by H. Dodampegama, M. Ekanayake, D. Gunarathne, V. Seralathan</p>
+                            <p>Up to date, Facebook has 5,000,000 monthly users for FarmVille which is a virtual farming game. According to the current trend people are so much interested in gaming as well as the fun of farming. Our aim is to make the farming experience realistic by maintaining a real farm and give access via a virtual interface. We developed a POC model for the proposed scenario. The player is to maintain a real farm which is owned by him. The game consists of three major parts. A farm, a robot and a video feedback. The game hosts can set up lands and rent the robots to the gamers. The robot is capable of doing ground making, planting and watering. The player can control the robot by looking through the video feedback received to their PC.</p>
+                        </div></div>
+                </div>
+                <div id="project_4" class="row project_item">
+                <div class="col-sm-6 project_preview">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/1IyHO6gOqXo" frameborder="0" allowfullscreen></iframe>
+                </div></div>
+                <div class="col-sm-6 project_description">
+
+                        <div class="container wrapper_details col-sm-12">
+                            <h3>Smart piggy bank: One step ahead in money saving</h3>
+                            <p class="project_author">by M. Gunasekara, D. Hendawitharana, V. Ihalagama, M. Illesinghe</p>
+                            <p>We made a “Smart Piggy Bank”, an electronic coin saving device. Traditional Piggy Banks are used only to keep the money. But we include many features to make this a Smart Piggy Bank more closely not only to children but also to elders. When we insert a coin, it displays the total value of the coins inside the Piggy Bank. Also, it can show some text messages in an LCD to the user. These messages usually motivate the user to save money. As an additional feature, we added a guessing game that user is asked to guess the number of particular coins inside the Smart Piggy Bank. The piggy bank has two modes. The standard mode that sets the Piggy Bank as a currency counter or the game mode to have some fun with the Piggy Bank.</p>
+                        </div></div>
+                </div>
+                <div id="project_5" class="row project_item">
+                <div class="col-sm-6 project_preview">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/FuYLXxMQNOM" frameborder="0" allowfullscreen></iframe>
+                </div></div>
+                <div class="col-sm-6 project_description">
+
+                        <div class="container wrapper_details col-sm-12">
+                            <h3>Virtual LED display</h3>
+                            <p class="project_author">by R. Jayalath, D. Kalupahana, B. Kulathunga, N. Kalamullage</p>
+                            <p>This is a Virtual LED display using a set of LED strips which is rotating at a higher speed. It can show various things like texts, digits, images. This utilises 20 rapidly-spinning and pulsating LEDs. The inability of the human eye to capture these changing pulses is interpreted as a static image. The pattern of the LEDs is computed based on a string sent from an Android App through a very particular “alphabet” to the Arduino Mega controlling the LEDs. The user types the corresponding string on the Android App and sends to the device. The virtual LED display can be used at railway stations, shops, exhibitions and public places where a 360-degree view can give a nice experience.</p>
+                        </div></div>
+                </div>
+                <div id="project_6" class="row project_item">
+                <div class="col-sm-6 project_preview">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe class="embed-responsive-item" height="315" src="https://www.youtube.com/embed/-JzzgZtNpNE" frameborder="0" allowfullscreen></iframe>
+                </div></div>
+                <div class="col-sm-6 project_description">
+
+                        <div class="container wrapper_details col-sm-12">
+                            <h3>SMARTICE: Smart noticeboard</h3>
+                            <p class="project_author">by D. Kumara, I. Kumara, I. Madhusanka, P. Kumara</p>
+                            <p>The traditional approach of posting notices with paperwork in noticeboard is not attractive to read and also inefficient in searching. Therefore the idea of digital noticeboards is a high-value addition. Smart Noticeboard (SMARTICE) develops the idea further. It identifies the users using a face recognition algorithm, and select and display the notices only relevant to the user. SMARTICE reduces the time to search notices and it is fun to use.</p>
+                        </div></div>
+                </div>
+                <div id="project_7" class="row project_item">
+                <div class="col-sm-6 project_preview">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/ULx7KdlW72U" frameborder="0" allowfullscreen></iframe>
+                </div></div>
+                <div class="col-sm-6 project_description">
+
+                        <div class="container wrapper_details col-sm-12">
+                            <h3>Robot arm controlling system</h3>
+                            <p class="project_author">by L. Madushan, M. Mallikarachchi, R. Manamgoda, P. Mohotti</p>
+                            <p>Today robotic arms are an essential part of human life. In our project, we developed a robotic arm that can be controlled through the Internet. We used a web application to get data from the user and send it through the Internet to a raspberry pi which controls the robotic arm. Our plan is to add a security cam to the arm and take real time videos from different angles for surveillance purposes.</p>
+                        </div></div>
+                </div>
+                <div id="project_8" class="row project_item">
+                <div class="col-sm-6 project_preview">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe class="embed-responsive-item" height="315" src="https://www.youtube.com/embed/cIO_ACZR2d4" frameborder="0" allowfullscreen></iframe>
+                </div></div>
+                <div class="col-sm-6 project_description">
+
+                        <div class="container wrapper_details col-sm-12">
+                            <h3>Energy Saving Light automation system</h3>
+                            <p class="project_author">by S. Munasinghe, C. Paranawithana, T. Pavinaa, K. Peiris</p>
+                            <p>The goal of this project is to automate the light conditions in a factory by turning off unnecessary lights and using the natural light sources when available. This will eventually reduce the electricity wastage. The system was developed using a microcontroller, ultrasonic sensors, LDRs, and Servo–motors. Ultrasonic sensors are used to keep track of the number of people entering and leaving the room. LDRs used to gather information about the light intensity inside and outside of the room. The microcontroller processes the information collected from sensors and provides suitable outputs to lights and motors. According to the current state, servo motors are used to control blinds to receive natural light when it is available and necessary.</p>
+                        </div></div>
+                </div>
+                <div id="project_9" class="row project_item">
+                <div class="col-sm-6 project_preview">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe class="embed-responsive-item" height="315" src="https://www.youtube.com/embed/DCaCqIOnyw4" frameborder="0" allowfullscreen></iframe>
+                </div></div>
+                <div class="col-sm-6 project_description">
+
+                        <div class="container wrapper_details col-sm-12">
+                            <h3>Paper burning printer</h3>
+                            <p class="project_author">by V. Perera, J. Perera, S. Pranavan, S. Prasadi</p>
+                            <p>We developed this product to print images on paper in grayscale by burning paper with different intensities. The printer takes a photo or a given image using a web camera as the input. Then it converts image to grayscale and burns it on paper. We tested the printer with a graphite rod, a laser beam and a soldering iron as the burning header. We used servo motors to drive the header in x, y directions and an Arduino board for controlling. The purpose of the project is print portrait images with an artistic look in real time.</p>
+                        </div></div>
+                </div>
+                <div id="project_10" class="row project_item">
+                <div class="col-sm-6 project_preview">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe class="embed-responsive-item" height="315" src="https://www.youtube.com/embed/2SljrjQL_Lo" frameborder="0" allowfullscreen></iframe>
+                </div></div>
+                <div class="col-sm-6 project_description">
+
+                        <div class="container wrapper_details col-sm-12">
+                            <h3>Wearable weight training assistant</h3>
+                            <p class="project_author">by M. Priyadarshani, S. Rajamanthri, I. Rajapaksha, S. Ramanayake</p>
+                            <p>In this project, our aim is to introduce a wearable device and a data visualisation system that can act as a real-time virtual personal trainer to avoid erroneous movements while exercising. The overall idea is, in the wearable device there are a couple of sensors giving inputs to a microcontroller. Then data received by the microcontroller is sent wirelessly to a separate processing unit or to a PC application to identify wrong moves. If there is any error of the movements, it will be identified by the algorithm running on the processing unit and trigger a warning.</p>
+                        </div></div>
+                </div>
+                <div id="project_11" class="row project_item">
+                <div class="col-sm-6 project_preview">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe class="embed-responsive-item" height="315" src="https://www.youtube.com/embed/wQ619hZXnwk" frameborder="0" allowfullscreen></iframe>
+                </div></div>
+                <div class="col-sm-6 project_description">
+
+                        <div class="container wrapper_details col-sm-12">
+                            <h3>Smart Shoe</h3>
+                            <p class="project_author">by T. Shi, S. Silva, R. Silva, L. Samaranayaka
+</p>
+                            <p>Since people have busy schedules and hectic lifestyles, they do not have enough time to think about their health. ”Smart Shoe” is a simple, cost-effective and most importantly an accurate solution to keep the society healthy. It simply notifies the percentage of daily calories burnt using a set of LED lights embedded into a shoe without using any supporting devices like smartphones. The shoe is embedded with a tiny computer which calculates the footsteps using an accelerometer, which is located under the shoe. It also calculates the weight and height of the person by using a pressure sensor and a gyroscope. The height and weight are then used to calculate the BMI of the individual and daily targets are determined accordingly.</p>
+                        </div></div>
+                </div>
+                <div id="project_12" class="row project_item">
+                <div class="col-sm-6 project_preview">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe class="embed-responsive-item" height="315" src="https://www.youtube.com/embed/IivW9sGjQfI" frameborder="0" allowfullscreen></iframe>
+                </div></div>
+                <div class="col-sm-6 project_description">
+
+                        <div class="container wrapper_details col-sm-12">
+                            <h3>Line following robot: Path drawn on a remote device</h3>
+                            <p class="project_author">by C. Sudusinghe, J. Sumudini, C. Udugama, G. Udugama</p>
+                            <p>Line following robots often refers to robots which detect and follow lines in proximity. These robots require the desired route to be marked physically along the route in a contrasting colour to the background. We have designed a 'line following robot' which does not require the path to be marked on the floor. An application which can be loaded with the map allows the path to be drawn virtually on it. Then, the application directs the rover along the path. The rover and the application interact via IP network and the rover have wireless capability for mobility. The difficulty of accurate positioning which arises in the absence of a marked route or human supervision has been addressed in the design. Our technique is useful in routeing when multiple paths intersect where line following robot can be failed and even when marking the path is not desired.</p>
+                        </div></div>
+                </div>
+                <div id="project_13" class="row project_item">
+                <div class="col-sm-6 project_preview">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/qLJdlxPBE1M" frameborder="0" allowfullscreen></iframe>
+                </div></div>
+                <div class="col-sm-6 project_description">
+
+                        <div class="container wrapper_details col-sm-12">
+                            <h3>iSAFE: Internet based robot controlling</h3>
+                            <p class="project_author">by D. Udurawana, I. Ukwaththage, E. Wanigasekara, S. Weerasekara</p>
+                            <p>During the last few years, the number of domestic robots has increased dramatically. Robots do indeed offer considerable advantages over humans if they are used at the right time, in the right place and for the right task. We have shown how we can use the internet to control a robot when the client is far away from the location. When the user gives the relevant commands, the robot could move in those directions work accordingly. Also, the user can watch what the robot is doing in real time using a camera attached to the robot. The robot can also be used for surveillance applications.</p>
+                        </div></div>
+                </div>
+                <div id="project_14" class="row project_item">
+                <div class="col-sm-6 project_preview">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/ow1IkOC8fyY" frameborder="0" allowfullscreen></iframe>
+                </div></div>
+                <div class="col-sm-6 project_description">
+
+                        <div class="container wrapper_details col-sm-12">
+                            <h3>IoT Greenhouse</h3>
+                            <p class="project_author">by O. Wickramarachchi, S. Wickramasinghe, K. Wijerathne, B. Wijesinghe</p>
+                            <p>In this project, we are monitoring and controlling a Greenhouse digitally and remotely. By analysing sensor data and digital image, the microcontroller will control the Greenhouse. We have developed a working prototype with one plant. Our primary goals are light and watering control, temperature and humidity monitoring and monitor leaves for infections. The Arduino UNO + WIFI shield is acting as a client and publishes this sensor data to the server. By analysing this data set (temperature, humidity, soil moisture, light intensity), we are controlling the water pump, fan and light. We included image processing functions with a Raspberry PI camera. So far, we have developed to identify yellow patches of the plant and to identify edges. By looking at this pictures, we can send alert signals to the user about the status of the plant (Infections, insets, etc.).</p>
+                        </div></div>
+                </div>
+                <div id="project_15" class="row project_item">
+                <div class="col-sm-6 project_preview">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/VBxTyC2n5oo" frameborder="0" allowfullscreen></iframe>
+                </div></div>
+                <div class="col-sm-6 project_description">
+
+                        <div class="container wrapper_details col-sm-12">
+                            <h3>SmartMARK: Portable biometric fingerprint attendance device</h3>
+                            <p class="project_author">by L. Wijewardana, M. Premaratne, B. Wijegunawardana, T. Munasinghe</p>
+                            <p>Today the attendance marking in institutions happen manually. As we observe, it wastes many productive hours because of huge paperwork and also it is less accurate due to some cheating students who sign for others. We are going to address these two problems. Although we see some of the devices in today's market, they are not easy to configure, not wireless, not portable, and we cannot analyse data after taking the attendance. Using our product “SmartMARK” we have addressed all these problems from one device. Our plan is to put this into the market by enhancing security issues further and to fully automate the attendance marking.</p>
+                        </div></div>
+                </div>
+            </div>
+  </div>
+    </section>
+
+    <!-- Clients Aside -->
+    <aside class="clients">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3">
+                    <a href="#">
+                        <img src="img/logos/aces.png" class="img-responsive img-centered" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+</aside>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9 text-left">
+                    <span class="copyright">Copyright &copy; Department of Computer Engineering 2016 : Code from <a href="https://github.com/imadx/es_projecs_site">Ishan Madushanka</a></span>
+                </div>
+                <div class="col-md-3 text-right">
+                    <ul class="list-inline social-buttons">
+                        <li class="text-center"><a href="#"><i class="fa fa-twitter"></i></a>
+                        </li>
+                        <li class="text-center"><a href="#"><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li class="text-center"><a href="#"><i class="fa fa-linkedin"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- <div class="col-md-4">
+                    <ul class="list-inline quicklinks">
+                        <li><a href="#">Privacy Policy</a>
+                        </li>
+                        <li><a href="#">Terms of Use</a>
+                        </li>
+                    </ul>
+                </div> -->
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/cbpAnimatedHeader.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/agency.js"></script>
+
+</body>
+
+</html>
