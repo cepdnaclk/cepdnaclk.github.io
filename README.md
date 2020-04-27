@@ -28,6 +28,9 @@ Note: ~~Striked through~~ links do not lead to a landing page.
 		* [https://cepdnaclk.github.io/sites/fieldselection/2018](sites/fieldselection/2018/)
 		* [https://cepdnaclk.github.io/sites/fieldselection/2019](sites/fieldselection/2019/)
 
+
+	* [https://cepdnaclk.github.io/sites/industrial-training-portal](sites/industrial-training-portal/)
+
 	* [https://cepdnaclk.github.io/sites/labs](sites/labs/)
 		* [https://cepdnaclk.github.io/sites/labs/escal/](sites/labs/escal/)
 		* [https://cepdnaclk.github.io/sites/labs/tesla/](sites/labs/tesla/)
