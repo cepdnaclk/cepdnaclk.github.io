@@ -125,3 +125,9 @@ As of now (2020/04/14): @ce.pdn.ac.lk will be deleted one year after the graduat
 <tr><td>https://ce-pdn-ac-lk.com/my_coursemgmnt/</td><td>kamalanath[at]eng[dot]pdn[dot]ac[dot]lk</td></tr>
 <tr><td>http://me.pefaa.net/</td><td>kamalanath[at]eng[dot]pdn[dot]ac[dot]lk</td></tr>
 </table>
+
+---
+
+##### How to get started with the Open BCI Cyton Board?
+
+See [https://github.com/gihanjayatilaka/BCI-Project/blob/master/README.md#openbci](https://github.com/gihanjayatilaka/BCI-Project/blob/master/README.md#openbci) or contact hirunas[at]eng[dot]pdn[dot]ac[dot]lk.
