@@ -26,6 +26,7 @@ This is an attempt to collect a list of frequently asked questions and answers. 
     * [How to setup proxy in windows?](qa/#how-to-setup-proxy-in-windows)
     * [How to troubleshoot wifi driver issues in Ubuntu?](qa/#how-to-troubleshoot-wifi-driver-issues-in-ubuntu)
 * Equipment
+    * [How to get started with the Open BCI Cyton Board?](qa/#how-to-get-started-with-the-open-bci-cyton-board)
 * Course FAQ
     * CO221
     * CO222
