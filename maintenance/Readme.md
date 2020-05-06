@@ -87,15 +87,16 @@ Usually these pull requests are accested every few hours. If it is urgent, pleas
 
 ### How to add marks for a subject for the first time?
 
-Example: You want to add marks for 2025 CO222.
-<table>
-<tr>
-<td>**(1)**</td><td> Confirm that no one has started to add marks for this subject by visiting [https://cepdnaclk.github.io/sites/marks/CO222/2025/](https://cepdnaclk.github.io/sites/marks/CO222/2025/). 
+Example: You want to add marks for 2025 CO222.<br>
+<ol>
 
-**If** you get a 404 NOT FOUND error, look at (2)
+<li>Confirm that no one has started to add marks for this subject by visiting <a href="https://cepdnaclk.github.io/sites/marks/CO222/2025/">https://cepdnaclk.github.io/sites/marks/CO222/2025/</a>.<br> 
 
-**Else**, someone has started adding marks for this subject. Look at [https://cepdnaclk.github.io/maintenance/#how-to-update-marks-for-a-subject](https://cepdnaclk.github.io/maintenance/#how-to-update-marks-for-a-subject)</td>
-</tr></table>
-**(2)** Contact gihanjayatilaka[at]eng[dot]pdn[dot]ac[dot]lk and ask him to create the subject or complete this documentation.
+<b>If<b> you get a 404 NOT FOUND error, look at (2)<br>
+
+<b>Else</b>, someone has started adding marks for this subject. Look at <a href="https://cepdnaclk.github.io/maintenance/#how-to-update-marks-for-a-subject">https://cepdnaclk.github.io/maintenance/#how-to-update-marks-for-a-subject</a><br></li>
+
+<li> Contact gihanjayatilaka[at]eng[dot]pdn[dot]ac[dot]lk and ask him to create the subject or complete this documentation.</li>
+</ol>
 
 
