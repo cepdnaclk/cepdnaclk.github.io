@@ -91,8 +91,9 @@ Example: You want to add marks for 2025 CO222.
 
 **(1)** Confirm that no one has started to add marks for this subject by visiting [https://cepdnaclk.github.io/sites/marks/CO222/2025/](https://cepdnaclk.github.io/sites/marks/CO222/2025/). 
 
-If you get a 404 NOT FOUND error, look at (2)
-Else, someone has started adding marks for this subject. Look at [https://cepdnaclk.github.io/maintenance/#how-to-update-marks-for-a-subject](https://cepdnaclk.github.io/maintenance/#how-to-update-marks-for-a-subject)
+**If** you get a 404 NOT FOUND error, look at (2)
+
+**Else**, someone has started adding marks for this subject. Look at [https://cepdnaclk.github.io/maintenance/#how-to-update-marks-for-a-subject](https://cepdnaclk.github.io/maintenance/#how-to-update-marks-for-a-subject)
 
 **(2)** Contact gihanjayatilaka[at]eng[dot]pdn[dot]ac[dot]lk and ask him to create the subject or complete this documentation.
 
