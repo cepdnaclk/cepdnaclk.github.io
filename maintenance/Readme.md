@@ -68,6 +68,8 @@ Example: updating marks for CO222 2019
 
 **(2)** Edit [https://github.com/cepdnaclk/cepdnaclk.github.io/blob/master/sites/marks/CO222/2016/marks.csv](https://github.com/cepdnaclk/cepdnaclk.github.io/blob/master/sites/marks/CO222/2016/marks.csv)
 
+When you click edit, it will automatically be forked to your personal account. You have to edit the file in your personal fork.
+
 **(3)** Send a pull request 
 
 FROM: https://github.com/YOURNAME/cepdnaclk.github.io/ (master branch)
