@@ -62,7 +62,7 @@ Contact kisarul[at]eng[dot]pdn[dot]ac[dot]lk
 
 ### How to update marks for a subject?
 
-Example: updating marks for CO222 2019
+Example: updating marks for CO222 2016
 
 **(1)** See if page [https://cepdnaclk.github.io/sites/marks/CO222/2016/](https://cepdnaclk.github.io/sites/marks/CO222/2016/) works.
 
