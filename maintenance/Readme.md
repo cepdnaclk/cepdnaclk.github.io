@@ -92,7 +92,7 @@ Example: You want to add marks for 2025 CO222.<br>
 
 <li>Confirm that no one has started to add marks for this subject by visiting <a href="https://cepdnaclk.github.io/sites/marks/CO222/2025/">https://cepdnaclk.github.io/sites/marks/CO222/2025/</a>.<br> 
 
-<b>If<b> you get a 404 NOT FOUND error, look at (2)<br>
+<b>If</b> you get a 404 NOT FOUND error, look at (2)<br>
 
 <b>Else</b>, someone has started adding marks for this subject. Look at <a href="https://cepdnaclk.github.io/maintenance/#how-to-update-marks-for-a-subject">https://cepdnaclk.github.io/maintenance/#how-to-update-marks-for-a-subject</a><br></li>
 
