@@ -183,9 +183,9 @@ function drawStacked(dataIn,sorted){
 			var name = getName(this.x);
 
 	        	console.dir(name);
-	        	imagePath = '"http://www.ce.pdn.ac.lk/images/people/e14/'+this.x.toLowerCase().split('/').join('')+'.jpg"';
+	        	imagePath = '"photos/'+this.x.toLowerCase().split('/').join('')+'.jpg"';
 	        	if(this.x.toLowerCase() == 'maximum'){
-	        		imagePath = "";
+	        		imagePath = "photos/maximum.jpg";
 	        	}
 	        	console.log(imagePath);
 	        	
