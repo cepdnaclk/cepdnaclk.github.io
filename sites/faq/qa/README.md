@@ -79,7 +79,7 @@ Ask for permission from roshanr[at]eng[dot]pdn[dot]ac[dot]lk and help from rajit
 
 ##### Why is my linux virtual machine on a department server unable to connect to the internet?
 
-Ask chandima[dot]s[at]eng[dot]pdn[dot]ac[dot]lk and fill this answer.
+Ask harshana[dot]w[at]eng[dot]pdn[dot]ac[dot]lk and fill this answer.
 
 ---
 
