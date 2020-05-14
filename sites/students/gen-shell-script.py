@@ -14,7 +14,12 @@ def isOkay(thisSite,allStudents):
     Suggestion: Should contain {(at least 1 letter from both first OR last names) AND
                 (at least 4 letters from first OR last name)}
     '''
-    return True
+    try:
+        if thisSite[4]=='True':
+            return True
+    except:
+        return False
+    return False
 
 
 def stripNestedList(x):
@@ -51,6 +56,7 @@ if __name__=='__main__':
 
     for siteIdx in range(len(allSitesInfo)):
         thisSite=allSitesInfo[siteIdx]
+
         if isOkay(thisSite,allStudentsInfo):
             outputBASH.write("git clone https://github.com/{}/{}.github.io.git\n".format(thisSite[1],thisSite[1]))
             outputBASH.write("mv {}.github.io {}\n".format(thisSite[1],thisSite[2]))
