@@ -15,7 +15,7 @@ def isOkay(thisSite,allStudents):
                 (at least 4 letters from first OR last name)}
     '''
     try:
-        if thisSite[4]=='True':
+        if thisSite[3]=='True':
             return True
     except:
         return False
