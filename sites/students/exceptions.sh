@@ -13,7 +13,7 @@ echo "<li><a href=\"https://tesla.ce.pdn.ac.lk/students/$NAME/\">$NAME</a></li>"
 
 
 
-NAME="nuwanj"
-git clone https://github.com/NuwanJ/my-site.git
-mv my-site "$NAME"
-echo "<li><a href=\"https://tesla.ce.pdn.ac.lk/students/$NAME/\">$NAME</a></li>" >> $OUTPUT_HTML
+#NAME="nuwanj"
+#git clone https://github.com/NuwanJ/my-site.git
+#mv my-site "$NAME"
+#echo "<li><a href=\"https://tesla.ce.pdn.ac.lk/students/$NAME/\">$NAME</a></li>" >> $OUTPUT_HTML
