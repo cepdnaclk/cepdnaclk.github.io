@@ -6,7 +6,7 @@ This is the code to update all the student websites in [https://tesla.ce.pdn.ac.
 
 ### FOR STUDENTS: How to add a website?
 
-Add your website information to [siteInfo.csv](https://github.com/cepdnaclk/cepdnaclk.github.io/blob/master/students/siteInfo.csv). If you do not have write access, fork the repo, edit and send a pull request.
+Add your website information to [siteInfo.csv](https://github.com/cepdnaclk/cepdnaclk.github.io/blob/master/sites/students/siteInfo.csv). If you do not have write access, fork the repo, edit and send a pull request.
 
 Your github.io website should be a **public repository**.
 
