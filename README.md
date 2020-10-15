@@ -13,7 +13,7 @@ The source code is hosted at [https://github.com/cepdnaclk/cepdnaclk.github.io](
 
 ## Hosted content
 
-[FAQ](sites/faq) | [FIELDSELECTION](sites/fieldselection) | [LABS](sites/labs) | [MARKS](sites/marks) | [OTHER](sites/other) | [PROJECTS](sites/projects) | [RESULTS](sites/results) | [STUDENTS](sites/students)
+[FAQ](sites/faq) | [FIELDSELECTION](sites/fieldselection) | [LABS](sites/labs) | [MARKS](sites/marks) | [OTHER](sites/other) | [PROJECTS](sites/projects) | [RESULTS](sites/results) | [STUDENTS](sites/students) | [KEPLER](sites/kepler)
 
 Note: ~~Striked through~~ links do not lead to a landing page.
 
@@ -68,6 +68,7 @@ Note: ~~Striked through~~ links do not lead to a landing page.
 
 	* [https://cepdnaclk.github.io/sites/students/](sites/students/)
 
+	* [https://cepdnaclk.github.io/sites/kepler/](sites/kepler/)
 
 
 
