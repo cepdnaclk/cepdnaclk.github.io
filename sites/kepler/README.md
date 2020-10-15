@@ -33,7 +33,7 @@ Ubuntu 20.4.
 
 ###  Can I install some software here?
 
-Yes. You can user docker and run any sudo command inside your container.
+Yes. You can use docker and run any sudo command inside your container.
 
 ### Can I run a sudo command outside docker?
 
