@@ -18,7 +18,7 @@ Send an email to headce[at]eng.pdn.ac.lk with your registration number requestin
 
 ### I am not an undergraduate of the Department of Computer Engineering, University of Peradeniya. Can I use this server?
 
-Ask headce[at]eng.pdn.ac.lk.
+Ask headce[at]eng.pdn.ac.lk. Specify whether you need a normal LDAP account or a normal LDAP account + docker.
 
 ### How can I connect to this server?
 
