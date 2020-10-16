@@ -1,4 +1,4 @@
-# Kepler.ce.pdn.ac.lk Server
+# kepler.ce.pdn.ac.lk Server
 
 This is a GPU server of the Department of Computer Engineering, University of Peradeniya. 
 
@@ -41,7 +41,7 @@ Ubuntu 20.4.
 You can do it by
 
 1. **conda** with any account.
-2. **Docker** with docker enabled accounts.
+2. **docker** with docker enabled accounts.
 
 ###  Can I install some software here?
 
