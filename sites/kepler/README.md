@@ -40,7 +40,7 @@ You can do it using **conda** with any account. Create your own conda environmen
 
 ###  Can I install some software here?
 
-Please request through any CO staff member. Please note that the server admin has no authority to install something unless it is requested by a staff memeber.
+Please request through any [CO staff member](http://www.ce.pdn.ac.lk/academic-staff/). Please note that the server admin has no authority to install something unless it is requested by a staff memeber.
 
 ### What can I do if my doubt is not listed here?
 
