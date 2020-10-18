@@ -4,21 +4,18 @@ This is a GPU server of the Department of Computer Engineering, University of Pe
 
 The administrator changes will be documented [here](https://github.com/cepdnaclk/kepler-server-documentation). This is only accessible by the staff.
 
-You can use this server using 
-1. The LDAP login for ce.pdn.ac.lk undergraduates (which is used for CO top floor lab, aiken and tesla) without sudo access.
-2. Using a new login to use docker (and sudo inside docker containers).
-
+You can use this server using the LDAP login for ce.pdn.ac.lk undergraduates (which is used for CO top floor lab, aiken and tesla) without sudo access.
 
 ## FAQ
 
-### How can a ce.pdn.ac.lk undergraduate get a docker enabled account?
+<!-- ### How can a ce.pdn.ac.lk undergraduate get a docker enabled account?
 
 Send an email to headce[at]eng.pdn.ac.lk with your registration number requesting an account in this server. If you are allowed to have one, head of the Department will forward the request to the server admin and you will recieve a login.
-
+ -->
 
 ### I am not an undergraduate of the Department of Computer Engineering, University of Peradeniya. Can I use this server?
 
-Ask headce[at]eng.pdn.ac.lk. Specify whether you need a normal LDAP account or a normal LDAP account + docker.
+Ask headce[at]eng.pdn.ac.lk.<!--  Specify whether you need a normal LDAP account or a normal LDAP account + docker. -->
 
 ### How can I connect to this server?
 
@@ -36,20 +33,29 @@ Tesla K40c and Quadro K620.
 Ubuntu 20.4.
 
 
-### How can I install python packaged?
+### How can I install python packages?
 
-You can do it by
-
-1. **conda** with any account.
-2. **docker** with docker enabled accounts.
+You can do it using **conda** with any account. Create your own conda environment to be safe. You do not need anyone's permission to install a python package inside your conda environment.
+<!-- 2. **docker** with docker enabled accounts. -->
 
 ###  Can I install some software here?
 
-If you have a docker enabled account, you can install anything inside your container. If not, you have to [request us](https://gihan.me/contact) via *email*.
+Please request through any CO staff member. Please note that the server admin has no authority to install something unless it is requested by a staff memeber.
 
 ### What can I do if my doubt is not listed here?
 
 [Ask](https://gihan.me/contact) via email.
+
+### What software is installed in this server?
+
+* Ubuntu 20.04.1 LTS
+* NVIDIA-Driver Version: 455
+* CUDA Version: 11.1
+* cuDNN 8.0.4
+* conda 4.8.5
+* cmake 3.16.3
+* gcc 9.3.0
+
 
 ### I broke something. What should I do?
 
