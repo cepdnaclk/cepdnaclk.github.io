@@ -55,7 +55,10 @@ Please request through any [CO staff member](http://www.ce.pdn.ac.lk/academic-st
 * conda 4.8.5
 * cmake 3.16.3
 * gcc 9.3.0
-
+* openjdk 11.0.8
+* ffmpeg 4.2.4
+* SWIG 4.0.1
+* R 3.6.3 
 
 ### I broke something. What should I do?
 
