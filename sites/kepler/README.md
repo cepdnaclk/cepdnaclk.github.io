@@ -38,6 +38,12 @@ Ubuntu 20.4.
 You can do it using **conda** with any account. Create your own conda environment to be safe. You do not need anyone's permission to install a python package inside your conda environment.
 <!-- 2. **docker** with docker enabled accounts. -->
 
+In your first attempt to use conda, run the following commans
+
+```
+conda init bash
+```
+
 ###  Can I install some software here?
 
 Please request through any [CO staff member](http://www.ce.pdn.ac.lk/academic-staff/). Please note that the server admin has no authority to install something unless it is requested by a staff memeber.
