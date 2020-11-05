@@ -42,7 +42,9 @@ In your first attempt to use conda, run the following command.
 
 ```
 conda init bash
+source ~/.bashrc
 ```
+
 
 ###  Can I install some software here?
 
