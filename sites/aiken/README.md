@@ -2,7 +2,7 @@
 
 This is a GPU server of the Department of Computer Engineering, University of Peradeniya. 
 
-The administrator changes will be documented [here](https://github.com/cepdnaclk/server-documentation). This is only accessible by the staff.
+The administrator changes will be documented [here](https://github.com/cepdnaclk/kepler-server-documentation). This is only accessible by the staff.
 
 You can use this server using the LDAP login for ce.pdn.ac.lk undergraduates (which is used for CO top floor lab, aiken and tesla) without sudo access.
 
