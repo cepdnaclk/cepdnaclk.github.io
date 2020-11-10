@@ -42,6 +42,9 @@ In your first attempt to use conda, run the following command.
 
 ```
 conda init bash
+```
+You might have to run the following command on every login (unless .bashrc is run automatically)
+```
 source ~/.bashrc
 ```
 
