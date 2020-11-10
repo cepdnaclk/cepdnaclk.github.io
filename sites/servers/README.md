@@ -5,8 +5,8 @@ This page contains information about the servers of the Department of Computer E
 
 * Frequently used by students
 	* [aiken](./aiken/)
-	* [tesla](./tesla/)
 	* [kepler](./kepler/)
+	* tesla
 
 * Other
 	* babbage

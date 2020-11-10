@@ -66,14 +66,15 @@ Note: ~~Striked through~~ links do not lead to a landing page.
 	
 	* [https://cepdnaclk.github.io/sites/results/](sites/results/)
 
+	* [https://cepdnaclk.github.io/sites/servers/](sites/servers/)
+		* [https://cepdnaclk.github.io/sites/servers/aiken](sites/servers/aiken/)
+		* [https://cepdnaclk.github.io/sites/servers/kepler](sites/servers/kepler/)
+
 	* [https://cepdnaclk.github.io/sites/students/](sites/students/)
 
-	* [https://cepdnaclk.github.io/sites/kepler/](sites/kepler/)
 
 
 
 ## To do
 
 1. Create landing pages and remove strike through in the above list.
-2. projects/finalyear/2011, 2012, 2013, 2014, 2016
-2. projects/embeddedsys/
