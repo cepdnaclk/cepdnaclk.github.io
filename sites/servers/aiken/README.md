@@ -52,13 +52,13 @@ Please request through any [CO staff member](http://www.ce.pdn.ac.lk/academic-st
 
 ### What can I do if my doubt is not listed here?
 
-Ask [Amila]() or [Gihan]().
+Ask [Amila](./amila/) or [Gihan](https://gihan.me/contact/).
 
-<!-- ### What software is installed in this server?
+### What software is installed in this server?
 
 * Ubuntu 18.04.5 LTS
 * conda 4.8.5
 
 ### I broke something. What should I do?
 
-Write an [email](https://gihan.me/contact) if this is not urgent. If not [call](https://gihan.me/contact). -->
+Write an [email](./amila/) if this is not urgent. If not [call](./amila/).
