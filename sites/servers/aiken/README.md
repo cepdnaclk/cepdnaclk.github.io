@@ -52,7 +52,7 @@ Please request through any [CO staff member](http://www.ce.pdn.ac.lk/academic-st
 
 ### What can I do if my doubt is not listed here?
 
-Ask [Amila](./amila/) or [Gihan](https://gihan.me/contact/).
+Ask [Amila](../amila/) or [Gihan](https://gihan.me/contact/).
 
 ### What software is installed in this server?
 
@@ -61,4 +61,4 @@ Ask [Amila](./amila/) or [Gihan](https://gihan.me/contact/).
 
 ### I broke something. What should I do?
 
-Write an [email](./amila/) if this is not urgent. If not [call](./amila/).
+Write an [email](../amila/) if this is not urgent. If not [call](../amila/).
