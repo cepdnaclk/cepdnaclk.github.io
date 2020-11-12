@@ -54,15 +54,6 @@ Note: ~~Striked through~~ links do not lead to a landing page.
 		* [https://cepdnaclk.github.io/sites/other/config/](sites/other/config/)
 		* [https://cepdnaclk.github.io/sites/other/sinhalaocr/](sites/other/sinhalaocr/)
 		* [https://cepdnaclk.github.io/sites/other/unixone/](sites/other/unixone/)
-
-	* [https://cepdnaclk.github.io/sites/projects/](sites/projects/)
-		* [~~https://cepdnaclk.github.io/sites/projects/embedded-systems/~~](sites/projects/embedded-systems/)
-			* [https://cepdnaclk.github.io/sites/projects/embedded-systems/2016/](sites/projects/embedded-systems/2016/)
-		* [~~https://cepdnaclk.github.io/sites/projects/finalyear/~~](sites/projects/finalyear/)
-			* [https://cepdnaclk.github.io/sites/projects/finalyear/2008/](sites/projects/finalyear/2008/)
-			* [https://cepdnaclk.github.io/sites/projects/finalyear/2009/](sites/projects/finalyear/2009/)
-			* [https://cepdnaclk.github.io/sites/projects/finalyear/2010/](sites/projects/finalyear/2010/)
-			* [https://cepdnaclk.github.io/sites/projects/finalyear/2015/](sites/projects/finalyear/2015/)
 	
 	* [https://cepdnaclk.github.io/sites/results/](sites/results/)
 
