@@ -37,7 +37,7 @@ Ubuntu 20.4.
 * ffmpeg 4.2.4
 * SWIG 4.0.1
 * R 3.6.3 
-
+* Blender 2.82
 ### What datasets are hosted in kepler?
 
 We store frequently used datasets inside the kepler.ce.pdn.ac.lk local storage for easy access. You can access these by the following commands
@@ -45,7 +45,15 @@ We store frequently used datasets inside the kepler.ce.pdn.ac.lk local storage f
 ls /storage/datasets/
 ``` 
 These datasets are in the read only mode. You can use these datsets as the input for your tasks but you have to output the results to your home directory. The following datasets are stored at the moment.
-* **Shapenet (core) v1**: [Website](https://www.shapenet.org/), [Research paper](https://arxiv.org/abs/1512.03012).
+* CIFAR (10 and 100): [Website](https://www.cs.toronto.edu/~kriz/cifar.html)
+* MOT 20: [Webisite](https://motchallenge.net/data/MOT20/)
+* Shapenet (core) v1: [Website](https://www.shapenet.org/), [Research paper](https://arxiv.org/abs/1512.03012).
+* Learning to See in the Dark: [Website](https://github.com/cchen156/Learning-to-See-in-the-Dark), [Research Paper](https://cchen156.github.io/paper/18CVPR_SID.pdf)
+* Brightening Train
+* LOL Dataset
+* Dakshina [Website](https://github.com/google-research-datasets/dakshina)
+
+
 
 
 
