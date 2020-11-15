@@ -76,7 +76,8 @@ if __name__=='__main__':
 
 
     outputBASH.write("echo \"</ul>\" >> $OUTPUT_HTML\n")
-    outputBASH.write("echo \"Updated on: {} \" >> $OUTPUT_HTML\n".format(datetime.now().strftime("%d/%m/%Y %H:%M:%S")))
+    outputBASH.write("echo \"Updated on: {} <br>\" >> $OUTPUT_HTML\n".format(datetime.now().strftime("%d/%m/%Y %H:%M:%S")))
+    outputBASH.write("echo \"Click <a href=\"https://github.com/cepdnaclk/cepdnaclk.github.io/tree/master/sites/students\">here</a> to add a student website.\" >> $OUTPUT_HTML\n")
     outputBASH.write("echo \"</body></html>\" >> $OUTPUT_HTML\n")
 
     print("PROGRAM END: gen-shell-scrpt.py")

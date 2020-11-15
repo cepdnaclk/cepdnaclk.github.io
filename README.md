@@ -13,7 +13,7 @@ The source code is hosted at [https://github.com/cepdnaclk/cepdnaclk.github.io](
 
 ## Hosted content
 
-[FAQ](sites/faq) | [FIELDSELECTION](sites/fieldselection) | [LABS](sites/labs) | [MARKS](sites/marks) | [OTHER](sites/other) | [PROJECTS](sites/projects) | [RESULTS](sites/results) | [STUDENTS](sites/students)
+[FAQ](sites/faq) | [FIELDSELECTION](sites/fieldselection) | [LABS](sites/labs) | [MARKS](sites/marks) | [OTHER](sites/other) | [RESULTS](sites/results) | [STUDENTS](sites/students) | [SERVERS](sites/servers)
 
 Note: ~~Striked through~~ links do not lead to a landing page.
 
@@ -54,17 +54,12 @@ Note: ~~Striked through~~ links do not lead to a landing page.
 		* [https://cepdnaclk.github.io/sites/other/config/](sites/other/config/)
 		* [https://cepdnaclk.github.io/sites/other/sinhalaocr/](sites/other/sinhalaocr/)
 		* [https://cepdnaclk.github.io/sites/other/unixone/](sites/other/unixone/)
-
-	* [https://cepdnaclk.github.io/sites/projects/](sites/projects/)
-		* [~~https://cepdnaclk.github.io/sites/projects/embedded-systems/~~](sites/projects/embedded-systems/)
-			* [https://cepdnaclk.github.io/sites/projects/embedded-systems/2016/](sites/projects/embedded-systems/2016/)
-		* [~~https://cepdnaclk.github.io/sites/projects/finalyear/~~](sites/projects/finalyear/)
-			* [https://cepdnaclk.github.io/sites/projects/finalyear/2008/](sites/projects/finalyear/2008/)
-			* [https://cepdnaclk.github.io/sites/projects/finalyear/2009/](sites/projects/finalyear/2009/)
-			* [https://cepdnaclk.github.io/sites/projects/finalyear/2010/](sites/projects/finalyear/2010/)
-			* [https://cepdnaclk.github.io/sites/projects/finalyear/2015/](sites/projects/finalyear/2015/)
 	
 	* [https://cepdnaclk.github.io/sites/results/](sites/results/)
+
+	* [https://cepdnaclk.github.io/sites/servers/](sites/servers/)
+		* [https://cepdnaclk.github.io/sites/servers/aiken](sites/servers/aiken/)
+		* [https://cepdnaclk.github.io/sites/servers/kepler](sites/servers/kepler/)
 
 	* [https://cepdnaclk.github.io/sites/students/](sites/students/)
 
@@ -74,5 +69,3 @@ Note: ~~Striked through~~ links do not lead to a landing page.
 ## To do
 
 1. Create landing pages and remove strike through in the above list.
-2. projects/finalyear/2011, 2012, 2013, 2014, 2016
-2. projects/embeddedsys/
