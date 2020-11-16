@@ -1,3 +1,7 @@
+---
+layout: home
+---
+
 # cepdnaclk.github.io
 
 This repository contains the github pages webiste [https://cepdnaclk.github.io](https://cepdnaclk.github.io) for Department of Computer Engineering, University of Peradeniya, Sri Lanka. The official website of the deaprtment is hosted at [https://www.ce.pdn.ac.lk](https://www.ce.pdn.ac.lk). This repository contains supplementary content.
@@ -63,7 +67,7 @@ Note: ~~Striked through~~ links do not lead to a landing page.
 			* [https://cepdnaclk.github.io/sites/projects/finalyear/2009/](sites/projects/finalyear/2009/)
 			* [https://cepdnaclk.github.io/sites/projects/finalyear/2010/](sites/projects/finalyear/2010/)
 			* [https://cepdnaclk.github.io/sites/projects/finalyear/2015/](sites/projects/finalyear/2015/)
-	
+
 	* [https://cepdnaclk.github.io/sites/results/](sites/results/)
 
 	* [https://cepdnaclk.github.io/sites/servers/](sites/servers/)
