@@ -11,7 +11,7 @@
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
-    <link href="/assets/css/index.css" rel="stylesheet">
+    <link href="{{ '/assets/css/index.css' | prepend: site.baseurl }}" rel="stylesheet">
     {% seo %}
 </head>
 
@@ -21,7 +21,7 @@
         <header class="blog-header py-3">
             <div class="row flex-nowrap justify-content-between align-items-center">
                 <div class="col-2 pt-1">
-                    <img class=" mx-auto d-block img-fluid" src="/assets/images/crest.png" alt="Logo">
+                    <img class=" mx-auto d-block img-fluid" src="{{ '/assets/images/crest.png' | prepend: site.baseurl }}" alt="Logo">
                 </div>
                 <div class="col-8">
                     <a class="blog-header-logo text-dark" href="#">
