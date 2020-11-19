@@ -46,6 +46,25 @@ source ~/.bashrc
 ```
 
 
+### How can I run a Jupyter Notebook on the server and access it over the internet?
+
+1. Create a conda environment with jupyter notebook package installed.
+2. Activate that environment.
+3. Run <code>jupyter notebook --generate-config</code>
+4. It will say the configuration file for your account. Edit the configuration file and add the following two lines. (They are originally commented out as given below.)
+```
+# c.NotebookApp.allow_origin = ''
+# c.NotebookApp.ip = 'localhost'
+c.NotebookApp.allow_origin = '*'
+c.NotebookApp.ip = '0.0.0.0'
+```
+5. Save the configuration file. You should still be in the conda environment.
+6. Run the jupyter notebook. <code>jupyter-notebook</code>
+7. You will see a URL like this <code>http://SOMETHING:8888/tree?token=abc123def456</code>
+8. Type the following address into your PC browser <code>http://aiken.ce.pdn.ac.lk:8888/tree?token=abc123def456</code>
+9. Your browser (on your PC) will be showing the jupyter notebook running on the aiken server.
+
+
 ###  Can I install some software here?
 
 Please request through any [CO staff member](http://www.ce.pdn.ac.lk/academic-staff/). Please note that the server admin has no authority to install something unless it is requested by a staff memeber.

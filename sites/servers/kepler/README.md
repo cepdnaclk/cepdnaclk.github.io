@@ -46,12 +46,21 @@ ls /storage/datasets/
 ``` 
 These datasets are in the read only mode. You can use these datsets as the input for your tasks but you have to output the results to your home directory. The following datasets are stored at the moment.
 * CIFAR (10 and 100): [Website](https://www.cs.toronto.edu/~kriz/cifar.html)
-* MOT 20: [Webisite](https://motchallenge.net/data/MOT20/)
+* MOT 15,16,17,20: [Webisite](https://motchallenge.net/). Please note that there is an issue with unzipping MOT17.
 * Shapenet (core) v1: [Website](https://www.shapenet.org/), [Research paper](https://arxiv.org/abs/1512.03012).
 * Learning to See in the Dark: [Website](https://github.com/cchen156/Learning-to-See-in-the-Dark), [Research Paper](https://cchen156.github.io/paper/18CVPR_SID.pdf)
 * Brightening Train
 * LOL Dataset
 * Dakshina [Website](https://github.com/google-research-datasets/dakshina)
+* Oxford Town Center Dataset
+
+What other ML tools are hosted in kepler?
+You can access these by the following commands
+```
+ls /storage/datasets/
+``` 
+
+* Yolo v4 and v3 weights
 
 
 
