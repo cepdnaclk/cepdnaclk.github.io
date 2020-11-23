@@ -21,6 +21,10 @@ You can use ssh login. [This](https://ce-pdn-ac-lk.com/cewiki/server_use:use_of_
 
 Ubuntu 14.04.5 LTS
 
+### What software is in installed in this server?
+* MySQL : Students can request login to use the MySQL server for their projects.
+* Apache server: Students can request web server space for their projects.
+
 ### How can I install python packages?
 
 You can do it using **conda** with any account. Create your own conda environment to be safe. You do not need anyone's permission to install a python package inside your conda environment. [This](https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf) is a good quick start guide for conda.
@@ -35,6 +39,24 @@ You might have to run the following command on every login (unless .bashrc is ru
 ```
 source ~/.bashrc
 ```
+
+### How can I run a Jupyter Notebook on the server and access it over the internet?
+
+1. Create a conda environment with jupyter notebook package installed.
+2. Activate that environment.
+3. Run <code>jupyter notebook --generate-config</code>
+4. It will say the configuration file for your account. Edit the configuration file and add the following two lines. (They are originally commented out as given below.)
+```
+# c.NotebookApp.allow_origin = ''
+# c.NotebookApp.ip = 'localhost'
+c.NotebookApp.allow_origin = '*'
+c.NotebookApp.ip = '0.0.0.0'
+```
+5. Save the configuration file. You should still be in the conda environment.
+6. Run the jupyter notebook. <code>jupyter-notebook</code>
+7. You will see a URL like this <code>http://SOMETHING:8888/tree?token=abc123def456</code>
+8. Type the following address into your PC browser <code>http://tesla.ce.pdn.ac.lk:8888/tree?token=abc123def456</code>
+9. Your browser (on your PC) will be showing the jupyter notebook running on the tesla server.
 
 ###  Can I install some software here?
 
