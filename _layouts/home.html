@@ -2,7 +2,7 @@
 <html lang="{{ site.lang | default: "en-US" }}">
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
     <meta name="description" content="">
     <meta name="author" content="Department of Computer Engineering">
     <link rel="icon" href="{{ '/assets/images/favicon.ico' | prepend: site.baseurl }}">
@@ -73,8 +73,10 @@
         </ul>
     </nav>
 
-    <main role="main" class="container pt-5 vh-50" >
-        {{ content }}
+    <main role="main" class="container pt-5 vh-50">
+        <div class="">
+            {{ content }}
+        </div>
     </main>
 
     <footer class="blog-footer mt-5" style="background-color: lightgray!important;">
@@ -90,7 +92,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
-    <script src="/assets/js/popper.min.js"></script>
     <script src="/assets/js/holder.min.js"></script>
 
 </body>

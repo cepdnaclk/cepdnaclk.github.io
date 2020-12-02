@@ -15,4 +15,4 @@ Detailed Instructions: [setting-up-your-github-pages-site-locally-with-jekyll](h
 ### Instructions
 
     bundle install
-    bundle exec jekyll serve
+    bundle exec jekyll serve --increment
