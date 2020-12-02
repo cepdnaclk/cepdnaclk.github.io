@@ -64,7 +64,7 @@ Please request through any [CO staff member](http://www.ce.pdn.ac.lk/academic-st
 
 ### What can I do if my doubt is not listed here?
 
-Ask [Amila](../amila/) or [Gihan](https://gihan.me/contact/).
+Ask [Amila](../amila/).
 
 ### What software is installed in this server?
 

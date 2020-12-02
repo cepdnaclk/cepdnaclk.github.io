@@ -28,7 +28,7 @@ Ubuntu 20.4.
 
 * Ubuntu 20.04.1 LTS
 * NVIDIA-Driver Version: 455
-* CUDA Version: 11.1
+* CUDA Version: 11.1 Update 1
 * cuDNN 8.0.4
 * conda 4.8.5
 * cmake 3.16.3
