@@ -1,8 +1,9 @@
 title: "cepdnaclk.github.io"
 # logo: /assets/img/logo.png
-description: "Department of Computer Engineering"
+description: "GitHub - Department of Computer Engineering"
 # show_downloads: true
 # google_analytics:
+
 theme: jekyll-theme-minimal
 
 plugins:
