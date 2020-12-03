@@ -59,7 +59,7 @@ c.NotebookApp.allow_origin = '*'
 c.NotebookApp.ip = '0.0.0.0'
 ```
 5. Save the configuration file. You should still be in the conda environment.
-6. Run the jupyter notebook. <code>jupyter-notebook</code>
+6. Run the jupyter notebook. <code>jupyter-notebook --no-browser</code>
 7. You will see a URL like this <code>http://SOMETHING:8888/tree?token=abc123def456</code>
 8. Type the following address into your PC browser <code>http://aiken.ce.pdn.ac.lk:8888/tree?token=abc123def456</code>
 9. Your browser (on your PC) will be showing the jupyter notebook running on the aiken server.
