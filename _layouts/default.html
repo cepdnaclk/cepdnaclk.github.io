@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Department of Computer Engineering">
+    <link rel="icon" href="{{ '/assets/images/favicon.ico' | prepend: site.baseurl }}">
+
+    <title>{{ page.title }}</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
+    <link href="{{ '/assets/css/index.css' | prepend: site.baseurl }}" rel="stylesheet">
+
+    {% seo %}
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top_">
+        <div class="container">
+            <a class="navbar-brand" href="/">GitHub - Department of Computer Engineering</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+            aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link d-none" href="{{ "/" | absolute_url }}">Home</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<main role="main"  >
+    <div class="container d-flex pt-2">
+        <a class="" href="{{ "/" | absolute_url }}"> <<  {{ site.title | default: site.github.repository_name }}</a>
+    </div>
+
+    <div class="container pt-5 px-5 vh-50">
+        <div class="px-10">
+            {{ content }}
+        </div>
+    </div>
+</main>
+
+{% if site.google_analytics %}
+
+{% endif %}
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<script src="/assets/js/popper.min.js"></script>
+<script src="/assets/js/holder.min.js"></script>
+</body>
+</html>
