@@ -66,6 +66,8 @@ Note: ~~Striked through~~ links do not lead to a landing page.
 	* [https://cepdnaclk.github.io/sites/servers/](sites/servers/)
 		* [https://cepdnaclk.github.io/sites/servers/aiken](sites/servers/aiken/)
 		* [https://cepdnaclk.github.io/sites/servers/kepler](sites/servers/kepler/)
+		* [https://cepdnaclk.github.io/sites/servers/tesla](sites/servers/tesla/)
+		* [https://cepdnaclk.github.io/sites/servers/amila](sites/servers/amila/)
 
 	* [https://cepdnaclk.github.io/sites/students/](sites/students/)
 
