@@ -50,9 +50,10 @@ These datasets are in the read only mode. You can use these datsets as the input
 * Shapenet (core) v1: [Website](https://www.shapenet.org/), [Research paper](https://arxiv.org/abs/1512.03012).
 * Learning to See in the Dark: [Website](https://github.com/cchen156/Learning-to-See-in-the-Dark), [Research Paper](https://cchen156.github.io/paper/18CVPR_SID.pdf)
 * Brightening Train
-* LOL Dataset
+* LOL Dataset [Website](https://daooshee.github.io/BMVC2018website/)
 * Dakshina [Website](https://github.com/google-research-datasets/dakshina)
 * Oxford Town Center Dataset
+* Exclusively Dark Image Dataset: [Gitrepo](https://github.com/cs-chan/Exclusively-Dark-Image-Dataset/tree/master/Dataset), [Research paper](http://cs-chan.com/doc/cviu.pdf)
 
 What other ML tools are hosted in kepler?
 You can access these by the following commands
