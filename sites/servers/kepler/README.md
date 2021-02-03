@@ -66,7 +66,12 @@ ls /storage/datasets/
 
 
 
+### How to compile CUDA C/C++ code?
+```
+nvcc code.cu -arch=sm_35
+```
 
+The **-arch=sm_35** flag is required to compile code properly on this server.
 
 
 ###  Can I install some software here?
