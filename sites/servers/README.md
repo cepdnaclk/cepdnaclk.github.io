@@ -47,3 +47,7 @@ You might have to run the following command on every login (unless .bashrc is ru
 ```
 source ~/.bashrc
 ```
+
+### Which server is more suitable for my work?
+
+If you are working on a heavy CPU bound computation, use [aiken](./aiken/). [Kepler](./kepler/) would be suitable if you are working on deep learning because of better GPUs and ready made datasets on the server.
