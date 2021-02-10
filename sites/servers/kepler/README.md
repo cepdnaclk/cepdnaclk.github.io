@@ -85,7 +85,7 @@ Please request through any [CO staff member](http://www.ce.pdn.ac.lk/academic-st
 
 ### What can I do if my doubt is not listed here?
 
-[Ask](./admin/) via email.
+[Ask](./../admin/) via email.
 
 
 ### I am not an undergraduate of the Department of Computer Engineering, University of Peradeniya. Can I use this server?
@@ -95,4 +95,4 @@ Ask headce[at]eng.pdn.ac.lk.<!--  Specify whether you need a normal LDAP account
 
 ### I broke something. What should I do?
 
-Write an [email](./admin/) if this is not urgent. If not [call](./admin/).
+Write an [email](./../admin/) if this is not urgent. If not [call](./../admin/).
