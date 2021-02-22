@@ -14,6 +14,11 @@ See https://ce-pdn-ac-lk.com/cewiki/server_use:use_of_servers
 
 ---
 
+##### How can I become a member of the github organization?
+Send an email to [this address](https://gihan.me/contact) from your @ce.pdn.ac.lk email (not your gmail, not your @eng.pdn.ac.lk).
+
+---
+
 ##### What are my Wifi networks and login credentials?
 <table>
     <tr><td>Network</td><td>Username</td><td>Password</td></tr>
