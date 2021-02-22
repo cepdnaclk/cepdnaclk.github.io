@@ -31,7 +31,7 @@ This page contains information about the servers of the Department of Computer E
 ## FAQ about all servers in general
 
 ### How to keep a program running even when I disconnect the remote terminal?
-Read https://www.maketecheasier.com/nohup-and-uses/
+Read [this](https://www.maketecheasier.com/nohup-and-uses/).
 
 ### How can I install python packages?
 
