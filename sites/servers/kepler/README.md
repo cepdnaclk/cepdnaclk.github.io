@@ -8,6 +8,53 @@ You can use this server using the LDAP login for ce.pdn.ac.lk undergraduates (wh
 
 ## FAQ
 
+### Is there a limit to GPU Usage on this server?
+
+Short answer: You should [inform the admin](https://cepdnaclk.github.io/sites/servers/admin/) if you are using more than 4GB of GPU memory.
+
+
+Long answer:
+
+You are allowed to use the whole GPU for your work. But there are some guidelines to make sure you don't block others from using the GPU unnecessarily. The Tesla K40C card on this server can be used by more than one person simultaneously in most situations.
+
+
+GPU usage can be checked by running the command **nvidia-smi**. The CPU and RAM usage can be checked by running the command **htop**.
+
+
+_**If a user is blocking the GPU by using more than 4GB at a given moment:**_ [Contact the admin](https://cepdnaclk.github.io/sites/servers/admin/) and request him/her to kill the process.
+
+
+_**If you are using the GPU for deep learning:**_ If your code is implemented using a neural network framework, it might try to allocate the full GPU memory even when it is not needed. This issue can be corrected by modifying the code.
+
+This is the code to be added for tensorflow 2.2 or newer.
+```
+import tensorflow as tf
+gpus = tf.config.experimental.list_physical_devices('GPU')
+if gpus:
+    try:
+        for gpu in gpus:
+            tf.config.experimental.set_memory_growth(gpu, True)
+
+    except RuntimeError as e:
+        print(e)
+```
+
+You may find such code to correct this issue in similar frameworks as well. 
+
+If you make this change and your NN training still requires more than 4GB of GPU memory, you can try setting a **smaller batch_size** in the NN training step. Following is a piece of code for Keras.
+
+```
+nn.fit(xTrain,yTrain,epochs=100,verbose=1,batch_size=8)
+```
+
+If you cannot reduce the memory footprint of your NN training, please [inform the admin](https://cepdnaclk.github.io/sites/servers/admin/) so that s/he will not kill your process to give space to another user.
+
+
+_**If you are using the GPU for something else:**_
+
+It is okay to use the full GPU memory for short periods of time (around 5 min). But if you use the GPU for a longer period of time you should [inform the admin](https://cepdnaclk.github.io/sites/servers/admin/) about your requirement.
+
+
 ### How can I connect to this server?
 
 You can use ssh login. Since kepler.ce.pdn.ac.lk is not a public IP you shoud either (a) use a computer in the Peradeniya network or (b) ssh to a public IP server like tesla.ce.pdn.ac.lk or aiken.ce.pdn.ac.lk and ssh to kepler.ce.pdn.ac.lk from there.
