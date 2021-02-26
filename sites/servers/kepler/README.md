@@ -21,10 +21,14 @@ You are allowed to use the whole GPU for your work. But there are some guideline
 GPU usage can be checked by running the command **nvidia-smi**. The CPU and RAM usage can be checked by running the command **htop**.
 
 
-_**If a user is blocking the GPU by using more than 4GB at a given moment:**_ [Contact the admin](https://cepdnaclk.github.io/sites/servers/admin/) and request him/her to kill the process.
+_**If a user is blocking the GPU by using more than 4GB at a given moment:**_
+
+[Contact the admin](https://cepdnaclk.github.io/sites/servers/admin/) and request him/her to kill the process.
 
 
-_**If you are using the GPU for deep learning:**_ If your code is implemented using a neural network framework, it might try to allocate the full GPU memory even when it is not needed. This issue can be corrected by modifying the code.
+_**If you are using the GPU for deep learning:**_ 
+
+If your code is implemented using a neural network framework, it might try to allocate the full GPU memory even when it is not needed. This issue can be corrected by modifying the code.
 
 This is the code to be added for tensorflow 2.2 or newer.
 ```
