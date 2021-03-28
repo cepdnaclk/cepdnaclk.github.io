@@ -69,6 +69,6 @@ gcc -v #Now you get the gcc-8 when you run gcc command
 
 If you are working on a heavy CPU bound computation, use [aiken](./aiken/). [Kepler](./kepler/) would be suitable if you are working on deep learning because of better GPUs and ready made datasets on the server.
 
-### How can I conviniently run experiments and monitor progress on the server and remotely monitor them?
+### How can I conviniently run experiments on the server and remotely monitor them?
 
 Suggested solution: [Labml](https://github.com/lab-ml/labml) is an all in one solution for conducting, logging and monitoring NN based experiments on mobile/remote PC.
