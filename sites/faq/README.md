@@ -9,6 +9,10 @@ The source code from 2015 is avaliable [here](src/). Unfortunately, the MySQL da
 This is an attempt to collect a list of frequently asked questions and answers. If you can remember questions from the earlier site or has suggestions for questions that should go into a FAQ site, add them here.
 
 * **GETTING STARTED:** [**How to add questions to this FAQ list?**](qa/#how-to-add-questions-to-this-faq-list)
+
+* Github.com/cepdnaclk
+    * [How can I become a member of the github organization?](qa/#how-can-i-become-a-member-of-the-github-organization)
+
 * General
     * [Will my @ce.pdn.ac.lk mail address and @eng.pdn.ac.lk mail address expire after graduation?](qa#will-my-cepdnaclk-mail-address-and-engpdnaclk-mail-address-expire-after-graduation)
     * [What are my usernames and passwords for university websites?](qa#what-are-my-usernames-and-passwords-for-university-websites)

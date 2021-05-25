@@ -2,7 +2,7 @@
 
 This is a HPC server of the Department of Computer Engineering, University of Peradeniya. 
 
-The administrator changes will be documented [here](https://github.com/cepdnaclk/kepler-server-documentation). This is only accessible by the staff.
+The administrator changes will be documented [here](https://github.com/cepdnaclk/server-documentation-public).
 
 You can use this server using the LDAP login for ce.pdn.ac.lk undergraduates (which is used for CO top floor lab, aiken and tesla) without sudo access.
 
@@ -30,20 +30,25 @@ You can use ssh login. [This](https://ce-pdn-ac-lk.com/cewiki/server_use:use_of_
 
 Ubuntu 18.04.5 LTS
 
-### How can I install python packages?
 
-You can do it using **conda** with any account. Create your own conda environment to be safe. You do not need anyone's permission to install a python package inside your conda environment. [This](https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf) is a good quick start guide for conda.
-<!-- 2. **docker** with docker enabled accounts. -->
 
-In your first attempt to use conda, run the following command.
+### How can I run a Jupyter Notebook on the server and access it over the internet?
 
+1. Create a conda environment with jupyter notebook package installed.
+2. Activate that environment.
+3. Run <code>jupyter notebook --generate-config</code>
+4. It will say the configuration file for your account. Edit the configuration file and add the following two lines. (They are originally commented out as given below.)
 ```
-conda init bash
+# c.NotebookApp.allow_origin = ''
+# c.NotebookApp.ip = 'localhost'
+c.NotebookApp.allow_origin = '*'
+c.NotebookApp.ip = '0.0.0.0'
 ```
-You might have to run the following command on every login (unless .bashrc is run automatically)
-```
-source ~/.bashrc
-```
+5. Save the configuration file. You should still be in the conda environment.
+6. Run the jupyter notebook. <code>jupyter-notebook --no-browser</code>
+7. You will see a URL like this <code>http://SOMETHING:8888/tree?token=abc123def456</code>
+8. Type the following address into your PC browser <code>http://aiken.ce.pdn.ac.lk:8888/tree?token=abc123def456</code>
+9. Your browser (on your PC) will be showing the jupyter notebook running on the aiken server.
 
 
 ###  Can I install some software here?
@@ -52,7 +57,7 @@ Please request through any [CO staff member](http://www.ce.pdn.ac.lk/academic-st
 
 ### What can I do if my doubt is not listed here?
 
-Ask [Amila](../amila/) or [Gihan](https://gihan.me/contact/).
+Ask the [admin](../amila/).
 
 ### What software is installed in this server?
 
@@ -61,4 +66,4 @@ Ask [Amila](../amila/) or [Gihan](https://gihan.me/contact/).
 
 ### I broke something. What should I do?
 
-Write an [email](../amila/) if this is not urgent. If not [call](../amila/).
+Write an [email](../admin/) if this is not urgent. If not [call](../admin/).
