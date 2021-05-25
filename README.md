@@ -33,7 +33,7 @@ Note: ~~Striked through~~ links do not lead to a landing page.
 		* [https://cepdnaclk.github.io/sites/fieldselection/2017](sites/fieldselection/2017/)
 		* [https://cepdnaclk.github.io/sites/fieldselection/2018](sites/fieldselection/2018/)
 		* [https://cepdnaclk.github.io/sites/fieldselection/2019](sites/fieldselection/2019/)
-
+		* [https://cepdnaclk.github.io/sites/fieldselection/2020](sites/fieldselection/2020/)
 
 	* [https://cepdnaclk.github.io/sites/industrial-training-portal](sites/industrial-training-portal/)
 

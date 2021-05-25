@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Field selection</title>
+
+
+	<!-- animate css -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
+	<!-- materialize -->
+	<!-- Compiled and minified CSS -->
+  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+
+
+  	<link rel="stylesheet" type="text/css" href="css/styles.css">
+  	<link rel="stylesheet" type="text/css" href="css/animate.css">
+
+ 	
+
+
+	<script type="text/javascript">
+		//initial values of field selection
+
+		var fullAllocation = {'Chem':27,'Civil':153,'Comp':62,'Elect':102,'Mech':42,'Manufac':40};
+		var currentAllocation = {'Chem':0,'Civil':0,'Comp':0,'Elect':0,'Mech':0,'Manufac':0};
+		//Chem	Civil	Comp	Elect	Mech	Manufac
+		//27	153	62	102	42	40
+
+		var dataFile = 'selection.csv';
+		var allDataFromCSV = '';
+		var dataArray = [];
+
+	</script>
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script> 
+
+	<script src="js/highcharts.js"></script>
+	<script src="js/exporting.js"></script>
+
+</head>
+<body>
+
+
+<div id="sortThis">
+<h5>Cut-off GPA for each field</h5>
+<div class="section group">
+	<div class="col span_1_of_6">
+		<div class="row cardAnimations" >
+		      <div class="col s4 m12">
+		      		<span class="card-title">Chem</span>
+		        <div class="card-panel teal" id="chemClass">
+		          	<span class="white-text">0</span>
+		        </div>
+		      </div>
+		 </div>
+	</div>
+	<div class="col span_1_of_6">
+		 <div class="row cardAnimations" >
+		      <div class="col s4 m12">
+		      		<span class="card-title">Civil</span>
+		        <div class="card-panel teal" id="civilClass">
+		          	<span class="white-text">0</span>
+		        </div>
+		      </div>
+		 </div>
+	</div>
+	<div class="col span_1_of_6">
+
+		 <div class="row cardAnimations" >
+		      <div class="col s4 m12">
+		      		<span class="card-title">Comp</span>
+		        <div class="card-panel teal" id="compClass">
+		          	<span class="white-text">0</span>
+		        </div>
+		      </div>
+		 </div>
+
+	</div>
+	<div class="col span_1_of_6">
+		 <div class="row cardAnimations" >
+		      <div class="col s4 m12">
+		      		<span class="card-title">Elect</span>
+		        <div class="card-panel teal" id="electClass">
+		          	<span class="white-text">0</span>
+		        </div>
+		      </div>
+		</div>
+	</div>
+	<div class="col span_1_of_6">
+
+		 <div class="row cardAnimations" >
+		      <div class="col s4 m12">
+		      		<span class="card-title">Mech</span>
+		        <div class="card-panel teal" id="mechClass">
+		          	<span class="white-text">0</span>
+		        </div>
+		      </div>
+		 </div>
+
+	</div>
+	<div class="col span_1_of_6">
+		 <div class="row cardAnimations" >
+		      <div class="col s4 m12">
+		      		<span class="card-title">Manufac</span>
+		        <div class="card-panel teal" id="prodClass">
+		          	<span class="white-text">0</span>
+		        </div>
+		      </div>
+		 </div>
+	</div>
+</div>
+</div>
+
+
+<div id="topStudents">
+
+<h5>Numbers and percentage of top students assigned for each field</h5>
+<div class="section group shadow">
+	<div class="col span_1_of_3"></div>
+	<div class="col span_1_of_3">
+
+		<form name="radioForm" id="radioForm">
+		    <p>
+		      <input name="group1" type="radio" id="rankradio" />
+		      <label for="rankradio">Rank</label>
+		      <input name="group1" type="radio" id="gparadio" />
+		      <label for="gparadio">GPA</label>
+		    </p>
+	  	</form>
+
+		<div id="card">
+
+		<div class="front" id="rankselection">
+		<p>Select Rank</p>
+		<div class="input-field">
+		<select id="topN" class="browser-default"></select>
+		</div>
+		<!-- <div id="topNGraph" style="min-width: 310px; height: 400px; margin: 0 auto"></div> -->
+		</div>
+		<div class="back" id="gpaselection">
+		<p>Select GPA</p>
+		<div class="input-field">
+		<select id="topGPA" class="browser-default"></select>
+		</div>
+		<!-- <div id="topGPAGraph" style="min-width: 310px; height: 400px; margin: 0 auto"></div> -->
+		</div>
+		</div>
+
+	</div>
+	<div class="col span_1_of_3"></div>
+</div>
+
+
+<div id="graphContainer" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+
+
+
+<div class="section group shadow">
+	<div class="col span_1_of_3"></div>
+	<div class="col span_1_of_3"></div>
+	<div class="col span_1_of_3"></div>
+</div>
+
+</div>
+
+<div id="percentageGPAdiv">
+
+<h5>Percentage of class GPA in each field</h5>
+
+<div class="section group">
+	<!-- {'Chem':27,'Civil':153,'Comp':62,'Elect':102,'Mech':42,'Manufac':40}; -->
+
+	<div class="col span_1_of_3">
+		<div id='Chem'></div>
+	</div>
+	<div class="col span_1_of_3">
+		<div id='Civil'></div>
+	</div>
+	<div class="col span_1_of_3">
+		<div id='Comp'></div>
+	</div>
+</div>
+<div class="section group">
+	<!-- {'Chem':27,'Civil':153,'Comp':62,'Elect':102,'Mech':42,'Manufac':40}; -->
+
+	<div class="col span_1_of_3">
+		<div id='Elect'></div>
+	</div>
+	<div class="col span_1_of_3">
+		<div id='Mech'></div>
+	</div>
+	<div class="col span_1_of_3">
+		<div id='Manufac'></div>
+	</div>
+</div>
+
+</div>
+
+<div class="section group">
+<div class="col span_1_of_3"></div>
+<div class="col span_1_of_3"></div>
+<div class="col span_1_of_3"></div>
+
+</div>
+
+<div id="classGPAdiv">
+
+<h5>Number of class GPA in each field</h5>
+<div id="stackedGraph" class="shadow" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+</div>
+
+<div class="section group">
+<div class="col span_1_of_3"></div>
+<div class="col span_1_of_3"></div>
+<div class="col span_1_of_3"></div>
+</div>
+
+
+<div id="averageGPAdiv">
+
+<h5>Average GPA of students in each field</h5>
+
+<div>
+	<div id="averageGraph" class="shadow" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+</div>
+
+</div>
+
+
+
+</body>
+<script type="text/javascript" src ="js/topN.js"></script>
+<script type="text/javascript" src ="js/topGPA.js"></script>
+<script type="text/javascript" src ="js/pieClasses.js"></script>
+<script type="text/javascript" src ="js/stacked.js"></script>
+<script type="text/javascript" src ="js/average.js"></script>
+<script type="text/javascript" src ="js/chooseCutoff.js"></script>
+<script type="text/javascript" src ="js/countApplied.js"></script>
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+	//Radio button controller
+
+	// var rad = document.radioForm.group1;
+ //    var prev = null;
+ //    for(var i = 0; i < rad.length; i++) {
+ //        rad[i].onclick = function() {
+ //            (prev)? console.log(prev.value):null;
+ //            if(this !== prev) {
+ //                prev = this;
+ //            }
+ //            console.dir(this)
+ //            $('#rankselection').addClass('animated bounceOutLeft');
+ //        };
+ //    }
+	$(document).ready(function(){
+	    $('input[type=radio]').click(function(){
+	        console.dir(this.id);
+	        //$("#card").flip();
+
+
+	        if(this.id =='rankradio'){
+	        	topN.getData();
+	        	document.getElementById('gpaselection').style.height = '0px';
+	        	document.getElementById('rankselection').style.height = 'inherit';
+	        }else if(this.id=='gparadio'){
+	        	topGPA.getData();
+	        	document.getElementById('rankselection').style.height = '0px';
+	        	document.getElementById('gpaselection').style.height = 'inherit';
+
+	        }
+
+	    });
+	});
+
+</script>
+
+
+ <!-- Compiled and minified JavaScript  materialize-->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+
+
+<script type="text/javascript" src ="js/reader.js"></script>
+
+
+<script type="text/javascript">
+	function sortUsingNestedText(parent, childSelector, keySelector) {
+		console.log('running');
+		    var items = parent.children(childSelector).children(childSelector).sort(function(a, b) {
+		    	console.dir(a);
+		        console.dir(b);
+		        var vA = $(keySelector, a).text();
+		        var vB = $(keySelector, b).text();
+		        console.dir(vA);
+		        console.dir(vB);
+
+		        return (vA > vB) ? -1 : (vA < vB) ? 1 : 0;
+		    });
+		    parent.children(childSelector).append(items);
+		}
+
+
+	(function() {
+  	// your page initialization code here
+   	// the DOM will be available here
+	   	//showing the first graph only
+	   	$('#rankradio')[0].checked = true;
+	   	document.getElementById('gpaselection').style.height = '0px';
+	   	topN.getData();
+
+	   	// marking cutoff GPAs
+	   	markCutoff.getData();
+
+	   	// sorting and making the cards
+		sortUsingNestedText($('#sortThis'), "div", ".white-text");
+
+		// showing things
+		$('.card-title').show();
+		$('#sortThis').show();
+		$('#topStudents').show();
+		$('#percentageGPAdiv').show();
+		$('#classGPAdiv').show();
+		$('#averageGPAdiv').show();
+		$('.cardAnimations').addClass('animated flipInY');
+		$('#topStudents').addClass('animated zoomIn');
+
+
+		})();
+</script>
+ 
+
+</html>
