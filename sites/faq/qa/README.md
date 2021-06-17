@@ -139,6 +139,14 @@ As of now (2020/04/14): @ce.pdn.ac.lk will be deleted one year after the graduat
 
 ##### How to get started with the Open BCI Cyton Board?
 
-See [https://github.com/gihanjayatilaka/BCI-Project/blob/master/README.md#openbci](https://github.com/gihanjayatilaka/BCI-Project/blob/master/README.md#openbci) or contact hirunas[at]eng[dot]pdn[dot]ac[dot]lk.
+See [https://cepdnaclk.github.io/e15-4yp-Brain-Computer-Interface-for-controlling-virtual-objects/](https://cepdnaclk.github.io/e15-4yp-Brain-Computer-Interface-for-controlling-virtual-objects/) and contact the team listed there.
+
+---
+
+
+##### How to prepare a good CV?
+
+Pointers from workshop for E16s on 15/06/2021 [url](https://docs.google.com/document/d/1kGc2ksuyw97ns5VA4npvq_qi52ud6HbZutMcLezhqBM/edit).
+
 
 ---
