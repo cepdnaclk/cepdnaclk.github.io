@@ -10,7 +10,7 @@
 ---
 
 ##### How to connect to department servers?
-See https://ce-pdn-ac-lk.com/cewiki/server_use:use_of_servers
+See [https://ce-pdn-ac-lk.com/cewiki/server_use:use_of_servers](https://ce-pdn-ac-lk.com/cewiki/server_use:use_of_servers)
 
 ---
 
