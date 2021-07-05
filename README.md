@@ -1,8 +1,3 @@
----
-layout: home
-title: Department of Computer Engineering
-permalink: index.html
----
 
 # cepdnaclk.github.io
 
