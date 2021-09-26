@@ -1,7 +1,7 @@
 
 # cepdnaclk.github.io
 
-This repository contains the github pages webiste [https://cepdnaclk.github.io](https://cepdnaclk.github.io) for Department of Computer Engineering, University of Peradeniya, Sri Lanka. The official website of the deaprtment is hosted at [https://www.ce.pdn.ac.lk](https://www.ce.pdn.ac.lk). This repository contains supplementary content.
+This repository contains the github pages website [https://cepdnaclk.github.io](https://cepdnaclk.github.io) for Department of Computer Engineering, University of Peradeniya, Sri Lanka. The official website of the department is hosted at [https://www.ce.pdn.ac.lk](https://www.ce.pdn.ac.lk). This repository contains supplementary content.
 
 ## For administrators
 
@@ -13,6 +13,8 @@ The source code is hosted at [https://github.com/cepdnaclk/cepdnaclk.github.io](
 
 
 ## Hosted content
+
+This content is from https://github.com/cepdnaclk/cepdnaclk.github.io only.
 
 [FAQ](sites/faq) | [FIELDSELECTION](sites/fieldselection) | [LABS](sites/labs) | [MARKS](sites/marks) | [OTHER](sites/other) | [RESULTS](sites/results) | [STUDENTS](sites/students) | [SERVERS](sites/servers)
 
@@ -67,6 +69,15 @@ Note: ~~Striked through~~ links do not lead to a landing page.
 	* [https://cepdnaclk.github.io/sites/students/](sites/students/)
 
 
+## Content from other repositories
+
+This content is from repositories other than https://github.com/cepdnaclk/cepdnaclk.github.io. This list may not be complete.
+
+* https://cepdnaclk.github.io/events/
+* http://cepdnaclk.github.io/co542-neural-networks-reading-group-e15/
+* https://cepdnaclk.github.io/co542-neural-networks-reading-group-e16/
+* https://cepdnaclk.github.io/makerspace/
+* https://cepdnaclk.github.io/proctored-exam-handbook
 
 
 ## To do
