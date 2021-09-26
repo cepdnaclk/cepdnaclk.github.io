@@ -1,2 +1,9 @@
-_site
+
+# Jekyll Related files 
+.bundle
+.ruby-version
+.jekyll-cache
 .jekyll-metadata
+_site
+Gemfile.lock
+.idea

@@ -36,6 +36,8 @@ This is an attempt to collect a list of frequently asked questions and answers. 
     * CO222
     * CO224
         * [How to run ARM assembly code?](qa/#how-to-run-arm-assembly-code)
+* Internships, jobs and higher education
+    * [How to prepare a good CV?](qa/#how-to-prepare-a-good-cv)
 
 
 **To do:** Move this content to the FAQ site once implemented. Move these to the cewiki if we are not going to build a FAQ site.

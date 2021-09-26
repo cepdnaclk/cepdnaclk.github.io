@@ -10,7 +10,7 @@
 ---
 
 ##### How to connect to department servers?
-See https://ce-pdn-ac-lk.com/cewiki/server_use:use_of_servers
+See [https://ce-pdn-ac-lk.com/cewiki/server_use:use_of_servers](https://ce-pdn-ac-lk.com/cewiki/server_use:use_of_servers)
 
 ---
 
@@ -126,9 +126,9 @@ As of now (2020/04/14): @ce.pdn.ac.lk will be deleted one year after the graduat
 <table>
 <tr><th>Account</th><th>Whom to ask</th></tr>
 <tr><td>https://feels.pdn.ac.lk/</td><td>feels[at]eng[dot]pdn[dot]ac[dot]lk</td></tr>
-<tr><td>CO Top floor lab linux computers, tesla, aiken, babbage, [at]ce.pdn.ac.lk email, results.ce.pdn.ac.lk</td><td>Any CO instructor</td></tr>
-<tr><td>CO Top floor windows password</td><td>Any CO instructor</td></tr>
-<tr><td>CC windows password</td><td>Any CC instructor</td></tr>
+<tr><td>CO Top floor lab linux computers, tesla, aiken, babbage, [at]ce.pdn.ac.lk email, results.ce.pdn.ac.lk</td><td><a href="https://cepdnaclk.github.io/sites/servers/admin/">CO server admin</a></td></tr>
+<tr><td>CO Top floor windows password</td><td><a href="https://cepdnaclk.github.io/sites/servers/admin/">CO server admin</a></td></tr>
+<tr><td>CC windows password</td><td><a href="https://cepdnaclk.github.io/sites/servers/admin/">CO server admin</a></td></tr>
 <tr><td>[at]eng.pdn.ac.lk password</td><td>roshanr[at]eng[dot]pdn[dot]ac[dot]lk</td></tr>
 <tr><td>https://ce-pdn-ac-lk.com/</td><td>kamalanath[at]eng[dot]pdn[dot]ac[dot]lk</td></tr>
 <tr><td>https://ce-pdn-ac-lk.com/my_coursemgmnt/</td><td>kamalanath[at]eng[dot]pdn[dot]ac[dot]lk</td></tr>
@@ -139,6 +139,14 @@ As of now (2020/04/14): @ce.pdn.ac.lk will be deleted one year after the graduat
 
 ##### How to get started with the Open BCI Cyton Board?
 
-See [https://github.com/gihanjayatilaka/BCI-Project/blob/master/README.md#openbci](https://github.com/gihanjayatilaka/BCI-Project/blob/master/README.md#openbci) or contact hirunas[at]eng[dot]pdn[dot]ac[dot]lk.
+See [https://cepdnaclk.github.io/e15-4yp-Brain-Computer-Interface-for-controlling-virtual-objects/](https://cepdnaclk.github.io/e15-4yp-Brain-Computer-Interface-for-controlling-virtual-objects/) and contact the team listed there.
+
+---
+
+
+##### How to prepare a good CV?
+
+Pointers from workshop for E16s on 15/06/2021 [url](https://docs.google.com/document/d/1kGc2ksuyw97ns5VA4npvq_qi52ud6HbZutMcLezhqBM/edit).
+
 
 ---
