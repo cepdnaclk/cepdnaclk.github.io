@@ -73,11 +73,11 @@ Note: ~~Striked through~~ links do not lead to a landing page.
 
 This content is from repositories other than https://github.com/cepdnaclk/cepdnaclk.github.io. This list may not be complete.
 
-* https://cepdnaclk.github.io/events/
-* http://cepdnaclk.github.io/co542-neural-networks-reading-group-e15/
-* https://cepdnaclk.github.io/co542-neural-networks-reading-group-e16/
-* https://cepdnaclk.github.io/makerspace/
-* https://cepdnaclk.github.io/proctored-exam-handbook
+* [https://cepdnaclk.github.io/events/](events/)
+* [http://cepdnaclk.github.io/co542-neural-networks-reading-group-e15/](co542-neural-networks-reading-group-e15/)
+* [https://cepdnaclk.github.io/co542-neural-networks-reading-group-e16/](co542-neural-networks-reading-group-e16/)
+* [https://cepdnaclk.github.io/makerspace/](makerspace/)
+* [https://cepdnaclk.github.io/proctored-exam-handbook](proctored-exam-handbook/)
 
 
 ## To do
