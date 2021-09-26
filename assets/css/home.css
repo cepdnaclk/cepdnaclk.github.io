@@ -1,0 +1,28 @@
+
+.blog-header {
+    line-height: 1;
+    border-bottom: 1px solid black;
+    /* background-color: #4b5863; */
+    background-color: #343a40!important;
+}
+.blog-header-logo {
+    /* font-family: "Playfair Display", Georgia, "Times New Roman", serif; */
+    font-size: 1.75rem;
+}
+.blog-header-logo .small {
+    /* font-family: "Playfair Display", Georgia, "Times New Roman", serif; */
+    font-size: 1.25rem;
+}
+.blog-header-logo:hover {
+    text-decoration: none;
+}
+
+.home-h2{
+    padding-top: 32px !important;
+    border-bottom: 2px solid #cbcbcb;
+    /* font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
+}
+
+.nav-item{
+    min-width: 100px;
+}

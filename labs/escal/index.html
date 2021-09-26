@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>ESCAL | Embedded Systems and Computer Architecture Laboratory </title>
+	<script type="text/javascript" src='js/jquery-2.1.4.min.js'></script>
+	<script type="text/javascript" src='js/jquery.jscrollpane.min.js'></script>
+	<script type="text/javascript" src='js/jquery.easing.1.3.min.js'></script>
+	<script src="http://maps.googleapis.com/maps/api/js"></script>
+	<script type="text/javascript" src='js/scrollspy.js'></script>
+	<script type="text/javascript" src='js/scripts.js'></script>
+
+	<link rel="stylesheet" href="css/font-awesome.css">
+	<link rel="stylesheet" href="css/glyphicons.css">
+	<link rel="stylesheet" href="css/scroller.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="icon" type="image/png" href="images/icon.png" />
+
+	<script>
+	function initialize() {
+		var mapProp = {
+			center:new google.maps.LatLng(7.253927, 80.592399),
+			zoom:16,
+			mapTypeId:google.maps.MapTypeId.ROADMAP
+		};
+		var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+
+		var marker=new google.maps.Marker({
+			position:new google.maps.LatLng(7.254555, 80.591766)
+		});
+
+		marker.setMap(map);
+	}
+	google.maps.event.addDomListener(window, 'load', initialize);
+	</script>
+	<script>
+	var screensizeOffset = 0;// $(window).width()>720 ? 100 : 0;
+	$(function() {
+		$('#navigation').scrollspy({
+			offset: 10
+		});
+	  $('a[href*=#]:not([href=#])').click(function() {
+	    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+	      var target = $(this.hash);
+	      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+	      if (target.length) {
+	        $('body, html').animate({
+	          	scrollTop: target.position().top - screensizeOffset
+	        }, 1000, "easeOutExpo", function(){
+		      // console.log(target.offset().top + $('.jspContainer').offset().top);
+	      	});
+	        return false;
+	      }
+	    }
+	  });
+	  $('div.content *').each( function(i){
+        	var topOffset = $(this).offset().top;
+            // var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+            var bottom_of_window = $(window).scrollTop() + $(window).height();
+            
+            /* If the object is completely visible in the window, fade it it */
+			if( bottom_of_window > topOffset + 10){
+	                $(this).animate({'opacity':'1'},300);
+	            }       
+        });
+        if($(window).scrollTop()>120){
+
+        	if(!affixed  && ($(window).width()>720)){
+        		affixed = true;
+				$("#mainLogo").css('position', 'fixed').css('top', '-50px').animate({'top':'70px'},300, 'easeOutExpo');
+        	}
+        } else if ($(window).width()>720) {
+        	$("#mainLogo").css('position', 'absolute').css('top', '20px')
+			affixed = false;
+        }
+	});
+	if($(window).scrollTop()>120  && ($(window).width()>720)){
+		if(!affixed){
+    		affixed = true;
+			$("#mainLogo").css('position', 'fixed').css('top', '-50px').animate({'top':'70px'},300, 'easeOutExpo');
+    	}
+    } else {
+    	$("#mainLogo").css('position', 'absolute').css('top', '20px')
+		affixed = false;
+    }
+	$(window).scroll( function(){
+        $('div.content *').each( function(i){
+        	var topOffset = $(this).offset().top;
+            // var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+            var bottom_of_window = $(window).scrollTop() + $(window).height();
+            
+            /* If the object is completely visible in the window, fade it it */
+		if( bottom_of_window > topOffset + 10){
+                $(this).animate({'opacity':'1'},300);
+            }       
+        });
+        if($(window).scrollTop()>120){
+			if($(window).width()<720) return;
+        	if(!affixed){
+        		affixed = true;
+				$("#mainLogo").css('position', 'fixed').css('top', '-50px').animate({'top':'70px'},300, 'easeOutExpo');
+        	}
+        } else {
+        	if($(window).width()<720) return;
+        	$("#mainLogo").css('position', 'absolute').css('top', '20px')
+			affixed = false;
+        }
+    });
+	var affixed = false;
+	</script>
+</head>
+<body data-spy="scroll">
+<header id="welcome">
+	<img id="mainLogo" src="images/logo.png" alt="">
+	<div>
+		<h1>Embedded Systems and Computer Architecture Laboratory</h1>
+		<h2>Faculty of Engineering, University of Peradeniya</h2>
+	</div>
+</header>
+<input type="checkbox" id="collapser" name="collapser">
+<label id="collapser_icon" class='glyphicon' for="collapser"></label>
+<div id="navigation">
+
+	<ul class='nav'>
+		<li class='active'><a href="#welcome">Overview</a></li>
+		<li><a href="#security">Security and Reliability of Embedded Systems</a></li>
+		<li><a href="#attacksNcounterMeasures">Side-Channel Attacks and Countermeasures</a></li>
+		<li><a href="#processorNmemory">Application Specific Processor and Memory Hierarchy Design</a></li>
+		<li><a href="#highPerformance">High-Performance Computing &amp; NVIDIA Research Center</a></li>
+		<li><a href="#contactUs">Contact us</a></li>
+	</ul>
+</div>
+<div id="sidebar">
+	<img id="logo" src="images/logo_purple.png" alt="">
+	<div class="profile">
+		<img id='profile_img' src="images/profile.png" alt="">
+		<p align="left">Hello there,</p>
+		<p align="justify">ESCAL Lab is always on the lookout for enthusiastic research students to pursue MPhils and PhDs. If you are interested in one of the themes, please contact me at roshanr@pdn.ac.lk.</p>
+		<p align="right">-<a href="http://roshan.ragel.net">Roshan Ragel</a></p>
+		</div>
+	<div class="footerLinks">
+		<a href="https://lk.linkedin.com/in/roshanragel"><i class="fa fa-linkedin"></i></a>
+		<a href="https://www.facebook.com/RoshanRagel/"><i class="fa fa-facebook"></i></a>
+		<a href="https://twitter.com/ragelrg"><i class="fa fa-twitter"></i></a>
+		<!-- a href=""><i class="fa fa-google-plus"></i></a-->
+		<a href="https://www.youtube.com/channel/UCcRQ3l9R6Uuw3v17H6UjMxg?view_as=public"><i class="fa fa-youtube"></i></a>
+	</div>
+</div>
+<div class="content-list">
+	<div class="transparentContent">
+		<p align="justify">The Embedded Systems and Computer Architecture Laboratory (ESCAL) is a research group at the Department of Computer Engineering at the University of Peradeniya. The primary focus of the group is inclined towards micro-architectural design aspects of embedded microprocessors and their security and reliability concerns.</p>
+		<p align="justify">The group is led by Roshan Ragel and has continued collaborations with Professor Sri Parameswaran at the Embedded Systems Lab, School of Computer Science and Engineering, the University of New South Wales (UNSW), Sydney.</p>
+		<p align="justify">The group consists of the academic staff members of the Department of Computer Engineering, the Postgraduate (Ph.D., M.Phil., M.Eng., and M.Sc.) students from both the Department of Computer Engineering and the Postgraduate Institute of Science (PGIS), and the Undergraduate students from the Department of Computer Engineering and the Department of Statistics and Computer Science. The group also collaborates with the academic staff members, postdoctoral researchers and postgraduate students from the School of Computer Science and Engineering, UNSW. Roshan Ragel regularly visits UNSW, Sydney, as a visiting research fellow.</p>
+		<p align="justify">At present, the group works on the following themes:
+		<ul>
+			<li>Security and Reliability of Embedded Systems</li>
+			<li>Side-Channel Attacks and Countermeasures</li>
+			<li>Application Specific Processor and Memory Hierarchy Design</li>
+			<li>High-Performance Computing</li>
+		</ul></p>
+
+	</div>
+	<div class="content" id="security">
+		<h1>Security and Reliability of Embedded Systems</h1>
+		<p align="justify">The primary focus of this topic is on the security and reliability aspects of embedded microprocessors. That is, architecting and building microprocessors that can detect and project from security vulnerabilities, and also that can take care of the reliability concerns of the computing system. The theme also includes areas such as CAPTCHA (Completely Automated Public Turing test to tell Computers and Humans Apart) systems for mobile devices that are designed to prevent spams.</p>
+		<h2>Present members/collaborators</h2>
+		<ul>
+			<li>Dr. Roshan Ragel</li>
+			<li>Prof. Sri Parameswaran (Professor, UNSW)</li>
+			<li>Dr. Angelo Ambrose (Team Lead, Canon Information Systems Australia (CiSRA))</li>
+			<li>Dr. Tuo Li (Postdoctoral Researcher, UNSW)</li>
+			<li>Dr. Swarnalatha Radhakrishnan (Senior Lecturer, University of Peradeniya)</li>
+		</ul>
+		<h2>Past members/collaborators</h2>
+		<ul>
+			<li>Roshan Wickramasinghe (UG Project Student)</li>
+			<li>Akila Keerawella (UG Project Student)</li>
+			<li>Ajitha Samarasinghe (UG Project Student)</li>
+			<li>Chaminda Bulumulla (UG Thesis Student, Computer Science)</li>
+			<li>Pramod Herath (UG Project Student)</li>
+			<li>Upul Senanayake (UG Project Student)</li>
+			<li>Kruthartha Patel (PhD Student @UNSW)</li>
+			<li>Babak Saghaie (PhD Student @UNSW)</li>
+		</ul>
+		<h2>Recent Publications (2011 - )</h2>
+		<ul>
+			<li align="justify">Roshan Wicramasingha, Akila Keerawella, Ajitha Samarasinghe and Roshan Ragel, <strong>RotateCAPTCHA: A Novel Interactive CAPTCHA Design Targeting Mobile Devices</strong>, in Proceedings of the 10th IEEE International Conference on Industrial and Information Systems 2015 (ICIIS'2015), Peradeniya, Sri Lanka, Dec 2015</li>
+			<li align="justify">Bulumulla, C.B; Ragel, R.G, <strong>LineCAPTCHA mobile: A user-friendly replacement for unfriendly reverse Turing tests for mobile devices</strong>, Information and Automation for Sustainability (ICIAfS), 2014 7th  International Conference on, pp.1,6, 22-24 Dec. 2014 [Best Paper Award - Intelligent Machines and Man-machine Co-existence]</li>
+			<li align="justify">Roshan Ragel, Pramod Herath and Upul Senanayake, <strong>Authorship Detection of SMS Messages Using Unigrams</strong>, Eighth International Conference on Industrial &amp; Information Systems (ICIIS 2013), December 2013, Kandy, Sri Lanka, IEEE, Kandy, Sri Lanka</li>
+			<li align="justify">Babak Saghaie, Roshan Ragel, Sri Parameswaran and Aleks Ignjatovic, <strong>A Novel Intermittent Fault Markov Model for Deep Sub-Micron Processors</strong>, GLSVLSI 2013, Paris, France, May 2013</li>
+			<li align="justify">Tuo Li, Muhammad Shafique, Semeen Rehman, Swarnalatha Radhakrishnan, Roshan Ragel, Jude Angelo Ambrose, Jorg Henkel and Sri Parameswaran, <strong>CSER: HW/SW Configurable Soft-Error Resiliency for Application Specific Instruction-Set Processors</strong>, Design, Automation and Test in Europe (DATE), March 2013</li>
+			<li align="justify">Tuo Li, Roshan Ragel, Sri Parameswaran, <strong>RELI: A HW/SW Checkpoint and Recovery Scheme for Embedded Processors</strong>, in Proceedings of the Design, Automation and Test in Europe (DATE 2012) Conference, Dresdon, Germany, IEEE Press, pp. , March 2012</li>
+			<li align="justify">K. Patel, S. Parameswaran and R.G. Ragel, <strong>Architectural Frameworks for Security and Reliability of MPSoCs</strong>, IEEE Transactions on Very Large Scale Integration (VLSI) Systems, 19(9): pp 1641-1654, September 2011.</li>
+			<li align="justify">R.G. Ragel and S. Parameswaran, <strong>A Hybrid Hardware Software Technique to Improve Reliability in Embedded Processors</strong>, ACM Transactions on Embedded Computing Systems (TECS), 10.3, ACM New York, April 2011.</li>
+		</ul>
+	</div>
+	<div class="content" id="attacksNcounterMeasures">
+		<h1>Side-Channel Attacks and Countermeasures</h1>
+		<p align="justify">Side-channel attacks focus on the information leakage of a system via its side-channels to extract secret keys of the system. The group works on exploring new vulnerabilities of the systems and proposing countermeasures.</p>
+		<h2>Present members/collaborators</h2>
+		<ul>
+			<li>Dr. Roshan Ragel</li>
+			<li>Prof. Sri Parameswaran (Professor, UNSW)</li>
+			<li>Dr. Angelo Ambrose (Team Lead, Canon Information Systems Australia (CiSRA))</li>
+			<li>Dr. Dhammika Elkaduwe (Senior Lecturer)</li>
+			<li>Darshana Jayasinghe (PhD Student, UNSW)</li>
+			<li>Hasindu Gamaarachchi (Instructor)</li>
+		</ul>
+		<h2>Past members/collaborators</h2>
+		<ul>
+			<li>Bhanuka Bandara (UG Project Student)</li>
+			<li>Udyani Herath (UG Thesis Student, Computer Science) </li>
+			<li>Janaka Alawatugoda (UG Thesis Student, Computer Science)</li>
+			<li>Jayani Fernando (UG Project Student)</li>
+			<li>Ankita Arora (M.Sc. by Research Student, UNSW)</li>
+		</ul>
+		<h2>Recent Publications (2011 - )</h2>
+		<ul>
+			<li align="justify">Hasindu Gamaarachchi, Bhanuka Bandara, and Roshan Ragel, <strong>The A to Z of Building a Testbed for Power Analysis Attacks</strong>, in Proceedings of the 10th IEEE International Conference on Industrial and Information Systems 2015 (ICIIS'2015), Peradeniya, Sri Lanka, Dec 2015.</li>
+			<li align="justify">Hasindu Gamaarachchi, Harsha Ganegoda and Roshan Ragel, <strong>Testbed for Power Analysis Attack Based on the Arduino Prototyping Board</strong>, Proceedings of the Peradeniya University International Research Sessions 2015 (iPURSE15), University of Peradeniya, Sri Lanka, Nov. 2015.</li>
+			<li align="justify">Darshana Jayasinghe, Angelo Ambrose, Roshan Ragel, Aleksandar Ignjatovic, Sri Parameswaran, <strong>QuadSeal: Quadruple Algorithmic Symmetrizing Countermeasure Against Power Based Side-channel Attacks</strong>, CASES 2015, Amsterdam, The Netherlands, October 2015.</li>
+			<li align="justify">Jude Angelo Ambrose, Roshan G. Ragel, Darshana Jayasinghe, Tuo Li and Sri Parameswaran, Side <strong>Channel Attacks in Embedded Systems: A Tale of Hostilities and Deterrence</strong>, ISQED, Santa Clara, CA, USA, 2015</li>
+			<li align="justify">Jayasinghe, D.; Ragel, R.; Ambrose, J.A.; Ignjatovic, A.; Parameswaran, S., <strong>Advanced modes in AES: Are they safe from power analysis based side channel attacks</strong>  Computer Design (ICCD), 2014 32nd IEEE International Conference on , vol., no., pp.173,180, 19-22 Oct. 2014</li>
+			<li align="justify">Udyani Herath, Janaka Alawatugoda and Roshan Ragel, <strong>Software Implementation Level Countermeasures against the Cache Timing Attack on Advanced Encryption Standard</strong>, Eighth International Conference on Industrial &amp; Information Systems (ICIIS 2013), December 2013, Kandy, Sri Lanka, IEEE, Kandy, Sri Lanka</li>
+			<li align="justify">Jude A. Ambrose, Roshan G. Ragel and Sri Parameswaran, <strong>Randomized Instruction Injection to Counter Power Analysis Attacks</strong>, ACM Transactions on Embedded Computing Systems. Volume 11 Issue 3, September 2012 ACM New York, NY, USA.</li>
+			<li align="justify">Darshana Jayasinghe, Roshan Ragel and Dhammika Elkaduwe, <strong>Constant Time Encryption as a Countermeasure Against Remote Cache Timing Attack</strong>, 6th International Conference on Information and Automation for Sustainability (ICIAfS 12), 2012, Beijing, China, September 2012 (won one of the BEST PAPER AWARDS).</li>
+			<li align="justify">Darshana Jayasinghe, Jayani Fernando, Roshan Ragel and Dhammika Elkaduwe, <strong>Constant Time Encryption as a Countermeasure Against Remote Cache Timing Attack</strong>, in Proceedings of the Peradeniya University Research Sessions (PURSE) 2011, Sri Lanka, Vol. 16, pp 120, November 2011.</li>
+			<li align="justify">A. Arora, S. Parameswaran, R. G. Ragel and D. Jayasinghe, <strong>A Hardware/Software Countermeasure and a Testing Framework for Cache based Side Channel Attacks</strong>, in Proceedings of the 8th IEEE International Conference on Embedded Software and Systems (IEEE ICESS 2011), Changsha, China, November, 2011</li>
+			<li align="justify">Janaka Alawatugoda, Roshan Ragel and Darshana Jayasinghe, <strong>Countermeasures Against Bernsteins Remote Cache Timing Attack</strong>, in Proceedings of the 6th International Conference on Industrial and Information Systems (ICIIS2011), pp 43-48, Kandy, Sri Lanka, August 2011.</li>
+			<li align="justify">Jude A. Ambrose, Roshan G. Ragel, Sri Parameswaran and Aleksandar Ignjatovic, <strong>Multiprocessor Information Concealment Architecture to prevent Power Analysis based Side Channel Attacks</strong>, IET Transactions on Computers &amp; Digital Techniques, Volume 5, Issue 1, pp 1-15, January 2011.</li>
+		</ul>
+	</div>
+	<div class="content" id="processorNmemory">
+		<h1>Application Specific Processor and Memory Hierarchy Design</h1>
+		<p align="justify">This theme focusses on the high performance and low-cost design of processors and memory hierarchies. The application specific nature of embedded systems/processors is exploited to achieve the benefits of such designs. The design of the processor includes keywords such as System-on-Chip (SoC), Multiprocessor System-on-Chip (MPSoC), single and multiprocessor memory (cache) hierarchies.</p>
+
+		<h2>Present members/collaborators</h2>
+		<ul>
+			<li>Dr. Roshan Ragel</li>
+			<li>Dr. Swarnalatha Radhakrishnan (Senior Lecturer)</li>
+			<li>Prof. Sri Parameswaran (Professor, UNSW)</li>
+			<li>Dr. Angelo Ambrose (Team Lead, Canon Information Systems Australia (CiSRA))</li>
+			<li>Mr. Isuru Nawinne (PhD Student, UNSW)</li>
+			<li>Dr. Haris Javaid (Google Inc.)</li>
+		</ul>
+		<h2>Past members/collaborators</h2>
+		<ul>
+			<li>Rashmie Abeysinghe (UG Thesis Student, Computer Science)</li>
+			<li>Nadiya Hassan (UG Thesis Student, Computer Science)</li>
+			<li>Chaluka Salgado (UG Thesis Student, Computer Science)</li>
+			<li>Mahanama Wickramasinghe (UG Project Student)</li>
+			<li>Lawrance Zhang (PhD Student, UNSW)</li>
+			<li>Dr. Jorgen Peddersen (Research Associate, UNSW)</li>
+			<li>Mohammad Shihabul Haque (PhD Student, UNSW)</li>
+		</ul>
+		<h2>Recent Publications (2011 - )</h2>
+		<ul>
+			<li align="justify">Isuru Nawinne, Haris Javaid, Roshan Ragel, Swarnalatha Radhakrishnan, and Sri Parameswaran, <strong>Exploring Multi-Level Cache Hierarchies in Application Specific MPSOCs</strong>, in Computer-Aided Design of Integrated Circuits and Systems, IEEE Transactions on, Vol. 34, No. 12, pp. 1991 - 2003, Dec 2015</li>
+			<li align="justify">Abeysinghe, T.M.R.L.B. ; Hassan, N. ; Ragel, R.G., <strong>A feasibility study on programmer specific instruction set processors</strong>, Information and Automation for Sustainability (ICIAfS), 2014 7th International Conference on, pp.1,6, 22-24 Dec 2014</li>
+			<li align="justify">Salgado, M.G.G.C.R. ; Ragel, R.G., Register spilling for specific application domains in ASIPs, Information and Automation for Sustainability (ICIAfS), 2014 7th International Conference on, pp.1,6, 22-24 Dec 2014</li>
+			<li align="justify">Lawrance Zhang, Jude Angelo Ambrose, Roshan Ragel, Swarnalatha Radhakrishnan, Jorgen Peddersen and Sri Parameswaran, <strong>DRMA: Dynamically Reconfigurable MPSoC Architecture</strong>, GLSVLSI 2013, Paris, France, May 2013</li>
+			<li align="justify">Roshan Ragel, Jude Angelo Ambrose, Swarnalatha Radhakrishnan and Sri Parameswaran, <strong>A Study on Instruction-set Selection using Multi-application based Application Specific Instruction-set Processors</strong>, 26th International Conference on VLSI Design (VLSID 13), January 2013, Pune, India.</li>
+			<li align="justify">Mohammad Shihabul Haque, Roshan Ragel, Angelo Ambrose, Swarnalatha Radhakrishnan and Sri Parameswaran, <strong>DIMSim: A Rapid Two-level Cache Simulation Approach for Deadline-based MPSoCs</strong>, International Conference on Hardware/Software Codesign and System Synthesis 2012, Tampere, Findland, October 2012</li>
+			<li align="justify">Roshan Ragel, Swarnalatha Radhakrishnan and Angelo Ambrose, <strong>Instruction-set Selection for Multi-application Based ASIP Design: an Instruction-level Study</strong>, 6th International Conference on Information and Automation for Sustainability (ICIAfS 12), 2012, Beijing, China, September 2012.</li>
+			<li align="justify">Isuru Nawinne, Mahanama Wickramasinghe, Roshan Ragel and Swarnalatha Radhakrishnan, <strong>Heterogeneous Processor Pipeline for a Product Cipher Application</strong>, in Proceedings of the 6th International Conference on Industrial and Information Systems (ICIIS2011), pp 32-37, Kandy, Sri Lanka, August 2011.</li>
+		</ul>
+	</div>
+	<div class="content" id="highPerformance">
+		<h1>High-Performance Computing &amp; NVIDIA Research Center</h1>
+		<p align="justify">The primary focus of this theme is to accelerate the performance of a computing system with particular emphasis on embedded computer system. The work includes stimulating the different aspects of the complete span of a computing system, from algorithms to hardware modifications. The theme also includes the NVIDIA Research Center at the University of Peradeniya (<a href="http://tesla.ce.pdn.ac.lk">http://tesla.ce.pdn.ac.lk</a>), which focusses on using NVIDIA GPUs for high-performance computing.</p>
+		<h2>Present members/collaborators</h2>
+		<ul>
+			<li>Dr. Roshan Ragel</li>
+			<li>Dr. Devapriya Dewasurendra (Senior Lecturer)</li>
+			<li>Dr. Dhammika Elkaduwe (Senior Lecturer)</li>
+			<li>Jiffriya Carder (MPhil Student, PGIS)</li>
+			<li>Akmal Jahan (MPhil Student, PGIS)</li>
+			<li>Hasindu Gamaarachchi (Instructor)</li>
+			<li>Darshana Jayasinghe (PhD Student, UNSW)</li>
+			<li>Sugandima Vidanagamachchi (PhD Student)</li>
+			<li>Mahesan Niranjan (Professor, University of Southampton, UK)</li>
+			<li>Vajira Thambawita (MPhil Student)</li>
+		</ul>
+		<h2>Past members/collaborators</h2>
+		<ul>
+			<li>Nayomi Dayarathne (MSc Student, PGIS)</li>
+			<li>Arudchutha Subramaniam (UG Project Student)</li>
+			<li>Nishanthy Tharmakulasingam (UG Project Student)</li>
+			<li>Pramitha Perera (UG Thesis Student, Computer Science)</li>
+			<li>Upul Senanayake (UG Project Student)</li>
+			<li>Arunan Sivanathan (UG Project Student)</li>
+			<li>Charith Ellepola (UG Project Student)</li>
+			<li>Rahal Prabuddha (UG Project Student)</li>
+			<li>Angelo Barnes (UG Project Student) </li>
+			<li>Ryan Fernando (UG Project Student)</li>
+			<li>Kasuni Mettananda (UG Project Student)</li>
+			<li>Damayanthi Herath (UG Project Student)</li>
+			<li>Chathurika Lakmali (UG Project Student)</li>
+		</ul>
+		<h2>Recent Publications (2011 - )</h2>
+		<ul>
+			<li align="justify">MAC Jiffriya, MAC Akmal Jahan, Hasindu Gamaarachchi, and Roshan Ragel, <strong>Accelerating Text Based Plagiarism Detection using GPUs</strong>, in Proceedings of the 10th IEEE International Conference on Industrial and Information Systems 2015 (ICIIS'15), Peradeniya, Sri Lanka, Dec 2015.</li>
+			<li align="justify">Gamaarachchi, Hasindu ; Ragel, Roshan ; Jayasinghe, Darshana, Accelerating correlation power analysis using graphics processing units (GPUs), Information and Automation for Sustainability (ICIAfS), 2014 7th International Conference on, pp.1,6, 22-24 Dec. 2014</li>
+			<li align="justify">Vidanagamachchi, S.M. ; Dewasurendra, S.D. ; Ragel, R.G. ; Niranjan, M., <strong>A structured hardware software architecture for peptide based diagnosis of Baylisascaris Procyonis infection</strong>, Information and Automation for Sustainability (ICIAfS), 2014 7th International Conference on, pp.1,6, 22-24 Dec. 2014</li>
+			<li align="justify">Thambawita, D.R.V.L.B. ; Ragel, Roshan ; Elkaduwe, Dhammika, <strong>To use or not to use: Graphics processing units (GPUs) for pattern matching algorithms</strong>, Information and Automation for Sustainability (ICIAfS), 2014 7th International Conference on, pp.1,6, 22-24 Dec. 2014</li>
+			<li align="justify">Dayarathne, Nayomi ; Ragel, Roshan, <strong>Accelerating Rabin Karp on a Graphics Processing Unit (GPU) using Compute Unified Device Architecture (CUDA)</strong>, Information and Automation for Sustainability (ICIAfS), 2014 7th International Conference on, pp.1,6, 22-24 Dec. 2014</li>
+			<li align="justify">Vidanagamachchi, Sugandima M. ; Devapriya Dewasurendra, S. ; Ragel, Roshan G. ; Niranjan, Mahesan, <strong>A structured hardware software architecture for peptide based diagnosis  Sub-string matching problem with limited tolerance</strong>, Information and Automation for Sustainability (ICIAfS), 2014 7th International Conference on, pp.1,6, 22-24 Dec. 2014</li>
+			<li align="justify">S. M. Vidanagamachchi, S. D. Dewasurendra, R.G. Ragel, <strong>Hardware Accelerated Protein Inference Framework</strong>, Eighth International Conference on Industrial &amp; Information Systems (ICIIS 2013), December 2013, Kandy, Sri Lanka, IEEE, Kandy, Sri Lanka</li>
+			<li align="justify">S. M. Vidanagamachchi, S. D. Dewasurendra, R.G. Ragel, <strong>Hardware Software Co-design of the Aho-Corasick Algorithm: Scalable for Protein Identification?</strong>, Eighth International Conference on Industrial &amp; Information Systems (ICIIS 2013), December 2013, Kandy, Sri Lanka, IEEE, Kandy, Sri Lanka</li>
+			<li align="justify">Arudchutha Subramaniam, Roshan Ragel, Nishanthy Tharmakulasingam, <strong>String Matching with Multicore CPUs: Performing Better with the Aho-Corasick Algorithm</strong>, Eighth International Conference on Industrial &amp; Information Systems (ICIIS 2013), December 2013, Kandy, Sri Lanka, IEEE, Kandy, Sri Lanka</li>
+			<li align="justify">Pramitha Perera and Roshan Ragel, <strong>Accelerating Motif Finding in DNA Sequences with Multicore CPUs</strong>, Eighth International Conference on Industrial &amp; Information Systems (ICIIS 2013), December 2013, Kandy, Sri Lanka, IEEE, Kandy, Sri Lanka</li>
+			<li align="justify">U. Senanayake, A. Sivanathan, R. G. Ragel, <strong>Evaluating a Data Level Parallelism Approach In Drug Discovery Research</strong>, Peradeniya University Research Sessions 2012, July 2013</li>
+			<li align="justify">S.M. Vidanagamachchi, S.D. Dewasurendra, R.G. Ragel, M. Niranjan, <strong>Software Hardware Co-Design for Protein Identification</strong>, Peradeniya University Research Sessions 2012, July 2013</li>
+			<li align="justify">D.R.V.L.B. Thambawita, N.C. Ellepola, R. G. Ragel, D. Elkaduwe, <strong>GPGPU: To Use or Not to Use?</strong>, Peradeniya University Research Sessions 2012, July 2013</li>
+			<li align="justify">Upul Senanayake, Rahal Prabuddha and Roshan Ragel, <strong>Machine Learning based Search Space Optimisation for Drug Discovery</strong>, IEEE Symposium Series on Computational Intelligence, April 2013, Singapore</li>
+			<li align="justify">S. M. Vidanagamachchi, S. D. Dewasurendra, R. G. Ragel, and M. Niranjan, <strong>Commentz-Walter: Any Better than Aho-Corasick for Peptide Identification?</strong>, International Journal of Research in Computer Science, Volume 2, Issue 5, pp. 33-37, White Globe Publications, November 2012</li>
+			<li align="justify">Upul Senanayake, Rahal Prabuddha and Roshan Ragel, <strong>High Throughput Virtual Screening with Data Level Parallelism in Multi-core Processors</strong>, 6th International Conference on Information and Automation for Sustainability (ICIAfS 12), 2012, Beijing, China, September 2012.</li>
+			<li align="justify">Angelo Barnes, Ryan Fernando, Kasuni Mettananda and Roshan Ragel, <strong>Improving the Throughput of the AES Algorithm with Multicore Processors</strong>, Seventh International Conference on Industrial and Information Systems (ICIIS 2012), pp. 1-6, August 2012, Chennai, India</li>
+			<li align="justify">Damayanthi Herath, Chathurika Lakmali, Roshan Ragel, <strong>Accelerating String Matching for Biocomputing Applications on Multi-core CPUs</strong>, Seventh International Conference on Industrial and Information Systems (ICIIS 2012), August 2012, Chennai, India</li>
+			<li align="justify">Sugandima Vidanagamachchi, Roshan Ragel, Devapriya Dewasurendra and Niranjan Mahesan, <strong>Tile Optimization for Area in FPGA Based Hardware Acceleration of Peptide Identification</strong>, in Proceedings of the 6th International Conference on Industrial and Information Systems (ICIIS2011), pp 140-145, Kandy, Sri Lanka, August 2011.</li>
+		</ul>
+	</div>
+	<div class="content" id="contactUs">
+		<h1>Contact details</h1>
+		<ul style='list-style: none;margin:0;'>
+			<li><i class="glyphicon glyphicon-envelope"></i> <a href="mailto:roshanr@pdn.ac.lk">roshanr@pdn.ac.lk</a></li>
+			<li><i class="glyphicon glyphicon-earphone"></i> <a href="tel:(+94)812393913">(081) 239-3913</a></li>
+			<li><i class="glyphicon glyphicon-earphone"></i> <a href="tel:(+94)812393470">(081) 239-3470</a></li>
+			<li></li>
+			<li></li>
+		</ul>
+		<div id="googleMap"></div>
+		<div style="clear:both;"></div>
+	</div>
+	<div class="content" id="sidebar_footer">
+		<img id="logo" src="images/logo_purple.png" alt="">
+		<div class="profile">
+			<img id='profile_img' src="images/profile.png" alt="">
+			<p id='p1'>Hello there,</p>
+			<p id='p2'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis tenetur officia rerum, Uuidem? Accusantium, distinctio!</p>
+		<div style="clear:both;"></div>
+		</div>
+		<div class="footerLinks">
+			<a href="https://lk.linkedin.com/in/roshanragel"><i class="fa fa-linkedin"></i></a>
+			<a href="https://www.facebook.com/RoshanRagel/"><i class="fa fa-facebook"></i></a>
+			<a href="https://twitter.com/ragelrg"><i class="fa fa-twitter"></i></a>
+			<!-- a href=""><i class="fa fa-google-plus"></i></a-->
+			<a href="https://www.youtube.com/channel/UCcRQ3l9R6Uuw3v17H6UjMxg?view_as=public"><i class="fa fa-youtube"></i></a>
+		</div>
+	</div>
+	<script>
+	$("#p1").text($("#sidebar > div.profile > p:nth-child(2)").text());
+	$("#p2").text($("#sidebar > div.profile > p:nth-child(3)").text());
+	</script>
+</div>
+</body>
+</html>
