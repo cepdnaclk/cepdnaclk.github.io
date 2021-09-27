@@ -16,12 +16,13 @@ Note: ~~Striked through~~ links do not lead to a landing page.
 
 * [https://cepdnaclk.github.io/maintenance/](maintenance/)
 
-
 ### Labs
-<!-- * [https://cepdnaclk.github.io/labs](labs) -->
-* [Embedded Systems and Computer Architecture Laboratory](labs/escal/)
-* [NVIDIA Research Center](labs/tesla/)
-* [Cambio Wearable Computing Lab](labs/wearable/)
+<!-- * [https://cepdnaclk.github.io/escal] -->
+Content now hosted in a separate repository, [https://github.com/cepdnaclk/escal](https://github.com/cepdnaclk/escal)
+
+* [Embedded Systems and Computer Architecture Laboratory](https://cepdnaclk.github.io/escal/)
+* [NVIDIA Research Center](https://cepdnaclk.github.io/escal/tesla/)
+* [Cambio Wearable Computing Lab](https://cepdnaclk.github.io/escal/wearable/)
 
 ### Servers
 <!-- * [https://cepdnaclk.github.io/servers/](servers/) -->
@@ -33,7 +34,7 @@ Note: ~~Striked through~~ links do not lead to a landing page.
 
 ### Field Selection
 
-Content now hosted in [https://github.com/cepdnaclk/fieldselection](https://github.com/cepdnaclk/fieldselection)
+Content now hosted in a separate repository, [https://github.com/cepdnaclk/fieldselection](https://github.com/cepdnaclk/fieldselection)
 
 * [Field Selection - 2016](https://cepdnaclk.github.io/fieldselection/2016/)
 * [Field Selection - 2017](https://cepdnaclk.github.io/fieldselection/2017/)

@@ -1,3 +1,4 @@
-* [Embedded Systems and Computer Architecture Laboratory](labs/escal/)
-* [NVIDIA Research Center](labs/tesla/)
-* [Cambio Wearable Computing Lab](labs/wearable/)
+
+* [Embedded Systems and Computer Architecture Laboratory](https://cepdnaclk.github.io/escal/)
+* [NVIDIA Research Center](https://cepdnaclk.github.io/escal/tesla/)
+* [Cambio Wearable Computing Lab](https://cepdnaclk.github.io/escal/wearable/)
