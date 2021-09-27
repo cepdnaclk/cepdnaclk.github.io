@@ -52,6 +52,14 @@ Content now hosted in a separate repository, [https://github.com/cepdnaclk/field
 * [https://cepdnaclk.github.io/sites/marks/CO224/2015/](sites/marks/CO224/2015/)
 * [https://cepdnaclk.github.io/sites/marks/CO321/2015/](sites/marks/CO321/2015/)
 
+### Content from other repositories
+
+This content is from repositories other than https://github.com/cepdnaclk/cepdnaclk.github.io. This list may not be complete.
+
+* https://cepdnaclk.github.io/events/
+* http://cepdnaclk.github.io/co542-neural-networks-reading-group-e15/
+* https://cepdnaclk.github.io/co542-neural-networks-reading-group-e16/
+* https://cepdnaclk.github.io/proctored-exam-handbook
 
 ### Other
 
