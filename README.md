@@ -56,10 +56,19 @@ Content now hosted in a separate repository, [https://github.com/cepdnaclk/field
 
 This content is from repositories other than https://github.com/cepdnaclk/cepdnaclk.github.io. This list may not be complete.
 
-* https://cepdnaclk.github.io/events/
-* http://cepdnaclk.github.io/co542-neural-networks-reading-group-e15/
-* https://cepdnaclk.github.io/co542-neural-networks-reading-group-e16/
-* https://cepdnaclk.github.io/proctored-exam-handbook
+* [Events Web](https://cepdnaclk.github.io/events/)
+* [CO542 Neural Networks Reading Group - E15](http://cepdnaclk.github.io/co542-neural-networks-reading-group-e15/)
+* [CO542 Neural Networks Reading Group - E16](https://cepdnaclk.github.io/co542-neural-networks-reading-group-e16/)
+* [Proctored Exam Handbook](https://cepdnaclk.github.io/proctored-exam-handbook)
+* [ESCAL MakerSpace Wiki](https://cepdnaclk.github.io/makerspace)
+
+### Subdomains
+
+Followings are the websites hosted in the cepdnaclk.github.io GitHub organization, with different subdomains.
+
+* [projects.ce.pdn.ac.lk](https://cepdnaclk.github.io/projects.ce.pdn.ac.lk)
+* [vision.ce.pdn.ac.lk](https://cepdnaclk.github.io/vision.ce.pdn.ac.lk)
+* [url.ce.pdn.ac.lk](https://cepdnaclk.github.io/url.ce.pdn.ac.lk)
 
 ### Other
 
@@ -71,3 +80,6 @@ This content is from repositories other than https://github.com/cepdnaclk/cepdna
 * [https://cepdnaclk.github.io/sites/other/unixone/](sites/other/unixone/)
 * [https://cepdnaclk.github.io/sites/results/](sites/results/)
 * [https://cepdnaclk.github.io/sites/students/](sites/students/)
+
+
+- [Sitemap](/sitemap/)
