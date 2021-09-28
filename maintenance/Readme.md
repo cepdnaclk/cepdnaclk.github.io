@@ -5,47 +5,29 @@ This directory contains the instructions for the maintenance of the content pres
 ## Overall Website
 
 ### Directory structure of this repo.
-    sites/
 
-        labs/
-            escal
-            tesla
+```
+sites/
+├── marks/
+│   ├──CO221/
+│   │   └── 2016
+│   ├──CO222/
+│   │   ├── 2016
+│   │   ├── 2017
+│   │   ├── 2018
+│   │   └── 2020
+│   ├──CO224/
+│   │   └── 2015
+│   └──CO321/
+│       └── 2015
+├──results/
+├──students/
+└──others/
+    ├── sinhalaocr
+    ├── config
+    └── unixone
+```
 
-        fieldselection/
-            2016
-            2017
-            2018
-            2019
-
-        marks/
-            CO221/
-                2016
-            CO222/
-                2016
-                2017
-                2018
-                2020
-            CO224/
-                2015
-            CO321/
-                2015
-
-        projects/
-            finalyear/
-                2008
-                2009
-                2010
-                2015
-
-        results/
-
-        students/
-
-        others/
-            sinhalaocr
-            config
-            unixone
-        
 ### URL structure after this repo is integrated into ce.pdn.ac.lk
 
 Contact kisarul[at]eng[dot]pdn[dot]ac[dot]lk
@@ -87,7 +69,7 @@ If you want to do the transfer urgently, please contact kisarul[at]eng[dot]pdn[d
 Example: You want to add marks for 2025 CO222.<br>
 <ol>
 
-<li>Confirm that no one has started to add marks for this subject by visiting <a href="https://cepdnaclk.github.io/sites/marks/CO222/2025/">https://cepdnaclk.github.io/sites/marks/CO222/2025/</a>.<br> 
+<li>Confirm that no one has started to add marks for this subject by visiting <a href="https://cepdnaclk.github.io/sites/marks/CO222/2025/">https://cepdnaclk.github.io/sites/marks/CO222/2025/</a>.<br>
 
 <b>If</b> you get a 404 NOT FOUND error, look at (2)<br>
 
@@ -95,5 +77,3 @@ Example: You want to add marks for 2025 CO222.<br>
 
 <li> Contact gihanjayatilaka[at]eng[dot]pdn[dot]ac[dot]lk and ask him to create the subject or complete this documentation.</li>
 </ol>
-
-
