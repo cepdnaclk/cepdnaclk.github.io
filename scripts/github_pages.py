@@ -131,6 +131,6 @@ if __name__ == "__main__":
     # print(json.dumps(output_text))
 
     # Prepare the XML file
-    generate_xml('../sitemap_generated.xml', gh_pages)
+    generate_xml('../sitemap/generated.xml', gh_pages)
 
 print("END")
