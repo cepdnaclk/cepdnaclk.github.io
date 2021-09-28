@@ -1,11 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
-    <meta name="description" content="">
-    <meta name="author" content="Department of Computer Engineering">
-    <link rel="icon" href="{{ '/assets/images/favicon.ico' | prepend: site.baseurl }}">
+    {% include meta.html -%}
 
     <title>Home | Department of Computer Engineering, UoP</title>
 
@@ -78,21 +74,17 @@
         </ul>
     </nav>
 
-    <main role="main" class="container pt-5 vh-50">
+    <main role="main" class="container pt-3 vh-50">
         <div class="">
             {{ content }}
         </div>
     </main>
 
-    <footer class="blog-footer mt-5" style="background-color: lightgray!important;">
+    <footer class="blog-footer mt-4" style="background-color: lightgray!important;">
         <p>
             <a href="#">Back to top</a>
         </p>
     </footer>
-
-    {% if site.google_analytics %}
-
-    {% endif %}
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
