@@ -78,8 +78,8 @@ def generate_xml(FILE_NAME, pages):
             file.write('<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n')
 
             for page in pages:
-                print(pages[page])
-                write_urls_to_file(file, pages[page])
+                print(page)
+                write_urls_to_file(file, page)
 
             # print('%d URLs are added.' % urls_count)
             # print('Sitemap is ready!')
@@ -98,7 +98,7 @@ if __name__ == "__main__":
     # r = requests.get(url=URL)
     # j = r.json()
     count=0
-    gh_pages = {}
+    gh_pages = []
 
     for p in range(1, 1000):
         # print('>> ' + urlOrganizationRepos(p))
@@ -117,7 +117,7 @@ if __name__ == "__main__":
                 repo = "https://github.com/cepdnaclk/" + repo_name
                 page = "https://cepdnaclk.github.io/" + repo_name
 
-                gh_pages[count] = { 'name': repo_name, 'repo': repo, 'url': page }
+                gh_pages.append({ 'name': repo_name, 'repo': repo, 'url': page })
                 count = count+1
                 # print(page)
 
