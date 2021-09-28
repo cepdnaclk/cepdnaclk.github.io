@@ -14,6 +14,10 @@
     <link href="{{ '/assets/css/index.css' | prepend: site.baseurl }}" rel="stylesheet">
 
     {% seo %}
+
+    {% if site.ga_tracking != nil -%}
+    {% include analytics.html -%}
+    {% endif -%}
 </head>
 
 <body>
