@@ -12,12 +12,9 @@ The source code is hosted at [https://github.com/cepdnaclk/cepdnaclk.github.io](
 
 ## Hosted content
 
-Note: ~~Striked through~~ links do not lead to a landing page.
-
 * [https://cepdnaclk.github.io/maintenance/](maintenance/)
 
 ### Labs
-<!-- * [https://cepdnaclk.github.io/escal] -->
 Content now hosted in a separate repository, [https://github.com/cepdnaclk/escal](https://github.com/cepdnaclk/escal)
 
 * [Embedded Systems and Computer Architecture Laboratory](https://cepdnaclk.github.io/escal/)
@@ -25,7 +22,7 @@ Content now hosted in a separate repository, [https://github.com/cepdnaclk/escal
 * [Cambio Wearable Computing Lab](https://cepdnaclk.github.io/escal/wearable/)
 
 ### Servers
-<!-- * [https://cepdnaclk.github.io/servers/](servers/) -->
+
 * [Aiken](servers/aiken/)
 * [Kepler](servers/kepler/)
 * [Tesla](servers/tesla/)
@@ -72,7 +69,6 @@ Followings are the websites hosted in the cepdnaclk.github.io GitHub organizatio
 
 ### Other
 
-<!-- * [~~https://cepdnaclk.github.io/sites/~~](sites/) -->
 * [https://cepdnaclk.github.io/sites/industrial-training-portal](sites/industrial-training-portal/)
 * [https://cepdnaclk.github.io/sites/other/](sites/other/)
 * [https://cepdnaclk.github.io/sites/other/config/](sites/other/config/)
