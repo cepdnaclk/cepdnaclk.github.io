@@ -36,6 +36,6 @@ navbar_active: Sitemap
 <ul>
     {% assign github_pages = site.data.pages | sort: "name" -%}
     {% for repo in github_pages %}
-    <li><a href="{{ repo.url }}" target="_blank">{{ repo.name }}</a></li>
+    <li><a href="{{ repo.url }}/" target="_blank">{{ repo.name }}</a></li>
     {% endfor -%}
 </ul>
