@@ -1,0 +1,41 @@
+---
+layout: default
+title: Sitemap
+permalink: /sitemap/
+navbar_active: Sitemap
+---
+
+<!-- <nav aria-label="breadcrumb" class="pb-3">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="/">Home</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Sitemap</li>
+    </ol>
+</nav> -->
+
+<h2>Sitemap</h2>
+
+<h4 class="pt-2">Internal Pages</h4>
+<ul>
+    {% assign internal_pages = site.html_pages | sort: "title" -%}
+
+    {% for page in internal_pages %}
+    {% if page.permalink and page.permalink != "//" -%}
+        <li><a href="{{ page.permalink }}">
+        {% if page.title -%}
+            {{ page.title }}
+        {% else -%}
+            {{ page.permalink }}
+        {% endif -%}
+        </a></li>
+    {% endif -%}
+    {% endfor -%}
+</ul>
+
+<!-- Repositories -->
+<h4 class="pt-2">External Repositories / GitHub Pages</h4>
+<ul>
+    {% assign github_pages = site.data.pages | sort: "name" -%}
+    {% for repo in github_pages %}
+    <li><a href="{{ repo.url }}/" target="_blank">{{ repo.name }}</a></li>
+    {% endfor -%}
+</ul>

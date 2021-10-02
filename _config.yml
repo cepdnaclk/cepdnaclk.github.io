@@ -6,6 +6,10 @@ description: "GitHub - Department of Computer Engineering"
 
 theme: jekyll-theme-minimal
 
+# Google Analytics Tracking (optional)
+ga_tracking: G-10YPVZG432
+ga_tracking_anonymize_ip: true # Use GDPR compliant Google Analytics settings (true/nil by default)
+
 plugins:
     - jekyll-seo-tag
     - jekyll-readme-index

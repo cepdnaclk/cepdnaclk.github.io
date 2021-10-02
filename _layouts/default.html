@@ -1,11 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="Department of Computer Engineering">
-    <link rel="icon" href="{{ '/assets/images/favicon.ico' | prepend: site.baseurl }}">
+    {% include meta.html -%}
 
     <title>{{ page.title }}</title>
 
@@ -14,6 +10,10 @@
     <link href="{{ '/assets/css/index.css' | prepend: site.baseurl }}" rel="stylesheet">
 
     {% seo %}
+
+    {% if site.ga_tracking != nil -%}
+    {% include analytics.html -%}
+    {% endif -%}
 </head>
 
 <body>
@@ -36,19 +36,15 @@
 
 <main role="main"  >
     <div class="container d-flex pt-2">
-        <a class="" href="{{ "/" | absolute_url }}"> <<  {{ site.title | default: site.github.repository_name }}</a>
+        <a class="text-decoration-none" href="{{ "/" | absolute_url }}"> << Back</a>
     </div>
 
     <div class="container pt-5 px-5 vh-50">
-        <div class="px-10">
+        <div class="px-10 pb-5">
             {{ content }}
         </div>
     </div>
 </main>
-
-{% if site.google_analytics %}
-
-{% endif %}
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
