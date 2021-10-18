@@ -58,7 +58,7 @@ if __name__=='__main__':
         thisSite=allSitesInfo[siteIdx]
 
         if isOkay(thisSite,allStudentsInfo):
-            outputBASH.write("git clone https://github.com/{}/{}.github.io.git\n".format(thisSite[1],thisSite[1]))
+            outputBASH.write("git clone --depth 1 https://github.com/{}/{}.github.io.git\n".format(thisSite[1],thisSite[1]))
             outputBASH.write("mv {}.github.io {}\n".format(thisSite[1],thisSite[2]))
 
             if thisSite[3]=="False":
