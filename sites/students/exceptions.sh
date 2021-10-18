@@ -12,6 +12,7 @@ mv "$GITHUBNAME.github.io" "$NAME"
 echo "<li><a href=\"https://tesla.ce.pdn.ac.lk/students/$NAME/\">$NAME</a></li>" >> $OUTPUT_HTML
 
 NAME="gihan"
+mkdir $NAME
 touch $NAME/.htaccess
 echo "RewriteEngine on" >> $NAME/.htaccess
 echo "RewriteBase /" >> $NAME/.htaccess
