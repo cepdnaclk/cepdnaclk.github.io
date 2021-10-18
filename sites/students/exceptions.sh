@@ -11,9 +11,9 @@ cd ../
 mv "$GITHUBNAME.github.io" "$NAME"
 echo "<li><a href=\"https://tesla.ce.pdn.ac.lk/students/$NAME/\">$NAME</a></li>" >> $OUTPUT_HTML
 
-
-
-#NAME="nuwanj"
-#git clone https://github.com/NuwanJ/my-site.git
-#mv my-site "$NAME"
-#echo "<li><a href=\"https://tesla.ce.pdn.ac.lk/students/$NAME/\">$NAME</a></li>" >> $OUTPUT_HTML
+NAME="gihan"
+touch $NAME/.htaccess
+echo "RewriteEngine on" >> $NAME/.htaccess
+echo "RewriteBase /" >> $NAME/.htaccess
+echo "RewriteRule (.*) http://gihan.me/\$1 [R=301,L]" >> $NAME/.htaccess
+echo "<li><a href=\"https://tesla.ce.pdn.ac.lk/students/$NAME/\">$NAME</a></li>" >> $NAME/.htaccess
