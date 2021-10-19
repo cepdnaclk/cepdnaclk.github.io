@@ -1,5 +1,5 @@
 ---
 layout: redirect
-permalink: /sites/faq/qa/
-forward_url: https://cepdnaclk.github.io/faq/
+permalink: /faq/
+forward_url: https://faq.ce.pdn.ac.lk
 ---
