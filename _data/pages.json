@@ -678,5 +678,10 @@
       "name": "e16-co328-Project-Publication-Platform",
       "repo": "https://github.com/cepdnaclk/e16-co328-Project-Publication-Platform",
       "url": "https://cepdnaclk.github.io/e16-co328-Project-Publication-Platform"
+   },
+   {
+      "name": "people.ce.pdn.ac.lk",
+      "repo": "https://github.com/cepdnaclk/people.ce.pdn.ac.lk",
+      "url": "https://cepdnaclk.github.io/people.ce.pdn.ac.lk"
    }
 ]
