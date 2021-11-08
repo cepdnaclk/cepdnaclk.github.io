@@ -683,5 +683,10 @@
       "name": "people.ce.pdn.ac.lk",
       "repo": "https://github.com/cepdnaclk/people.ce.pdn.ac.lk",
       "url": "https://cepdnaclk.github.io/people.ce.pdn.ac.lk"
+   },
+   {
+      "name": "cuda-web-php",
+      "repo": "https://github.com/cepdnaclk/cuda-web-php",
+      "url": "https://cepdnaclk.github.io/cuda-web-php"
    }
 ]
