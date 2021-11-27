@@ -675,6 +675,11 @@
       "url": "https://cepdnaclk.github.io/e16-co502-RV32IM-NoC-implementation"
    },
    {
+      "name": "api.ce.pdn.ac.lk",
+      "repo": "https://github.com/cepdnaclk/api.ce.pdn.ac.lk",
+      "url": "https://cepdnaclk.github.io/api.ce.pdn.ac.lk"
+   },
+   {
       "name": "e16-co328-Project-Publication-Platform",
       "repo": "https://github.com/cepdnaclk/e16-co328-Project-Publication-Platform",
       "url": "https://cepdnaclk.github.io/e16-co328-Project-Publication-Platform"
