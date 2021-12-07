@@ -9,7 +9,10 @@ on:
     # - cron: "0 */2 * * *"
 
     # # At 18:30 UTC on everyday (12.00 mid night in Sri Lanka)
-    - cron: "30 18 * * *"
+    # - cron: "30 18 * * *"
+    
+    # # At 18:30 UTC (12.00 mid night in Sri Lanka) on Sunday
+    - cron: "30 18 * * 0"
 
   # Enables a button on Actions tab
   workflow_dispatch:
