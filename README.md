@@ -15,11 +15,11 @@ The source code is hosted at [https://github.com/cepdnaclk/cepdnaclk.github.io](
 * [https://cepdnaclk.github.io/maintenance/](maintenance/)
 
 ### Labs
-Content now hosted in a separate repository, [https://github.com/cepdnaclk/escal](https://github.com/cepdnaclk/escal)
+Content now hosted in a separate repository, [https://github.com/cepdnaclk/escal.ce.pdn.ac.lk](https://github.com/cepdnaclk/escal.ce.pdn.ac.lk)
 
-* [Embedded Systems and Computer Architecture Laboratory](https://cepdnaclk.github.io/escal/)
-* [NVIDIA Research Center](https://cepdnaclk.github.io/escal/tesla/)
-* [Cambio Wearable Computing Lab](https://cepdnaclk.github.io/escal/wearable/)
+* [Embedded Systems and Computer Architecture Laboratory](https://escal.ce.pdn.ac.lk)
+* [NVIDIA Research Center](https://escal.ce.pdn.ac.lk/tesla/)
+* [Cambio Wearable Computing Lab](https://escal.ce.pdn.ac.lk/wearable/)
 
 ### Servers
 
@@ -63,9 +63,11 @@ This content is from repositories other than https://github.com/cepdnaclk/cepdna
 
 Followings are the websites hosted in the cepdnaclk.github.io GitHub organization, with different subdomains.
 
-* [projects.ce.pdn.ac.lk](https://cepdnaclk.github.io/projects.ce.pdn.ac.lk)
-* [vision.ce.pdn.ac.lk](https://cepdnaclk.github.io/vision.ce.pdn.ac.lk)
-* [url.ce.pdn.ac.lk](https://cepdnaclk.github.io/url.ce.pdn.ac.lk)
+* [cepdnaclk.github.io/projects.ce.pdn.ac.lk](https://cepdnaclk.github.io/projects.ce.pdn.ac.lk)
+* [cepdnaclk.github.io/vision.ce.pdn.ac.lk](https://cepdnaclk.github.io/vision.ce.pdn.ac.lk)
+* [cepdnaclk.github.io/url.ce.pdn.ac.lk](https://cepdnaclk.github.io/url.ce.pdn.ac.lk)
+* [cepdnaclk.github.io/faq.ce.pdn.ac.lk](https://cepdnaclk.github.io/faq.ce.pdn.ac.lk)
+* [cepdnaclk.github.io/escal.ce.pdn.ac.lk](https://cepdnaclk.github.io/escal.ce.pdn.ac.lk)
 
 ### Other
 
