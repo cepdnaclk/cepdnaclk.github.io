@@ -703,5 +703,10 @@
       "name": "cuda-web-php",
       "repo": "https://github.com/cepdnaclk/cuda-web-php",
       "url": "https://cepdnaclk.github.io/cuda-web-php"
+   },
+   {
+      "name": "people_test",
+      "repo": "https://github.com/cepdnaclk/people_test",
+      "url": "https://cepdnaclk.github.io/people_test"
    }
 ]
