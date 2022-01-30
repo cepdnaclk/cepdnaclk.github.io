@@ -260,6 +260,11 @@
       "url": "https://cepdnaclk.github.io/e15-4yp-Optimizing-Mitochondria-Genome-Assembly-And-Annotation-With-Skim-Sequencing-Data"
    },
    {
+      "name": "e15-4yp-Brain-Computer-Interface-for-controlling-virtual-objects",
+      "repo": "https://github.com/cepdnaclk/e15-4yp-Brain-Computer-Interface-for-controlling-virtual-objects",
+      "url": "https://cepdnaclk.github.io/e15-4yp-Brain-Computer-Interface-for-controlling-virtual-objects"
+   },
+   {
       "name": "e15-4yp-Identifying-keywords-in-legal-articles-using-ML-techniques",
       "repo": "https://github.com/cepdnaclk/e15-4yp-Identifying-keywords-in-legal-articles-using-ML-techniques",
       "url": "https://cepdnaclk.github.io/e15-4yp-Identifying-keywords-in-legal-articles-using-ML-techniques"
@@ -695,8 +700,18 @@
       "url": "https://cepdnaclk.github.io/cuda-web-php"
    },
    {
+      "name": "courses",
+      "repo": "https://github.com/cepdnaclk/courses",
+      "url": "https://cepdnaclk.github.io/courses"
+   },
+   {
       "name": "CO326-2022",
       "repo": "https://github.com/cepdnaclk/CO326-2022",
       "url": "https://cepdnaclk.github.io/CO326-2022"
+   },
+   {
+      "name": "web",
+      "repo": "https://github.com/cepdnaclk/web",
+      "url": "https://cepdnaclk.github.io/web"
    }
 ]
