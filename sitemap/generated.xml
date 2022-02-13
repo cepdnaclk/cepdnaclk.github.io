@@ -314,9 +314,6 @@
 		<loc>https://cepdnaclk.github.io/e17-3yp-Landmine-Detector</loc>
 	</url>
 	<url>
-		<loc>https://cepdnaclk.github.io/e17-3yp-remote-keyboard-tutoring-system</loc>
-	</url>
-	<url>
 		<loc>https://cepdnaclk.github.io/e17-3yp-remote-medical-diagnostics</loc>
 	</url>
 	<url>
@@ -432,5 +429,8 @@
 	</url>
 	<url>
 		<loc>https://cepdnaclk.github.io/web</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e17-3yp-remote-keyboard-tutoring-system</loc>
 	</url>
 </urlset>
