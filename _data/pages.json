@@ -20,11 +20,6 @@
       "url": "https://cepdnaclk.github.io/e16-3yp-smart-pill-manager"
    },
    {
-      "name": "e16-3yp-digital-signage-based-user-targeted-advertising",
-      "repo": "https://github.com/cepdnaclk/e16-3yp-digital-signage-based-user-targeted-advertising",
-      "url": "https://cepdnaclk.github.io/e16-3yp-digital-signage-based-user-targeted-advertising"
-   },
-   {
       "name": "e16-3yp-waiterbot-system",
       "repo": "https://github.com/cepdnaclk/e16-3yp-waiterbot-system",
       "url": "https://cepdnaclk.github.io/e16-3yp-waiterbot-system"
@@ -718,5 +713,10 @@
       "name": "e17-3yp-remote-keyboard-tutoring-system",
       "repo": "https://github.com/cepdnaclk/e17-3yp-remote-keyboard-tutoring-system",
       "url": "https://cepdnaclk.github.io/e17-3yp-remote-keyboard-tutoring-system"
+   },
+   {
+      "name": "e16-3yp-digital-signage-based-user-targeted-advertising",
+      "repo": "https://github.com/cepdnaclk/e16-3yp-digital-signage-based-user-targeted-advertising",
+      "url": "https://cepdnaclk.github.io/e16-3yp-digital-signage-based-user-targeted-advertising"
    }
 ]
