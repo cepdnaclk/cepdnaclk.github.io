@@ -20,11 +20,6 @@
       "url": "https://cepdnaclk.github.io/e16-3yp-smart-pill-manager"
    },
    {
-      "name": "e16-3yp-digital-signage-based-user-targeted-advertising",
-      "repo": "https://github.com/cepdnaclk/e16-3yp-digital-signage-based-user-targeted-advertising",
-      "url": "https://cepdnaclk.github.io/e16-3yp-digital-signage-based-user-targeted-advertising"
-   },
-   {
       "name": "e16-3yp-waiterbot-system",
       "repo": "https://github.com/cepdnaclk/e16-3yp-waiterbot-system",
       "url": "https://cepdnaclk.github.io/e16-3yp-waiterbot-system"
@@ -510,11 +505,6 @@
       "url": "https://cepdnaclk.github.io/e17-3yp-Landmine-Detector"
    },
    {
-      "name": "e17-3yp-remote-keyboard-tutoring-system",
-      "repo": "https://github.com/cepdnaclk/e17-3yp-remote-keyboard-tutoring-system",
-      "url": "https://cepdnaclk.github.io/e17-3yp-remote-keyboard-tutoring-system"
-   },
-   {
       "name": "e17-3yp-remote-medical-diagnostics",
       "repo": "https://github.com/cepdnaclk/e17-3yp-remote-medical-diagnostics",
       "url": "https://cepdnaclk.github.io/e17-3yp-remote-medical-diagnostics"
@@ -695,8 +685,28 @@
       "url": "https://cepdnaclk.github.io/cuda-web-php"
    },
    {
+      "name": "courses",
+      "repo": "https://github.com/cepdnaclk/courses",
+      "url": "https://cepdnaclk.github.io/courses"
+   },
+   {
       "name": "CO326-2022",
       "repo": "https://github.com/cepdnaclk/CO326-2022",
       "url": "https://cepdnaclk.github.io/CO326-2022"
+   },
+   {
+      "name": "web",
+      "repo": "https://github.com/cepdnaclk/web",
+      "url": "https://cepdnaclk.github.io/web"
+   },
+   {
+      "name": "e17-3yp-remote-keyboard-tutoring-system",
+      "repo": "https://github.com/cepdnaclk/e17-3yp-remote-keyboard-tutoring-system",
+      "url": "https://cepdnaclk.github.io/e17-3yp-remote-keyboard-tutoring-system"
+   },
+   {
+      "name": "e16-3yp-digital-signage-based-user-targeted-advertising",
+      "repo": "https://github.com/cepdnaclk/e16-3yp-digital-signage-based-user-targeted-advertising",
+      "url": "https://cepdnaclk.github.io/e16-3yp-digital-signage-based-user-targeted-advertising"
    }
 ]
