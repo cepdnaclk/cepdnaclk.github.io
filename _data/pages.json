@@ -740,6 +740,11 @@
       "url": "https://cepdnaclk.github.io/e17-co328-Host-Pathogen-Interaction"
    },
    {
+      "name": "e17-co328-Oral-Cavity-Region-Detection",
+      "repo": "https://github.com/cepdnaclk/e17-co328-Oral-Cavity-Region-Detection",
+      "url": "https://cepdnaclk.github.io/e17-co328-Oral-Cavity-Region-Detection"
+   },
+   {
       "name": "e17-co328-Prediction-of-risks-associated-with-mass-corona-vaccination",
       "repo": "https://github.com/cepdnaclk/e17-co328-Prediction-of-risks-associated-with-mass-corona-vaccination",
       "url": "https://cepdnaclk.github.io/e17-co328-Prediction-of-risks-associated-with-mass-corona-vaccination"
@@ -748,5 +753,30 @@
       "name": "e17-co328-Flood-Forecasting-System",
       "repo": "https://github.com/cepdnaclk/e17-co328-Flood-Forecasting-System",
       "url": "https://cepdnaclk.github.io/e17-co328-Flood-Forecasting-System"
+   },
+   {
+      "name": "e17-co328-Greenhouse-monitoring-and-controlling-based-on-IOT-sensor-data",
+      "repo": "https://github.com/cepdnaclk/e17-co328-Greenhouse-monitoring-and-controlling-based-on-IOT-sensor-data",
+      "url": "https://cepdnaclk.github.io/e17-co328-Greenhouse-monitoring-and-controlling-based-on-IOT-sensor-data"
+   },
+   {
+      "name": "e17-co328-NGS-Data-AnalysingToolkit",
+      "repo": "https://github.com/cepdnaclk/e17-co328-NGS-Data-AnalysingToolkit",
+      "url": "https://cepdnaclk.github.io/e17-co328-NGS-Data-AnalysingToolkit"
+   },
+   {
+      "name": "e17-co328-ContactTracingApp",
+      "repo": "https://github.com/cepdnaclk/e17-co328-ContactTracingApp",
+      "url": "https://cepdnaclk.github.io/e17-co328-ContactTracingApp"
+   },
+   {
+      "name": "e17-co328-History-of-Music",
+      "repo": "https://github.com/cepdnaclk/e17-co328-History-of-Music",
+      "url": "https://cepdnaclk.github.io/e17-co328-History-of-Music"
+   },
+   {
+      "name": "e17-co543-SL-Number-Plate-Detection-Group-A",
+      "repo": "https://github.com/cepdnaclk/e17-co543-SL-Number-Plate-Detection-Group-A",
+      "url": "https://cepdnaclk.github.io/e17-co543-SL-Number-Plate-Detection-Group-A"
    }
 ]
