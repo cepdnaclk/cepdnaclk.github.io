@@ -446,13 +446,22 @@
 		<loc>https://cepdnaclk.github.io/e17-co328-Host-Pathogen-Interaction</loc>
 	</url>
 	<url>
+		<loc>https://cepdnaclk.github.io/e17-co328-Skim-Sequencing-Analysis</loc>
+	</url>
+	<url>
 		<loc>https://cepdnaclk.github.io/e17-co328-Oral-Cavity-Region-Detection</loc>
 	</url>
 	<url>
 		<loc>https://cepdnaclk.github.io/e17-co328-Prediction-of-risks-associated-with-mass-corona-vaccination</loc>
 	</url>
 	<url>
+		<loc>https://cepdnaclk.github.io/e17-co328-road-accident-analyzer</loc>
+	</url>
+	<url>
 		<loc>https://cepdnaclk.github.io/e17-co328-Flood-Forecasting-System</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e17-co328-apparel-industry-performance-analyser</loc>
 	</url>
 	<url>
 		<loc>https://cepdnaclk.github.io/e17-co328-Greenhouse-monitoring-and-controlling-based-on-IOT-sensor-data</loc>
@@ -468,5 +477,8 @@
 	</url>
 	<url>
 		<loc>https://cepdnaclk.github.io/e17-co543-SL-Number-Plate-Detection-Group-A</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e17-co543-Number-Plate-Recognition-system</loc>
 	</url>
 </urlset>

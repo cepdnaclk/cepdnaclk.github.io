@@ -740,6 +740,11 @@
       "url": "https://cepdnaclk.github.io/e17-co328-Host-Pathogen-Interaction"
    },
    {
+      "name": "e17-co328-Skim-Sequencing-Analysis",
+      "repo": "https://github.com/cepdnaclk/e17-co328-Skim-Sequencing-Analysis",
+      "url": "https://cepdnaclk.github.io/e17-co328-Skim-Sequencing-Analysis"
+   },
+   {
       "name": "e17-co328-Oral-Cavity-Region-Detection",
       "repo": "https://github.com/cepdnaclk/e17-co328-Oral-Cavity-Region-Detection",
       "url": "https://cepdnaclk.github.io/e17-co328-Oral-Cavity-Region-Detection"
@@ -750,9 +755,19 @@
       "url": "https://cepdnaclk.github.io/e17-co328-Prediction-of-risks-associated-with-mass-corona-vaccination"
    },
    {
+      "name": "e17-co328-road-accident-analyzer",
+      "repo": "https://github.com/cepdnaclk/e17-co328-road-accident-analyzer",
+      "url": "https://cepdnaclk.github.io/e17-co328-road-accident-analyzer"
+   },
+   {
       "name": "e17-co328-Flood-Forecasting-System",
       "repo": "https://github.com/cepdnaclk/e17-co328-Flood-Forecasting-System",
       "url": "https://cepdnaclk.github.io/e17-co328-Flood-Forecasting-System"
+   },
+   {
+      "name": "e17-co328-apparel-industry-performance-analyser",
+      "repo": "https://github.com/cepdnaclk/e17-co328-apparel-industry-performance-analyser",
+      "url": "https://cepdnaclk.github.io/e17-co328-apparel-industry-performance-analyser"
    },
    {
       "name": "e17-co328-Greenhouse-monitoring-and-controlling-based-on-IOT-sensor-data",
@@ -778,5 +793,10 @@
       "name": "e17-co543-SL-Number-Plate-Detection-Group-A",
       "repo": "https://github.com/cepdnaclk/e17-co543-SL-Number-Plate-Detection-Group-A",
       "url": "https://cepdnaclk.github.io/e17-co543-SL-Number-Plate-Detection-Group-A"
+   },
+   {
+      "name": "e17-co543-Number-Plate-Recognition-system",
+      "repo": "https://github.com/cepdnaclk/e17-co543-Number-Plate-Recognition-system",
+      "url": "https://cepdnaclk.github.io/e17-co543-Number-Plate-Recognition-system"
    }
 ]
