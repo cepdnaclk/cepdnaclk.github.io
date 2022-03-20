@@ -745,6 +745,11 @@
       "url": "https://cepdnaclk.github.io/e17-co328-Skim-Sequencing-Analysis"
    },
    {
+      "name": "e17-co328-Sobriety-Detection-Using-Mobile-Phone-Gyroscope-Data",
+      "repo": "https://github.com/cepdnaclk/e17-co328-Sobriety-Detection-Using-Mobile-Phone-Gyroscope-Data",
+      "url": "https://cepdnaclk.github.io/e17-co328-Sobriety-Detection-Using-Mobile-Phone-Gyroscope-Data"
+   },
+   {
       "name": "e17-co328-Oral-Cavity-Region-Detection",
       "repo": "https://github.com/cepdnaclk/e17-co328-Oral-Cavity-Region-Detection",
       "url": "https://cepdnaclk.github.io/e17-co328-Oral-Cavity-Region-Detection"
@@ -755,6 +760,11 @@
       "url": "https://cepdnaclk.github.io/e17-co328-Prediction-of-risks-associated-with-mass-corona-vaccination"
    },
    {
+      "name": "e17-co328-Document-Tag-Generator",
+      "repo": "https://github.com/cepdnaclk/e17-co328-Document-Tag-Generator",
+      "url": "https://cepdnaclk.github.io/e17-co328-Document-Tag-Generator"
+   },
+   {
       "name": "e17-co328-road-accident-analyzer",
       "repo": "https://github.com/cepdnaclk/e17-co328-road-accident-analyzer",
       "url": "https://cepdnaclk.github.io/e17-co328-road-accident-analyzer"
@@ -763,6 +773,11 @@
       "name": "e17-co328-Flood-Forecasting-System",
       "repo": "https://github.com/cepdnaclk/e17-co328-Flood-Forecasting-System",
       "url": "https://cepdnaclk.github.io/e17-co328-Flood-Forecasting-System"
+   },
+   {
+      "name": "e17-co328-Visualization-of-Teacher-Student-Activities",
+      "repo": "https://github.com/cepdnaclk/e17-co328-Visualization-of-Teacher-Student-Activities",
+      "url": "https://cepdnaclk.github.io/e17-co328-Visualization-of-Teacher-Student-Activities"
    },
    {
       "name": "e17-co328-apparel-industry-performance-analyser",
@@ -790,13 +805,28 @@
       "url": "https://cepdnaclk.github.io/e17-co328-History-of-Music"
    },
    {
+      "name": "e17-co328-Prediction-of-heart-disease-using-ECG",
+      "repo": "https://github.com/cepdnaclk/e17-co328-Prediction-of-heart-disease-using-ECG",
+      "url": "https://cepdnaclk.github.io/e17-co328-Prediction-of-heart-disease-using-ECG"
+   },
+   {
       "name": "e17-co543-SL-Number-Plate-Detection-Group-A",
       "repo": "https://github.com/cepdnaclk/e17-co543-SL-Number-Plate-Detection-Group-A",
       "url": "https://cepdnaclk.github.io/e17-co543-SL-Number-Plate-Detection-Group-A"
    },
    {
+      "name": "e17-co328-Automated_Computerised_System",
+      "repo": "https://github.com/cepdnaclk/e17-co328-Automated_Computerised_System",
+      "url": "https://cepdnaclk.github.io/e17-co328-Automated_Computerised_System"
+   },
+   {
       "name": "e17-co543-Number-Plate-Recognition-system",
       "repo": "https://github.com/cepdnaclk/e17-co543-Number-Plate-Recognition-system",
       "url": "https://cepdnaclk.github.io/e17-co543-Number-Plate-Recognition-system"
+   },
+   {
+      "name": "e17-co328-Research-profiles-of-academic-staff",
+      "repo": "https://github.com/cepdnaclk/e17-co328-Research-profiles-of-academic-staff",
+      "url": "https://cepdnaclk.github.io/e17-co328-Research-profiles-of-academic-staff"
    }
 ]
