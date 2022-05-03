@@ -39,16 +39,6 @@ Content now hosted in a separate repository, [https://github.com/cepdnaclk/field
 * [Field Selection - 2019](https://cepdnaclk.github.io/fieldselection/2019/)
 * [Field Selection - 2020](https://cepdnaclk.github.io/fieldselection/2020/)
 
-### Marks
-<!-- * [https://cepdnaclk.github.io/sites/marks](sites/marks/) -->
-* [https://cepdnaclk.github.io/sites/marks/CO221/2016/](sites/marks/CO221/2016/)
-* [https://cepdnaclk.github.io/sites/marks/CO222/2016/](sites/marks/CO222/2016/)
-* [https://cepdnaclk.github.io/sites/marks/CO222/2017/](sites/marks/CO222/2017/)
-* [https://cepdnaclk.github.io/sites/marks/CO222/2018/](sites/marks/CO222/2018/)
-* [https://cepdnaclk.github.io/sites/marks/CO222/2020/](sites/marks/CO222/2020/)
-* [https://cepdnaclk.github.io/sites/marks/CO224/2015/](sites/marks/CO224/2015/)
-* [https://cepdnaclk.github.io/sites/marks/CO321/2015/](sites/marks/CO321/2015/)
-
 ### Content from other repositories
 
 This content is from repositories other than https://github.com/cepdnaclk/cepdnaclk.github.io. This list may not be complete.
