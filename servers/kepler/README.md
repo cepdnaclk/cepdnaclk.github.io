@@ -110,7 +110,7 @@ These datasets are in the read only mode. You can use these datsets as the input
 * UCF101  Action recognition dataset [Web](https://www.crcv.ucf.edu/data/UCF101.php), [Research paper](https://www.crcv.ucf.edu/papers/UCF101_CRCV-TR-12-01.pdf)
 * The Oxford-IIIT Pet Dataset [Web](https://www.robots.ox.ac.uk/~vgg/data/pets/)
 
-
+If you have suggestions for what datasets should be made available on this server, please send a request via email to [this](https://www.cs.umd.edu/~gihan/contact/) address.
 
 #### What other ML tools are hosted in kepler?
 You can access these by the following commands
