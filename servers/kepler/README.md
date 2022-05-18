@@ -99,7 +99,7 @@ ls /storage/datasets/
 ```
 These datasets are in the read only mode. You can use these datsets as the input for your tasks but you have to output the results to your home directory. The following datasets are stored at the moment.
 * CIFAR (10 and 100): [Website](https://www.cs.toronto.edu/~kriz/cifar.html)
-* MOT 15,16,17,20: [Webisite](https://motchallenge.net/). Please note that there is an issue with unzipping MOT17.
+* MOT 15,16,17,20: [Website](https://motchallenge.net/). Please note that there is an issue with unzipping MOT17.
 * Shapenet (core) v1: [Website](https://www.shapenet.org/), [Research paper](https://arxiv.org/abs/1512.03012).
 * Learning to See in the Dark: [Website](https://github.com/cchen156/Learning-to-See-in-the-Dark), [Research Paper](https://cchen156.github.io/paper/18CVPR_SID.pdf)
 * Brightening Train
