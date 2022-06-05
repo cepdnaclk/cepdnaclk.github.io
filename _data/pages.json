@@ -5,9 +5,9 @@
       "url": "https://cepdnaclk.github.io/cepdnaclk.github.io"
    },
    {
-      "name": "e15-2yp-finite-element-based-structural-non-linear-analysis",
-      "repo": "https://github.com/cepdnaclk/e15-2yp-finite-element-based-structural-non-linear-analysis",
-      "url": "https://cepdnaclk.github.io/e15-2yp-finite-element-based-structural-non-linear-analysis"
+      "name": "e15-co227-finite-element-based-structural-non-linear-analysis",
+      "repo": "https://github.com/cepdnaclk/e15-co227-finite-element-based-structural-non-linear-analysis",
+      "url": "https://cepdnaclk.github.io/e15-co227-finite-element-based-structural-non-linear-analysis"
    },
    {
       "name": "e16-3yp-obstacle-bots-for-swarm-robots",
@@ -115,9 +115,9 @@
       "url": "https://cepdnaclk.github.io/e16-3yp-smart-vending-machine"
    },
    {
-      "name": "e14-2yp-dynamic-background-cancellation-in-videos",
-      "repo": "https://github.com/cepdnaclk/e14-2yp-dynamic-background-cancellation-in-videos",
-      "url": "https://cepdnaclk.github.io/e14-2yp-dynamic-background-cancellation-in-videos"
+      "name": "e14-co227-dynamic-background-cancellation-in-videos",
+      "repo": "https://github.com/cepdnaclk/e14-co227-dynamic-background-cancellation-in-videos",
+      "url": "https://cepdnaclk.github.io/e14-co227-dynamic-background-cancellation-in-videos"
    },
    {
       "name": "e14-3yp-sleep-apnea-detection",
@@ -180,9 +180,9 @@
       "url": "https://cepdnaclk.github.io/e15-co328-Zero-Trash"
    },
    {
-      "name": "e15-2yp-Pera-Knowledge-Portal",
-      "repo": "https://github.com/cepdnaclk/e15-2yp-Pera-Knowledge-Portal",
-      "url": "https://cepdnaclk.github.io/e15-2yp-Pera-Knowledge-Portal"
+      "name": "e15-co227-Pera-Knowledge-Portal",
+      "repo": "https://github.com/cepdnaclk/e15-co227-Pera-Knowledge-Portal",
+      "url": "https://cepdnaclk.github.io/e15-co227-Pera-Knowledge-Portal"
    },
    {
       "name": "projects.ce.pdn.ac.lk",
@@ -695,11 +695,6 @@
       "url": "https://cepdnaclk.github.io/cuda-web-php"
    },
    {
-      "name": "courses",
-      "repo": "https://github.com/cepdnaclk/courses",
-      "url": "https://cepdnaclk.github.io/courses"
-   },
-   {
       "name": "publications",
       "repo": "https://github.com/cepdnaclk/publications",
       "url": "https://cepdnaclk.github.io/publications"
@@ -833,5 +828,10 @@
       "name": "acesalumni.net",
       "repo": "https://github.com/cepdnaclk/acesalumni.net",
       "url": "https://cepdnaclk.github.io/acesalumni.net"
+   },
+   {
+      "name": "e18-co227-Logging-Microservice-for-IoT-based-Smart-Agriculture-Project",
+      "repo": "https://github.com/cepdnaclk/e18-co227-Logging-Microservice-for-IoT-based-Smart-Agriculture-Project",
+      "url": "https://cepdnaclk.github.io/e18-co227-Logging-Microservice-for-IoT-based-Smart-Agriculture-Project"
    }
 ]

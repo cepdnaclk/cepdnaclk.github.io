@@ -5,7 +5,7 @@
 		<loc>https://cepdnaclk.github.io/cepdnaclk.github.io</loc>
 	</url>
 	<url>
-		<loc>https://cepdnaclk.github.io/e15-2yp-finite-element-based-structural-non-linear-analysis</loc>
+		<loc>https://cepdnaclk.github.io/e15-co227-finite-element-based-structural-non-linear-analysis</loc>
 	</url>
 	<url>
 		<loc>https://cepdnaclk.github.io/e16-3yp-obstacle-bots-for-swarm-robots</loc>
@@ -71,7 +71,7 @@
 		<loc>https://cepdnaclk.github.io/e16-3yp-smart-vending-machine</loc>
 	</url>
 	<url>
-		<loc>https://cepdnaclk.github.io/e14-2yp-dynamic-background-cancellation-in-videos</loc>
+		<loc>https://cepdnaclk.github.io/e14-co227-dynamic-background-cancellation-in-videos</loc>
 	</url>
 	<url>
 		<loc>https://cepdnaclk.github.io/e14-3yp-sleep-apnea-detection</loc>
@@ -110,7 +110,7 @@
 		<loc>https://cepdnaclk.github.io/e15-co328-Zero-Trash</loc>
 	</url>
 	<url>
-		<loc>https://cepdnaclk.github.io/e15-2yp-Pera-Knowledge-Portal</loc>
+		<loc>https://cepdnaclk.github.io/e15-co227-Pera-Knowledge-Portal</loc>
 	</url>
 	<url>
 		<loc>https://cepdnaclk.github.io/projects.ce.pdn.ac.lk</loc>
@@ -419,9 +419,6 @@
 		<loc>https://cepdnaclk.github.io/cuda-web-php</loc>
 	</url>
 	<url>
-		<loc>https://cepdnaclk.github.io/courses</loc>
-	</url>
-	<url>
 		<loc>https://cepdnaclk.github.io/publications</loc>
 	</url>
 	<url>
@@ -501,5 +498,8 @@
 	</url>
 	<url>
 		<loc>https://cepdnaclk.github.io/acesalumni.net</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e18-co227-Logging-Microservice-for-IoT-based-Smart-Agriculture-Project</loc>
 	</url>
 </urlset>
