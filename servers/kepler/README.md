@@ -109,6 +109,7 @@ These datasets are in the read only mode. You can use these datsets as the input
 * Exclusively Dark Image Dataset: [Gitrepo](https://github.com/cs-chan/Exclusively-Dark-Image-Dataset/tree/master/Dataset), [Research paper](http://cs-chan.com/doc/cviu.pdf)
 * UCF101  Action recognition dataset [Web](https://www.crcv.ucf.edu/data/UCF101.php), [Research paper](https://www.crcv.ucf.edu/papers/UCF101_CRCV-TR-12-01.pdf)
 * The Oxford-IIIT Pet Dataset [Web](https://www.robots.ox.ac.uk/~vgg/data/pets/)
+* ImageNet Object Localization Challenge [Kaggle page](https://www.kaggle.com/competitions/imagenet-object-localization-challenge)
 
 If you have suggestions for what datasets should be made available on this server, please send a request via email to [this](https://www.cs.umd.edu/~gihan/contact/) address.
 
