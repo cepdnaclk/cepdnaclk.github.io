@@ -938,5 +938,70 @@
       "name": "e17-co326-Smart-Building",
       "repo": "https://github.com/cepdnaclk/e17-co326-Smart-Building",
       "url": "https://cepdnaclk.github.io/e17-co326-Smart-Building"
+   },
+   {
+      "name": "e16-4yp-Hardware-Cache-Switching-with-Operating-System-Context-Switches",
+      "repo": "https://github.com/cepdnaclk/e16-4yp-Hardware-Cache-Switching-with-Operating-System-Context-Switches",
+      "url": "https://cepdnaclk.github.io/e16-4yp-Hardware-Cache-Switching-with-Operating-System-Context-Switches"
+   },
+   {
+      "name": "e16-4yp-neuromorphic-architecture",
+      "repo": "https://github.com/cepdnaclk/e16-4yp-neuromorphic-architecture",
+      "url": "https://cepdnaclk.github.io/e16-4yp-neuromorphic-architecture"
+   },
+   {
+      "name": "e16-4yp-Using-Computer-Vision-and-Agent-Based-Modelling-to-Explore-the-Human-Elephant-Conflict",
+      "repo": "https://github.com/cepdnaclk/e16-4yp-Using-Computer-Vision-and-Agent-Based-Modelling-to-Explore-the-Human-Elephant-Conflict",
+      "url": "https://cepdnaclk.github.io/e16-4yp-Using-Computer-Vision-and-Agent-Based-Modelling-to-Explore-the-Human-Elephant-Conflict"
+   },
+   {
+      "name": "e16-4yp-open-world-object-detection-and-discovery",
+      "repo": "https://github.com/cepdnaclk/e16-4yp-open-world-object-detection-and-discovery",
+      "url": "https://cepdnaclk.github.io/e16-4yp-open-world-object-detection-and-discovery"
+   },
+   {
+      "name": "e16-4yp-swarm-intelligence-programming-framework",
+      "repo": "https://github.com/cepdnaclk/e16-4yp-swarm-intelligence-programming-framework",
+      "url": "https://cepdnaclk.github.io/e16-4yp-swarm-intelligence-programming-framework"
+   },
+   {
+      "name": "e16-4yp-an-artificial-intelligence-inspired-zero-trust-model-in-decentralized-edge-environment",
+      "repo": "https://github.com/cepdnaclk/e16-4yp-an-artificial-intelligence-inspired-zero-trust-model-in-decentralized-edge-environment",
+      "url": "https://cepdnaclk.github.io/e16-4yp-an-artificial-intelligence-inspired-zero-trust-model-in-decentralized-edge-environment"
+   },
+   {
+      "name": "e16-4yp-Configurable-ECU-Emulator",
+      "repo": "https://github.com/cepdnaclk/e16-4yp-Configurable-ECU-Emulator",
+      "url": "https://cepdnaclk.github.io/e16-4yp-Configurable-ECU-Emulator"
+   },
+   {
+      "name": "e16-4yp-Acceleration-of-DTW-algorithm-for-real-time-nanopore-selective-sequencing-using-GPUs",
+      "repo": "https://github.com/cepdnaclk/e16-4yp-Acceleration-of-DTW-algorithm-for-real-time-nanopore-selective-sequencing-using-GPUs",
+      "url": "https://cepdnaclk.github.io/e16-4yp-Acceleration-of-DTW-algorithm-for-real-time-nanopore-selective-sequencing-using-GPUs"
+   },
+   {
+      "name": "e16-4yp-AI-as-a-Microservice-for-Smart-Edge-of-Things",
+      "repo": "https://github.com/cepdnaclk/e16-4yp-AI-as-a-Microservice-for-Smart-Edge-of-Things",
+      "url": "https://cepdnaclk.github.io/e16-4yp-AI-as-a-Microservice-for-Smart-Edge-of-Things"
+   },
+   {
+      "name": "e16-4yp-implementation-of-lightweight-cryptographic-algorithms",
+      "repo": "https://github.com/cepdnaclk/e16-4yp-implementation-of-lightweight-cryptographic-algorithms",
+      "url": "https://cepdnaclk.github.io/e16-4yp-implementation-of-lightweight-cryptographic-algorithms"
+   },
+   {
+      "name": "e16-4yp-Smart-Agriculture-Use-of-Computer-Vision-ML-and-IoT-to-Improve-Crop-Productivity",
+      "repo": "https://github.com/cepdnaclk/e16-4yp-Smart-Agriculture-Use-of-Computer-Vision-ML-and-IoT-to-Improve-Crop-Productivity",
+      "url": "https://cepdnaclk.github.io/e16-4yp-Smart-Agriculture-Use-of-Computer-Vision-ML-and-IoT-to-Improve-Crop-Productivity"
+   },
+   {
+      "name": "e16-4yp-Food-Recommendation-System-Using-Machine-Learning-for-Diabetic-Patients-in-Sri-Lanka",
+      "repo": "https://github.com/cepdnaclk/e16-4yp-Food-Recommendation-System-Using-Machine-Learning-for-Diabetic-Patients-in-Sri-Lanka",
+      "url": "https://cepdnaclk.github.io/e16-4yp-Food-Recommendation-System-Using-Machine-Learning-for-Diabetic-Patients-in-Sri-Lanka"
+   },
+   {
+      "name": "e16-4yp-Virtual-Patient-Simulator-for-Skill-Training-in-Dentistry",
+      "repo": "https://github.com/cepdnaclk/e16-4yp-Virtual-Patient-Simulator-for-Skill-Training-in-Dentistry",
+      "url": "https://cepdnaclk.github.io/e16-4yp-Virtual-Patient-Simulator-for-Skill-Training-in-Dentistry"
    }
 ]
