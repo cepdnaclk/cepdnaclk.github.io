@@ -915,6 +915,11 @@
       "url": "https://cepdnaclk.github.io/e18-co227-Image-Data-Handling-System-for-Research-Group-A"
    },
    {
+      "name": "e18-co227-SnaT-Meal-Tracking-App-Group-A",
+      "repo": "https://github.com/cepdnaclk/e18-co227-SnaT-Meal-Tracking-App-Group-A",
+      "url": "https://cepdnaclk.github.io/e18-co227-SnaT-Meal-Tracking-App-Group-A"
+   },
+   {
       "name": "e18-co227-Molding-Machine-Dashboard",
       "repo": "https://github.com/cepdnaclk/e18-co227-Molding-Machine-Dashboard",
       "url": "https://cepdnaclk.github.io/e18-co227-Molding-Machine-Dashboard"
@@ -933,6 +938,11 @@
       "name": "Undergraduate-Courses",
       "repo": "https://github.com/cepdnaclk/Undergraduate-Courses",
       "url": "https://cepdnaclk.github.io/Undergraduate-Courses"
+   },
+   {
+      "name": "Postgraduate-Coursepage",
+      "repo": "https://github.com/cepdnaclk/Postgraduate-Coursepage",
+      "url": "https://cepdnaclk.github.io/Postgraduate-Coursepage"
    },
    {
       "name": "e17-co326-Smart-Building",
@@ -1048,5 +1058,10 @@
       "name": "e16-4yp-ABM-for-Micro-Mobility-in-Sri-Lankan-Cities",
       "repo": "https://github.com/cepdnaclk/e16-4yp-ABM-for-Micro-Mobility-in-Sri-Lankan-Cities",
       "url": "https://cepdnaclk.github.io/e16-4yp-ABM-for-Micro-Mobility-in-Sri-Lankan-Cities"
+   },
+   {
+      "name": "departmentMap",
+      "repo": "https://github.com/cepdnaclk/departmentMap",
+      "url": "https://cepdnaclk.github.io/departmentMap"
    }
 ]
