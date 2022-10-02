@@ -935,14 +935,9 @@
       "url": "https://cepdnaclk.github.io/e18-co227-Postgraduate-Student-Management-System"
    },
    {
-      "name": "Undergraduate-Courses",
-      "repo": "https://github.com/cepdnaclk/Undergraduate-Courses",
-      "url": "https://cepdnaclk.github.io/Undergraduate-Courses"
-   },
-   {
-      "name": "Postgraduate-Coursepage",
-      "repo": "https://github.com/cepdnaclk/Postgraduate-Coursepage",
-      "url": "https://cepdnaclk.github.io/Postgraduate-Coursepage"
+      "name": "undergraduate-courses",
+      "repo": "https://github.com/cepdnaclk/undergraduate-courses",
+      "url": "https://cepdnaclk.github.io/undergraduate-courses"
    },
    {
       "name": "e17-co326-Smart-Building",
