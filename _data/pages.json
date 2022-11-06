@@ -1055,9 +1055,19 @@
       "url": "https://cepdnaclk.github.io/departmentMap"
    },
    {
+      "name": "e18-3yp-non-invaisve-glucose-meter",
+      "repo": "https://github.com/cepdnaclk/e18-3yp-non-invaisve-glucose-meter",
+      "url": "https://cepdnaclk.github.io/e18-3yp-non-invaisve-glucose-meter"
+   },
+   {
       "name": "Patient_monitoring_System_for_Ambulances_Group19",
       "repo": "https://github.com/cepdnaclk/Patient_monitoring_System_for_Ambulances_Group19",
       "url": "https://cepdnaclk.github.io/Patient_monitoring_System_for_Ambulances_Group19"
+   },
+   {
+      "name": "e18-3yp-smart-pet-collar",
+      "repo": "https://github.com/cepdnaclk/e18-3yp-smart-pet-collar",
+      "url": "https://cepdnaclk.github.io/e18-3yp-smart-pet-collar"
    },
    {
       "name": "e18-3yp-Road-Traffic-Ecosystem",
@@ -1065,9 +1075,14 @@
       "url": "https://cepdnaclk.github.io/e18-3yp-Road-Traffic-Ecosystem"
    },
    {
-      "name": "e18-3yp-road-accident-detection-and-notification-system",
-      "repo": "https://github.com/cepdnaclk/e18-3yp-road-accident-detection-and-notification-system",
-      "url": "https://cepdnaclk.github.io/e18-3yp-road-accident-detection-and-notification-system"
+      "name": "e18-3yp-Smart-Access-Control-System",
+      "repo": "https://github.com/cepdnaclk/e18-3yp-Smart-Access-Control-System",
+      "url": "https://cepdnaclk.github.io/e18-3yp-Smart-Access-Control-System"
+   },
+   {
+      "name": "e18-3yp-Road-Accident-Detection-And-Notification-System",
+      "repo": "https://github.com/cepdnaclk/e18-3yp-Road-Accident-Detection-And-Notification-System",
+      "url": "https://cepdnaclk.github.io/e18-3yp-Road-Accident-Detection-And-Notification-System"
    },
    {
       "name": "e18-3yp-smart-polling-booth",
@@ -1083,5 +1098,65 @@
       "name": "e18-3yp-Smart-Gate-Keeping-and-Authentication-System",
       "repo": "https://github.com/cepdnaclk/e18-3yp-Smart-Gate-Keeping-and-Authentication-System",
       "url": "https://cepdnaclk.github.io/e18-3yp-Smart-Gate-Keeping-and-Authentication-System"
+   },
+   {
+      "name": "e18-3yp-smart-glove",
+      "repo": "https://github.com/cepdnaclk/e18-3yp-smart-glove",
+      "url": "https://cepdnaclk.github.io/e18-3yp-smart-glove"
+   },
+   {
+      "name": "e18-3yp-Corals-Protector",
+      "repo": "https://github.com/cepdnaclk/e18-3yp-Corals-Protector",
+      "url": "https://cepdnaclk.github.io/e18-3yp-Corals-Protector"
+   },
+   {
+      "name": "e18-3yp-Automated-Poultry-Farming",
+      "repo": "https://github.com/cepdnaclk/e18-3yp-Automated-Poultry-Farming",
+      "url": "https://cepdnaclk.github.io/e18-3yp-Automated-Poultry-Farming"
+   },
+   {
+      "name": "e18-3yp-Smart-Medicine-Dispenser",
+      "repo": "https://github.com/cepdnaclk/e18-3yp-Smart-Medicine-Dispenser",
+      "url": "https://cepdnaclk.github.io/e18-3yp-Smart-Medicine-Dispenser"
+   },
+   {
+      "name": "e18-3yp-Automated-Mini-Greenhouse-Monitoring-And-Control-System",
+      "repo": "https://github.com/cepdnaclk/e18-3yp-Automated-Mini-Greenhouse-Monitoring-And-Control-System",
+      "url": "https://cepdnaclk.github.io/e18-3yp-Automated-Mini-Greenhouse-Monitoring-And-Control-System"
+   },
+   {
+      "name": "e18-3yp-Smart-Compost-Management-System",
+      "repo": "https://github.com/cepdnaclk/e18-3yp-Smart-Compost-Management-System",
+      "url": "https://cepdnaclk.github.io/e18-3yp-Smart-Compost-Management-System"
+   },
+   {
+      "name": "e18-3yp-Weather-Analytics-And-Travel-Path-Guider",
+      "repo": "https://github.com/cepdnaclk/e18-3yp-Weather-Analytics-And-Travel-Path-Guider",
+      "url": "https://cepdnaclk.github.io/e18-3yp-Weather-Analytics-And-Travel-Path-Guider"
+   },
+   {
+      "name": "e18-3yp-Health-Watch-with-Emergency-Detection",
+      "repo": "https://github.com/cepdnaclk/e18-3yp-Health-Watch-with-Emergency-Detection",
+      "url": "https://cepdnaclk.github.io/e18-3yp-Health-Watch-with-Emergency-Detection"
+   },
+   {
+      "name": "e18-3yp-Smart-Planting-System",
+      "repo": "https://github.com/cepdnaclk/e18-3yp-Smart-Planting-System",
+      "url": "https://cepdnaclk.github.io/e18-3yp-Smart-Planting-System"
+   },
+   {
+      "name": "e18-3yp-Automated-Road-Rule-Detector",
+      "repo": "https://github.com/cepdnaclk/e18-3yp-Automated-Road-Rule-Detector",
+      "url": "https://cepdnaclk.github.io/e18-3yp-Automated-Road-Rule-Detector"
+   },
+   {
+      "name": "e18-3yp-Patient-Monitoring-System-for-Ambulances",
+      "repo": "https://github.com/cepdnaclk/e18-3yp-Patient-Monitoring-System-for-Ambulances",
+      "url": "https://cepdnaclk.github.io/e18-3yp-Patient-Monitoring-System-for-Ambulances"
+   },
+   {
+      "name": "e18-3yp-Smart-Locker-System",
+      "repo": "https://github.com/cepdnaclk/e18-3yp-Smart-Locker-System",
+      "url": "https://cepdnaclk.github.io/e18-3yp-Smart-Locker-System"
    }
 ]
