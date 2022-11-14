@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="{{ site.lang | default: " en-US" }}">
+
 <head>
     {% include meta.html -%}
 
@@ -20,7 +21,8 @@
     <header class="blog-header py-3 px-3">
         <div class="row flex-nowrap justify-content-between align-items-center">
             <div class="col-2 pt-1">
-                <img class=" mx-auto d-block img-fluid" src="{{ '/assets/images/crest.png' | prepend: site.baseurl }}" alt="Logo">
+                <img class=" mx-auto d-block img-fluid" src="{{ '/assets/images/crest.png' | prepend: site.baseurl }}"
+                    alt="Logo">
             </div>
             <div class="col-8">
                 <a class="blog-header-logo text-white text-decoration-none" href="#">
@@ -29,50 +31,11 @@
                 </a>
             </div>
             <div class="col-2 d-flex justify-content-end align-items-center">
-                <a class="d-none btn btn-sm btn-outline-secondary" href="http://www.ce.pdn.ac.lk" target="_blank">Department Site</a>
+                <a class="d-none btn btn-sm btn-outline-secondary" href="http://www.ce.pdn.ac.lk"
+                    target="_blank">Department Site</a>
             </div>
         </div>
     </header>
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
-        <a class="navbar-brand" href="#">&nbsp;</a>
-
-        <!-- Toggler/collapsibe Button -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
-            <!-- Links -->
-            <div class="container">
-
-                <ul class="navbar-nav  justify-content-between0 w-100">
-                    <li class="nav-item"><a class="nav-link" href="./labs">Labs</a></li>
-                    <!--<li class="nav-item"><a class="nav-link" href="./sites/projects">Projects</a></li>-->
-                    <!-- <li class="nav-item"><a class="nav-link" href="./sites/students">Students</a></li> -->
-                    <li class="nav-item"><a class="nav-link" href="./servers">Servers</a></li>
-
-                    <!-- <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-                            Field Selection
-                        </a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="./fieldselection/2016">2016</a>
-                            <a class="dropdown-item" href="./fieldselection/2017">2017</a>
-                            <a class="dropdown-item" href="./fieldselection/2018">2018</a>
-                            <a class="dropdown-item" href="./fieldselection/2019">2019</a>
-                        </div>
-                    </li> -->
-
-
-                    <!-- <li class="nav-item"><a class="nav-link" href="./sites/results">Results</a></li> -->
-                    <!-- <li class="nav-item"><a class="nav-link" href="./sites/marks">Marks</a></li> -->
-                    <li class="nav-item"><a class="nav-link" href="https://faq.ce.pdn.ac.lk">FAQ</a></li>
-                    <li class="nav-item"><a class="nav-link" href="./sites/other">Other</a></li>
-
-                </ul>
-            </div>
-        </ul>
-    </nav>
 
     <main role="main" class="container pt-3 vh-50">
         <div class="">
@@ -92,4 +55,5 @@
     <script src="/assets/js/holder.min.js"></script>
 
 </body>
+
 </html>
