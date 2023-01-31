@@ -620,9 +620,9 @@
       "url": "https://cepdnaclk.github.io/e17-3yp-Smart-Locker"
    },
    {
-      "name": "makerspace",
-      "repo": "https://github.com/cepdnaclk/makerspace",
-      "url": "https://cepdnaclk.github.io/makerspace"
+      "name": "make.ce.pdn.ac.lk",
+      "repo": "https://github.com/cepdnaclk/make.ce.pdn.ac.lk",
+      "url": "https://cepdnaclk.github.io/make.ce.pdn.ac.lk"
    },
    {
       "name": "co542-neural-networks-reading-group-e16",
@@ -880,11 +880,6 @@
       "url": "https://cepdnaclk.github.io/e18-co227-Image-Data-Handling-System-for-Research-Group-B"
    },
    {
-      "name": "e18-co227-Auto-Marking-and-Student-Performance-Analyser-System-for-Continuous-Assessments-Group-B",
-      "repo": "https://github.com/cepdnaclk/e18-co227-Auto-Marking-and-Student-Performance-Analyser-System-for-Continuous-Assessments-Group-B",
-      "url": "https://cepdnaclk.github.io/e18-co227-Auto-Marking-and-Student-Performance-Analyser-System-for-Continuous-Assessments-Group-B"
-   },
-   {
       "name": "e18-co227-Auto-Marking-and-Student-Performance-Analyser-System-for-Continuous-Assessments-Group-A",
       "repo": "https://github.com/cepdnaclk/e18-co227-Auto-Marking-and-Student-Performance-Analyser-System-for-Continuous-Assessments-Group-A",
       "url": "https://cepdnaclk.github.io/e18-co227-Auto-Marking-and-Student-Performance-Analyser-System-for-Continuous-Assessments-Group-A"
@@ -1000,9 +995,9 @@
       "url": "https://cepdnaclk.github.io/e16-4yp-Smart-Agriculture-Use-of-Computer-Vision-ML-and-IoT-to-Improve-Crop-Productivity"
    },
    {
-      "name": "e16-4yp-Food-Recommendation-System-Using-Machine-Learning-for-Diabetic-Patients-in-Sri-Lanka",
-      "repo": "https://github.com/cepdnaclk/e16-4yp-Food-Recommendation-System-Using-Machine-Learning-for-Diabetic-Patients-in-Sri-Lanka",
-      "url": "https://cepdnaclk.github.io/e16-4yp-Food-Recommendation-System-Using-Machine-Learning-for-Diabetic-Patients-in-Sri-Lanka"
+      "name": "e16-4yp-Food-Recommendation-System-Using-Machine-Learning-for-Diabetic-Patients",
+      "repo": "https://github.com/cepdnaclk/e16-4yp-Food-Recommendation-System-Using-Machine-Learning-for-Diabetic-Patients",
+      "url": "https://cepdnaclk.github.io/e16-4yp-Food-Recommendation-System-Using-Machine-Learning-for-Diabetic-Patients"
    },
    {
       "name": "e16-4yp-Enhancing-Video-Game-Experience-With-Brain-Computer-Interface",
@@ -1073,11 +1068,6 @@
       "name": "e18-3yp-Road-Traffic-Ecosystem",
       "repo": "https://github.com/cepdnaclk/e18-3yp-Road-Traffic-Ecosystem",
       "url": "https://cepdnaclk.github.io/e18-3yp-Road-Traffic-Ecosystem"
-   },
-   {
-      "name": "e18-3yp-Smart-Access-Control-System",
-      "repo": "https://github.com/cepdnaclk/e18-3yp-Smart-Access-Control-System",
-      "url": "https://cepdnaclk.github.io/e18-3yp-Smart-Access-Control-System"
    },
    {
       "name": "e18-3yp-Road-Accident-Detection-And-Notification-System",
@@ -1158,5 +1148,20 @@
       "name": "e18-3yp-Smart-Locker-System",
       "repo": "https://github.com/cepdnaclk/e18-3yp-Smart-Locker-System",
       "url": "https://cepdnaclk.github.io/e18-3yp-Smart-Locker-System"
+   },
+   {
+      "name": "e18-3yp-Digital-Gas-Monitoring-System",
+      "repo": "https://github.com/cepdnaclk/e18-3yp-Digital-Gas-Monitoring-System",
+      "url": "https://cepdnaclk.github.io/e18-3yp-Digital-Gas-Monitoring-System"
+   },
+   {
+      "name": "e18-co227-Auto-Marking-and-Student-Performance-Analyser-System-for-Continuous-Assessments-Group-B",
+      "repo": "https://github.com/cepdnaclk/e18-co227-Auto-Marking-and-Student-Performance-Analyser-System-for-Continuous-Assessments-Group-B",
+      "url": "https://cepdnaclk.github.io/e18-co227-Auto-Marking-and-Student-Performance-Analyser-System-for-Continuous-Assessments-Group-B"
+   },
+   {
+      "name": "smart-compost-management-system",
+      "repo": "https://github.com/cepdnaclk/smart-compost-management-system",
+      "url": "https://cepdnaclk.github.io/smart-compost-management-system"
    }
 ]

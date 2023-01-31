@@ -374,7 +374,7 @@
 		<loc>https://cepdnaclk.github.io/e17-3yp-Smart-Locker</loc>
 	</url>
 	<url>
-		<loc>https://cepdnaclk.github.io/makerspace</loc>
+		<loc>https://cepdnaclk.github.io/make.ce.pdn.ac.lk</loc>
 	</url>
 	<url>
 		<loc>https://cepdnaclk.github.io/co542-neural-networks-reading-group-e16</loc>
@@ -530,9 +530,6 @@
 		<loc>https://cepdnaclk.github.io/e18-co227-Image-Data-Handling-System-for-Research-Group-B</loc>
 	</url>
 	<url>
-		<loc>https://cepdnaclk.github.io/e18-co227-Auto-Marking-and-Student-Performance-Analyser-System-for-Continuous-Assessments-Group-B</loc>
-	</url>
-	<url>
 		<loc>https://cepdnaclk.github.io/e18-co227-Auto-Marking-and-Student-Performance-Analyser-System-for-Continuous-Assessments-Group-A</loc>
 	</url>
 	<url>
@@ -602,7 +599,7 @@
 		<loc>https://cepdnaclk.github.io/e16-4yp-Smart-Agriculture-Use-of-Computer-Vision-ML-and-IoT-to-Improve-Crop-Productivity</loc>
 	</url>
 	<url>
-		<loc>https://cepdnaclk.github.io/e16-4yp-Food-Recommendation-System-Using-Machine-Learning-for-Diabetic-Patients-in-Sri-Lanka</loc>
+		<loc>https://cepdnaclk.github.io/e16-4yp-Food-Recommendation-System-Using-Machine-Learning-for-Diabetic-Patients</loc>
 	</url>
 	<url>
 		<loc>https://cepdnaclk.github.io/e16-4yp-Enhancing-Video-Game-Experience-With-Brain-Computer-Interface</loc>
@@ -645,9 +642,6 @@
 	</url>
 	<url>
 		<loc>https://cepdnaclk.github.io/e18-3yp-Road-Traffic-Ecosystem</loc>
-	</url>
-	<url>
-		<loc>https://cepdnaclk.github.io/e18-3yp-Smart-Access-Control-System</loc>
 	</url>
 	<url>
 		<loc>https://cepdnaclk.github.io/e18-3yp-Road-Accident-Detection-And-Notification-System</loc>
@@ -696,5 +690,14 @@
 	</url>
 	<url>
 		<loc>https://cepdnaclk.github.io/e18-3yp-Smart-Locker-System</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e18-3yp-Digital-Gas-Monitoring-System</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e18-co227-Auto-Marking-and-Student-Performance-Analyser-System-for-Continuous-Assessments-Group-B</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/smart-compost-management-system</loc>
 	</url>
 </urlset>
