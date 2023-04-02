@@ -295,9 +295,9 @@
       "url": "https://cepdnaclk.github.io/e15-4yp-Explainable-Machine-Learning-for-Real-World-Resource-Constrained-Problems"
    },
    {
-      "name": "e15-4yp-Adaptive-people-movement-and-action-prediction-using-CCTV",
-      "repo": "https://github.com/cepdnaclk/e15-4yp-Adaptive-people-movement-and-action-prediction-using-CCTV",
-      "url": "https://cepdnaclk.github.io/e15-4yp-Adaptive-people-movement-and-action-prediction-using-CCTV"
+      "name": "e15-4yp-Adaptive-People-Movement-And-Action-Prediction-Using-CCTV",
+      "repo": "https://github.com/cepdnaclk/e15-4yp-Adaptive-People-Movement-And-Action-Prediction-Using-CCTV",
+      "url": "https://cepdnaclk.github.io/e15-4yp-Adaptive-People-Movement-And-Action-Prediction-Using-CCTV"
    },
    {
       "name": "e15-4yp-Doppelganger-Cartoon",
@@ -1173,5 +1173,35 @@
       "name": "Smart-Agriculture-a-low-cost-IoT-system-for-polytunnels",
       "repo": "https://github.com/cepdnaclk/Smart-Agriculture-a-low-cost-IoT-system-for-polytunnels",
       "url": "https://cepdnaclk.github.io/Smart-Agriculture-a-low-cost-IoT-system-for-polytunnels"
+   },
+   {
+      "name": "e18-co502-RV32IM-Pipeline-Implementation-Group4",
+      "repo": "https://github.com/cepdnaclk/e18-co502-RV32IM-Pipeline-Implementation-Group4",
+      "url": "https://cepdnaclk.github.io/e18-co502-RV32IM-Pipeline-Implementation-Group4"
+   },
+   {
+      "name": "e18-co502-RV32IM-Pipeline-Implementation-Group-06-",
+      "repo": "https://github.com/cepdnaclk/e18-co502-RV32IM-Pipeline-Implementation-Group-06-",
+      "url": "https://cepdnaclk.github.io/e18-co502-RV32IM-Pipeline-Implementation-Group-06-"
+   },
+   {
+      "name": "e18-co502-RV32IM-pipeline-implementation-group03",
+      "repo": "https://github.com/cepdnaclk/e18-co502-RV32IM-pipeline-implementation-group03",
+      "url": "https://cepdnaclk.github.io/e18-co502-RV32IM-pipeline-implementation-group03"
+   },
+   {
+      "name": "e18-co502-RV32IM-pipeline-implementation-group7",
+      "repo": "https://github.com/cepdnaclk/e18-co502-RV32IM-pipeline-implementation-group7",
+      "url": "https://cepdnaclk.github.io/e18-co502-RV32IM-pipeline-implementation-group7"
+   },
+   {
+      "name": "e17-co502-RV32IM-pipeline-implementation-group2",
+      "repo": "https://github.com/cepdnaclk/e17-co502-RV32IM-pipeline-implementation-group2",
+      "url": "https://cepdnaclk.github.io/e17-co502-RV32IM-pipeline-implementation-group2"
+   },
+   {
+      "name": "e17-co502-RV32IM-pipeline-implemntation-group1",
+      "repo": "https://github.com/cepdnaclk/e17-co502-RV32IM-pipeline-implemntation-group1",
+      "url": "https://cepdnaclk.github.io/e17-co502-RV32IM-pipeline-implemntation-group1"
    }
 ]
