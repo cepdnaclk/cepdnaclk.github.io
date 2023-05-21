@@ -1218,5 +1218,35 @@
       "name": "e18-co326-laboratory-environment-monitoring",
       "repo": "https://github.com/cepdnaclk/e18-co326-laboratory-environment-monitoring",
       "url": "https://cepdnaclk.github.io/e18-co326-laboratory-environment-monitoring"
+   },
+   {
+      "name": "e17-4yp-Improving-Trajectory-Guided-Control-Prediction-for-Autonomous-Driving",
+      "repo": "https://github.com/cepdnaclk/e17-4yp-Improving-Trajectory-Guided-Control-Prediction-for-Autonomous-Driving",
+      "url": "https://cepdnaclk.github.io/e17-4yp-Improving-Trajectory-Guided-Control-Prediction-for-Autonomous-Driving"
+   },
+   {
+      "name": "e17-4yp-Neuromorphic-NoC-Architecture-for-SNNs",
+      "repo": "https://github.com/cepdnaclk/e17-4yp-Neuromorphic-NoC-Architecture-for-SNNs",
+      "url": "https://cepdnaclk.github.io/e17-4yp-Neuromorphic-NoC-Architecture-for-SNNs"
+   },
+   {
+      "name": "e17-4yp-develop-a-programming-and-compiler-toolchain-for-multi-agent-systems",
+      "repo": "https://github.com/cepdnaclk/e17-4yp-develop-a-programming-and-compiler-toolchain-for-multi-agent-systems",
+      "url": "https://cepdnaclk.github.io/e17-4yp-develop-a-programming-and-compiler-toolchain-for-multi-agent-systems"
+   },
+   {
+      "name": "e18-6sp-ML-for-Analyzing-Egg-Hatching",
+      "repo": "https://github.com/cepdnaclk/e18-6sp-ML-for-Analyzing-Egg-Hatching",
+      "url": "https://cepdnaclk.github.io/e18-6sp-ML-for-Analyzing-Egg-Hatching"
+   },
+   {
+      "name": "e17-4yp-Applying-deep-learning-on-histological-images-of-lymph-tissues",
+      "repo": "https://github.com/cepdnaclk/e17-4yp-Applying-deep-learning-on-histological-images-of-lymph-tissues",
+      "url": "https://cepdnaclk.github.io/e17-4yp-Applying-deep-learning-on-histological-images-of-lymph-tissues"
+   },
+   {
+      "name": "e17-4yp-flexible-glove-for-real-time-tracking-and-analysis-of-hand-and-finger-movements",
+      "repo": "https://github.com/cepdnaclk/e17-4yp-flexible-glove-for-real-time-tracking-and-analysis-of-hand-and-finger-movements",
+      "url": "https://cepdnaclk.github.io/e17-4yp-flexible-glove-for-real-time-tracking-and-analysis-of-hand-and-finger-movements"
    }
 ]
