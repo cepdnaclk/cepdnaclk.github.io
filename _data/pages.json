@@ -1220,9 +1220,24 @@
       "url": "https://cepdnaclk.github.io/e18-co326-laboratory-environment-monitoring"
    },
    {
+      "name": "e18-6sp-Analysis-and-visualization-of-complex-software-system-traces",
+      "repo": "https://github.com/cepdnaclk/e18-6sp-Analysis-and-visualization-of-complex-software-system-traces",
+      "url": "https://cepdnaclk.github.io/e18-6sp-Analysis-and-visualization-of-complex-software-system-traces"
+   },
+   {
       "name": "e17-4yp-Improving-Trajectory-Guided-Control-Prediction-for-Autonomous-Driving",
       "repo": "https://github.com/cepdnaclk/e17-4yp-Improving-Trajectory-Guided-Control-Prediction-for-Autonomous-Driving",
       "url": "https://cepdnaclk.github.io/e17-4yp-Improving-Trajectory-Guided-Control-Prediction-for-Autonomous-Driving"
+   },
+   {
+      "name": "e17-4yp-3D-Occupancy-Prediction-for-Autonomous-Driving",
+      "repo": "https://github.com/cepdnaclk/e17-4yp-3D-Occupancy-Prediction-for-Autonomous-Driving",
+      "url": "https://cepdnaclk.github.io/e17-4yp-3D-Occupancy-Prediction-for-Autonomous-Driving"
+   },
+   {
+      "name": "e18-6sp-Realtime-Flood-Forecast-System",
+      "repo": "https://github.com/cepdnaclk/e18-6sp-Realtime-Flood-Forecast-System",
+      "url": "https://cepdnaclk.github.io/e18-6sp-Realtime-Flood-Forecast-System"
    },
    {
       "name": "e17-4yp-Neuromorphic-NoC-Architecture-for-SNNs",
@@ -1235,6 +1250,11 @@
       "url": "https://cepdnaclk.github.io/e17-4yp-develop-a-programming-and-compiler-toolchain-for-multi-agent-systems"
    },
    {
+      "name": "e17-4yp-Investigating-Onchip-Sensor-Based-RPA-Attack-Vulnerabilities-of-Light-Weight-Ciphers",
+      "repo": "https://github.com/cepdnaclk/e17-4yp-Investigating-Onchip-Sensor-Based-RPA-Attack-Vulnerabilities-of-Light-Weight-Ciphers",
+      "url": "https://cepdnaclk.github.io/e17-4yp-Investigating-Onchip-Sensor-Based-RPA-Attack-Vulnerabilities-of-Light-Weight-Ciphers"
+   },
+   {
       "name": "e18-6sp-ML-for-Analyzing-Egg-Hatching",
       "repo": "https://github.com/cepdnaclk/e18-6sp-ML-for-Analyzing-Egg-Hatching",
       "url": "https://cepdnaclk.github.io/e18-6sp-ML-for-Analyzing-Egg-Hatching"
@@ -1245,8 +1265,83 @@
       "url": "https://cepdnaclk.github.io/e17-4yp-Applying-deep-learning-on-histological-images-of-lymph-tissues"
    },
    {
+      "name": "e17-4yp-Acceleration-of-deep-neural-network-based-nanopore-super-accuracy-basecalling",
+      "repo": "https://github.com/cepdnaclk/e17-4yp-Acceleration-of-deep-neural-network-based-nanopore-super-accuracy-basecalling",
+      "url": "https://cepdnaclk.github.io/e17-4yp-Acceleration-of-deep-neural-network-based-nanopore-super-accuracy-basecalling"
+   },
+   {
       "name": "e17-4yp-flexible-glove-for-real-time-tracking-and-analysis-of-hand-and-finger-movements",
       "repo": "https://github.com/cepdnaclk/e17-4yp-flexible-glove-for-real-time-tracking-and-analysis-of-hand-and-finger-movements",
       "url": "https://cepdnaclk.github.io/e17-4yp-flexible-glove-for-real-time-tracking-and-analysis-of-hand-and-finger-movements"
+   },
+   {
+      "name": "e17-4yp-Large-Language-Models-in-Education",
+      "repo": "https://github.com/cepdnaclk/e17-4yp-Large-Language-Models-in-Education",
+      "url": "https://cepdnaclk.github.io/e17-4yp-Large-Language-Models-in-Education"
+   },
+   {
+      "name": "e17-4yp-os-initiated-cache-switching-to-minimize-performance-loss-in-context-switches",
+      "repo": "https://github.com/cepdnaclk/e17-4yp-os-initiated-cache-switching-to-minimize-performance-loss-in-context-switches",
+      "url": "https://cepdnaclk.github.io/e17-4yp-os-initiated-cache-switching-to-minimize-performance-loss-in-context-switches"
+   },
+   {
+      "name": "e17-4yp-Comprehensive-ECG-analysis-with-Deep-Learning-on-GPU-accelerators",
+      "repo": "https://github.com/cepdnaclk/e17-4yp-Comprehensive-ECG-analysis-with-Deep-Learning-on-GPU-accelerators",
+      "url": "https://cepdnaclk.github.io/e17-4yp-Comprehensive-ECG-analysis-with-Deep-Learning-on-GPU-accelerators"
+   },
+   {
+      "name": "e17-4yp-network-anomaly-detection",
+      "repo": "https://github.com/cepdnaclk/e17-4yp-network-anomaly-detection",
+      "url": "https://cepdnaclk.github.io/e17-4yp-network-anomaly-detection"
+   },
+   {
+      "name": "e17-4yp-ML-Approach-for-Music-Therapy-using-Emotion",
+      "repo": "https://github.com/cepdnaclk/e17-4yp-ML-Approach-for-Music-Therapy-using-Emotion",
+      "url": "https://cepdnaclk.github.io/e17-4yp-ML-Approach-for-Music-Therapy-using-Emotion"
+   },
+   {
+      "name": "e17-4yp-Comparative-Analysis-of-2nd-and-3rd-Generation-Sequencing",
+      "repo": "https://github.com/cepdnaclk/e17-4yp-Comparative-Analysis-of-2nd-and-3rd-Generation-Sequencing",
+      "url": "https://cepdnaclk.github.io/e17-4yp-Comparative-Analysis-of-2nd-and-3rd-Generation-Sequencing"
+   },
+   {
+      "name": "e17-4yp-using-machine-learning-in-high-stake-settings",
+      "repo": "https://github.com/cepdnaclk/e17-4yp-using-machine-learning-in-high-stake-settings",
+      "url": "https://cepdnaclk.github.io/e17-4yp-using-machine-learning-in-high-stake-settings"
+   },
+   {
+      "name": "e17-4yp-OCR-and-Translation-from-Sinhala-to-Tamil-for-Printed-Documents",
+      "repo": "https://github.com/cepdnaclk/e17-4yp-OCR-and-Translation-from-Sinhala-to-Tamil-for-Printed-Documents",
+      "url": "https://cepdnaclk.github.io/e17-4yp-OCR-and-Translation-from-Sinhala-to-Tamil-for-Printed-Documents"
+   },
+   {
+      "name": "e18-co326-Smart-Cooling-System-for-a-Machinery-Room-Group5",
+      "repo": "https://github.com/cepdnaclk/e18-co326-Smart-Cooling-System-for-a-Machinery-Room-Group5",
+      "url": "https://cepdnaclk.github.io/e18-co326-Smart-Cooling-System-for-a-Machinery-Room-Group5"
+   },
+   {
+      "name": "e18-6sp-3D-Model-Construction-for-a-target-class-using-XAI-Group16",
+      "repo": "https://github.com/cepdnaclk/e18-6sp-3D-Model-Construction-for-a-target-class-using-XAI-Group16",
+      "url": "https://cepdnaclk.github.io/e18-6sp-3D-Model-Construction-for-a-target-class-using-XAI-Group16"
+   },
+   {
+      "name": "e17-4yp-Virtual-Patient-Simulator-for-Skill-Training-in-Dentistry",
+      "repo": "https://github.com/cepdnaclk/e17-4yp-Virtual-Patient-Simulator-for-Skill-Training-in-Dentistry",
+      "url": "https://cepdnaclk.github.io/e17-4yp-Virtual-Patient-Simulator-for-Skill-Training-in-Dentistry"
+   },
+   {
+      "name": "e18-co326-home-automation-system-group01",
+      "repo": "https://github.com/cepdnaclk/e18-co326-home-automation-system-group01",
+      "url": "https://cepdnaclk.github.io/e18-co326-home-automation-system-group01"
+   },
+   {
+      "name": "e17-4yp-Low-Complexity-Algorithm-for-Arrhythmia-Detection",
+      "repo": "https://github.com/cepdnaclk/e17-4yp-Low-Complexity-Algorithm-for-Arrhythmia-Detection",
+      "url": "https://cepdnaclk.github.io/e17-4yp-Low-Complexity-Algorithm-for-Arrhythmia-Detection"
+   },
+   {
+      "name": "e19-co225-Baby-Developing-Tracking-System-Web-Application",
+      "repo": "https://github.com/cepdnaclk/e19-co225-Baby-Developing-Tracking-System-Web-Application",
+      "url": "https://cepdnaclk.github.io/e19-co225-Baby-Developing-Tracking-System-Web-Application"
    }
 ]
