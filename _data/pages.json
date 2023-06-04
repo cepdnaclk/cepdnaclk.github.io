@@ -1250,6 +1250,16 @@
       "url": "https://cepdnaclk.github.io/e17-4yp-develop-a-programming-and-compiler-toolchain-for-multi-agent-systems"
    },
    {
+      "name": "e18-co326-Patient-monitoring-system",
+      "repo": "https://github.com/cepdnaclk/e18-co326-Patient-monitoring-system",
+      "url": "https://cepdnaclk.github.io/e18-co326-Patient-monitoring-system"
+   },
+   {
+      "name": "e18-6sp-Stock-Mentor",
+      "repo": "https://github.com/cepdnaclk/e18-6sp-Stock-Mentor",
+      "url": "https://cepdnaclk.github.io/e18-6sp-Stock-Mentor"
+   },
+   {
       "name": "e17-4yp-Investigating-Onchip-Sensor-Based-RPA-Attack-Vulnerabilities-of-Light-Weight-Ciphers",
       "repo": "https://github.com/cepdnaclk/e17-4yp-Investigating-Onchip-Sensor-Based-RPA-Attack-Vulnerabilities-of-Light-Weight-Ciphers",
       "url": "https://cepdnaclk.github.io/e17-4yp-Investigating-Onchip-Sensor-Based-RPA-Attack-Vulnerabilities-of-Light-Weight-Ciphers"
@@ -1288,6 +1298,11 @@
       "name": "e17-4yp-Comprehensive-ECG-analysis-with-Deep-Learning-on-GPU-accelerators",
       "repo": "https://github.com/cepdnaclk/e17-4yp-Comprehensive-ECG-analysis-with-Deep-Learning-on-GPU-accelerators",
       "url": "https://cepdnaclk.github.io/e17-4yp-Comprehensive-ECG-analysis-with-Deep-Learning-on-GPU-accelerators"
+   },
+   {
+      "name": "e17-4yp-novel-compression-methods-for-nanopore-raw-signal-data",
+      "repo": "https://github.com/cepdnaclk/e17-4yp-novel-compression-methods-for-nanopore-raw-signal-data",
+      "url": "https://cepdnaclk.github.io/e17-4yp-novel-compression-methods-for-nanopore-raw-signal-data"
    },
    {
       "name": "e17-4yp-network-anomaly-detection",
@@ -1343,5 +1358,45 @@
       "name": "e19-co225-Baby-Developing-Tracking-System-Web-Application",
       "repo": "https://github.com/cepdnaclk/e19-co225-Baby-Developing-Tracking-System-Web-Application",
       "url": "https://cepdnaclk.github.io/e19-co225-Baby-Developing-Tracking-System-Web-Application"
+   },
+   {
+      "name": "e17-4yp-Human-Emotion-Detection-with-Electrocardiographic--Electroencephelographic-and-Other-Signals",
+      "repo": "https://github.com/cepdnaclk/e17-4yp-Human-Emotion-Detection-with-Electrocardiographic--Electroencephelographic-and-Other-Signals",
+      "url": "https://cepdnaclk.github.io/e17-4yp-Human-Emotion-Detection-with-Electrocardiographic--Electroencephelographic-and-Other-Signals"
+   },
+   {
+      "name": "e17-4yp-Deep-Learning-for-Side-Channel-Attacks",
+      "repo": "https://github.com/cepdnaclk/e17-4yp-Deep-Learning-for-Side-Channel-Attacks",
+      "url": "https://cepdnaclk.github.io/e17-4yp-Deep-Learning-for-Side-Channel-Attacks"
+   },
+   {
+      "name": "CO226_Project",
+      "repo": "https://github.com/cepdnaclk/CO226_Project",
+      "url": "https://cepdnaclk.github.io/CO226_Project"
+   },
+   {
+      "name": "e18-co326-water-level-monitoring-and-control-system",
+      "repo": "https://github.com/cepdnaclk/e18-co326-water-level-monitoring-and-control-system",
+      "url": "https://cepdnaclk.github.io/e18-co326-water-level-monitoring-and-control-system"
+   },
+   {
+      "name": "e19-co225-sharedspaces",
+      "repo": "https://github.com/cepdnaclk/e19-co225-sharedspaces",
+      "url": "https://cepdnaclk.github.io/e19-co225-sharedspaces"
+   },
+   {
+      "name": "e18-6sp-ML-based-patient-care-diagnostic",
+      "repo": "https://github.com/cepdnaclk/e18-6sp-ML-based-patient-care-diagnostic",
+      "url": "https://cepdnaclk.github.io/e18-6sp-ML-based-patient-care-diagnostic"
+   },
+   {
+      "name": "e18-6sp-Automatically-categorizing-Sinhala-news-items-from-selected-news-sources",
+      "repo": "https://github.com/cepdnaclk/e18-6sp-Automatically-categorizing-Sinhala-news-items-from-selected-news-sources",
+      "url": "https://cepdnaclk.github.io/e18-6sp-Automatically-categorizing-Sinhala-news-items-from-selected-news-sources"
+   },
+   {
+      "name": "e18-6sp-Handwritten-Essay-Marking-Software",
+      "repo": "https://github.com/cepdnaclk/e18-6sp-Handwritten-Essay-Marking-Software",
+      "url": "https://cepdnaclk.github.io/e18-6sp-Handwritten-Essay-Marking-Software"
    }
 ]
