@@ -122,6 +122,9 @@
 		<loc>https://cepdnaclk.github.io/e15-4yp-Mixed-Reality-based-Simulation-Platform-for-Swarm-Robotics</loc>
 	</url>
 	<url>
+		<loc>https://cepdnaclk.github.io/e17-co226-business-to-business-database</loc>
+	</url>
+	<url>
 		<loc>https://cepdnaclk.github.io/e15-4yp-Hand-Gesture-Recognition-using-sEMG</loc>
 	</url>
 	<url>
@@ -179,7 +182,7 @@
 		<loc>https://cepdnaclk.github.io/e15-4yp-Explainable-Machine-Learning-for-Real-World-Resource-Constrained-Problems</loc>
 	</url>
 	<url>
-		<loc>https://cepdnaclk.github.io/e15-4yp-Adaptive-People-Movement-And-Action-Prediction-Using-CCTV</loc>
+		<loc>https://cepdnaclk.github.io/e15-4yp-Adaptive-people-movement-and-action-prediction-using-CCTV-to-control-appliances</loc>
 	</url>
 	<url>
 		<loc>https://cepdnaclk.github.io/e15-4yp-Doppelganger-Cartoon</loc>
@@ -782,7 +785,13 @@
 		<loc>https://cepdnaclk.github.io/e17-4yp-Comprehensive-ECG-analysis-with-Deep-Learning-on-GPU-accelerators</loc>
 	</url>
 	<url>
+		<loc>https://cepdnaclk.github.io/e18-6sp-Digital-Twin</loc>
+	</url>
+	<url>
 		<loc>https://cepdnaclk.github.io/e17-4yp-novel-compression-methods-for-nanopore-raw-signal-data</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e18-6sp-Optical-Character-Recognition-and-Translation-from-Sinhala-to-Tamil-for-Printed-Documents</loc>
 	</url>
 	<url>
 		<loc>https://cepdnaclk.github.io/e17-4yp-network-anomaly-detection</loc>
@@ -800,13 +809,25 @@
 		<loc>https://cepdnaclk.github.io/e17-4yp-OCR-and-Translation-from-Sinhala-to-Tamil-for-Printed-Documents</loc>
 	</url>
 	<url>
+		<loc>https://cepdnaclk.github.io/e18-6sp-Price-Prediction-in-Stock-Market</loc>
+	</url>
+	<url>
 		<loc>https://cepdnaclk.github.io/e18-co326-Smart-Cooling-System-for-a-Machinery-Room-Group5</loc>
 	</url>
 	<url>
 		<loc>https://cepdnaclk.github.io/e18-6sp-3D-Model-Construction-for-a-target-class-using-XAI-Group16</loc>
 	</url>
 	<url>
+		<loc>https://cepdnaclk.github.io/e19-co225-school-attendance-management-system</loc>
+	</url>
+	<url>
 		<loc>https://cepdnaclk.github.io/e17-4yp-Virtual-Patient-Simulator-for-Skill-Training-in-Dentistry</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e19-co225-Baby-Developement-Tracking-System-Mobileapplication</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e18-6sp-Finding-the-Outliers-Group20</loc>
 	</url>
 	<url>
 		<loc>https://cepdnaclk.github.io/e18-co326-home-automation-system-group01</loc>
@@ -839,6 +860,12 @@
 		<loc>https://cepdnaclk.github.io/e18-6sp-Automatically-categorizing-Sinhala-news-items-from-selected-news-sources</loc>
 	</url>
 	<url>
+		<loc>https://cepdnaclk.github.io/e18-6sp-Disease-Monitoring-in-dairy-industry</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e18-6sp-Code-quality-check-with-Semantic-Search</loc>
+	</url>
+	<url>
 		<loc>https://cepdnaclk.github.io/e18-6sp-Handwritten-Essay-Marking-Software</loc>
 	</url>
 	<url>
@@ -852,5 +879,14 @@
 	</url>
 	<url>
 		<loc>https://cepdnaclk.github.io/e18-co326-Smart-Home-Security-System</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e18-co326-Smart-Energy-Meter</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e18-6sp-ML-for-Structural-Health-Monitoring-Group-05</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e18-co326-Automated-Smart-Lighting-System</loc>
 	</url>
 </urlset>

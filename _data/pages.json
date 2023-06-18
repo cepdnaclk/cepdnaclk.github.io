@@ -200,6 +200,11 @@
       "url": "https://cepdnaclk.github.io/e15-4yp-Mixed-Reality-based-Simulation-Platform-for-Swarm-Robotics"
    },
    {
+      "name": "e17-co226-business-to-business-database",
+      "repo": "https://github.com/cepdnaclk/e17-co226-business-to-business-database",
+      "url": "https://cepdnaclk.github.io/e17-co226-business-to-business-database"
+   },
+   {
       "name": "e15-4yp-Hand-Gesture-Recognition-using-sEMG",
       "repo": "https://github.com/cepdnaclk/e15-4yp-Hand-Gesture-Recognition-using-sEMG",
       "url": "https://cepdnaclk.github.io/e15-4yp-Hand-Gesture-Recognition-using-sEMG"
@@ -295,9 +300,9 @@
       "url": "https://cepdnaclk.github.io/e15-4yp-Explainable-Machine-Learning-for-Real-World-Resource-Constrained-Problems"
    },
    {
-      "name": "e15-4yp-Adaptive-People-Movement-And-Action-Prediction-Using-CCTV",
-      "repo": "https://github.com/cepdnaclk/e15-4yp-Adaptive-People-Movement-And-Action-Prediction-Using-CCTV",
-      "url": "https://cepdnaclk.github.io/e15-4yp-Adaptive-People-Movement-And-Action-Prediction-Using-CCTV"
+      "name": "e15-4yp-Adaptive-people-movement-and-action-prediction-using-CCTV-to-control-appliances",
+      "repo": "https://github.com/cepdnaclk/e15-4yp-Adaptive-people-movement-and-action-prediction-using-CCTV-to-control-appliances",
+      "url": "https://cepdnaclk.github.io/e15-4yp-Adaptive-people-movement-and-action-prediction-using-CCTV-to-control-appliances"
    },
    {
       "name": "e15-4yp-Doppelganger-Cartoon",
@@ -1300,9 +1305,19 @@
       "url": "https://cepdnaclk.github.io/e17-4yp-Comprehensive-ECG-analysis-with-Deep-Learning-on-GPU-accelerators"
    },
    {
+      "name": "e18-6sp-Digital-Twin",
+      "repo": "https://github.com/cepdnaclk/e18-6sp-Digital-Twin",
+      "url": "https://cepdnaclk.github.io/e18-6sp-Digital-Twin"
+   },
+   {
       "name": "e17-4yp-novel-compression-methods-for-nanopore-raw-signal-data",
       "repo": "https://github.com/cepdnaclk/e17-4yp-novel-compression-methods-for-nanopore-raw-signal-data",
       "url": "https://cepdnaclk.github.io/e17-4yp-novel-compression-methods-for-nanopore-raw-signal-data"
+   },
+   {
+      "name": "e18-6sp-Optical-Character-Recognition-and-Translation-from-Sinhala-to-Tamil-for-Printed-Documents",
+      "repo": "https://github.com/cepdnaclk/e18-6sp-Optical-Character-Recognition-and-Translation-from-Sinhala-to-Tamil-for-Printed-Documents",
+      "url": "https://cepdnaclk.github.io/e18-6sp-Optical-Character-Recognition-and-Translation-from-Sinhala-to-Tamil-for-Printed-Documents"
    },
    {
       "name": "e17-4yp-network-anomaly-detection",
@@ -1330,6 +1345,11 @@
       "url": "https://cepdnaclk.github.io/e17-4yp-OCR-and-Translation-from-Sinhala-to-Tamil-for-Printed-Documents"
    },
    {
+      "name": "e18-6sp-Price-Prediction-in-Stock-Market",
+      "repo": "https://github.com/cepdnaclk/e18-6sp-Price-Prediction-in-Stock-Market",
+      "url": "https://cepdnaclk.github.io/e18-6sp-Price-Prediction-in-Stock-Market"
+   },
+   {
       "name": "e18-co326-Smart-Cooling-System-for-a-Machinery-Room-Group5",
       "repo": "https://github.com/cepdnaclk/e18-co326-Smart-Cooling-System-for-a-Machinery-Room-Group5",
       "url": "https://cepdnaclk.github.io/e18-co326-Smart-Cooling-System-for-a-Machinery-Room-Group5"
@@ -1340,9 +1360,24 @@
       "url": "https://cepdnaclk.github.io/e18-6sp-3D-Model-Construction-for-a-target-class-using-XAI-Group16"
    },
    {
+      "name": "e19-co225-school-attendance-management-system",
+      "repo": "https://github.com/cepdnaclk/e19-co225-school-attendance-management-system",
+      "url": "https://cepdnaclk.github.io/e19-co225-school-attendance-management-system"
+   },
+   {
       "name": "e17-4yp-Virtual-Patient-Simulator-for-Skill-Training-in-Dentistry",
       "repo": "https://github.com/cepdnaclk/e17-4yp-Virtual-Patient-Simulator-for-Skill-Training-in-Dentistry",
       "url": "https://cepdnaclk.github.io/e17-4yp-Virtual-Patient-Simulator-for-Skill-Training-in-Dentistry"
+   },
+   {
+      "name": "e19-co225-Baby-Developement-Tracking-System-Mobileapplication",
+      "repo": "https://github.com/cepdnaclk/e19-co225-Baby-Developement-Tracking-System-Mobileapplication",
+      "url": "https://cepdnaclk.github.io/e19-co225-Baby-Developement-Tracking-System-Mobileapplication"
+   },
+   {
+      "name": "e18-6sp-Finding-the-Outliers-Group20",
+      "repo": "https://github.com/cepdnaclk/e18-6sp-Finding-the-Outliers-Group20",
+      "url": "https://cepdnaclk.github.io/e18-6sp-Finding-the-Outliers-Group20"
    },
    {
       "name": "e18-co326-home-automation-system-group01",
@@ -1395,6 +1430,16 @@
       "url": "https://cepdnaclk.github.io/e18-6sp-Automatically-categorizing-Sinhala-news-items-from-selected-news-sources"
    },
    {
+      "name": "e18-6sp-Disease-Monitoring-in-dairy-industry",
+      "repo": "https://github.com/cepdnaclk/e18-6sp-Disease-Monitoring-in-dairy-industry",
+      "url": "https://cepdnaclk.github.io/e18-6sp-Disease-Monitoring-in-dairy-industry"
+   },
+   {
+      "name": "e18-6sp-Code-quality-check-with-Semantic-Search",
+      "repo": "https://github.com/cepdnaclk/e18-6sp-Code-quality-check-with-Semantic-Search",
+      "url": "https://cepdnaclk.github.io/e18-6sp-Code-quality-check-with-Semantic-Search"
+   },
+   {
       "name": "e18-6sp-Handwritten-Essay-Marking-Software",
       "repo": "https://github.com/cepdnaclk/e18-6sp-Handwritten-Essay-Marking-Software",
       "url": "https://cepdnaclk.github.io/e18-6sp-Handwritten-Essay-Marking-Software"
@@ -1418,5 +1463,20 @@
       "name": "e18-co326-Smart-Home-Security-System",
       "repo": "https://github.com/cepdnaclk/e18-co326-Smart-Home-Security-System",
       "url": "https://cepdnaclk.github.io/e18-co326-Smart-Home-Security-System"
+   },
+   {
+      "name": "e18-co326-Smart-Energy-Meter",
+      "repo": "https://github.com/cepdnaclk/e18-co326-Smart-Energy-Meter",
+      "url": "https://cepdnaclk.github.io/e18-co326-Smart-Energy-Meter"
+   },
+   {
+      "name": "e18-6sp-ML-for-Structural-Health-Monitoring-Group-05",
+      "repo": "https://github.com/cepdnaclk/e18-6sp-ML-for-Structural-Health-Monitoring-Group-05",
+      "url": "https://cepdnaclk.github.io/e18-6sp-ML-for-Structural-Health-Monitoring-Group-05"
+   },
+   {
+      "name": "e18-co326-Automated-Smart-Lighting-System",
+      "repo": "https://github.com/cepdnaclk/e18-co326-Automated-Smart-Lighting-System",
+      "url": "https://cepdnaclk.github.io/e18-co326-Automated-Smart-Lighting-System"
    }
 ]
