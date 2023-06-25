@@ -1325,9 +1325,9 @@
       "url": "https://cepdnaclk.github.io/e17-4yp-network-anomaly-detection"
    },
    {
-      "name": "e17-4yp-ML-Approach-for-Music-Therapy-using-Emotion",
-      "repo": "https://github.com/cepdnaclk/e17-4yp-ML-Approach-for-Music-Therapy-using-Emotion",
-      "url": "https://cepdnaclk.github.io/e17-4yp-ML-Approach-for-Music-Therapy-using-Emotion"
+      "name": "e17-4yp-Music-Emotion-Recognition",
+      "repo": "https://github.com/cepdnaclk/e17-4yp-Music-Emotion-Recognition",
+      "url": "https://cepdnaclk.github.io/e17-4yp-Music-Emotion-Recognition"
    },
    {
       "name": "e17-4yp-Comparative-Analysis-of-2nd-and-3rd-Generation-Sequencing",
@@ -1473,6 +1473,11 @@
       "name": "e18-6sp-ML-for-Structural-Health-Monitoring-Group-05",
       "repo": "https://github.com/cepdnaclk/e18-6sp-ML-for-Structural-Health-Monitoring-Group-05",
       "url": "https://cepdnaclk.github.io/e18-6sp-ML-for-Structural-Health-Monitoring-Group-05"
+   },
+   {
+      "name": "e18-CO326-Smart-Energy-Management-System",
+      "repo": "https://github.com/cepdnaclk/e18-CO326-Smart-Energy-Management-System",
+      "url": "https://cepdnaclk.github.io/e18-CO326-Smart-Energy-Management-System"
    },
    {
       "name": "e18-co326-Automated-Smart-Lighting-System",
