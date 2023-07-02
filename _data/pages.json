@@ -1483,5 +1483,15 @@
       "name": "e18-co326-Automated-Smart-Lighting-System",
       "repo": "https://github.com/cepdnaclk/e18-co326-Automated-Smart-Lighting-System",
       "url": "https://cepdnaclk.github.io/e18-co326-Automated-Smart-Lighting-System"
+   },
+   {
+      "name": "e18-co326-Smart-Traffic-Light-System",
+      "repo": "https://github.com/cepdnaclk/e18-co326-Smart-Traffic-Light-System",
+      "url": "https://cepdnaclk.github.io/e18-co326-Smart-Traffic-Light-System"
+   },
+   {
+      "name": "e18-co326-Smart-Alcohol-Detection-System",
+      "repo": "https://github.com/cepdnaclk/e18-co326-Smart-Alcohol-Detection-System",
+      "url": "https://cepdnaclk.github.io/e18-co326-Smart-Alcohol-Detection-System"
    }
 ]
