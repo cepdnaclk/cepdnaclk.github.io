@@ -1415,9 +1415,9 @@
       "url": "https://cepdnaclk.github.io/e17-4yp-Deep-Learning-for-Side-Channel-Attacks"
    },
    {
-      "name": "CO226_Project",
-      "repo": "https://github.com/cepdnaclk/CO226_Project",
-      "url": "https://cepdnaclk.github.io/CO226_Project"
+      "name": "CO226Project_Online_Learning_Platform",
+      "repo": "https://github.com/cepdnaclk/CO226Project_Online_Learning_Platform",
+      "url": "https://cepdnaclk.github.io/CO226Project_Online_Learning_Platform"
    },
    {
       "name": "e18-co326-water-level-monitoring-and-control-system",
@@ -1503,5 +1503,10 @@
       "name": "e18-co326-Smart-Alcohol-Detection-System",
       "repo": "https://github.com/cepdnaclk/e18-co326-Smart-Alcohol-Detection-System",
       "url": "https://cepdnaclk.github.io/e18-co326-Smart-Alcohol-Detection-System"
+   },
+   {
+      "name": "e19-co226-database-management-system-for-a-restaurant",
+      "repo": "https://github.com/cepdnaclk/e19-co226-database-management-system-for-a-restaurant",
+      "url": "https://cepdnaclk.github.io/e19-co226-database-management-system-for-a-restaurant"
    }
 ]
