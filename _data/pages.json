@@ -1370,6 +1370,16 @@
       "url": "https://cepdnaclk.github.io/e17-4yp-Virtual-Patient-Simulator-for-Skill-Training-in-Dentistry"
    },
    {
+      "name": "e19-co225-School-Attendance-Management-System-Mobile-Application",
+      "repo": "https://github.com/cepdnaclk/e19-co225-School-Attendance-Management-System-Mobile-Application",
+      "url": "https://cepdnaclk.github.io/e19-co225-School-Attendance-Management-System-Mobile-Application"
+   },
+   {
+      "name": "e19-co225-Library-Management-System",
+      "repo": "https://github.com/cepdnaclk/e19-co225-Library-Management-System",
+      "url": "https://cepdnaclk.github.io/e19-co225-Library-Management-System"
+   },
+   {
       "name": "e19-co225-Baby-Developement-Tracking-System-Mobileapplication",
       "repo": "https://github.com/cepdnaclk/e19-co225-Baby-Developement-Tracking-System-Mobileapplication",
       "url": "https://cepdnaclk.github.io/e19-co225-Baby-Developement-Tracking-System-Mobileapplication"
@@ -1383,6 +1393,11 @@
       "name": "e18-co326-home-automation-system-group01",
       "repo": "https://github.com/cepdnaclk/e18-co326-home-automation-system-group01",
       "url": "https://cepdnaclk.github.io/e18-co326-home-automation-system-group01"
+   },
+   {
+      "name": "e19-co225-student-results-management-system-webapp",
+      "repo": "https://github.com/cepdnaclk/e19-co225-student-results-management-system-webapp",
+      "url": "https://cepdnaclk.github.io/e19-co225-student-results-management-system-webapp"
    },
    {
       "name": "e19-co225-Library-Management-System-Web-App",
@@ -1413,11 +1428,6 @@
       "name": "e17-4yp-Deep-Learning-for-Side-Channel-Attacks",
       "repo": "https://github.com/cepdnaclk/e17-4yp-Deep-Learning-for-Side-Channel-Attacks",
       "url": "https://cepdnaclk.github.io/e17-4yp-Deep-Learning-for-Side-Channel-Attacks"
-   },
-   {
-      "name": "CO226Project_Online_Learning_Platform",
-      "repo": "https://github.com/cepdnaclk/CO226Project_Online_Learning_Platform",
-      "url": "https://cepdnaclk.github.io/CO226Project_Online_Learning_Platform"
    },
    {
       "name": "e18-co326-water-level-monitoring-and-control-system",
@@ -1505,8 +1515,23 @@
       "url": "https://cepdnaclk.github.io/e18-co326-Smart-Alcohol-Detection-System"
    },
    {
+      "name": "e19-co226-Online-Learning-Platform",
+      "repo": "https://github.com/cepdnaclk/e19-co226-Online-Learning-Platform",
+      "url": "https://cepdnaclk.github.io/e19-co226-Online-Learning-Platform"
+   },
+   {
       "name": "e19-co226-database-management-system-for-a-restaurant",
       "repo": "https://github.com/cepdnaclk/e19-co226-database-management-system-for-a-restaurant",
       "url": "https://cepdnaclk.github.io/e19-co226-database-management-system-for-a-restaurant"
+   },
+   {
+      "name": "e19-co226-Medical-Clinic-Manager",
+      "repo": "https://github.com/cepdnaclk/e19-co226-Medical-Clinic-Manager",
+      "url": "https://cepdnaclk.github.io/e19-co226-Medical-Clinic-Manager"
+   },
+   {
+      "name": "e19-co226-Database-for-Cricket-Statistics",
+      "repo": "https://github.com/cepdnaclk/e19-co226-Database-for-Cricket-Statistics",
+      "url": "https://cepdnaclk.github.io/e19-co226-Database-for-Cricket-Statistics"
    }
 ]
