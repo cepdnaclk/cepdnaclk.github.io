@@ -1385,6 +1385,11 @@
       "url": "https://cepdnaclk.github.io/e19-co225-Baby-Developement-Tracking-System-Mobileapplication"
    },
    {
+      "name": "e19-co225-Mobile-app-for-Inpatient-Management-System",
+      "repo": "https://github.com/cepdnaclk/e19-co225-Mobile-app-for-Inpatient-Management-System",
+      "url": "https://cepdnaclk.github.io/e19-co225-Mobile-app-for-Inpatient-Management-System"
+   },
+   {
       "name": "e18-6sp-Finding-the-Outliers-Group20",
       "repo": "https://github.com/cepdnaclk/e18-6sp-Finding-the-Outliers-Group20",
       "url": "https://cepdnaclk.github.io/e18-6sp-Finding-the-Outliers-Group20"
@@ -1435,9 +1440,9 @@
       "url": "https://cepdnaclk.github.io/e18-co326-water-level-monitoring-and-control-system"
    },
    {
-      "name": "e19-co225-sharedspaces",
-      "repo": "https://github.com/cepdnaclk/e19-co225-sharedspaces",
-      "url": "https://cepdnaclk.github.io/e19-co225-sharedspaces"
+      "name": "e19-co225-Department-Space-Management-System-Web-Application",
+      "repo": "https://github.com/cepdnaclk/e19-co225-Department-Space-Management-System-Web-Application",
+      "url": "https://cepdnaclk.github.io/e19-co225-Department-Space-Management-System-Web-Application"
    },
    {
       "name": "e18-6sp-ML-based-patient-care-diagnostic",
@@ -1505,6 +1510,11 @@
       "url": "https://cepdnaclk.github.io/e18-co326-Automated-Smart-Lighting-System"
    },
    {
+      "name": "e19-co225-Department-Space-Management-System-Mobile-App",
+      "repo": "https://github.com/cepdnaclk/e19-co225-Department-Space-Management-System-Mobile-App",
+      "url": "https://cepdnaclk.github.io/e19-co225-Department-Space-Management-System-Mobile-App"
+   },
+   {
       "name": "e18-co326-Smart-Traffic-Light-System",
       "repo": "https://github.com/cepdnaclk/e18-co326-Smart-Traffic-Light-System",
       "url": "https://cepdnaclk.github.io/e18-co326-Smart-Traffic-Light-System"
@@ -1530,8 +1540,23 @@
       "url": "https://cepdnaclk.github.io/e19-co226-Medical-Clinic-Manager"
    },
    {
+      "name": "e19-co226-database-for-a-social-media-site",
+      "repo": "https://github.com/cepdnaclk/e19-co226-database-for-a-social-media-site",
+      "url": "https://cepdnaclk.github.io/e19-co226-database-for-a-social-media-site"
+   },
+   {
       "name": "e19-co226-Database-for-Cricket-Statistics",
       "repo": "https://github.com/cepdnaclk/e19-co226-Database-for-Cricket-Statistics",
       "url": "https://cepdnaclk.github.io/e19-co226-Database-for-Cricket-Statistics"
+   },
+   {
+      "name": "e19-co226-Warehouse-Management-System",
+      "repo": "https://github.com/cepdnaclk/e19-co226-Warehouse-Management-System",
+      "url": "https://cepdnaclk.github.io/e19-co226-Warehouse-Management-System"
+   },
+   {
+      "name": "e19-co226-Online-Shopping-System",
+      "repo": "https://github.com/cepdnaclk/e19-co226-Online-Shopping-System",
+      "url": "https://cepdnaclk.github.io/e19-co226-Online-Shopping-System"
    }
 ]
