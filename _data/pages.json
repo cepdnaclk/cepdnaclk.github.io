@@ -1515,6 +1515,16 @@
       "url": "https://cepdnaclk.github.io/e19-co225-Department-Space-Management-System-Mobile-App"
    },
    {
+      "name": "e19-CO225-Student-Result-Management-System",
+      "repo": "https://github.com/cepdnaclk/e19-CO225-Student-Result-Management-System",
+      "url": "https://cepdnaclk.github.io/e19-CO225-Student-Result-Management-System"
+   },
+   {
+      "name": "e19-co226-Online-Shopping",
+      "repo": "https://github.com/cepdnaclk/e19-co226-Online-Shopping",
+      "url": "https://cepdnaclk.github.io/e19-co226-Online-Shopping"
+   },
+   {
       "name": "e18-co326-Smart-Traffic-Light-System",
       "repo": "https://github.com/cepdnaclk/e18-co326-Smart-Traffic-Light-System",
       "url": "https://cepdnaclk.github.io/e18-co326-Smart-Traffic-Light-System"
@@ -1558,5 +1568,20 @@
       "name": "e19-co226-Online-Shopping-System",
       "repo": "https://github.com/cepdnaclk/e19-co226-Online-Shopping-System",
       "url": "https://cepdnaclk.github.io/e19-co226-Online-Shopping-System"
+   },
+   {
+      "name": "e19-co226-E-Commerce-Website",
+      "repo": "https://github.com/cepdnaclk/e19-co226-E-Commerce-Website",
+      "url": "https://cepdnaclk.github.io/e19-co226-E-Commerce-Website"
+   },
+   {
+      "name": "e19-co227-A-demonstration-project",
+      "repo": "https://github.com/cepdnaclk/e19-co227-A-demonstration-project",
+      "url": "https://cepdnaclk.github.io/e19-co227-A-demonstration-project"
+   },
+   {
+      "name": "e19-co227-practice",
+      "repo": "https://github.com/cepdnaclk/e19-co227-practice",
+      "url": "https://cepdnaclk.github.io/e19-co227-practice"
    }
 ]
