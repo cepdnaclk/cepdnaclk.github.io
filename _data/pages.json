@@ -1555,6 +1555,11 @@
       "url": "https://cepdnaclk.github.io/e19-co226-database-for-a-social-media-site"
    },
    {
+      "name": "e19-co226-Auction-Website",
+      "repo": "https://github.com/cepdnaclk/e19-co226-Auction-Website",
+      "url": "https://cepdnaclk.github.io/e19-co226-Auction-Website"
+   },
+   {
       "name": "e19-co226-Database-for-Cricket-Statistics",
       "repo": "https://github.com/cepdnaclk/e19-co226-Database-for-Cricket-Statistics",
       "url": "https://cepdnaclk.github.io/e19-co226-Database-for-Cricket-Statistics"
@@ -1575,13 +1580,33 @@
       "url": "https://cepdnaclk.github.io/e19-co226-E-Commerce-Website"
    },
    {
-      "name": "e19-co227-A-demonstration-project",
-      "repo": "https://github.com/cepdnaclk/e19-co227-A-demonstration-project",
-      "url": "https://cepdnaclk.github.io/e19-co227-A-demonstration-project"
+      "name": "e19-co226-Flight-Management-System",
+      "repo": "https://github.com/cepdnaclk/e19-co226-Flight-Management-System",
+      "url": "https://cepdnaclk.github.io/e19-co226-Flight-Management-System"
+   },
+   {
+      "name": "e19-co226-Online-Student-Registration-System",
+      "repo": "https://github.com/cepdnaclk/e19-co226-Online-Student-Registration-System",
+      "url": "https://cepdnaclk.github.io/e19-co226-Online-Student-Registration-System"
    },
    {
       "name": "e19-co227-practice",
       "repo": "https://github.com/cepdnaclk/e19-co227-practice",
       "url": "https://cepdnaclk.github.io/e19-co227-practice"
+   },
+   {
+      "name": "e19-co226-Online-Grocery-Shop",
+      "repo": "https://github.com/cepdnaclk/e19-co226-Online-Grocery-Shop",
+      "url": "https://cepdnaclk.github.io/e19-co226-Online-Grocery-Shop"
+   },
+   {
+      "name": "e19-co226-Database-for-Bank-Management-System",
+      "repo": "https://github.com/cepdnaclk/e19-co226-Database-for-Bank-Management-System",
+      "url": "https://cepdnaclk.github.io/e19-co226-Database-for-Bank-Management-System"
+   },
+   {
+      "name": "e17-co502-RV32IM-Pipeline-Implementation-Group1",
+      "repo": "https://github.com/cepdnaclk/e17-co502-RV32IM-Pipeline-Implementation-Group1",
+      "url": "https://cepdnaclk.github.io/e17-co502-RV32IM-Pipeline-Implementation-Group1"
    }
 ]
