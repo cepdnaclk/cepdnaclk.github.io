@@ -1470,6 +1470,11 @@
       "url": "https://cepdnaclk.github.io/e18-6sp-Handwritten-Essay-Marking-Software"
    },
    {
+      "name": "e19-co227-aiesec-local-committee-manangement-system",
+      "repo": "https://github.com/cepdnaclk/e19-co227-aiesec-local-committee-manangement-system",
+      "url": "https://cepdnaclk.github.io/e19-co227-aiesec-local-committee-manangement-system"
+   },
+   {
       "name": "e18-6sp-Machine-Learning-for-Weather-Forecasting",
       "repo": "https://github.com/cepdnaclk/e18-6sp-Machine-Learning-for-Weather-Forecasting",
       "url": "https://cepdnaclk.github.io/e18-6sp-Machine-Learning-for-Weather-Forecasting"
@@ -1590,11 +1595,6 @@
       "url": "https://cepdnaclk.github.io/e19-co226-Online-Student-Registration-System"
    },
    {
-      "name": "e19-co227-practice",
-      "repo": "https://github.com/cepdnaclk/e19-co227-practice",
-      "url": "https://cepdnaclk.github.io/e19-co227-practice"
-   },
-   {
       "name": "e19-co226-Online-Grocery-Shop",
       "repo": "https://github.com/cepdnaclk/e19-co226-Online-Grocery-Shop",
       "url": "https://cepdnaclk.github.io/e19-co226-Online-Grocery-Shop"
@@ -1608,5 +1608,65 @@
       "name": "e17-co502-RV32IM-Pipeline-Implementation-Group1",
       "repo": "https://github.com/cepdnaclk/e17-co502-RV32IM-Pipeline-Implementation-Group1",
       "url": "https://cepdnaclk.github.io/e17-co502-RV32IM-Pipeline-Implementation-Group1"
+   },
+   {
+      "name": "e19-co227-digital-reporting-of-technical-visits",
+      "repo": "https://github.com/cepdnaclk/e19-co227-digital-reporting-of-technical-visits",
+      "url": "https://cepdnaclk.github.io/e19-co227-digital-reporting-of-technical-visits"
+   },
+   {
+      "name": "e19-CO227-A-Simple-Web-or-Mobile-Application-For-A-Gym",
+      "repo": "https://github.com/cepdnaclk/e19-CO227-A-Simple-Web-or-Mobile-Application-For-A-Gym",
+      "url": "https://cepdnaclk.github.io/e19-CO227-A-Simple-Web-or-Mobile-Application-For-A-Gym"
+   },
+   {
+      "name": "e19-co227-Online-Retail-System",
+      "repo": "https://github.com/cepdnaclk/e19-co227-Online-Retail-System",
+      "url": "https://cepdnaclk.github.io/e19-co227-Online-Retail-System"
+   },
+   {
+      "name": "e19-co226-Faculty-Management-System",
+      "repo": "https://github.com/cepdnaclk/e19-co226-Faculty-Management-System",
+      "url": "https://cepdnaclk.github.io/e19-co226-Faculty-Management-System"
+   },
+   {
+      "name": "e19-co227-digital-signage-content-management-system",
+      "repo": "https://github.com/cepdnaclk/e19-co227-digital-signage-content-management-system",
+      "url": "https://cepdnaclk.github.io/e19-co227-digital-signage-content-management-system"
+   },
+   {
+      "name": "e19-co226-agriculture-management-system",
+      "repo": "https://github.com/cepdnaclk/e19-co226-agriculture-management-system",
+      "url": "https://cepdnaclk.github.io/e19-co226-agriculture-management-system"
+   },
+   {
+      "name": "e19-co227-ACES-Project-Fund-Requests",
+      "repo": "https://github.com/cepdnaclk/e19-co227-ACES-Project-Fund-Requests",
+      "url": "https://cepdnaclk.github.io/e19-co227-ACES-Project-Fund-Requests"
+   },
+   {
+      "name": "e19-co227-Developing-image-capturing-and-analysing-system-using-FPGA",
+      "repo": "https://github.com/cepdnaclk/e19-co227-Developing-image-capturing-and-analysing-system-using-FPGA",
+      "url": "https://cepdnaclk.github.io/e19-co227-Developing-image-capturing-and-analysing-system-using-FPGA"
+   },
+   {
+      "name": "e19-co227-subclinical-mastitis-prediction-gui",
+      "repo": "https://github.com/cepdnaclk/e19-co227-subclinical-mastitis-prediction-gui",
+      "url": "https://cepdnaclk.github.io/e19-co227-subclinical-mastitis-prediction-gui"
+   },
+   {
+      "name": "e19-co227-Remote-Controlled-PLC-Training-Kit",
+      "repo": "https://github.com/cepdnaclk/e19-co227-Remote-Controlled-PLC-Training-Kit",
+      "url": "https://cepdnaclk.github.io/e19-co227-Remote-Controlled-PLC-Training-Kit"
+   },
+   {
+      "name": "e19-co227-Plants-disease-dataset-collection-in-SriLanka",
+      "repo": "https://github.com/cepdnaclk/e19-co227-Plants-disease-dataset-collection-in-SriLanka",
+      "url": "https://cepdnaclk.github.io/e19-co227-Plants-disease-dataset-collection-in-SriLanka"
+   },
+   {
+      "name": "e19-co227-Leaf-Colour-Quantifier",
+      "repo": "https://github.com/cepdnaclk/e19-co227-Leaf-Colour-Quantifier",
+      "url": "https://cepdnaclk.github.io/e19-co227-Leaf-Colour-Quantifier"
    }
 ]
