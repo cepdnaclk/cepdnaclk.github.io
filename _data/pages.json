@@ -1650,6 +1650,11 @@
       "url": "https://cepdnaclk.github.io/e19-co227-Developing-image-capturing-and-analysing-system-using-FPGA"
    },
    {
+      "name": "e19-co227-TecHub-help-desk-ticketing-system",
+      "repo": "https://github.com/cepdnaclk/e19-co227-TecHub-help-desk-ticketing-system",
+      "url": "https://cepdnaclk.github.io/e19-co227-TecHub-help-desk-ticketing-system"
+   },
+   {
       "name": "e19-co227-subclinical-mastitis-prediction-gui",
       "repo": "https://github.com/cepdnaclk/e19-co227-subclinical-mastitis-prediction-gui",
       "url": "https://cepdnaclk.github.io/e19-co227-subclinical-mastitis-prediction-gui"
@@ -1660,6 +1665,11 @@
       "url": "https://cepdnaclk.github.io/e19-co227-Remote-Controlled-PLC-Training-Kit"
    },
    {
+      "name": "e19-co227-Inventory-Management-System-of-Agricultural-Biotechnology-Centre",
+      "repo": "https://github.com/cepdnaclk/e19-co227-Inventory-Management-System-of-Agricultural-Biotechnology-Centre",
+      "url": "https://cepdnaclk.github.io/e19-co227-Inventory-Management-System-of-Agricultural-Biotechnology-Centre"
+   },
+   {
       "name": "e19-co227-Plants-disease-dataset-collection-in-SriLanka",
       "repo": "https://github.com/cepdnaclk/e19-co227-Plants-disease-dataset-collection-in-SriLanka",
       "url": "https://cepdnaclk.github.io/e19-co227-Plants-disease-dataset-collection-in-SriLanka"
@@ -1668,5 +1678,50 @@
       "name": "e19-co227-Leaf-Colour-Quantifier",
       "repo": "https://github.com/cepdnaclk/e19-co227-Leaf-Colour-Quantifier",
       "url": "https://cepdnaclk.github.io/e19-co227-Leaf-Colour-Quantifier"
+   },
+   {
+      "name": "e19-co227-Crop-Modelling-Tool-For-SriLanka",
+      "repo": "https://github.com/cepdnaclk/e19-co227-Crop-Modelling-Tool-For-SriLanka",
+      "url": "https://cepdnaclk.github.io/e19-co227-Crop-Modelling-Tool-For-SriLanka"
+   },
+   {
+      "name": "e19-co227-Automatic-IC-Testing-Application",
+      "repo": "https://github.com/cepdnaclk/e19-co227-Automatic-IC-Testing-Application",
+      "url": "https://cepdnaclk.github.io/e19-co227-Automatic-IC-Testing-Application"
+   },
+   {
+      "name": "e19-co227-ESCAL-Reservations-and-Borrowing",
+      "repo": "https://github.com/cepdnaclk/e19-co227-ESCAL-Reservations-and-Borrowing",
+      "url": "https://cepdnaclk.github.io/e19-co227-ESCAL-Reservations-and-Borrowing"
+   },
+   {
+      "name": "e19-co227-Dental-patient-management-system",
+      "repo": "https://github.com/cepdnaclk/e19-co227-Dental-patient-management-system",
+      "url": "https://cepdnaclk.github.io/e19-co227-Dental-patient-management-system"
+   },
+   {
+      "name": "e17-co502-RV32IM-Pipeline-Implementation_Group2",
+      "repo": "https://github.com/cepdnaclk/e17-co502-RV32IM-Pipeline-Implementation_Group2",
+      "url": "https://cepdnaclk.github.io/e17-co502-RV32IM-Pipeline-Implementation_Group2"
+   },
+   {
+      "name": "e19-co227-Keyboard-for-Visually-Impaired",
+      "repo": "https://github.com/cepdnaclk/e19-co227-Keyboard-for-Visually-Impaired",
+      "url": "https://cepdnaclk.github.io/e19-co227-Keyboard-for-Visually-Impaired"
+   },
+   {
+      "name": "e19-co227-Mobile-app-to-measure-the-area-of-a-leaf-flower-or-fruit",
+      "repo": "https://github.com/cepdnaclk/e19-co227-Mobile-app-to-measure-the-area-of-a-leaf-flower-or-fruit",
+      "url": "https://cepdnaclk.github.io/e19-co227-Mobile-app-to-measure-the-area-of-a-leaf-flower-or-fruit"
+   },
+   {
+      "name": "e19-co227-voice-based-attendance-management-system",
+      "repo": "https://github.com/cepdnaclk/e19-co227-voice-based-attendance-management-system",
+      "url": "https://cepdnaclk.github.io/e19-co227-voice-based-attendance-management-system"
+   },
+   {
+      "name": "e19-co227-Training-Management-System",
+      "repo": "https://github.com/cepdnaclk/e19-co227-Training-Management-System",
+      "url": "https://cepdnaclk.github.io/e19-co227-Training-Management-System"
    }
 ]
