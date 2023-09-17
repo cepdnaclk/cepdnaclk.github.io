@@ -1485,6 +1485,11 @@
       "url": "https://cepdnaclk.github.io/e18-6sp-ML-For-Structural-Health-Monitoring"
    },
    {
+      "name": "e19-co226-library-management-system",
+      "repo": "https://github.com/cepdnaclk/e19-co226-library-management-system",
+      "url": "https://cepdnaclk.github.io/e19-co226-library-management-system"
+   },
+   {
       "name": "e18-6sp-Handwritten_Essay_Marking_Software",
       "repo": "https://github.com/cepdnaclk/e18-6sp-Handwritten_Essay_Marking_Software",
       "url": "https://cepdnaclk.github.io/e18-6sp-Handwritten_Essay_Marking_Software"
@@ -1648,6 +1653,11 @@
       "name": "e19-co227-ACES-Project-Fund-Requests",
       "repo": "https://github.com/cepdnaclk/e19-co227-ACES-Project-Fund-Requests",
       "url": "https://cepdnaclk.github.io/e19-co227-ACES-Project-Fund-Requests"
+   },
+   {
+      "name": "e19-co227-Engineering-Education-Unit",
+      "repo": "https://github.com/cepdnaclk/e19-co227-Engineering-Education-Unit",
+      "url": "https://cepdnaclk.github.io/e19-co227-Engineering-Education-Unit"
    },
    {
       "name": "e19-co227-Developing-image-capturing-and-analysing-system-using-FPGA",
