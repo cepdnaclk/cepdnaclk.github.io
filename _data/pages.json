@@ -1675,11 +1675,6 @@
       "url": "https://cepdnaclk.github.io/e19-co227-TecHub-help-desk-ticketing-system"
    },
    {
-      "name": "e19-co227-subclinical-mastitis-prediction-gui",
-      "repo": "https://github.com/cepdnaclk/e19-co227-subclinical-mastitis-prediction-gui",
-      "url": "https://cepdnaclk.github.io/e19-co227-subclinical-mastitis-prediction-gui"
-   },
-   {
       "name": "e19-co227-Remote-Controlled-PLC-Training-Kit",
       "repo": "https://github.com/cepdnaclk/e19-co227-Remote-Controlled-PLC-Training-Kit",
       "url": "https://cepdnaclk.github.io/e19-co227-Remote-Controlled-PLC-Training-Kit"
@@ -1773,5 +1768,65 @@
       "name": "e19-3yp-Event-Attendance-Management-System",
       "repo": "https://github.com/cepdnaclk/e19-3yp-Event-Attendance-Management-System",
       "url": "https://cepdnaclk.github.io/e19-3yp-Event-Attendance-Management-System"
+   },
+   {
+      "name": "e19-3yp-Automated-Hydroponic-System",
+      "repo": "https://github.com/cepdnaclk/e19-3yp-Automated-Hydroponic-System",
+      "url": "https://cepdnaclk.github.io/e19-3yp-Automated-Hydroponic-System"
+   },
+   {
+      "name": "e19-3yp-automated-sun-tracking-solar-pv-power-plant-monitoring",
+      "repo": "https://github.com/cepdnaclk/e19-3yp-automated-sun-tracking-solar-pv-power-plant-monitoring",
+      "url": "https://cepdnaclk.github.io/e19-3yp-automated-sun-tracking-solar-pv-power-plant-monitoring"
+   },
+   {
+      "name": "e19-3yp-Attendance-Monitoringand-Access-Authentication-with-Face-Recognition",
+      "repo": "https://github.com/cepdnaclk/e19-3yp-Attendance-Monitoringand-Access-Authentication-with-Face-Recognition",
+      "url": "https://cepdnaclk.github.io/e19-3yp-Attendance-Monitoringand-Access-Authentication-with-Face-Recognition"
+   },
+   {
+      "name": "e19-3yp-Smart-Waste-Management-System",
+      "repo": "https://github.com/cepdnaclk/e19-3yp-Smart-Waste-Management-System",
+      "url": "https://cepdnaclk.github.io/e19-3yp-Smart-Waste-Management-System"
+   },
+   {
+      "name": "e19-3yp-beehive-monitoring-system",
+      "repo": "https://github.com/cepdnaclk/e19-3yp-beehive-monitoring-system",
+      "url": "https://cepdnaclk.github.io/e19-3yp-beehive-monitoring-system"
+   },
+   {
+      "name": "e19-3yp-smart-supermarket-navigation-system",
+      "repo": "https://github.com/cepdnaclk/e19-3yp-smart-supermarket-navigation-system",
+      "url": "https://cepdnaclk.github.io/e19-3yp-smart-supermarket-navigation-system"
+   },
+   {
+      "name": "e19-3yp-School-Van-Tracking-System",
+      "repo": "https://github.com/cepdnaclk/e19-3yp-School-Van-Tracking-System",
+      "url": "https://cepdnaclk.github.io/e19-3yp-School-Van-Tracking-System"
+   },
+   {
+      "name": "e19-3yp-Automated-grass-cutter",
+      "repo": "https://github.com/cepdnaclk/e19-3yp-Automated-grass-cutter",
+      "url": "https://cepdnaclk.github.io/e19-3yp-Automated-grass-cutter"
+   },
+   {
+      "name": "e19-3yp-impact-tracker",
+      "repo": "https://github.com/cepdnaclk/e19-3yp-impact-tracker",
+      "url": "https://cepdnaclk.github.io/e19-3yp-impact-tracker"
+   },
+   {
+      "name": "e19-3yp-Smart-Keyboard",
+      "repo": "https://github.com/cepdnaclk/e19-3yp-Smart-Keyboard",
+      "url": "https://cepdnaclk.github.io/e19-3yp-Smart-Keyboard"
+   },
+   {
+      "name": "e19-3yp-School-Van-Tracking-And-Monitoring-System",
+      "repo": "https://github.com/cepdnaclk/e19-3yp-School-Van-Tracking-And-Monitoring-System",
+      "url": "https://cepdnaclk.github.io/e19-3yp-School-Van-Tracking-And-Monitoring-System"
+   },
+   {
+      "name": "e19-3yp-automated-warehouse-management-and-monitoring-system",
+      "repo": "https://github.com/cepdnaclk/e19-3yp-automated-warehouse-management-and-monitoring-system",
+      "url": "https://cepdnaclk.github.io/e19-3yp-automated-warehouse-management-and-monitoring-system"
    }
 ]
