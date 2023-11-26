@@ -1800,6 +1800,11 @@
       "url": "https://cepdnaclk.github.io/e19-3yp-smart-supermarket-navigation-system"
    },
    {
+      "name": "e19-3yp-First-Person-AR-Game-with-Localization",
+      "repo": "https://github.com/cepdnaclk/e19-3yp-First-Person-AR-Game-with-Localization",
+      "url": "https://cepdnaclk.github.io/e19-3yp-First-Person-AR-Game-with-Localization"
+   },
+   {
       "name": "e19-3yp-School-Van-Tracking-System",
       "repo": "https://github.com/cepdnaclk/e19-3yp-School-Van-Tracking-System",
       "url": "https://cepdnaclk.github.io/e19-3yp-School-Van-Tracking-System"
@@ -1820,13 +1825,13 @@
       "url": "https://cepdnaclk.github.io/e19-3yp-Smart-Keyboard"
    },
    {
-      "name": "e19-3yp-School-Van-Tracking-And-Monitoring-System",
-      "repo": "https://github.com/cepdnaclk/e19-3yp-School-Van-Tracking-And-Monitoring-System",
-      "url": "https://cepdnaclk.github.io/e19-3yp-School-Van-Tracking-And-Monitoring-System"
-   },
-   {
       "name": "e19-3yp-automated-warehouse-management-and-monitoring-system",
       "repo": "https://github.com/cepdnaclk/e19-3yp-automated-warehouse-management-and-monitoring-system",
       "url": "https://cepdnaclk.github.io/e19-3yp-automated-warehouse-management-and-monitoring-system"
+   },
+   {
+      "name": "e19-3yp-3d-led-cube-holographical-display",
+      "repo": "https://github.com/cepdnaclk/e19-3yp-3d-led-cube-holographical-display",
+      "url": "https://cepdnaclk.github.io/e19-3yp-3d-led-cube-holographical-display"
    }
 ]
