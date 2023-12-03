@@ -740,7 +740,7 @@
 		<loc>https://cepdnaclk.github.io/e17-4yp-Improving-Trajectory-Guided-Control-Prediction-for-Autonomous-Driving</loc>
 	</url>
 	<url>
-		<loc>https://cepdnaclk.github.io/e17-4yp-3D-Occupancy-Prediction-for-Autonomous-Driving</loc>
+		<loc>https://cepdnaclk.github.io/e17-4yp-S2TPVFormer</loc>
 	</url>
 	<url>
 		<loc>https://cepdnaclk.github.io/e18-6sp-Realtime-Flood-Forecast-System</loc>
@@ -1070,7 +1070,7 @@
 		<loc>https://cepdnaclk.github.io/e19-3yp-automated-sun-tracking-solar-pv-power-plant-monitoring</loc>
 	</url>
 	<url>
-		<loc>https://cepdnaclk.github.io/e19-3yp-Attendance-Monitoringand-Access-Authentication-with-Face-Recognition</loc>
+		<loc>https://cepdnaclk.github.io/e19-3yp-Attendance-Monitoring-and-Access-Authentication-with-Face-Recognition</loc>
 	</url>
 	<url>
 		<loc>https://cepdnaclk.github.io/e19-3yp-Smart-Waste-Management-System</loc>
@@ -1101,5 +1101,8 @@
 	</url>
 	<url>
 		<loc>https://cepdnaclk.github.io/e19-3yp-3d-led-cube-holographical-display</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e19-co226-Election_Data_Base_Management_System</loc>
 	</url>
 </urlset>

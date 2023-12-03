@@ -1230,9 +1230,9 @@
       "url": "https://cepdnaclk.github.io/e17-4yp-Improving-Trajectory-Guided-Control-Prediction-for-Autonomous-Driving"
    },
    {
-      "name": "e17-4yp-3D-Occupancy-Prediction-for-Autonomous-Driving",
-      "repo": "https://github.com/cepdnaclk/e17-4yp-3D-Occupancy-Prediction-for-Autonomous-Driving",
-      "url": "https://cepdnaclk.github.io/e17-4yp-3D-Occupancy-Prediction-for-Autonomous-Driving"
+      "name": "e17-4yp-S2TPVFormer",
+      "repo": "https://github.com/cepdnaclk/e17-4yp-S2TPVFormer",
+      "url": "https://cepdnaclk.github.io/e17-4yp-S2TPVFormer"
    },
    {
       "name": "e18-6sp-Realtime-Flood-Forecast-System",
@@ -1780,9 +1780,9 @@
       "url": "https://cepdnaclk.github.io/e19-3yp-automated-sun-tracking-solar-pv-power-plant-monitoring"
    },
    {
-      "name": "e19-3yp-Attendance-Monitoringand-Access-Authentication-with-Face-Recognition",
-      "repo": "https://github.com/cepdnaclk/e19-3yp-Attendance-Monitoringand-Access-Authentication-with-Face-Recognition",
-      "url": "https://cepdnaclk.github.io/e19-3yp-Attendance-Monitoringand-Access-Authentication-with-Face-Recognition"
+      "name": "e19-3yp-Attendance-Monitoring-and-Access-Authentication-with-Face-Recognition",
+      "repo": "https://github.com/cepdnaclk/e19-3yp-Attendance-Monitoring-and-Access-Authentication-with-Face-Recognition",
+      "url": "https://cepdnaclk.github.io/e19-3yp-Attendance-Monitoring-and-Access-Authentication-with-Face-Recognition"
    },
    {
       "name": "e19-3yp-Smart-Waste-Management-System",
@@ -1833,5 +1833,10 @@
       "name": "e19-3yp-3d-led-cube-holographical-display",
       "repo": "https://github.com/cepdnaclk/e19-3yp-3d-led-cube-holographical-display",
       "url": "https://cepdnaclk.github.io/e19-3yp-3d-led-cube-holographical-display"
+   },
+   {
+      "name": "e19-co226-Election_Data_Base_Management_System",
+      "repo": "https://github.com/cepdnaclk/e19-co226-Election_Data_Base_Management_System",
+      "url": "https://cepdnaclk.github.io/e19-co226-Election_Data_Base_Management_System"
    }
 ]
