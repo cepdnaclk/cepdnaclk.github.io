@@ -422,7 +422,7 @@
 		<loc>https://cepdnaclk.github.io/publications</loc>
 	</url>
 	<url>
-		<loc>https://cepdnaclk.github.io/web</loc>
+		<loc>https://cepdnaclk.github.io/ce.pdn.ac.lk</loc>
 	</url>
 	<url>
 		<loc>https://cepdnaclk.github.io/e17-3yp-remote-keyboard-tutoring-system</loc>
@@ -1104,5 +1104,8 @@
 	</url>
 	<url>
 		<loc>https://cepdnaclk.github.io/e19-co226-Election_Data_Base_Management_System</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e18-4yp-DL-Based-Stereo-Matching-Estimation</loc>
 	</url>
 </urlset>

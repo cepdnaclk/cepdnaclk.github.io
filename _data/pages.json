@@ -700,9 +700,9 @@
       "url": "https://cepdnaclk.github.io/publications"
    },
    {
-      "name": "web",
-      "repo": "https://github.com/cepdnaclk/web",
-      "url": "https://cepdnaclk.github.io/web"
+      "name": "ce.pdn.ac.lk",
+      "repo": "https://github.com/cepdnaclk/ce.pdn.ac.lk",
+      "url": "https://cepdnaclk.github.io/ce.pdn.ac.lk"
    },
    {
       "name": "e17-3yp-remote-keyboard-tutoring-system",
@@ -1838,5 +1838,10 @@
       "name": "e19-co226-Election_Data_Base_Management_System",
       "repo": "https://github.com/cepdnaclk/e19-co226-Election_Data_Base_Management_System",
       "url": "https://cepdnaclk.github.io/e19-co226-Election_Data_Base_Management_System"
+   },
+   {
+      "name": "e18-4yp-DL-Based-Stereo-Matching-Estimation",
+      "repo": "https://github.com/cepdnaclk/e18-4yp-DL-Based-Stereo-Matching-Estimation",
+      "url": "https://cepdnaclk.github.io/e18-4yp-DL-Based-Stereo-Matching-Estimation"
    }
 ]
