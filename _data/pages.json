@@ -1883,5 +1883,10 @@
       "name": "e18-4yp-Multi-Kingdom-Binning-of-Long-Read-Metagenomes",
       "repo": "https://github.com/cepdnaclk/e18-4yp-Multi-Kingdom-Binning-of-Long-Read-Metagenomes",
       "url": "https://cepdnaclk.github.io/e18-4yp-Multi-Kingdom-Binning-of-Long-Read-Metagenomes"
+   },
+   {
+      "name": "Smart-Pet-Feeder",
+      "repo": "https://github.com/cepdnaclk/Smart-Pet-Feeder",
+      "url": "https://cepdnaclk.github.io/Smart-Pet-Feeder"
    }
 ]
