@@ -1845,9 +1845,19 @@
       "url": "https://cepdnaclk.github.io/e18-4yp-DL-Based-Stereo-Matching-Estimation"
    },
    {
+      "name": "e18-4yp-Machine-Vision-For-Quality-Inspection",
+      "repo": "https://github.com/cepdnaclk/e18-4yp-Machine-Vision-For-Quality-Inspection",
+      "url": "https://cepdnaclk.github.io/e18-4yp-Machine-Vision-For-Quality-Inspection"
+   },
+   {
       "name": "e18-4yp-Software-Package-To-Support-Agent-Based-Modelling-Based-Decision-Making",
       "repo": "https://github.com/cepdnaclk/e18-4yp-Software-Package-To-Support-Agent-Based-Modelling-Based-Decision-Making",
       "url": "https://cepdnaclk.github.io/e18-4yp-Software-Package-To-Support-Agent-Based-Modelling-Based-Decision-Making"
+   },
+   {
+      "name": "e18-4yp-GPU-Acceleration-for-Deep-Learning-based-Comprehensive-ECG-analysis",
+      "repo": "https://github.com/cepdnaclk/e18-4yp-GPU-Acceleration-for-Deep-Learning-based-Comprehensive-ECG-analysis",
+      "url": "https://cepdnaclk.github.io/e18-4yp-GPU-Acceleration-for-Deep-Learning-based-Comprehensive-ECG-analysis"
    },
    {
       "name": "e18-4yp-Virtual-Patient-Simulator-for-Skill-Training-in-Dentistry",
@@ -1883,5 +1893,40 @@
       "name": "Smart-Pet-Feeder",
       "repo": "https://github.com/cepdnaclk/Smart-Pet-Feeder",
       "url": "https://cepdnaclk.github.io/Smart-Pet-Feeder"
+   },
+   {
+      "name": "e18-4yp-Automated-Medical-Image-Annotation-for-Dataset-Building",
+      "repo": "https://github.com/cepdnaclk/e18-4yp-Automated-Medical-Image-Annotation-for-Dataset-Building",
+      "url": "https://cepdnaclk.github.io/e18-4yp-Automated-Medical-Image-Annotation-for-Dataset-Building"
+   },
+   {
+      "name": "e18-4yp-Multimodal-Emotion-Prediction-Using-Reinforcement-Learning",
+      "repo": "https://github.com/cepdnaclk/e18-4yp-Multimodal-Emotion-Prediction-Using-Reinforcement-Learning",
+      "url": "https://cepdnaclk.github.io/e18-4yp-Multimodal-Emotion-Prediction-Using-Reinforcement-Learning"
+   },
+   {
+      "name": "e18-4yp-An-Empirical-Study-On-Prompt-Injection-Attacks-And-Defences",
+      "repo": "https://github.com/cepdnaclk/e18-4yp-An-Empirical-Study-On-Prompt-Injection-Attacks-And-Defences",
+      "url": "https://cepdnaclk.github.io/e18-4yp-An-Empirical-Study-On-Prompt-Injection-Attacks-And-Defences"
+   },
+   {
+      "name": "e18-4yp-Reinforcement-Learning-enabled-Recommendation-System-For-Emotional-Support",
+      "repo": "https://github.com/cepdnaclk/e18-4yp-Reinforcement-Learning-enabled-Recommendation-System-For-Emotional-Support",
+      "url": "https://cepdnaclk.github.io/e18-4yp-Reinforcement-Learning-enabled-Recommendation-System-For-Emotional-Support"
+   },
+   {
+      "name": "e18-4yp-Extending-and-Implementing-Process-Mining-Techniques-Prevention-and-Mitigation",
+      "repo": "https://github.com/cepdnaclk/e18-4yp-Extending-and-Implementing-Process-Mining-Techniques-Prevention-and-Mitigation",
+      "url": "https://cepdnaclk.github.io/e18-4yp-Extending-and-Implementing-Process-Mining-Techniques-Prevention-and-Mitigation"
+   },
+   {
+      "name": "e18-4yp-Predicting-Forex-Currency-Exchange-Rate-using-Machine-Learning",
+      "repo": "https://github.com/cepdnaclk/e18-4yp-Predicting-Forex-Currency-Exchange-Rate-using-Machine-Learning",
+      "url": "https://cepdnaclk.github.io/e18-4yp-Predicting-Forex-Currency-Exchange-Rate-using-Machine-Learning"
+   },
+   {
+      "name": "e18-4yp-Oxford-Nanopore-Technology-based-Pipeline-for-RNA-Seq-Data-Analysis",
+      "repo": "https://github.com/cepdnaclk/e18-4yp-Oxford-Nanopore-Technology-based-Pipeline-for-RNA-Seq-Data-Analysis",
+      "url": "https://cepdnaclk.github.io/e18-4yp-Oxford-Nanopore-Technology-based-Pipeline-for-RNA-Seq-Data-Analysis"
    }
 ]
