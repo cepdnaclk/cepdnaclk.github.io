@@ -700,9 +700,9 @@
       "url": "https://cepdnaclk.github.io/publications"
    },
    {
-      "name": "ce.pdn.ac.lk",
-      "repo": "https://github.com/cepdnaclk/ce.pdn.ac.lk",
-      "url": "https://cepdnaclk.github.io/ce.pdn.ac.lk"
+      "name": "www.ce.pdn.ac.lk",
+      "repo": "https://github.com/cepdnaclk/www.ce.pdn.ac.lk",
+      "url": "https://cepdnaclk.github.io/www.ce.pdn.ac.lk"
    },
    {
       "name": "e17-3yp-remote-keyboard-tutoring-system",
@@ -1943,5 +1943,10 @@
       "name": "e18-4yp-Dengue-outbreak-prediction-in-Sri-Lanka-using-machine-learning-techniques",
       "repo": "https://github.com/cepdnaclk/e18-4yp-Dengue-outbreak-prediction-in-Sri-Lanka-using-machine-learning-techniques",
       "url": "https://cepdnaclk.github.io/e18-4yp-Dengue-outbreak-prediction-in-Sri-Lanka-using-machine-learning-techniques"
+   },
+   {
+      "name": "e19-co544-cricket-analytics-and-prediction",
+      "repo": "https://github.com/cepdnaclk/e19-co544-cricket-analytics-and-prediction",
+      "url": "https://cepdnaclk.github.io/e19-co544-cricket-analytics-and-prediction"
    }
 ]
