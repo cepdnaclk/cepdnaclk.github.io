@@ -1585,6 +1585,11 @@
       "url": "https://cepdnaclk.github.io/e19-co226-Online-Shopping-System"
    },
    {
+      "name": "e19-226-Database-project-Hospital-Management-System",
+      "repo": "https://github.com/cepdnaclk/e19-226-Database-project-Hospital-Management-System",
+      "url": "https://cepdnaclk.github.io/e19-226-Database-project-Hospital-Management-System"
+   },
+   {
       "name": "e19-co226-E-Commerce-Website",
       "repo": "https://github.com/cepdnaclk/e19-co226-E-Commerce-Website",
       "url": "https://cepdnaclk.github.io/e19-co226-E-Commerce-Website"
@@ -1948,5 +1953,20 @@
       "name": "e19-co544-cricket-analytics-and-prediction",
       "repo": "https://github.com/cepdnaclk/e19-co544-cricket-analytics-and-prediction",
       "url": "https://cepdnaclk.github.io/e19-co544-cricket-analytics-and-prediction"
+   },
+   {
+      "name": "e19-CO544-Bitcoin-Cost-Forecast-System",
+      "repo": "https://github.com/cepdnaclk/e19-CO544-Bitcoin-Cost-Forecast-System",
+      "url": "https://cepdnaclk.github.io/e19-CO544-Bitcoin-Cost-Forecast-System"
+   },
+   {
+      "name": "e19-co544-personalised-promotion-system",
+      "repo": "https://github.com/cepdnaclk/e19-co544-personalised-promotion-system",
+      "url": "https://cepdnaclk.github.io/e19-co544-personalised-promotion-system"
+   },
+   {
+      "name": "e19-CO328-ACES-Project-Fund-Requests",
+      "repo": "https://github.com/cepdnaclk/e19-CO328-ACES-Project-Fund-Requests",
+      "url": "https://cepdnaclk.github.io/e19-CO328-ACES-Project-Fund-Requests"
    }
 ]
