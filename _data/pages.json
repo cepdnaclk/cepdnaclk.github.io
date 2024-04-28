@@ -1405,6 +1405,11 @@
       "url": "https://cepdnaclk.github.io/e19-co225-Library-Management-System-Web-App"
    },
    {
+      "name": "e17-4yp-Low-Complexity-Algorithm-for-Arrhythmia-Detection",
+      "repo": "https://github.com/cepdnaclk/e17-4yp-Low-Complexity-Algorithm-for-Arrhythmia-Detection",
+      "url": "https://cepdnaclk.github.io/e17-4yp-Low-Complexity-Algorithm-for-Arrhythmia-Detection"
+   },
+   {
       "name": "e19-co225-In-Patient-Management-System-For-a-Hospital",
       "repo": "https://github.com/cepdnaclk/e19-co225-In-Patient-Management-System-For-a-Hospital",
       "url": "https://cepdnaclk.github.io/e19-co225-In-Patient-Management-System-For-a-Hospital"
@@ -1585,9 +1590,9 @@
       "url": "https://cepdnaclk.github.io/e19-co226-Online-Shopping-System"
    },
    {
-      "name": "e19-226-Database-project-Hospital-Management-System",
-      "repo": "https://github.com/cepdnaclk/e19-226-Database-project-Hospital-Management-System",
-      "url": "https://cepdnaclk.github.io/e19-226-Database-project-Hospital-Management-System"
+      "name": "e19-co226-Database-project-Hospital-Management-System",
+      "repo": "https://github.com/cepdnaclk/e19-co226-Database-project-Hospital-Management-System",
+      "url": "https://cepdnaclk.github.io/e19-co226-Database-project-Hospital-Management-System"
    },
    {
       "name": "e19-co226-E-Commerce-Website",
@@ -1950,6 +1955,11 @@
       "url": "https://cepdnaclk.github.io/e18-4yp-Dengue-outbreak-prediction-in-Sri-Lanka-using-machine-learning-techniques"
    },
    {
+      "name": "e19-co326-air-quality-management-system",
+      "repo": "https://github.com/cepdnaclk/e19-co326-air-quality-management-system",
+      "url": "https://cepdnaclk.github.io/e19-co326-air-quality-management-system"
+   },
+   {
       "name": "e19-co544-cricket-analytics-and-prediction",
       "repo": "https://github.com/cepdnaclk/e19-co544-cricket-analytics-and-prediction",
       "url": "https://cepdnaclk.github.io/e19-co544-cricket-analytics-and-prediction"
@@ -1968,5 +1978,20 @@
       "name": "e19-CO328-ACES-Project-Fund-Requests",
       "repo": "https://github.com/cepdnaclk/e19-CO328-ACES-Project-Fund-Requests",
       "url": "https://cepdnaclk.github.io/e19-CO328-ACES-Project-Fund-Requests"
+   },
+   {
+      "name": "e19-co544-Bitcoin-Transaction-Analysis-for-Ransomware-Identification",
+      "repo": "https://github.com/cepdnaclk/e19-co544-Bitcoin-Transaction-Analysis-for-Ransomware-Identification",
+      "url": "https://cepdnaclk.github.io/e19-co544-Bitcoin-Transaction-Analysis-for-Ransomware-Identification"
+   },
+   {
+      "name": "e19-CO327-Kernel-Modules",
+      "repo": "https://github.com/cepdnaclk/e19-CO327-Kernel-Modules",
+      "url": "https://cepdnaclk.github.io/e19-CO327-Kernel-Modules"
+   },
+   {
+      "name": "e19-CO222-Crossword-Puzzle-Solver",
+      "repo": "https://github.com/cepdnaclk/e19-CO222-Crossword-Puzzle-Solver",
+      "url": "https://cepdnaclk.github.io/e19-CO222-Crossword-Puzzle-Solver"
    }
 ]
