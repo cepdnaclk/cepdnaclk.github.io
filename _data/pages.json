@@ -1935,9 +1935,9 @@
       "url": "https://cepdnaclk.github.io/e18-4yp-Oxford-Nanopore-Technology-based-Pipeline-for-RNA-Seq-Data-Analysis"
    },
    {
-      "name": "e18-4yp-Gamification-of-Orthodontic-Treatment-Success-with-Pre-and-Post-Dental-Models",
-      "repo": "https://github.com/cepdnaclk/e18-4yp-Gamification-of-Orthodontic-Treatment-Success-with-Pre-and-Post-Dental-Models",
-      "url": "https://cepdnaclk.github.io/e18-4yp-Gamification-of-Orthodontic-Treatment-Success-with-Pre-and-Post-Dental-Models"
+      "name": "e18-4yp-Automated-PAR-Index-Calculation-on-Orthodontic-Treatment-Using-Software-and-Machine-Learning",
+      "repo": "https://github.com/cepdnaclk/e18-4yp-Automated-PAR-Index-Calculation-on-Orthodontic-Treatment-Using-Software-and-Machine-Learning",
+      "url": "https://cepdnaclk.github.io/e18-4yp-Automated-PAR-Index-Calculation-on-Orthodontic-Treatment-Using-Software-and-Machine-Learning"
    },
    {
       "name": "e18-4yp-Generating-Patient-Clinical-Letters-Using-LLMs",
@@ -1975,6 +1975,11 @@
       "url": "https://cepdnaclk.github.io/e19-co544-personalised-promotion-system"
    },
    {
+      "name": "e19-co544-Crop-Recommendation-System",
+      "repo": "https://github.com/cepdnaclk/e19-co544-Crop-Recommendation-System",
+      "url": "https://cepdnaclk.github.io/e19-co544-Crop-Recommendation-System"
+   },
+   {
       "name": "e19-CO328-ACES-Project-Fund-Requests",
       "repo": "https://github.com/cepdnaclk/e19-CO328-ACES-Project-Fund-Requests",
       "url": "https://cepdnaclk.github.io/e19-CO328-ACES-Project-Fund-Requests"
@@ -1985,6 +1990,11 @@
       "url": "https://cepdnaclk.github.io/e19-co544-Bitcoin-Transaction-Analysis-for-Ransomware-Identification"
    },
    {
+      "name": "e19-co544-Demand-Location-Prediction-For-Taxis",
+      "repo": "https://github.com/cepdnaclk/e19-co544-Demand-Location-Prediction-For-Taxis",
+      "url": "https://cepdnaclk.github.io/e19-co544-Demand-Location-Prediction-For-Taxis"
+   },
+   {
       "name": "e19-CO327-Kernel-Modules",
       "repo": "https://github.com/cepdnaclk/e19-CO327-Kernel-Modules",
       "url": "https://cepdnaclk.github.io/e19-CO327-Kernel-Modules"
@@ -1993,5 +2003,10 @@
       "name": "e19-CO222-Crossword-Puzzle-Solver",
       "repo": "https://github.com/cepdnaclk/e19-CO222-Crossword-Puzzle-Solver",
       "url": "https://cepdnaclk.github.io/e19-CO222-Crossword-Puzzle-Solver"
+   },
+   {
+      "name": "e19-co226-gym_club",
+      "repo": "https://github.com/cepdnaclk/e19-co226-gym_club",
+      "url": "https://cepdnaclk.github.io/e19-co226-gym_club"
    }
 ]
