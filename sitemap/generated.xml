@@ -1010,6 +1010,9 @@
 		<loc>https://cepdnaclk.github.io/e19-co227-TecHub-help-desk-ticketing-system</loc>
 	</url>
 	<url>
+		<loc>https://cepdnaclk.github.io/e19-co227-subclinical-mastitis-prediction-gui</loc>
+	</url>
+	<url>
 		<loc>https://cepdnaclk.github.io/e19-co227-Remote-Controlled-PLC-Training-Kit</loc>
 	</url>
 	<url>
@@ -1181,7 +1184,7 @@
 		<loc>https://cepdnaclk.github.io/e19-co544-cricket-analytics-and-prediction</loc>
 	</url>
 	<url>
-		<loc>https://cepdnaclk.github.io/e19-CO544-Bitcoin-Cost-Forecast-System</loc>
+		<loc>https://cepdnaclk.github.io/e19-co544-Bitcoin-Cost-Forecast-System</loc>
 	</url>
 	<url>
 		<loc>https://cepdnaclk.github.io/e19-co544-personalised-promotion-system</loc>
@@ -1190,7 +1193,10 @@
 		<loc>https://cepdnaclk.github.io/e19-co544-Crop-Recommendation-System</loc>
 	</url>
 	<url>
-		<loc>https://cepdnaclk.github.io/e19-CO328-ACES-Project-Fund-Requests</loc>
+		<loc>https://cepdnaclk.github.io/e19-co328-ACES-Project-Fund-Requests</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e19-co544-Hand-Tremor-Prediction-System</loc>
 	</url>
 	<url>
 		<loc>https://cepdnaclk.github.io/e19-co544-Bitcoin-Transaction-Analysis-for-Ransomware-Identification</loc>
@@ -1199,12 +1205,18 @@
 		<loc>https://cepdnaclk.github.io/e19-co544-Demand-Location-Prediction-For-Taxis</loc>
 	</url>
 	<url>
-		<loc>https://cepdnaclk.github.io/e19-CO327-Kernel-Modules</loc>
+		<loc>https://cepdnaclk.github.io/e19-co327-Kernel-Modules</loc>
 	</url>
 	<url>
 		<loc>https://cepdnaclk.github.io/e19-CO222-Crossword-Puzzle-Solver</loc>
 	</url>
 	<url>
 		<loc>https://cepdnaclk.github.io/e19-co226-gym_club</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e20-co200-Erasmus-plus-Project-Web-and-MIS</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e20-co225-Denture-Design-Studio</loc>
 	</url>
 </urlset>

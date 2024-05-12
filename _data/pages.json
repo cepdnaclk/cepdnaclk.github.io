@@ -1680,6 +1680,11 @@
       "url": "https://cepdnaclk.github.io/e19-co227-TecHub-help-desk-ticketing-system"
    },
    {
+      "name": "e19-co227-subclinical-mastitis-prediction-gui",
+      "repo": "https://github.com/cepdnaclk/e19-co227-subclinical-mastitis-prediction-gui",
+      "url": "https://cepdnaclk.github.io/e19-co227-subclinical-mastitis-prediction-gui"
+   },
+   {
       "name": "e19-co227-Remote-Controlled-PLC-Training-Kit",
       "repo": "https://github.com/cepdnaclk/e19-co227-Remote-Controlled-PLC-Training-Kit",
       "url": "https://cepdnaclk.github.io/e19-co227-Remote-Controlled-PLC-Training-Kit"
@@ -1965,9 +1970,9 @@
       "url": "https://cepdnaclk.github.io/e19-co544-cricket-analytics-and-prediction"
    },
    {
-      "name": "e19-CO544-Bitcoin-Cost-Forecast-System",
-      "repo": "https://github.com/cepdnaclk/e19-CO544-Bitcoin-Cost-Forecast-System",
-      "url": "https://cepdnaclk.github.io/e19-CO544-Bitcoin-Cost-Forecast-System"
+      "name": "e19-co544-Bitcoin-Cost-Forecast-System",
+      "repo": "https://github.com/cepdnaclk/e19-co544-Bitcoin-Cost-Forecast-System",
+      "url": "https://cepdnaclk.github.io/e19-co544-Bitcoin-Cost-Forecast-System"
    },
    {
       "name": "e19-co544-personalised-promotion-system",
@@ -1980,9 +1985,14 @@
       "url": "https://cepdnaclk.github.io/e19-co544-Crop-Recommendation-System"
    },
    {
-      "name": "e19-CO328-ACES-Project-Fund-Requests",
-      "repo": "https://github.com/cepdnaclk/e19-CO328-ACES-Project-Fund-Requests",
-      "url": "https://cepdnaclk.github.io/e19-CO328-ACES-Project-Fund-Requests"
+      "name": "e19-co328-ACES-Project-Fund-Requests",
+      "repo": "https://github.com/cepdnaclk/e19-co328-ACES-Project-Fund-Requests",
+      "url": "https://cepdnaclk.github.io/e19-co328-ACES-Project-Fund-Requests"
+   },
+   {
+      "name": "e19-co544-Hand-Tremor-Prediction-System",
+      "repo": "https://github.com/cepdnaclk/e19-co544-Hand-Tremor-Prediction-System",
+      "url": "https://cepdnaclk.github.io/e19-co544-Hand-Tremor-Prediction-System"
    },
    {
       "name": "e19-co544-Bitcoin-Transaction-Analysis-for-Ransomware-Identification",
@@ -1995,9 +2005,9 @@
       "url": "https://cepdnaclk.github.io/e19-co544-Demand-Location-Prediction-For-Taxis"
    },
    {
-      "name": "e19-CO327-Kernel-Modules",
-      "repo": "https://github.com/cepdnaclk/e19-CO327-Kernel-Modules",
-      "url": "https://cepdnaclk.github.io/e19-CO327-Kernel-Modules"
+      "name": "e19-co327-Kernel-Modules",
+      "repo": "https://github.com/cepdnaclk/e19-co327-Kernel-Modules",
+      "url": "https://cepdnaclk.github.io/e19-co327-Kernel-Modules"
    },
    {
       "name": "e19-CO222-Crossword-Puzzle-Solver",
@@ -2008,5 +2018,15 @@
       "name": "e19-co226-gym_club",
       "repo": "https://github.com/cepdnaclk/e19-co226-gym_club",
       "url": "https://cepdnaclk.github.io/e19-co226-gym_club"
+   },
+   {
+      "name": "e20-co200-Erasmus-plus-Project-Web-and-MIS",
+      "repo": "https://github.com/cepdnaclk/e20-co200-Erasmus-plus-Project-Web-and-MIS",
+      "url": "https://cepdnaclk.github.io/e20-co200-Erasmus-plus-Project-Web-and-MIS"
+   },
+   {
+      "name": "e20-co225-Denture-Design-Studio",
+      "repo": "https://github.com/cepdnaclk/e20-co225-Denture-Design-Studio",
+      "url": "https://cepdnaclk.github.io/e20-co225-Denture-Design-Studio"
    }
 ]
