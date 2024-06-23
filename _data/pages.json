@@ -2048,5 +2048,15 @@
       "name": "e19-co328-Digital-Reporting-of-Technical-Visits",
       "repo": "https://github.com/cepdnaclk/e19-co328-Digital-Reporting-of-Technical-Visits",
       "url": "https://cepdnaclk.github.io/e19-co328-Digital-Reporting-of-Technical-Visits"
+   },
+   {
+      "name": "e20-co225-MONA-Dashboard",
+      "repo": "https://github.com/cepdnaclk/e20-co225-MONA-Dashboard",
+      "url": "https://cepdnaclk.github.io/e20-co225-MONA-Dashboard"
+   },
+   {
+      "name": "e20-co225-software-to-analyse-FMD-of-arteries",
+      "repo": "https://github.com/cepdnaclk/e20-co225-software-to-analyse-FMD-of-arteries",
+      "url": "https://cepdnaclk.github.io/e20-co225-software-to-analyse-FMD-of-arteries"
    }
 ]
