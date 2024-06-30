@@ -1995,6 +1995,11 @@
       "url": "https://cepdnaclk.github.io/e19-co544-Bitcoin-Transaction-Analysis-for-Ransomware-Identification"
    },
    {
+      "name": "e19-CO544-Online-Shoppers-Purchase-Prediction",
+      "repo": "https://github.com/cepdnaclk/e19-CO544-Online-Shoppers-Purchase-Prediction",
+      "url": "https://cepdnaclk.github.io/e19-CO544-Online-Shoppers-Purchase-Prediction"
+   },
+   {
       "name": "e19-co544-Heart-Disease-Prediction-System",
       "repo": "https://github.com/cepdnaclk/e19-co544-Heart-Disease-Prediction-System",
       "url": "https://cepdnaclk.github.io/e19-co544-Heart-Disease-Prediction-System"
@@ -2045,14 +2050,14 @@
       "url": "https://cepdnaclk.github.io/e19-co328-Helpdesk-Ticketing-System"
    },
    {
+      "name": "e20-co225-OASIS-Teledentistry-Software",
+      "repo": "https://github.com/cepdnaclk/e20-co225-OASIS-Teledentistry-Software",
+      "url": "https://cepdnaclk.github.io/e20-co225-OASIS-Teledentistry-Software"
+   },
+   {
       "name": "e19-co328-Digital-Reporting-of-Technical-Visits",
       "repo": "https://github.com/cepdnaclk/e19-co328-Digital-Reporting-of-Technical-Visits",
       "url": "https://cepdnaclk.github.io/e19-co328-Digital-Reporting-of-Technical-Visits"
-   },
-   {
-      "name": "e20-co225-MONA-Dashboard",
-      "repo": "https://github.com/cepdnaclk/e20-co225-MONA-Dashboard",
-      "url": "https://cepdnaclk.github.io/e20-co225-MONA-Dashboard"
    },
    {
       "name": "e20-co225-software-to-analyse-FMD-of-arteries",
