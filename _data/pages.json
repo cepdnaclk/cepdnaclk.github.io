@@ -1925,6 +1925,11 @@
       "url": "https://cepdnaclk.github.io/e18-4yp-Extending-and-Implementing-Process-Mining-Techniques-Prevention-and-Mitigation"
    },
    {
+      "name": "e18-4yp-Analyzing-and-predicting-the-volatile-market-patterns-for-trading-using-a-Digital-Twin",
+      "repo": "https://github.com/cepdnaclk/e18-4yp-Analyzing-and-predicting-the-volatile-market-patterns-for-trading-using-a-Digital-Twin",
+      "url": "https://cepdnaclk.github.io/e18-4yp-Analyzing-and-predicting-the-volatile-market-patterns-for-trading-using-a-Digital-Twin"
+   },
+   {
       "name": "e18-4yp-Predicting-Forex-Currency-Exchange-Rate-using-Machine-Learning",
       "repo": "https://github.com/cepdnaclk/e18-4yp-Predicting-Forex-Currency-Exchange-Rate-using-Machine-Learning",
       "url": "https://cepdnaclk.github.io/e18-4yp-Predicting-Forex-Currency-Exchange-Rate-using-Machine-Learning"
@@ -2063,5 +2068,10 @@
       "name": "e20-co225-software-to-analyse-FMD-of-arteries",
       "repo": "https://github.com/cepdnaclk/e20-co225-software-to-analyse-FMD-of-arteries",
       "url": "https://cepdnaclk.github.io/e20-co225-software-to-analyse-FMD-of-arteries"
+   },
+   {
+      "name": "e20-co225-Mentormate",
+      "repo": "https://github.com/cepdnaclk/e20-co225-Mentormate",
+      "url": "https://cepdnaclk.github.io/e20-co225-Mentormate"
    }
 ]
