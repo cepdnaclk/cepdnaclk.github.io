@@ -1900,9 +1900,9 @@
       "url": "https://cepdnaclk.github.io/e18-4yp-Automated-Medical-Image-Annotation-for-Dataset-Building"
    },
    {
-      "name": "e18-4yp-Multimodal-Emotion-Prediction-Using-Reinforcement-Learning",
-      "repo": "https://github.com/cepdnaclk/e18-4yp-Multimodal-Emotion-Prediction-Using-Reinforcement-Learning",
-      "url": "https://cepdnaclk.github.io/e18-4yp-Multimodal-Emotion-Prediction-Using-Reinforcement-Learning"
+      "name": "e18-4yp-Personalized-Multimodal-Emotion-Prediction",
+      "repo": "https://github.com/cepdnaclk/e18-4yp-Personalized-Multimodal-Emotion-Prediction",
+      "url": "https://cepdnaclk.github.io/e18-4yp-Personalized-Multimodal-Emotion-Prediction"
    },
    {
       "name": "e18-4yp-RPA-attacks-using-Machine-Learning-Algorithms",
@@ -2078,5 +2078,10 @@
       "name": "e20-co225-Food-Buddy",
       "repo": "https://github.com/cepdnaclk/e20-co225-Food-Buddy",
       "url": "https://cepdnaclk.github.io/e20-co225-Food-Buddy"
+   },
+   {
+      "name": "e18-4yp-Using-AI-in-determining-alveolar-bone-loss-in-Dental-X-rays-to-aid-in-periodontal-diagnosis",
+      "repo": "https://github.com/cepdnaclk/e18-4yp-Using-AI-in-determining-alveolar-bone-loss-in-Dental-X-rays-to-aid-in-periodontal-diagnosis",
+      "url": "https://cepdnaclk.github.io/e18-4yp-Using-AI-in-determining-alveolar-bone-loss-in-Dental-X-rays-to-aid-in-periodontal-diagnosis"
    }
 ]
