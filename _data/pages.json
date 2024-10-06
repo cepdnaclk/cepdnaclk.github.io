@@ -2103,5 +2103,10 @@
       "name": "compbio",
       "repo": "https://github.com/cepdnaclk/compbio",
       "url": "https://cepdnaclk.github.io/compbio"
+   },
+   {
+      "name": "Peracom-PGC",
+      "repo": "https://github.com/cepdnaclk/Peracom-PGC",
+      "url": "https://cepdnaclk.github.io/Peracom-PGC"
    }
 ]
