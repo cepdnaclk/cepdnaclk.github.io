@@ -2045,9 +2045,9 @@
       "url": "https://cepdnaclk.github.io/e19-co226-gym_club"
    },
    {
-      "name": "e20-co225-Erasmus-plus-Project-Web-and-MIS",
-      "repo": "https://github.com/cepdnaclk/e20-co225-Erasmus-plus-Project-Web-and-MIS",
-      "url": "https://cepdnaclk.github.io/e20-co225-Erasmus-plus-Project-Web-and-MIS"
+      "name": "e20-co227-Erasmus-plus-Project-Web-and-MIS",
+      "repo": "https://github.com/cepdnaclk/e20-co227-Erasmus-plus-Project-Web-and-MIS",
+      "url": "https://cepdnaclk.github.io/e20-co227-Erasmus-plus-Project-Web-and-MIS"
    },
    {
       "name": "e20-co225-Denture-Design-Studio",
@@ -2075,9 +2075,9 @@
       "url": "https://cepdnaclk.github.io/e20-co225-software-to-analyse-FMD-of-arteries"
    },
    {
-      "name": "e20-co225-Mentormate",
-      "repo": "https://github.com/cepdnaclk/e20-co225-Mentormate",
-      "url": "https://cepdnaclk.github.io/e20-co225-Mentormate"
+      "name": "e20-co227-Mentormate",
+      "repo": "https://github.com/cepdnaclk/e20-co227-Mentormate",
+      "url": "https://cepdnaclk.github.io/e20-co227-Mentormate"
    },
    {
       "name": "DEAR",
@@ -2098,6 +2098,11 @@
       "name": "e20-co227-Postgraduate-Student-Management-System",
       "repo": "https://github.com/cepdnaclk/e20-co227-Postgraduate-Student-Management-System",
       "url": "https://cepdnaclk.github.io/e20-co227-Postgraduate-Student-Management-System"
+   },
+   {
+      "name": "e20-co225-Computer-Engineering-Portal",
+      "repo": "https://github.com/cepdnaclk/e20-co225-Computer-Engineering-Portal",
+      "url": "https://cepdnaclk.github.io/e20-co225-Computer-Engineering-Portal"
    },
    {
       "name": "compbio",
