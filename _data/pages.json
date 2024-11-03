@@ -2060,14 +2060,19 @@
       "url": "https://cepdnaclk.github.io/e19-co328-Helpdesk-Ticketing-System"
    },
    {
-      "name": "e20-co225-OASIS-Teledentistry-Software",
-      "repo": "https://github.com/cepdnaclk/e20-co225-OASIS-Teledentistry-Software",
-      "url": "https://cepdnaclk.github.io/e20-co225-OASIS-Teledentistry-Software"
+      "name": "e20-co227-OASIS-Teledentistry-Mobile-Application",
+      "repo": "https://github.com/cepdnaclk/e20-co227-OASIS-Teledentistry-Mobile-Application",
+      "url": "https://cepdnaclk.github.io/e20-co227-OASIS-Teledentistry-Mobile-Application"
    },
    {
       "name": "e19-co328-Digital-Reporting-of-Technical-Visits",
       "repo": "https://github.com/cepdnaclk/e19-co328-Digital-Reporting-of-Technical-Visits",
       "url": "https://cepdnaclk.github.io/e19-co328-Digital-Reporting-of-Technical-Visits"
+   },
+   {
+      "name": "e20-co227-MONA-Dashboard",
+      "repo": "https://github.com/cepdnaclk/e20-co227-MONA-Dashboard",
+      "url": "https://cepdnaclk.github.io/e20-co227-MONA-Dashboard"
    },
    {
       "name": "e20-co225-software-to-analyse-FMD-of-arteries",
@@ -2085,9 +2090,9 @@
       "url": "https://cepdnaclk.github.io/DEAR"
    },
    {
-      "name": "e20-co225-Food-Buddy",
-      "repo": "https://github.com/cepdnaclk/e20-co225-Food-Buddy",
-      "url": "https://cepdnaclk.github.io/e20-co225-Food-Buddy"
+      "name": "e20-co227-Food-Buddy",
+      "repo": "https://github.com/cepdnaclk/e20-co227-Food-Buddy",
+      "url": "https://cepdnaclk.github.io/e20-co227-Food-Buddy"
    },
    {
       "name": "e18-4yp-Using-AI-in-determining-alveolar-bone-loss-in-Dental-X-rays-to-aid-in-periodontal-diagnosis",
@@ -2113,5 +2118,45 @@
       "name": "Peracom-PGC",
       "repo": "https://github.com/cepdnaclk/Peracom-PGC",
       "url": "https://cepdnaclk.github.io/Peracom-PGC"
+   },
+   {
+      "name": "e20-co227-Computer-Engineering-Portal",
+      "repo": "https://github.com/cepdnaclk/e20-co227-Computer-Engineering-Portal",
+      "url": "https://cepdnaclk.github.io/e20-co227-Computer-Engineering-Portal"
+   },
+   {
+      "name": "e20-co227-Cardiac-Patient-Data-Management-System",
+      "repo": "https://github.com/cepdnaclk/e20-co227-Cardiac-Patient-Data-Management-System",
+      "url": "https://cepdnaclk.github.io/e20-co227-Cardiac-Patient-Data-Management-System"
+   },
+   {
+      "name": "e20-co227-MLink-A-Pharmacy-Linking-Platform",
+      "repo": "https://github.com/cepdnaclk/e20-co227-MLink-A-Pharmacy-Linking-Platform",
+      "url": "https://cepdnaclk.github.io/e20-co227-MLink-A-Pharmacy-Linking-Platform"
+   },
+   {
+      "name": "e20-co227-Student-Academic-Tracker",
+      "repo": "https://github.com/cepdnaclk/e20-co227-Student-Academic-Tracker",
+      "url": "https://cepdnaclk.github.io/e20-co227-Student-Academic-Tracker"
+   },
+   {
+      "name": "e20-CO227-TourMate",
+      "repo": "https://github.com/cepdnaclk/e20-CO227-TourMate",
+      "url": "https://cepdnaclk.github.io/e20-CO227-TourMate"
+   },
+   {
+      "name": "e20-co227-e-Conductor",
+      "repo": "https://github.com/cepdnaclk/e20-co227-e-Conductor",
+      "url": "https://cepdnaclk.github.io/e20-co227-e-Conductor"
+   },
+   {
+      "name": "e20-co227-ACES-fund-and-inventory-management-system",
+      "repo": "https://github.com/cepdnaclk/e20-co227-ACES-fund-and-inventory-management-system",
+      "url": "https://cepdnaclk.github.io/e20-co227-ACES-fund-and-inventory-management-system"
+   },
+   {
+      "name": "e20-Software-Systems-Projects-MIS-for-Non-Academic-Establishment-Division",
+      "repo": "https://github.com/cepdnaclk/e20-Software-Systems-Projects-MIS-for-Non-Academic-Establishment-Division",
+      "url": "https://cepdnaclk.github.io/e20-Software-Systems-Projects-MIS-for-Non-Academic-Establishment-Division"
    }
 ]

@@ -1238,10 +1238,13 @@
 		<loc>https://cepdnaclk.github.io/e19-co328-Helpdesk-Ticketing-System</loc>
 	</url>
 	<url>
-		<loc>https://cepdnaclk.github.io/e20-co225-OASIS-Teledentistry-Software</loc>
+		<loc>https://cepdnaclk.github.io/e20-co227-OASIS-Teledentistry-Mobile-Application</loc>
 	</url>
 	<url>
 		<loc>https://cepdnaclk.github.io/e19-co328-Digital-Reporting-of-Technical-Visits</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e20-co227-MONA-Dashboard</loc>
 	</url>
 	<url>
 		<loc>https://cepdnaclk.github.io/e20-co225-software-to-analyse-FMD-of-arteries</loc>
@@ -1253,7 +1256,7 @@
 		<loc>https://cepdnaclk.github.io/DEAR</loc>
 	</url>
 	<url>
-		<loc>https://cepdnaclk.github.io/e20-co225-Food-Buddy</loc>
+		<loc>https://cepdnaclk.github.io/e20-co227-Food-Buddy</loc>
 	</url>
 	<url>
 		<loc>https://cepdnaclk.github.io/e18-4yp-Using-AI-in-determining-alveolar-bone-loss-in-Dental-X-rays-to-aid-in-periodontal-diagnosis</loc>
@@ -1269,5 +1272,29 @@
 	</url>
 	<url>
 		<loc>https://cepdnaclk.github.io/Peracom-PGC</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e20-co227-Computer-Engineering-Portal</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e20-co227-Cardiac-Patient-Data-Management-System</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e20-co227-MLink-A-Pharmacy-Linking-Platform</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e20-co227-Student-Academic-Tracker</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e20-CO227-TourMate</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e20-co227-e-Conductor</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e20-co227-ACES-fund-and-inventory-management-system</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e20-Software-Systems-Projects-MIS-for-Non-Academic-Establishment-Division</loc>
 	</url>
 </urlset>
