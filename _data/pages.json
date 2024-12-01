@@ -2050,11 +2050,6 @@
       "url": "https://cepdnaclk.github.io/e20-co227-Erasmus-plus-Project-Web-and-MIS"
    },
    {
-      "name": "e20-co225-Denture-Design-Studio",
-      "repo": "https://github.com/cepdnaclk/e20-co225-Denture-Design-Studio",
-      "url": "https://cepdnaclk.github.io/e20-co225-Denture-Design-Studio"
-   },
-   {
       "name": "e19-co328-Helpdesk-Ticketing-System",
       "repo": "https://github.com/cepdnaclk/e19-co328-Helpdesk-Ticketing-System",
       "url": "https://cepdnaclk.github.io/e19-co328-Helpdesk-Ticketing-System"
@@ -2140,11 +2135,6 @@
       "url": "https://cepdnaclk.github.io/e20-co227-Student-Academic-Tracker"
    },
    {
-      "name": "e20-CO227-TourMate",
-      "repo": "https://github.com/cepdnaclk/e20-CO227-TourMate",
-      "url": "https://cepdnaclk.github.io/e20-CO227-TourMate"
-   },
-   {
       "name": "e20-co227-e-Conductor",
       "repo": "https://github.com/cepdnaclk/e20-co227-e-Conductor",
       "url": "https://cepdnaclk.github.io/e20-co227-e-Conductor"
@@ -2158,5 +2148,35 @@
       "name": "e20-Software-Systems-Projects-MIS-for-Non-Academic-Establishment-Division",
       "repo": "https://github.com/cepdnaclk/e20-Software-Systems-Projects-MIS-for-Non-Academic-Establishment-Division",
       "url": "https://cepdnaclk.github.io/e20-Software-Systems-Projects-MIS-for-Non-Academic-Establishment-Division"
+   },
+   {
+      "name": "e20-co502-RV32IM_Pipelined_Processor_Group-04",
+      "repo": "https://github.com/cepdnaclk/e20-co502-RV32IM_Pipelined_Processor_Group-04",
+      "url": "https://cepdnaclk.github.io/e20-co502-RV32IM_Pipelined_Processor_Group-04"
+   },
+   {
+      "name": "e20-co227-Academic-Staff-Management-Information-System",
+      "repo": "https://github.com/cepdnaclk/e20-co227-Academic-Staff-Management-Information-System",
+      "url": "https://cepdnaclk.github.io/e20-co227-Academic-Staff-Management-Information-System"
+   },
+   {
+      "name": "e20-co227-MIS-for-Non-Academic-Establishment-Division",
+      "repo": "https://github.com/cepdnaclk/e20-co227-MIS-for-Non-Academic-Establishment-Division",
+      "url": "https://cepdnaclk.github.io/e20-co227-MIS-for-Non-Academic-Establishment-Division"
+   },
+   {
+      "name": "e20-CO227-TourMate",
+      "repo": "https://github.com/cepdnaclk/e20-CO227-TourMate",
+      "url": "https://cepdnaclk.github.io/e20-CO227-TourMate"
+   },
+   {
+      "name": "e20-co227-Job-Magnet",
+      "repo": "https://github.com/cepdnaclk/e20-co227-Job-Magnet",
+      "url": "https://cepdnaclk.github.io/e20-co227-Job-Magnet"
+   },
+   {
+      "name": "e20-co227-BookWallet",
+      "repo": "https://github.com/cepdnaclk/e20-co227-BookWallet",
+      "url": "https://cepdnaclk.github.io/e20-co227-BookWallet"
    }
 ]
