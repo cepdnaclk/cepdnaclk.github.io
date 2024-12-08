@@ -2070,11 +2070,6 @@
       "url": "https://cepdnaclk.github.io/e20-co227-MONA-Dashboard"
    },
    {
-      "name": "e20-co225-software-to-analyse-FMD-of-arteries",
-      "repo": "https://github.com/cepdnaclk/e20-co225-software-to-analyse-FMD-of-arteries",
-      "url": "https://cepdnaclk.github.io/e20-co225-software-to-analyse-FMD-of-arteries"
-   },
-   {
       "name": "e20-co227-Mentormate",
       "repo": "https://github.com/cepdnaclk/e20-co227-Mentormate",
       "url": "https://cepdnaclk.github.io/e20-co227-Mentormate"
@@ -2155,6 +2150,11 @@
       "url": "https://cepdnaclk.github.io/e20-co502-RV32IM_Pipelined_Processor_Group-04"
    },
    {
+      "name": "e20-co227-Artery-Resolver",
+      "repo": "https://github.com/cepdnaclk/e20-co227-Artery-Resolver",
+      "url": "https://cepdnaclk.github.io/e20-co227-Artery-Resolver"
+   },
+   {
       "name": "e20-co227-Academic-Staff-Management-Information-System",
       "repo": "https://github.com/cepdnaclk/e20-co227-Academic-Staff-Management-Information-System",
       "url": "https://cepdnaclk.github.io/e20-co227-Academic-Staff-Management-Information-System"
@@ -2175,8 +2175,28 @@
       "url": "https://cepdnaclk.github.io/e20-co227-Job-Magnet"
    },
    {
+      "name": "e20-co227-Denture-Design-Studio",
+      "repo": "https://github.com/cepdnaclk/e20-co227-Denture-Design-Studio",
+      "url": "https://cepdnaclk.github.io/e20-co227-Denture-Design-Studio"
+   },
+   {
       "name": "e20-co227-BookWallet",
       "repo": "https://github.com/cepdnaclk/e20-co227-BookWallet",
       "url": "https://cepdnaclk.github.io/e20-co227-BookWallet"
+   },
+   {
+      "name": "e20-co502-RV32IM-pipeline-implementation-group-2",
+      "repo": "https://github.com/cepdnaclk/e20-co502-RV32IM-pipeline-implementation-group-2",
+      "url": "https://cepdnaclk.github.io/e20-co502-RV32IM-pipeline-implementation-group-2"
+   },
+   {
+      "name": "e20-co227-FoE-Room-Reservation",
+      "repo": "https://github.com/cepdnaclk/e20-co227-FoE-Room-Reservation",
+      "url": "https://cepdnaclk.github.io/e20-co227-FoE-Room-Reservation"
+   },
+   {
+      "name": "e20-co502-RV32IM_Pipelined_Processor_Group-03",
+      "repo": "https://github.com/cepdnaclk/e20-co502-RV32IM_Pipelined_Processor_Group-03",
+      "url": "https://cepdnaclk.github.io/e20-co502-RV32IM_Pipelined_Processor_Group-03"
    }
 ]

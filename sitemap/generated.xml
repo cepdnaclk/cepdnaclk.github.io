@@ -1244,9 +1244,6 @@
 		<loc>https://cepdnaclk.github.io/e20-co227-MONA-Dashboard</loc>
 	</url>
 	<url>
-		<loc>https://cepdnaclk.github.io/e20-co225-software-to-analyse-FMD-of-arteries</loc>
-	</url>
-	<url>
 		<loc>https://cepdnaclk.github.io/e20-co227-Mentormate</loc>
 	</url>
 	<url>
@@ -1295,6 +1292,9 @@
 		<loc>https://cepdnaclk.github.io/e20-co502-RV32IM_Pipelined_Processor_Group-04</loc>
 	</url>
 	<url>
+		<loc>https://cepdnaclk.github.io/e20-co227-Artery-Resolver</loc>
+	</url>
+	<url>
 		<loc>https://cepdnaclk.github.io/e20-co227-Academic-Staff-Management-Information-System</loc>
 	</url>
 	<url>
@@ -1307,6 +1307,18 @@
 		<loc>https://cepdnaclk.github.io/e20-co227-Job-Magnet</loc>
 	</url>
 	<url>
+		<loc>https://cepdnaclk.github.io/e20-co227-Denture-Design-Studio</loc>
+	</url>
+	<url>
 		<loc>https://cepdnaclk.github.io/e20-co227-BookWallet</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e20-co502-RV32IM-pipeline-implementation-group-2</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e20-co227-FoE-Room-Reservation</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e20-co502-RV32IM_Pipelined_Processor_Group-03</loc>
 	</url>
 </urlset>
