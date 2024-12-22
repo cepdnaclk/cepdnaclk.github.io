@@ -2170,6 +2170,11 @@
       "url": "https://cepdnaclk.github.io/e20-CO227-TourMate"
    },
    {
+      "name": "e20-co227-CathLab-Management-System",
+      "repo": "https://github.com/cepdnaclk/e20-co227-CathLab-Management-System",
+      "url": "https://cepdnaclk.github.io/e20-co227-CathLab-Management-System"
+   },
+   {
       "name": "e20-co227-Job-Magnet",
       "repo": "https://github.com/cepdnaclk/e20-co227-Job-Magnet",
       "url": "https://cepdnaclk.github.io/e20-co227-Job-Magnet"
@@ -2198,6 +2203,11 @@
       "name": "e20-co502-RV32IM_Pipelined_Processor_Group-03",
       "repo": "https://github.com/cepdnaclk/e20-co502-RV32IM_Pipelined_Processor_Group-03",
       "url": "https://cepdnaclk.github.io/e20-co502-RV32IM_Pipelined_Processor_Group-03"
+   },
+   {
+      "name": "e20-3yp-P-E-BO-Desk-Companion",
+      "repo": "https://github.com/cepdnaclk/e20-3yp-P-E-BO-Desk-Companion",
+      "url": "https://cepdnaclk.github.io/e20-3yp-P-E-BO-Desk-Companion"
    },
    {
       "name": "e20-3yp-Cattle-Management-System",
@@ -2233,5 +2243,25 @@
       "name": "e20-co543-SkinVision",
       "repo": "https://github.com/cepdnaclk/e20-co543-SkinVision",
       "url": "https://cepdnaclk.github.io/e20-co543-SkinVision"
+   },
+   {
+      "name": "e20-3yp-OceanEyes",
+      "repo": "https://github.com/cepdnaclk/e20-3yp-OceanEyes",
+      "url": "https://cepdnaclk.github.io/e20-3yp-OceanEyes"
+   },
+   {
+      "name": "e20-3yp-Smart-Aquarium",
+      "repo": "https://github.com/cepdnaclk/e20-3yp-Smart-Aquarium",
+      "url": "https://cepdnaclk.github.io/e20-3yp-Smart-Aquarium"
+   },
+   {
+      "name": "e20-co543-Low-Light-Image-Enhancement",
+      "repo": "https://github.com/cepdnaclk/e20-co543-Low-Light-Image-Enhancement",
+      "url": "https://cepdnaclk.github.io/e20-co543-Low-Light-Image-Enhancement"
+   },
+   {
+      "name": "e20-3yp-Remote-Gait-Analysis",
+      "repo": "https://github.com/cepdnaclk/e20-3yp-Remote-Gait-Analysis",
+      "url": "https://cepdnaclk.github.io/e20-3yp-Remote-Gait-Analysis"
    }
 ]
