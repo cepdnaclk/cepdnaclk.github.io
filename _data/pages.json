@@ -2140,11 +2140,6 @@
       "url": "https://cepdnaclk.github.io/e20-co227-ACES-fund-and-inventory-management-system"
    },
    {
-      "name": "e20-Software-Systems-Projects-MIS-for-Non-Academic-Establishment-Division",
-      "repo": "https://github.com/cepdnaclk/e20-Software-Systems-Projects-MIS-for-Non-Academic-Establishment-Division",
-      "url": "https://cepdnaclk.github.io/e20-Software-Systems-Projects-MIS-for-Non-Academic-Establishment-Division"
-   },
-   {
       "name": "e20-co502-RV32IM_Pipelined_Processor_Group-04",
       "repo": "https://github.com/cepdnaclk/e20-co502-RV32IM_Pipelined_Processor_Group-04",
       "url": "https://cepdnaclk.github.io/e20-co502-RV32IM_Pipelined_Processor_Group-04"
@@ -2225,6 +2220,11 @@
       "url": "https://cepdnaclk.github.io/e20-3yp-SkyT"
    },
    {
+      "name": "e20-3yp-FlickNest",
+      "repo": "https://github.com/cepdnaclk/e20-3yp-FlickNest",
+      "url": "https://cepdnaclk.github.io/e20-3yp-FlickNest"
+   },
+   {
       "name": "e20-co502-RV32IM_Pipelined_Processor_Group-06",
       "repo": "https://github.com/cepdnaclk/e20-co502-RV32IM_Pipelined_Processor_Group-06",
       "url": "https://cepdnaclk.github.io/e20-co502-RV32IM_Pipelined_Processor_Group-06"
@@ -2250,6 +2250,11 @@
       "url": "https://cepdnaclk.github.io/e20-co543-SkinVision"
    },
    {
+      "name": "e20-3yp-SafePlus",
+      "repo": "https://github.com/cepdnaclk/e20-3yp-SafePlus",
+      "url": "https://cepdnaclk.github.io/e20-3yp-SafePlus"
+   },
+   {
       "name": "e20-3yp-OceanEyes",
       "repo": "https://github.com/cepdnaclk/e20-3yp-OceanEyes",
       "url": "https://cepdnaclk.github.io/e20-3yp-OceanEyes"
@@ -2270,9 +2275,9 @@
       "url": "https://cepdnaclk.github.io/e20-3yp-Remote-Gait-Analysis"
    },
    {
-      "name": "e20-co543-Colorization-of-Grayscale-Images-Using-Classical-Image-Processing-Techniques",
-      "repo": "https://github.com/cepdnaclk/e20-co543-Colorization-of-Grayscale-Images-Using-Classical-Image-Processing-Techniques",
-      "url": "https://cepdnaclk.github.io/e20-co543-Colorization-of-Grayscale-Images-Using-Classical-Image-Processing-Techniques"
+      "name": "e20-co543-Colorization-of-Grayscale-Images-Using-Image-Processing-Techniques",
+      "repo": "https://github.com/cepdnaclk/e20-co543-Colorization-of-Grayscale-Images-Using-Image-Processing-Techniques",
+      "url": "https://cepdnaclk.github.io/e20-co543-Colorization-of-Grayscale-Images-Using-Image-Processing-Techniques"
    },
    {
       "name": "e20-3yp-Smart-Locker-System",
@@ -2288,5 +2293,35 @@
       "name": "e20-3yp-Smart-Waste-Management-System",
       "repo": "https://github.com/cepdnaclk/e20-3yp-Smart-Waste-Management-System",
       "url": "https://cepdnaclk.github.io/e20-3yp-Smart-Waste-Management-System"
+   },
+   {
+      "name": "e20-3yp-MediFlow",
+      "repo": "https://github.com/cepdnaclk/e20-3yp-MediFlow",
+      "url": "https://cepdnaclk.github.io/e20-3yp-MediFlow"
+   },
+   {
+      "name": "e20-3yp-Vascueye",
+      "repo": "https://github.com/cepdnaclk/e20-3yp-Vascueye",
+      "url": "https://cepdnaclk.github.io/e20-3yp-Vascueye"
+   },
+   {
+      "name": "e20-3yp-Smart-Shopping-Cart",
+      "repo": "https://github.com/cepdnaclk/e20-3yp-Smart-Shopping-Cart",
+      "url": "https://cepdnaclk.github.io/e20-3yp-Smart-Shopping-Cart"
+   },
+   {
+      "name": "e20-3yp-Green-House-Automation",
+      "repo": "https://github.com/cepdnaclk/e20-3yp-Green-House-Automation",
+      "url": "https://cepdnaclk.github.io/e20-3yp-Green-House-Automation"
+   },
+   {
+      "name": "e20-co543-real-time-shadow-removal-from-images",
+      "repo": "https://github.com/cepdnaclk/e20-co543-real-time-shadow-removal-from-images",
+      "url": "https://cepdnaclk.github.io/e20-co543-real-time-shadow-removal-from-images"
+   },
+   {
+      "name": "e20-3yp-Smart-Vehicle-Tracking-and-Management-System",
+      "repo": "https://github.com/cepdnaclk/e20-3yp-Smart-Vehicle-Tracking-and-Management-System",
+      "url": "https://cepdnaclk.github.io/e20-3yp-Smart-Vehicle-Tracking-and-Management-System"
    }
 ]

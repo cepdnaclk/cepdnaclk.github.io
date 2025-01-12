@@ -1286,9 +1286,6 @@
 		<loc>https://cepdnaclk.github.io/e20-co227-ACES-fund-and-inventory-management-system</loc>
 	</url>
 	<url>
-		<loc>https://cepdnaclk.github.io/e20-Software-Systems-Projects-MIS-for-Non-Academic-Establishment-Division</loc>
-	</url>
-	<url>
 		<loc>https://cepdnaclk.github.io/e20-co502-RV32IM_Pipelined_Processor_Group-04</loc>
 	</url>
 	<url>
@@ -1337,6 +1334,9 @@
 		<loc>https://cepdnaclk.github.io/e20-3yp-SkyT</loc>
 	</url>
 	<url>
+		<loc>https://cepdnaclk.github.io/e20-3yp-FlickNest</loc>
+	</url>
+	<url>
 		<loc>https://cepdnaclk.github.io/e20-co502-RV32IM_Pipelined_Processor_Group-06</loc>
 	</url>
 	<url>
@@ -1352,6 +1352,9 @@
 		<loc>https://cepdnaclk.github.io/e20-co543-SkinVision</loc>
 	</url>
 	<url>
+		<loc>https://cepdnaclk.github.io/e20-3yp-SafePlus</loc>
+	</url>
+	<url>
 		<loc>https://cepdnaclk.github.io/e20-3yp-OceanEyes</loc>
 	</url>
 	<url>
@@ -1364,7 +1367,7 @@
 		<loc>https://cepdnaclk.github.io/e20-3yp-Remote-Gait-Analysis</loc>
 	</url>
 	<url>
-		<loc>https://cepdnaclk.github.io/e20-co543-Colorization-of-Grayscale-Images-Using-Classical-Image-Processing-Techniques</loc>
+		<loc>https://cepdnaclk.github.io/e20-co543-Colorization-of-Grayscale-Images-Using-Image-Processing-Techniques</loc>
 	</url>
 	<url>
 		<loc>https://cepdnaclk.github.io/e20-3yp-Smart-Locker-System</loc>
@@ -1374,5 +1377,23 @@
 	</url>
 	<url>
 		<loc>https://cepdnaclk.github.io/e20-3yp-Smart-Waste-Management-System</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e20-3yp-MediFlow</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e20-3yp-Vascueye</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e20-3yp-Smart-Shopping-Cart</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e20-3yp-Green-House-Automation</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e20-co543-real-time-shadow-removal-from-images</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e20-3yp-Smart-Vehicle-Tracking-and-Management-System</loc>
 	</url>
 </urlset>
