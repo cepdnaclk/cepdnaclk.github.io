@@ -2235,6 +2235,11 @@
       "url": "https://cepdnaclk.github.io/e20-co502-RV32IM_Pipelined_Processor_Group-06"
    },
    {
+      "name": "e20-3yp-Smart-IOT-Indoor-Lighting-System",
+      "repo": "https://github.com/cepdnaclk/e20-3yp-Smart-IOT-Indoor-Lighting-System",
+      "url": "https://cepdnaclk.github.io/e20-3yp-Smart-IOT-Indoor-Lighting-System"
+   },
+   {
       "name": "e20-3yp-Smart-Environmental-Monitoring-System-for-Palm-Oil-Plantation",
       "repo": "https://github.com/cepdnaclk/e20-3yp-Smart-Environmental-Monitoring-System-for-Palm-Oil-Plantation",
       "url": "https://cepdnaclk.github.io/e20-3yp-Smart-Environmental-Monitoring-System-for-Palm-Oil-Plantation"
@@ -2278,6 +2283,11 @@
       "name": "e20-3yp-Remote-Gait-Analysis",
       "repo": "https://github.com/cepdnaclk/e20-3yp-Remote-Gait-Analysis",
       "url": "https://cepdnaclk.github.io/e20-3yp-Remote-Gait-Analysis"
+   },
+   {
+      "name": "e20-3yp-Smart-Site-Printing-Rover",
+      "repo": "https://github.com/cepdnaclk/e20-3yp-Smart-Site-Printing-Rover",
+      "url": "https://cepdnaclk.github.io/e20-3yp-Smart-Site-Printing-Rover"
    },
    {
       "name": "e20-co543-Colorization-of-Grayscale-Images-Using-Image-Processing-Techniques",
@@ -2335,8 +2345,138 @@
       "url": "https://cepdnaclk.github.io/e20-3yp-The_Robot_Waiter"
    },
    {
+      "name": "e19-4yp-Quality-Assessment-of-Final-Root-Canal-Treatment-Using-Intra-Oral-Periapical-Radiographs",
+      "repo": "https://github.com/cepdnaclk/e19-4yp-Quality-Assessment-of-Final-Root-Canal-Treatment-Using-Intra-Oral-Periapical-Radiographs",
+      "url": "https://cepdnaclk.github.io/e19-4yp-Quality-Assessment-of-Final-Root-Canal-Treatment-Using-Intra-Oral-Periapical-Radiographs"
+   },
+   {
       "name": "e20-co542-Automatic-English-Text-Summarization",
       "repo": "https://github.com/cepdnaclk/e20-co542-Automatic-English-Text-Summarization",
       "url": "https://cepdnaclk.github.io/e20-co542-Automatic-English-Text-Summarization"
+   },
+   {
+      "name": "e20-co543-Historical-Image-Restoration",
+      "repo": "https://github.com/cepdnaclk/e20-co543-Historical-Image-Restoration",
+      "url": "https://cepdnaclk.github.io/e20-co543-Historical-Image-Restoration"
+   },
+   {
+      "name": "e20-co543-ProVision",
+      "repo": "https://github.com/cepdnaclk/e20-co543-ProVision",
+      "url": "https://cepdnaclk.github.io/e20-co543-ProVision"
+   },
+   {
+      "name": "e19-4yp-Machine-Learning-Based-Automated-PAR-Index-Calculation-for-Orthodontic-Treatment",
+      "repo": "https://github.com/cepdnaclk/e19-4yp-Machine-Learning-Based-Automated-PAR-Index-Calculation-for-Orthodontic-Treatment",
+      "url": "https://cepdnaclk.github.io/e19-4yp-Machine-Learning-Based-Automated-PAR-Index-Calculation-for-Orthodontic-Treatment"
+   },
+   {
+      "name": "e20-co542-NeuronGlow",
+      "repo": "https://github.com/cepdnaclk/e20-co542-NeuronGlow",
+      "url": "https://cepdnaclk.github.io/e20-co542-NeuronGlow"
+   },
+   {
+      "name": "e19-4yp-Extending-the-Growing-Self-Organizing-Map-for-Unsupervised-Learning-Based-Modelling",
+      "repo": "https://github.com/cepdnaclk/e19-4yp-Extending-the-Growing-Self-Organizing-Map-for-Unsupervised-Learning-Based-Modelling",
+      "url": "https://cepdnaclk.github.io/e19-4yp-Extending-the-Growing-Self-Organizing-Map-for-Unsupervised-Learning-Based-Modelling"
+   },
+   {
+      "name": "e19-4yp-Using-LMs-to-Write-Patient-Clinical-Letters",
+      "repo": "https://github.com/cepdnaclk/e19-4yp-Using-LMs-to-Write-Patient-Clinical-Letters",
+      "url": "https://cepdnaclk.github.io/e19-4yp-Using-LMs-to-Write-Patient-Clinical-Letters"
+   },
+   {
+      "name": "e19-4yp-AI-Driven-Renal-Care-Management-for-Hospitals-in-Sri-Lanka",
+      "repo": "https://github.com/cepdnaclk/e19-4yp-AI-Driven-Renal-Care-Management-for-Hospitals-in-Sri-Lanka",
+      "url": "https://cepdnaclk.github.io/e19-4yp-AI-Driven-Renal-Care-Management-for-Hospitals-in-Sri-Lanka"
+   },
+   {
+      "name": "e19-4yp-AI-System-for-Lung-nodule-follow-up-using-plain-chest-X-Ray",
+      "repo": "https://github.com/cepdnaclk/e19-4yp-AI-System-for-Lung-nodule-follow-up-using-plain-chest-X-Ray",
+      "url": "https://cepdnaclk.github.io/e19-4yp-AI-System-for-Lung-nodule-follow-up-using-plain-chest-X-Ray"
+   },
+   {
+      "name": "e19-4yp-Putting-Privacy-into-Practice-A-serious-game-teaches-software-developers-secure-coding",
+      "repo": "https://github.com/cepdnaclk/e19-4yp-Putting-Privacy-into-Practice-A-serious-game-teaches-software-developers-secure-coding",
+      "url": "https://cepdnaclk.github.io/e19-4yp-Putting-Privacy-into-Practice-A-serious-game-teaches-software-developers-secure-coding"
+   },
+   {
+      "name": "e19-4yp-Classification-of-Motor-Imagery-EEG-based-Tasks-for-Brain-Computer-Interfacing-Applications",
+      "repo": "https://github.com/cepdnaclk/e19-4yp-Classification-of-Motor-Imagery-EEG-based-Tasks-for-Brain-Computer-Interfacing-Applications",
+      "url": "https://cepdnaclk.github.io/e19-4yp-Classification-of-Motor-Imagery-EEG-based-Tasks-for-Brain-Computer-Interfacing-Applications"
+   },
+   {
+      "name": "e19-4yp-Developing-a-Small-Scale-Financial-Language-Model",
+      "repo": "https://github.com/cepdnaclk/e19-4yp-Developing-a-Small-Scale-Financial-Language-Model",
+      "url": "https://cepdnaclk.github.io/e19-4yp-Developing-a-Small-Scale-Financial-Language-Model"
+   },
+   {
+      "name": "e20-co543-ColorNet-Grayscale-image-colorization-project-using-AI-and-image-processing",
+      "repo": "https://github.com/cepdnaclk/e20-co543-ColorNet-Grayscale-image-colorization-project-using-AI-and-image-processing",
+      "url": "https://cepdnaclk.github.io/e20-co543-ColorNet-Grayscale-image-colorization-project-using-AI-and-image-processing"
+   },
+   {
+      "name": "e19-4yp-Legal-Chain-Resolver-With-Mixture-of-Experts-and-Multi-Agent-System-for-Legal-Assistance",
+      "repo": "https://github.com/cepdnaclk/e19-4yp-Legal-Chain-Resolver-With-Mixture-of-Experts-and-Multi-Agent-System-for-Legal-Assistance",
+      "url": "https://cepdnaclk.github.io/e19-4yp-Legal-Chain-Resolver-With-Mixture-of-Experts-and-Multi-Agent-System-for-Legal-Assistance"
+   },
+   {
+      "name": "e19-4yp-Detection-of-Biological-Degradation-on-Concrete-Structures-Using-Computer-Vision",
+      "repo": "https://github.com/cepdnaclk/e19-4yp-Detection-of-Biological-Degradation-on-Concrete-Structures-Using-Computer-Vision",
+      "url": "https://cepdnaclk.github.io/e19-4yp-Detection-of-Biological-Degradation-on-Concrete-Structures-Using-Computer-Vision"
+   },
+   {
+      "name": "e19-4yp-RISC-V-Based-ASIP-for-Accelerating-DNA-Sequence-Alignment-on-Embedded-Systems",
+      "repo": "https://github.com/cepdnaclk/e19-4yp-RISC-V-Based-ASIP-for-Accelerating-DNA-Sequence-Alignment-on-Embedded-Systems",
+      "url": "https://cepdnaclk.github.io/e19-4yp-RISC-V-Based-ASIP-for-Accelerating-DNA-Sequence-Alignment-on-Embedded-Systems"
+   },
+   {
+      "name": "e19-4YP-Peraswarm-Active-Localization-and-Navigation",
+      "repo": "https://github.com/cepdnaclk/e19-4YP-Peraswarm-Active-Localization-and-Navigation",
+      "url": "https://cepdnaclk.github.io/e19-4YP-Peraswarm-Active-Localization-and-Navigation"
+   },
+   {
+      "name": "e19-4yp-HDL-Code-Generation-LLMs",
+      "repo": "https://github.com/cepdnaclk/e19-4yp-HDL-Code-Generation-LLMs",
+      "url": "https://cepdnaclk.github.io/e19-4yp-HDL-Code-Generation-LLMs"
+   },
+   {
+      "name": "Out-of-domain-generalisation-in-Computer-Vision",
+      "repo": "https://github.com/cepdnaclk/Out-of-domain-generalisation-in-Computer-Vision",
+      "url": "https://cepdnaclk.github.io/Out-of-domain-generalisation-in-Computer-Vision"
+   },
+   {
+      "name": "e19-4yp-NLP-Driven-IBN-Layered-Architecture-for-SDNs",
+      "repo": "https://github.com/cepdnaclk/e19-4yp-NLP-Driven-IBN-Layered-Architecture-for-SDNs",
+      "url": "https://cepdnaclk.github.io/e19-4yp-NLP-Driven-IBN-Layered-Architecture-for-SDNs"
+   },
+   {
+      "name": "e19-4yp-blockchain-based-e-voting-system",
+      "repo": "https://github.com/cepdnaclk/e19-4yp-blockchain-based-e-voting-system",
+      "url": "https://cepdnaclk.github.io/e19-4yp-blockchain-based-e-voting-system"
+   },
+   {
+      "name": "e19-co502-RV32IM-Pipeline-Implementation-Group1",
+      "repo": "https://github.com/cepdnaclk/e19-co502-RV32IM-Pipeline-Implementation-Group1",
+      "url": "https://cepdnaclk.github.io/e19-co502-RV32IM-Pipeline-Implementation-Group1"
+   },
+   {
+      "name": "e19-4yp-RISC-V-SoC-With-Neuromorphic-Accelerator-for-SNNs",
+      "repo": "https://github.com/cepdnaclk/e19-4yp-RISC-V-SoC-With-Neuromorphic-Accelerator-for-SNNs",
+      "url": "https://cepdnaclk.github.io/e19-4yp-RISC-V-SoC-With-Neuromorphic-Accelerator-for-SNNs"
+   },
+   {
+      "name": "e19-4yp-AI-Driven-Decision-Making-Models-for-Corporate-Applications",
+      "repo": "https://github.com/cepdnaclk/e19-4yp-AI-Driven-Decision-Making-Models-for-Corporate-Applications",
+      "url": "https://cepdnaclk.github.io/e19-4yp-AI-Driven-Decision-Making-Models-for-Corporate-Applications"
+   },
+   {
+      "name": "e19-4yp-The-Compound-Prediction-Analysis-of-Cybersecurity",
+      "repo": "https://github.com/cepdnaclk/e19-4yp-The-Compound-Prediction-Analysis-of-Cybersecurity",
+      "url": "https://cepdnaclk.github.io/e19-4yp-The-Compound-Prediction-Analysis-of-Cybersecurity"
+   },
+   {
+      "name": "e19-4yp-LowComplexity-Algorithms-For-EnergyEfficient-Arrhythmia-Classification-In-Wearable-Devices",
+      "repo": "https://github.com/cepdnaclk/e19-4yp-LowComplexity-Algorithms-For-EnergyEfficient-Arrhythmia-Classification-In-Wearable-Devices",
+      "url": "https://cepdnaclk.github.io/e19-4yp-LowComplexity-Algorithms-For-EnergyEfficient-Arrhythmia-Classification-In-Wearable-Devices"
    }
 ]
