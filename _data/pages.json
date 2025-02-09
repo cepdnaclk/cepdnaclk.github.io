@@ -2375,6 +2375,11 @@
       "url": "https://cepdnaclk.github.io/e20-co542-NeuronGlow"
    },
    {
+      "name": "e19-4yp-Multi-Modal-Data-Fusion-for-Trading-Market-Price-Forecasting",
+      "repo": "https://github.com/cepdnaclk/e19-4yp-Multi-Modal-Data-Fusion-for-Trading-Market-Price-Forecasting",
+      "url": "https://cepdnaclk.github.io/e19-4yp-Multi-Modal-Data-Fusion-for-Trading-Market-Price-Forecasting"
+   },
+   {
       "name": "e19-4yp-Extending-the-Growing-Self-Organizing-Map-for-Unsupervised-Learning-Based-Modelling",
       "repo": "https://github.com/cepdnaclk/e19-4yp-Extending-the-Growing-Self-Organizing-Map-for-Unsupervised-Learning-Based-Modelling",
       "url": "https://cepdnaclk.github.io/e19-4yp-Extending-the-Growing-Self-Organizing-Map-for-Unsupervised-Learning-Based-Modelling"
@@ -2435,14 +2440,14 @@
       "url": "https://cepdnaclk.github.io/e19-4YP-Peraswarm-Active-Localization-and-Navigation"
    },
    {
-      "name": "e19-4yp-HDL-Code-Generation-LLMs",
-      "repo": "https://github.com/cepdnaclk/e19-4yp-HDL-Code-Generation-LLMs",
-      "url": "https://cepdnaclk.github.io/e19-4yp-HDL-Code-Generation-LLMs"
+      "name": "e19-4yp-HDL-Code-Generation-Using-LLMs",
+      "repo": "https://github.com/cepdnaclk/e19-4yp-HDL-Code-Generation-Using-LLMs",
+      "url": "https://cepdnaclk.github.io/e19-4yp-HDL-Code-Generation-Using-LLMs"
    },
    {
-      "name": "Out-of-domain-generalisation-in-Computer-Vision",
-      "repo": "https://github.com/cepdnaclk/Out-of-domain-generalisation-in-Computer-Vision",
-      "url": "https://cepdnaclk.github.io/Out-of-domain-generalisation-in-Computer-Vision"
+      "name": "e19-4yp-Out-of-domain-generalization-in-Computer-Vision",
+      "repo": "https://github.com/cepdnaclk/e19-4yp-Out-of-domain-generalization-in-Computer-Vision",
+      "url": "https://cepdnaclk.github.io/e19-4yp-Out-of-domain-generalization-in-Computer-Vision"
    },
    {
       "name": "e19-4yp-NLP-Driven-IBN-Layered-Architecture-for-SDNs",
@@ -2478,5 +2483,20 @@
       "name": "e19-4yp-LowComplexity-Algorithms-For-EnergyEfficient-Arrhythmia-Classification-In-Wearable-Devices",
       "repo": "https://github.com/cepdnaclk/e19-4yp-LowComplexity-Algorithms-For-EnergyEfficient-Arrhythmia-Classification-In-Wearable-Devices",
       "url": "https://cepdnaclk.github.io/e19-4yp-LowComplexity-Algorithms-For-EnergyEfficient-Arrhythmia-Classification-In-Wearable-Devices"
+   },
+   {
+      "name": "e19-4yp-NursingVR-WoundCareAI",
+      "repo": "https://github.com/cepdnaclk/e19-4yp-NursingVR-WoundCareAI",
+      "url": "https://cepdnaclk.github.io/e19-4yp-NursingVR-WoundCareAI"
+   },
+   {
+      "name": "e19-4yp-A-Behavioural-Plugin-Tool-For-Fake-News-Identification",
+      "repo": "https://github.com/cepdnaclk/e19-4yp-A-Behavioural-Plugin-Tool-For-Fake-News-Identification",
+      "url": "https://cepdnaclk.github.io/e19-4yp-A-Behavioural-Plugin-Tool-For-Fake-News-Identification"
+   },
+   {
+      "name": "Train-tracking-and-Smart-Ticketing-System",
+      "repo": "https://github.com/cepdnaclk/Train-tracking-and-Smart-Ticketing-System",
+      "url": "https://cepdnaclk.github.io/Train-tracking-and-Smart-Ticketing-System"
    }
 ]
