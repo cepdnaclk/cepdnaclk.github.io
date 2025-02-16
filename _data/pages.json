@@ -2425,9 +2425,9 @@
       "url": "https://cepdnaclk.github.io/e19-4yp-Legal-Chain-Resolver-With-Mixture-of-Experts-and-Multi-Agent-System-for-Legal-Assistance"
    },
    {
-      "name": "e19-4yp-Detection-of-Biological-Degradation-on-Concrete-Structures-Using-Computer-Vision",
-      "repo": "https://github.com/cepdnaclk/e19-4yp-Detection-of-Biological-Degradation-on-Concrete-Structures-Using-Computer-Vision",
-      "url": "https://cepdnaclk.github.io/e19-4yp-Detection-of-Biological-Degradation-on-Concrete-Structures-Using-Computer-Vision"
+      "name": "e19-4yp-Detection-of-Biological-Chemical-Degradation-on-Concrete-Structures-Using-Computer-Vision",
+      "repo": "https://github.com/cepdnaclk/e19-4yp-Detection-of-Biological-Chemical-Degradation-on-Concrete-Structures-Using-Computer-Vision",
+      "url": "https://cepdnaclk.github.io/e19-4yp-Detection-of-Biological-Chemical-Degradation-on-Concrete-Structures-Using-Computer-Vision"
    },
    {
       "name": "e19-4yp-RISC-V-Based-ASIP-for-Accelerating-DNA-Sequence-Alignment-on-Embedded-Systems",
@@ -2495,8 +2495,18 @@
       "url": "https://cepdnaclk.github.io/e19-4yp-A-Behavioural-Plugin-Tool-For-Fake-News-Identification"
    },
    {
-      "name": "Train-tracking-and-Smart-Ticketing-System",
-      "repo": "https://github.com/cepdnaclk/Train-tracking-and-Smart-Ticketing-System",
-      "url": "https://cepdnaclk.github.io/Train-tracking-and-Smart-Ticketing-System"
+      "name": "e20-3yp-Train-Tracking-and-Smart-Ticketing",
+      "repo": "https://github.com/cepdnaclk/e20-3yp-Train-Tracking-and-Smart-Ticketing",
+      "url": "https://cepdnaclk.github.io/e20-3yp-Train-Tracking-and-Smart-Ticketing"
+   },
+   {
+      "name": "e20-co542-Panic-Attack-Prediction",
+      "repo": "https://github.com/cepdnaclk/e20-co542-Panic-Attack-Prediction",
+      "url": "https://cepdnaclk.github.io/e20-co542-Panic-Attack-Prediction"
+   },
+   {
+      "name": "e20-co542-Air-Quality-Analyser",
+      "repo": "https://github.com/cepdnaclk/e20-co542-Air-Quality-Analyser",
+      "url": "https://cepdnaclk.github.io/e20-co542-Air-Quality-Analyser"
    }
 ]
