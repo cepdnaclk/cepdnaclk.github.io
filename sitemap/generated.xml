@@ -1373,7 +1373,7 @@
 		<loc>https://cepdnaclk.github.io/e20-3yp-Remote-Gait-Analysis</loc>
 	</url>
 	<url>
-		<loc>https://cepdnaclk.github.io/e20-3yp-Smart-Site-Printing-Rover</loc>
+		<loc>https://cepdnaclk.github.io/e20-3yp-GEOnex</loc>
 	</url>
 	<url>
 		<loc>https://cepdnaclk.github.io/e20-co543-Colorization-of-Grayscale-Images-Using-Image-Processing-Techniques</loc>
@@ -1448,6 +1448,9 @@
 		<loc>https://cepdnaclk.github.io/e19-4yp-Classification-of-Motor-Imagery-EEG-based-Tasks-for-Brain-Computer-Interfacing-Applications</loc>
 	</url>
 	<url>
+		<loc>https://cepdnaclk.github.io/e19-4yp-Enhancing-Multimodal-Fusion-Techniques-for-Depression-Detection</loc>
+	</url>
+	<url>
 		<loc>https://cepdnaclk.github.io/e19-4yp-Developing-a-Small-Scale-Financial-Language-Model</loc>
 	</url>
 	<url>
@@ -1466,13 +1469,19 @@
 		<loc>https://cepdnaclk.github.io/e19-4YP-Peraswarm-Active-Localization-and-Navigation</loc>
 	</url>
 	<url>
-		<loc>https://cepdnaclk.github.io/e19-4yp-HDL-Code-Generation-Using-LLMs</loc>
+		<loc>https://cepdnaclk.github.io/e19-4yp-Verilog-Code-Generation-With-Variations-Fine-Tuned-Large-Languag-Models</loc>
 	</url>
 	<url>
 		<loc>https://cepdnaclk.github.io/e19-4yp-Out-of-domain-generalization-in-Computer-Vision</loc>
 	</url>
 	<url>
 		<loc>https://cepdnaclk.github.io/e19-4yp-NLP-Driven-IBN-Layered-Architecture-for-SDNs</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e19-4yp-Active-bionic-antennas-for-object-detection-and-3D-localization-with-ego-motion-cancellation</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e19-4yp-Solve-Issues-In-Large-Code-Repositories</loc>
 	</url>
 	<url>
 		<loc>https://cepdnaclk.github.io/e19-4yp-blockchain-based-e-voting-system</loc>
@@ -1506,5 +1515,8 @@
 	</url>
 	<url>
 		<loc>https://cepdnaclk.github.io/e20-co542-Air-Quality-Analyser</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e20-co542-Detect-AI-vs-Human-Generated-Images</loc>
 	</url>
 </urlset>

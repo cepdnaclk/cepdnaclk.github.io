@@ -2285,9 +2285,9 @@
       "url": "https://cepdnaclk.github.io/e20-3yp-Remote-Gait-Analysis"
    },
    {
-      "name": "e20-3yp-Smart-Site-Printing-Rover",
-      "repo": "https://github.com/cepdnaclk/e20-3yp-Smart-Site-Printing-Rover",
-      "url": "https://cepdnaclk.github.io/e20-3yp-Smart-Site-Printing-Rover"
+      "name": "e20-3yp-GEOnex",
+      "repo": "https://github.com/cepdnaclk/e20-3yp-GEOnex",
+      "url": "https://cepdnaclk.github.io/e20-3yp-GEOnex"
    },
    {
       "name": "e20-co543-Colorization-of-Grayscale-Images-Using-Image-Processing-Techniques",
@@ -2410,6 +2410,11 @@
       "url": "https://cepdnaclk.github.io/e19-4yp-Classification-of-Motor-Imagery-EEG-based-Tasks-for-Brain-Computer-Interfacing-Applications"
    },
    {
+      "name": "e19-4yp-Enhancing-Multimodal-Fusion-Techniques-for-Depression-Detection",
+      "repo": "https://github.com/cepdnaclk/e19-4yp-Enhancing-Multimodal-Fusion-Techniques-for-Depression-Detection",
+      "url": "https://cepdnaclk.github.io/e19-4yp-Enhancing-Multimodal-Fusion-Techniques-for-Depression-Detection"
+   },
+   {
       "name": "e19-4yp-Developing-a-Small-Scale-Financial-Language-Model",
       "repo": "https://github.com/cepdnaclk/e19-4yp-Developing-a-Small-Scale-Financial-Language-Model",
       "url": "https://cepdnaclk.github.io/e19-4yp-Developing-a-Small-Scale-Financial-Language-Model"
@@ -2440,9 +2445,9 @@
       "url": "https://cepdnaclk.github.io/e19-4YP-Peraswarm-Active-Localization-and-Navigation"
    },
    {
-      "name": "e19-4yp-HDL-Code-Generation-Using-LLMs",
-      "repo": "https://github.com/cepdnaclk/e19-4yp-HDL-Code-Generation-Using-LLMs",
-      "url": "https://cepdnaclk.github.io/e19-4yp-HDL-Code-Generation-Using-LLMs"
+      "name": "e19-4yp-Verilog-Code-Generation-With-Variations-Fine-Tuned-Large-Languag-Models",
+      "repo": "https://github.com/cepdnaclk/e19-4yp-Verilog-Code-Generation-With-Variations-Fine-Tuned-Large-Languag-Models",
+      "url": "https://cepdnaclk.github.io/e19-4yp-Verilog-Code-Generation-With-Variations-Fine-Tuned-Large-Languag-Models"
    },
    {
       "name": "e19-4yp-Out-of-domain-generalization-in-Computer-Vision",
@@ -2453,6 +2458,16 @@
       "name": "e19-4yp-NLP-Driven-IBN-Layered-Architecture-for-SDNs",
       "repo": "https://github.com/cepdnaclk/e19-4yp-NLP-Driven-IBN-Layered-Architecture-for-SDNs",
       "url": "https://cepdnaclk.github.io/e19-4yp-NLP-Driven-IBN-Layered-Architecture-for-SDNs"
+   },
+   {
+      "name": "e19-4yp-Active-bionic-antennas-for-object-detection-and-3D-localization-with-ego-motion-cancellation",
+      "repo": "https://github.com/cepdnaclk/e19-4yp-Active-bionic-antennas-for-object-detection-and-3D-localization-with-ego-motion-cancellation",
+      "url": "https://cepdnaclk.github.io/e19-4yp-Active-bionic-antennas-for-object-detection-and-3D-localization-with-ego-motion-cancellation"
+   },
+   {
+      "name": "e19-4yp-Solve-Issues-In-Large-Code-Repositories",
+      "repo": "https://github.com/cepdnaclk/e19-4yp-Solve-Issues-In-Large-Code-Repositories",
+      "url": "https://cepdnaclk.github.io/e19-4yp-Solve-Issues-In-Large-Code-Repositories"
    },
    {
       "name": "e19-4yp-blockchain-based-e-voting-system",
@@ -2508,5 +2523,10 @@
       "name": "e20-co542-Air-Quality-Analyser",
       "repo": "https://github.com/cepdnaclk/e20-co542-Air-Quality-Analyser",
       "url": "https://cepdnaclk.github.io/e20-co542-Air-Quality-Analyser"
+   },
+   {
+      "name": "e20-co542-Detect-AI-vs-Human-Generated-Images",
+      "repo": "https://github.com/cepdnaclk/e20-co542-Detect-AI-vs-Human-Generated-Images",
+      "url": "https://cepdnaclk.github.io/e20-co542-Detect-AI-vs-Human-Generated-Images"
    }
 ]
