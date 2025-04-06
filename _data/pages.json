@@ -2538,5 +2538,10 @@
       "name": "handwritten-character-recognition",
       "repo": "https://github.com/cepdnaclk/handwritten-character-recognition",
       "url": "https://cepdnaclk.github.io/handwritten-character-recognition"
+   },
+   {
+      "name": "e20-co542-stock-price-prediction",
+      "repo": "https://github.com/cepdnaclk/e20-co542-stock-price-prediction",
+      "url": "https://cepdnaclk.github.io/e20-co542-stock-price-prediction"
    }
 ]
