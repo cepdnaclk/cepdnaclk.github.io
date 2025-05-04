@@ -2395,6 +2395,11 @@
       "url": "https://cepdnaclk.github.io/e19-4yp-AI-Driven-Renal-Care-Management-for-Hospitals-in-Sri-Lanka"
    },
    {
+      "name": "e19-4yp-AI-Dirven-Latency-Constrained-Resource-Management-In-Kubernetes",
+      "repo": "https://github.com/cepdnaclk/e19-4yp-AI-Dirven-Latency-Constrained-Resource-Management-In-Kubernetes",
+      "url": "https://cepdnaclk.github.io/e19-4yp-AI-Dirven-Latency-Constrained-Resource-Management-In-Kubernetes"
+   },
+   {
       "name": "e19-4yp-AI-System-for-Lung-nodule-follow-up-using-plain-chest-X-Ray",
       "repo": "https://github.com/cepdnaclk/e19-4yp-AI-System-for-Lung-nodule-follow-up-using-plain-chest-X-Ray",
       "url": "https://cepdnaclk.github.io/e19-4yp-AI-System-for-Lung-nodule-follow-up-using-plain-chest-X-Ray"
@@ -2543,5 +2548,15 @@
       "name": "e20-co542-stock-price-prediction",
       "repo": "https://github.com/cepdnaclk/e20-co542-stock-price-prediction",
       "url": "https://cepdnaclk.github.io/e20-co542-stock-price-prediction"
+   },
+   {
+      "name": "e19-co502-RV32IM-Pipeline-Implementation-Group-2",
+      "repo": "https://github.com/cepdnaclk/e19-co502-RV32IM-Pipeline-Implementation-Group-2",
+      "url": "https://cepdnaclk.github.io/e19-co502-RV32IM-Pipeline-Implementation-Group-2"
+   },
+   {
+      "name": "e20-co542-handwritten-character-recognition",
+      "repo": "https://github.com/cepdnaclk/e20-co542-handwritten-character-recognition",
+      "url": "https://cepdnaclk.github.io/e20-co542-handwritten-character-recognition"
    }
 ]
