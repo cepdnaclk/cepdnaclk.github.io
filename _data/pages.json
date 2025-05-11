@@ -2215,11 +2215,6 @@
       "url": "https://cepdnaclk.github.io/e20-3yp-Cattle-Management-System"
    },
    {
-      "name": "e20-3yp-VR-Multiplayer-Golf-Game",
-      "repo": "https://github.com/cepdnaclk/e20-3yp-VR-Multiplayer-Golf-Game",
-      "url": "https://cepdnaclk.github.io/e20-3yp-VR-Multiplayer-Golf-Game"
-   },
-   {
       "name": "e20-3yp-SkyT",
       "repo": "https://github.com/cepdnaclk/e20-3yp-SkyT",
       "url": "https://cepdnaclk.github.io/e20-3yp-SkyT"
@@ -2558,5 +2553,10 @@
       "name": "e20-co542-handwritten-character-recognition",
       "repo": "https://github.com/cepdnaclk/e20-co542-handwritten-character-recognition",
       "url": "https://cepdnaclk.github.io/e20-co542-handwritten-character-recognition"
+   },
+   {
+      "name": "e20-3yp-VR-Multiplayer-Golf-Game",
+      "repo": "https://github.com/cepdnaclk/e20-3yp-VR-Multiplayer-Golf-Game",
+      "url": "https://cepdnaclk.github.io/e20-3yp-VR-Multiplayer-Golf-Game"
    }
 ]
