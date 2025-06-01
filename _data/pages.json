@@ -2450,6 +2450,11 @@
       "url": "https://cepdnaclk.github.io/e19-4yp-Verilog-Code-Generation-With-Variations-Fine-Tuned-Large-Languag-Models"
    },
    {
+      "name": "e19-4yp-AI-Powered-Knowledge-Management-System",
+      "repo": "https://github.com/cepdnaclk/e19-4yp-AI-Powered-Knowledge-Management-System",
+      "url": "https://cepdnaclk.github.io/e19-4yp-AI-Powered-Knowledge-Management-System"
+   },
+   {
       "name": "e19-4yp-Out-of-domain-generalization-in-Computer-Vision",
       "repo": "https://github.com/cepdnaclk/e19-4yp-Out-of-domain-generalization-in-Computer-Vision",
       "url": "https://cepdnaclk.github.io/e19-4yp-Out-of-domain-generalization-in-Computer-Vision"
@@ -2458,6 +2463,11 @@
       "name": "e19-4yp-NLP-Driven-IBN-Layered-Architecture-for-SDNs",
       "repo": "https://github.com/cepdnaclk/e19-4yp-NLP-Driven-IBN-Layered-Architecture-for-SDNs",
       "url": "https://cepdnaclk.github.io/e19-4yp-NLP-Driven-IBN-Layered-Architecture-for-SDNs"
+   },
+   {
+      "name": "e19-4yp-Voluntary-Computing-Operating-System",
+      "repo": "https://github.com/cepdnaclk/e19-4yp-Voluntary-Computing-Operating-System",
+      "url": "https://cepdnaclk.github.io/e19-4yp-Voluntary-Computing-Operating-System"
    },
    {
       "name": "e19-4yp-Active-bionic-antennas-for-object-detection-and-3D-localization-with-ego-motion-cancellation",
@@ -2485,9 +2495,9 @@
       "url": "https://cepdnaclk.github.io/e19-4yp-AI-Driven-Decision-Making-Models-for-Corporate-Applications"
    },
    {
-      "name": "e19-4yp-The-Compound-Prediction-Analysis-of-Cybersecurity",
-      "repo": "https://github.com/cepdnaclk/e19-4yp-The-Compound-Prediction-Analysis-of-Cybersecurity",
-      "url": "https://cepdnaclk.github.io/e19-4yp-The-Compound-Prediction-Analysis-of-Cybersecurity"
+      "name": "e19-4yp-Predicting-Cybersecurity-Attacks-Using-Compound-Analysis-with-Classification-Algorithms",
+      "repo": "https://github.com/cepdnaclk/e19-4yp-Predicting-Cybersecurity-Attacks-Using-Compound-Analysis-with-Classification-Algorithms",
+      "url": "https://cepdnaclk.github.io/e19-4yp-Predicting-Cybersecurity-Attacks-Using-Compound-Analysis-with-Classification-Algorithms"
    },
    {
       "name": "e19-4yp-LowComplexity-Algorithms-For-EnergyEfficient-Arrhythmia-Classification-In-Wearable-Devices",
@@ -2553,5 +2563,10 @@
       "name": "e20-3yp-VR-Multiplayer-Golf-Game",
       "repo": "https://github.com/cepdnaclk/e20-3yp-VR-Multiplayer-Golf-Game",
       "url": "https://cepdnaclk.github.io/e20-3yp-VR-Multiplayer-Golf-Game"
+   },
+   {
+      "name": "e19-4yp-Integrating-Neuro-Symbolic-AI-for-Pneumonia-Diagnosis-from-Chest-X-trays",
+      "repo": "https://github.com/cepdnaclk/e19-4yp-Integrating-Neuro-Symbolic-AI-for-Pneumonia-Diagnosis-from-Chest-X-trays",
+      "url": "https://cepdnaclk.github.io/e19-4yp-Integrating-Neuro-Symbolic-AI-for-Pneumonia-Diagnosis-from-Chest-X-trays"
    }
 ]
