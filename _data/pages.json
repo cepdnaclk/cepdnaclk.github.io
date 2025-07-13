@@ -2310,9 +2310,9 @@
       "url": "https://cepdnaclk.github.io/e20-3yp-MediFlow"
    },
    {
-      "name": "e20-3yp-Vascueye",
-      "repo": "https://github.com/cepdnaclk/e20-3yp-Vascueye",
-      "url": "https://cepdnaclk.github.io/e20-3yp-Vascueye"
+      "name": "e20-3yp-Vescueye",
+      "repo": "https://github.com/cepdnaclk/e20-3yp-Vescueye",
+      "url": "https://cepdnaclk.github.io/e20-3yp-Vescueye"
    },
    {
       "name": "e20-3yp-Smart-Shopping-Cart",
@@ -2573,5 +2573,10 @@
       "name": "e19-4yp-Integrating-Neuro-Symbolic-AI-for-Pneumonia-Diagnosis-from-Chest-X-trays",
       "repo": "https://github.com/cepdnaclk/e19-4yp-Integrating-Neuro-Symbolic-AI-for-Pneumonia-Diagnosis-from-Chest-X-trays",
       "url": "https://cepdnaclk.github.io/e19-4yp-Integrating-Neuro-Symbolic-AI-for-Pneumonia-Diagnosis-from-Chest-X-trays"
+   },
+   {
+      "name": "Pulse_Oxymetry_and_Sleep_Apnoea",
+      "repo": "https://github.com/cepdnaclk/Pulse_Oxymetry_and_Sleep_Apnoea",
+      "url": "https://cepdnaclk.github.io/Pulse_Oxymetry_and_Sleep_Apnoea"
    }
 ]
