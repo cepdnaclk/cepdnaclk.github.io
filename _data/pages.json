@@ -2260,6 +2260,11 @@
       "url": "https://cepdnaclk.github.io/e20-3yp-SafePlus"
    },
    {
+      "name": "e20-3yp-OceanEyes",
+      "repo": "https://github.com/cepdnaclk/e20-3yp-OceanEyes",
+      "url": "https://cepdnaclk.github.io/e20-3yp-OceanEyes"
+   },
+   {
       "name": "e20-3yp-Smart-Aquarium",
       "repo": "https://github.com/cepdnaclk/e20-3yp-Smart-Aquarium",
       "url": "https://cepdnaclk.github.io/e20-3yp-Smart-Aquarium"
@@ -2578,5 +2583,20 @@
       "name": "e20-4yp-XAI-Driven-Threat-Intelligence-for-WiFi-7-6G-Using-FL-and-Blockchain-Based-Trust-Sharing",
       "repo": "https://github.com/cepdnaclk/e20-4yp-XAI-Driven-Threat-Intelligence-for-WiFi-7-6G-Using-FL-and-Blockchain-Based-Trust-Sharing",
       "url": "https://cepdnaclk.github.io/e20-4yp-XAI-Driven-Threat-Intelligence-for-WiFi-7-6G-Using-FL-and-Blockchain-Based-Trust-Sharing"
+   },
+   {
+      "name": "e21-2yp-Neuromorphic-Web-Site",
+      "repo": "https://github.com/cepdnaclk/e21-2yp-Neuromorphic-Web-Site",
+      "url": "https://cepdnaclk.github.io/e21-2yp-Neuromorphic-Web-Site"
+   },
+   {
+      "name": "e20-4yp-Predictive-Link-Stablitiy-and-Trust-Aware-Routing-in-FANETs",
+      "repo": "https://github.com/cepdnaclk/e20-4yp-Predictive-Link-Stablitiy-and-Trust-Aware-Routing-in-FANETs",
+      "url": "https://cepdnaclk.github.io/e20-4yp-Predictive-Link-Stablitiy-and-Trust-Aware-Routing-in-FANETs"
+   },
+   {
+      "name": "e20-4yp-Federated-Privacy-Aware-Network-Anomaly-Detection",
+      "repo": "https://github.com/cepdnaclk/e20-4yp-Federated-Privacy-Aware-Network-Anomaly-Detection",
+      "url": "https://cepdnaclk.github.io/e20-4yp-Federated-Privacy-Aware-Network-Anomaly-Detection"
    }
 ]
