@@ -2580,14 +2580,14 @@
       "url": "https://cepdnaclk.github.io/Pulse_Oxymetry_and_Sleep_Apnoea"
    },
    {
-      "name": "e20-4yp-XAI-Driven-Threat-Intelligence-for-WiFi-7-6G-Using-FL-and-Blockchain-Based-Trust-Sharing",
-      "repo": "https://github.com/cepdnaclk/e20-4yp-XAI-Driven-Threat-Intelligence-for-WiFi-7-6G-Using-FL-and-Blockchain-Based-Trust-Sharing",
-      "url": "https://cepdnaclk.github.io/e20-4yp-XAI-Driven-Threat-Intelligence-for-WiFi-7-6G-Using-FL-and-Blockchain-Based-Trust-Sharing"
+      "name": "e20-4yp-Optimizing-Communication-Efficiency-and-Latency-in-Blockchain-Enabled-FL-Systems",
+      "repo": "https://github.com/cepdnaclk/e20-4yp-Optimizing-Communication-Efficiency-and-Latency-in-Blockchain-Enabled-FL-Systems",
+      "url": "https://cepdnaclk.github.io/e20-4yp-Optimizing-Communication-Efficiency-and-Latency-in-Blockchain-Enabled-FL-Systems"
    },
    {
-      "name": "e21-CO227-Neuromorphic-Web-Site",
-      "repo": "https://github.com/cepdnaclk/e21-CO227-Neuromorphic-Web-Site",
-      "url": "https://cepdnaclk.github.io/e21-CO227-Neuromorphic-Web-Site"
+      "name": "e21-Neuromorphic-Web-Site",
+      "repo": "https://github.com/cepdnaclk/e21-Neuromorphic-Web-Site",
+      "url": "https://cepdnaclk.github.io/e21-Neuromorphic-Web-Site"
    },
    {
       "name": "e20-4yp-Predictive-Link-Stablitiy-and-Trust-Aware-Routing-in-FANETs",
@@ -2600,8 +2600,13 @@
       "url": "https://cepdnaclk.github.io/e20-4yp-Federated-Privacy-Aware-Network-Anomaly-Detection"
    },
    {
-      "name": "e21-2yp-PeraMorphiq",
-      "repo": "https://github.com/cepdnaclk/e21-2yp-PeraMorphiq",
-      "url": "https://cepdnaclk.github.io/e21-2yp-PeraMorphiq"
+      "name": "e21-CO227-PeraMorphiq",
+      "repo": "https://github.com/cepdnaclk/e21-CO227-PeraMorphiq",
+      "url": "https://cepdnaclk.github.io/e21-CO227-PeraMorphiq"
+   },
+   {
+      "name": "e21-co227-QR-AI-Entry-Exit-Tracking-System",
+      "repo": "https://github.com/cepdnaclk/e21-co227-QR-AI-Entry-Exit-Tracking-System",
+      "url": "https://cepdnaclk.github.io/e21-co227-QR-AI-Entry-Exit-Tracking-System"
    }
 ]
