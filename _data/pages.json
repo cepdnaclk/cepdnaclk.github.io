@@ -2608,5 +2608,25 @@
       "name": "e21-co227-QR-AI-Entry-Exit-Tracking-System",
       "repo": "https://github.com/cepdnaclk/e21-co227-QR-AI-Entry-Exit-Tracking-System",
       "url": "https://cepdnaclk.github.io/e21-co227-QR-AI-Entry-Exit-Tracking-System"
+   },
+   {
+      "name": "e21-co227-Event-Management-System",
+      "repo": "https://github.com/cepdnaclk/e21-co227-Event-Management-System",
+      "url": "https://cepdnaclk.github.io/e21-co227-Event-Management-System"
+   },
+   {
+      "name": "e21-co227-RFID-Hardware-and-Tag-Lifecycle",
+      "repo": "https://github.com/cepdnaclk/e21-co227-RFID-Hardware-and-Tag-Lifecycle",
+      "url": "https://cepdnaclk.github.io/e21-co227-RFID-Hardware-and-Tag-Lifecycle"
+   },
+   {
+      "name": "CO224-Web",
+      "repo": "https://github.com/cepdnaclk/CO224-Web",
+      "url": "https://cepdnaclk.github.io/CO224-Web"
+   },
+   {
+      "name": "e21-co227-PeraVerse-Event-Details-Page",
+      "repo": "https://github.com/cepdnaclk/e21-co227-PeraVerse-Event-Details-Page",
+      "url": "https://cepdnaclk.github.io/e21-co227-PeraVerse-Event-Details-Page"
    }
 ]
