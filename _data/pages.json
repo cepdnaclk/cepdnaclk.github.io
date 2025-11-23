@@ -2590,6 +2590,11 @@
       "url": "https://cepdnaclk.github.io/e21-Neuromorphic-Web-Site"
    },
    {
+      "name": "e21-co227-Online-doctor-appointment-website-2yp",
+      "repo": "https://github.com/cepdnaclk/e21-co227-Online-doctor-appointment-website-2yp",
+      "url": "https://cepdnaclk.github.io/e21-co227-Online-doctor-appointment-website-2yp"
+   },
+   {
       "name": "e20-4yp-Predictive-Link-Stablitiy-and-Trust-Aware-Routing-in-FANETs",
       "repo": "https://github.com/cepdnaclk/e20-4yp-Predictive-Link-Stablitiy-and-Trust-Aware-Routing-in-FANETs",
       "url": "https://cepdnaclk.github.io/e20-4yp-Predictive-Link-Stablitiy-and-Trust-Aware-Routing-in-FANETs"
@@ -2620,13 +2625,98 @@
       "url": "https://cepdnaclk.github.io/e21-co227-RFID-Hardware-and-Tag-Lifecycle"
    },
    {
-      "name": "CO224-Web",
-      "repo": "https://github.com/cepdnaclk/CO224-Web",
-      "url": "https://cepdnaclk.github.io/CO224-Web"
+      "name": "Computer-Architecture-Web",
+      "repo": "https://github.com/cepdnaclk/Computer-Architecture-Web",
+      "url": "https://cepdnaclk.github.io/Computer-Architecture-Web"
    },
    {
       "name": "e21-co227-PeraVerse-Event-Details-Page",
       "repo": "https://github.com/cepdnaclk/e21-co227-PeraVerse-Event-Details-Page",
       "url": "https://cepdnaclk.github.io/e21-co227-PeraVerse-Event-Details-Page"
+   },
+   {
+      "name": "e21-co227-PeraVerse-Organizer-Dashboard-Core-Backend",
+      "repo": "https://github.com/cepdnaclk/e21-co227-PeraVerse-Organizer-Dashboard-Core-Backend",
+      "url": "https://cepdnaclk.github.io/e21-co227-PeraVerse-Organizer-Dashboard-Core-Backend"
+   },
+   {
+      "name": "e21-co227-Peraverse",
+      "repo": "https://github.com/cepdnaclk/e21-co227-Peraverse",
+      "url": "https://cepdnaclk.github.io/e21-co227-Peraverse"
+   },
+   {
+      "name": "e21-CO227-Peraverse-integration",
+      "repo": "https://github.com/cepdnaclk/e21-CO227-Peraverse-integration",
+      "url": "https://cepdnaclk.github.io/e21-CO227-Peraverse-integration"
+   },
+   {
+      "name": "e21-co227-Smart-Crowd-Monitoring-System-Using-Yolo-And-Deepsort",
+      "repo": "https://github.com/cepdnaclk/e21-co227-Smart-Crowd-Monitoring-System-Using-Yolo-And-Deepsort",
+      "url": "https://cepdnaclk.github.io/e21-co227-Smart-Crowd-Monitoring-System-Using-Yolo-And-Deepsort"
+   },
+   {
+      "name": "Organizer-Dasahboard-Analytics-",
+      "repo": "https://github.com/cepdnaclk/Organizer-Dasahboard-Analytics-",
+      "url": "https://cepdnaclk.github.io/Organizer-Dasahboard-Analytics-"
+   },
+   {
+      "name": "e21-co227-Crowd-Balance-Mobile-App",
+      "repo": "https://github.com/cepdnaclk/e21-co227-Crowd-Balance-Mobile-App",
+      "url": "https://cepdnaclk.github.io/e21-co227-Crowd-Balance-Mobile-App"
+   },
+   {
+      "name": "e21-co227-EventStack-Event-Management-System",
+      "repo": "https://github.com/cepdnaclk/e21-co227-EventStack-Event-Management-System",
+      "url": "https://cepdnaclk.github.io/e21-co227-EventStack-Event-Management-System"
+   },
+   {
+      "name": "e21-co227-PeraVerse-Organizer-Dashboard-Core-Frontend",
+      "repo": "https://github.com/cepdnaclk/e21-co227-PeraVerse-Organizer-Dashboard-Core-Frontend",
+      "url": "https://cepdnaclk.github.io/e21-co227-PeraVerse-Organizer-Dashboard-Core-Frontend"
+   },
+   {
+      "name": "e21-co227-PeraVerse-Event-List-Page",
+      "repo": "https://github.com/cepdnaclk/e21-co227-PeraVerse-Event-List-Page",
+      "url": "https://cepdnaclk.github.io/e21-co227-PeraVerse-Event-List-Page"
+   },
+   {
+      "name": "e21-co227-ExpoEvent-Task1-C-Bookmark-and-Notification-System",
+      "repo": "https://github.com/cepdnaclk/e21-co227-ExpoEvent-Task1-C-Bookmark-and-Notification-System",
+      "url": "https://cepdnaclk.github.io/e21-co227-ExpoEvent-Task1-C-Bookmark-and-Notification-System"
+   },
+   {
+      "name": "e21-co227-PeraVerse-Kiosk-System",
+      "repo": "https://github.com/cepdnaclk/e21-co227-PeraVerse-Kiosk-System",
+      "url": "https://cepdnaclk.github.io/e21-co227-PeraVerse-Kiosk-System"
+   },
+   {
+      "name": "e21-co227-PeraVerse-Heatmap-Predictive-Analysis",
+      "repo": "https://github.com/cepdnaclk/e21-co227-PeraVerse-Heatmap-Predictive-Analysis",
+      "url": "https://cepdnaclk.github.io/e21-co227-PeraVerse-Heatmap-Predictive-Analysis"
+   },
+   {
+      "name": "e21-co227-SmartCityHeatMapGroup22",
+      "repo": "https://github.com/cepdnaclk/e21-co227-SmartCityHeatMapGroup22",
+      "url": "https://cepdnaclk.github.io/e21-co227-SmartCityHeatMapGroup22"
+   },
+   {
+      "name": "e21-co227-Interactive-Exhibition-Map-Peraverse",
+      "repo": "https://github.com/cepdnaclk/e21-co227-Interactive-Exhibition-Map-Peraverse",
+      "url": "https://cepdnaclk.github.io/e21-co227-Interactive-Exhibition-Map-Peraverse"
+   },
+   {
+      "name": "e21-co227-Registration-Portal",
+      "repo": "https://github.com/cepdnaclk/e21-co227-Registration-Portal",
+      "url": "https://cepdnaclk.github.io/e21-co227-Registration-Portal"
+   },
+   {
+      "name": "e21-co227-PeraVerse-Organizer-Dashboard-Analytics-Backend",
+      "repo": "https://github.com/cepdnaclk/e21-co227-PeraVerse-Organizer-Dashboard-Analytics-Backend",
+      "url": "https://cepdnaclk.github.io/e21-co227-PeraVerse-Organizer-Dashboard-Analytics-Backend"
+   },
+   {
+      "name": "e21-co227-Heat_map",
+      "repo": "https://github.com/cepdnaclk/e21-co227-Heat_map",
+      "url": "https://cepdnaclk.github.io/e21-co227-Heat_map"
    }
 ]
