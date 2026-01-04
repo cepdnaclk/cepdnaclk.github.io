@@ -1885,11 +1885,6 @@
       "url": "https://cepdnaclk.github.io/e18-4yp-Neuromorphic-NoC-Architecture-for-SNNs"
    },
    {
-      "name": "portal.ce.pdn.ac.lk",
-      "repo": "https://github.com/cepdnaclk/portal.ce.pdn.ac.lk",
-      "url": "https://cepdnaclk.github.io/portal.ce.pdn.ac.lk"
-   },
-   {
       "name": "EF528_ShortFilm",
       "repo": "https://github.com/cepdnaclk/EF528_ShortFilm",
       "url": "https://cepdnaclk.github.io/EF528_ShortFilm"
@@ -2738,5 +2733,15 @@
       "name": "e20-4yp-symbolic-music-generation-with-xLSTM",
       "repo": "https://github.com/cepdnaclk/e20-4yp-symbolic-music-generation-with-xLSTM",
       "url": "https://cepdnaclk.github.io/e20-4yp-symbolic-music-generation-with-xLSTM"
+   },
+   {
+      "name": "e20-4yp-Federated-Agentic-Defense-For-Zero-Day-Attacks",
+      "repo": "https://github.com/cepdnaclk/e20-4yp-Federated-Agentic-Defense-For-Zero-Day-Attacks",
+      "url": "https://cepdnaclk.github.io/e20-4yp-Federated-Agentic-Defense-For-Zero-Day-Attacks"
+   },
+   {
+      "name": "e20-4yp-voice-enabled-llm-agentic-construction-scheduler",
+      "repo": "https://github.com/cepdnaclk/e20-4yp-voice-enabled-llm-agentic-construction-scheduler",
+      "url": "https://cepdnaclk.github.io/e20-4yp-voice-enabled-llm-agentic-construction-scheduler"
    }
 ]
