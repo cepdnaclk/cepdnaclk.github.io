@@ -2743,5 +2743,15 @@
       "name": "e20-4yp-voice-enabled-llm-agentic-construction-scheduler",
       "repo": "https://github.com/cepdnaclk/e20-4yp-voice-enabled-llm-agentic-construction-scheduler",
       "url": "https://cepdnaclk.github.io/e20-4yp-voice-enabled-llm-agentic-construction-scheduler"
+   },
+   {
+      "name": "e21-3yp-Smart-IV",
+      "repo": "https://github.com/cepdnaclk/e21-3yp-Smart-IV",
+      "url": "https://cepdnaclk.github.io/e21-3yp-Smart-IV"
+   },
+   {
+      "name": "soc-design",
+      "repo": "https://github.com/cepdnaclk/soc-design",
+      "url": "https://cepdnaclk.github.io/soc-design"
    }
 ]
