@@ -2585,11 +2585,6 @@
       "url": "https://cepdnaclk.github.io/e20-4yp-Optimizing-Communication-Efficiency-and-Latency-in-Blockchain-Enabled-FL-Systems"
    },
    {
-      "name": "e21-Neuromorphic-Web-Site",
-      "repo": "https://github.com/cepdnaclk/e21-Neuromorphic-Web-Site",
-      "url": "https://cepdnaclk.github.io/e21-Neuromorphic-Web-Site"
-   },
-   {
       "name": "e21-co227-Online-doctor-appointment-website-2yp",
       "repo": "https://github.com/cepdnaclk/e21-co227-Online-doctor-appointment-website-2yp",
       "url": "https://cepdnaclk.github.io/e21-co227-Online-doctor-appointment-website-2yp"
@@ -2725,9 +2720,9 @@
       "url": "https://cepdnaclk.github.io/e20-co542-Handwritten-Mathematical-Equation-Recognition-Using-CNN"
    },
    {
-      "name": "e20-4fyp-Explainable-AI-Driven-Zero-Trust-Anomaly-Detection-for-Encrypted-Traffic",
-      "repo": "https://github.com/cepdnaclk/e20-4fyp-Explainable-AI-Driven-Zero-Trust-Anomaly-Detection-for-Encrypted-Traffic",
-      "url": "https://cepdnaclk.github.io/e20-4fyp-Explainable-AI-Driven-Zero-Trust-Anomaly-Detection-for-Encrypted-Traffic"
+      "name": "e20-4yp-Explainable-AI-Driven-Zero-Trust-Anomaly-Detection-for-Encrypted-Traffic",
+      "repo": "https://github.com/cepdnaclk/e20-4yp-Explainable-AI-Driven-Zero-Trust-Anomaly-Detection-for-Encrypted-Traffic",
+      "url": "https://cepdnaclk.github.io/e20-4yp-Explainable-AI-Driven-Zero-Trust-Anomaly-Detection-for-Encrypted-Traffic"
    },
    {
       "name": "e20-4yp-symbolic-music-generation-with-xLSTM",
@@ -2753,5 +2748,25 @@
       "name": "soc-design",
       "repo": "https://github.com/cepdnaclk/soc-design",
       "url": "https://cepdnaclk.github.io/soc-design"
+   },
+   {
+      "name": "e20-4yp-A-Hierarchical-Hybrid-Framework-for-Intrusion-Detection-in-Network-and-Application-Layers",
+      "repo": "https://github.com/cepdnaclk/e20-4yp-A-Hierarchical-Hybrid-Framework-for-Intrusion-Detection-in-Network-and-Application-Layers",
+      "url": "https://cepdnaclk.github.io/e20-4yp-A-Hierarchical-Hybrid-Framework-for-Intrusion-Detection-in-Network-and-Application-Layers"
+   },
+   {
+      "name": "e20-4yp-AI-Enabled-Digital-Twin-for-Crack-Evolution-in-Concrete-Beams-",
+      "repo": "https://github.com/cepdnaclk/e20-4yp-AI-Enabled-Digital-Twin-for-Crack-Evolution-in-Concrete-Beams-",
+      "url": "https://cepdnaclk.github.io/e20-4yp-AI-Enabled-Digital-Twin-for-Crack-Evolution-in-Concrete-Beams-"
+   },
+   {
+      "name": "e20-4yp-SinhSafe",
+      "repo": "https://github.com/cepdnaclk/e20-4yp-SinhSafe",
+      "url": "https://cepdnaclk.github.io/e20-4yp-SinhSafe"
+   },
+   {
+      "name": "bme.escal.ce.pdn.ac.lk",
+      "repo": "https://github.com/cepdnaclk/bme.escal.ce.pdn.ac.lk",
+      "url": "https://cepdnaclk.github.io/bme.escal.ce.pdn.ac.lk"
    }
 ]
