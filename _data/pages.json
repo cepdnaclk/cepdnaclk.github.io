@@ -650,9 +650,9 @@
       "url": "https://cepdnaclk.github.io/fieldselection"
    },
    {
-      "name": "escal.ce.pdn.ac.lk",
-      "repo": "https://github.com/cepdnaclk/escal.ce.pdn.ac.lk",
-      "url": "https://cepdnaclk.github.io/escal.ce.pdn.ac.lk"
+      "name": "escal.ce.pdn.ac.lk-2024",
+      "repo": "https://github.com/cepdnaclk/escal.ce.pdn.ac.lk-2024",
+      "url": "https://cepdnaclk.github.io/escal.ce.pdn.ac.lk-2024"
    },
    {
       "name": "e16-co328-Student-Management-System",
@@ -680,9 +680,9 @@
       "url": "https://cepdnaclk.github.io/e16-co328-Project-Publication-Platform"
    },
    {
-      "name": "escal-new",
-      "repo": "https://github.com/cepdnaclk/escal-new",
-      "url": "https://cepdnaclk.github.io/escal-new"
+      "name": "escal.ce.pdn.ac.lk",
+      "repo": "https://github.com/cepdnaclk/escal.ce.pdn.ac.lk",
+      "url": "https://cepdnaclk.github.io/escal.ce.pdn.ac.lk"
    },
    {
       "name": "people.ce.pdn.ac.lk",
@@ -2715,6 +2715,11 @@
       "url": "https://cepdnaclk.github.io/e21-co227-Heat_map"
    },
    {
+      "name": "e20-4yp-metagenomics",
+      "repo": "https://github.com/cepdnaclk/e20-4yp-metagenomics",
+      "url": "https://cepdnaclk.github.io/e20-4yp-metagenomics"
+   },
+   {
       "name": "e20-co542-Handwritten-Mathematical-Equation-Recognition-Using-CNN",
       "repo": "https://github.com/cepdnaclk/e20-co542-Handwritten-Mathematical-Equation-Recognition-Using-CNN",
       "url": "https://cepdnaclk.github.io/e20-co542-Handwritten-Mathematical-Equation-Recognition-Using-CNN"
@@ -2768,5 +2773,25 @@
       "name": "bme.escal.ce.pdn.ac.lk",
       "repo": "https://github.com/cepdnaclk/bme.escal.ce.pdn.ac.lk",
       "url": "https://cepdnaclk.github.io/bme.escal.ce.pdn.ac.lk"
+   },
+   {
+      "name": "e20-4yp-Synthetic-Cardiac-MRI-Image-Generation-using-Deep-Generative-Models",
+      "repo": "https://github.com/cepdnaclk/e20-4yp-Synthetic-Cardiac-MRI-Image-Generation-using-Deep-Generative-Models",
+      "url": "https://cepdnaclk.github.io/e20-4yp-Synthetic-Cardiac-MRI-Image-Generation-using-Deep-Generative-Models"
+   },
+   {
+      "name": "e20-4yp-context-aware-ai-sybil-mitigation-wban-iomt",
+      "repo": "https://github.com/cepdnaclk/e20-4yp-context-aware-ai-sybil-mitigation-wban-iomt",
+      "url": "https://cepdnaclk.github.io/e20-4yp-context-aware-ai-sybil-mitigation-wban-iomt"
+   },
+   {
+      "name": "e21-3yp-manikin-auscultation",
+      "repo": "https://github.com/cepdnaclk/e21-3yp-manikin-auscultation",
+      "url": "https://cepdnaclk.github.io/e21-3yp-manikin-auscultation"
+   },
+   {
+      "name": "e21-3yp-Smart-Laser-Distance-Meter",
+      "repo": "https://github.com/cepdnaclk/e21-3yp-Smart-Laser-Distance-Meter",
+      "url": "https://cepdnaclk.github.io/e21-3yp-Smart-Laser-Distance-Meter"
    }
 ]
