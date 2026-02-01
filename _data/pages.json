@@ -1885,6 +1885,11 @@
       "url": "https://cepdnaclk.github.io/e18-4yp-Neuromorphic-NoC-Architecture-for-SNNs"
    },
    {
+      "name": "portal.ce.pdn.ac.lk",
+      "repo": "https://github.com/cepdnaclk/portal.ce.pdn.ac.lk",
+      "url": "https://cepdnaclk.github.io/portal.ce.pdn.ac.lk"
+   },
+   {
       "name": "EF528_ShortFilm",
       "repo": "https://github.com/cepdnaclk/EF528_ShortFilm",
       "url": "https://cepdnaclk.github.io/EF528_ShortFilm"
@@ -2460,11 +2465,6 @@
       "url": "https://cepdnaclk.github.io/e19-4yp-Out-of-domain-generalization-in-Computer-Vision"
    },
    {
-      "name": "e19-4yp-NLP-Driven-IBN-Layered-Architecture-for-SDNs",
-      "repo": "https://github.com/cepdnaclk/e19-4yp-NLP-Driven-IBN-Layered-Architecture-for-SDNs",
-      "url": "https://cepdnaclk.github.io/e19-4yp-NLP-Driven-IBN-Layered-Architecture-for-SDNs"
-   },
-   {
       "name": "e19-4yp-Voluntary-Computing-Operating-System",
       "repo": "https://github.com/cepdnaclk/e19-4yp-Voluntary-Computing-Operating-System",
       "url": "https://cepdnaclk.github.io/e19-4yp-Voluntary-Computing-Operating-System"
@@ -2598,6 +2598,11 @@
       "name": "e20-4yp-backdoor-resilient-federated-nids",
       "repo": "https://github.com/cepdnaclk/e20-4yp-backdoor-resilient-federated-nids",
       "url": "https://cepdnaclk.github.io/e20-4yp-backdoor-resilient-federated-nids"
+   },
+   {
+      "name": "e20-4yp-wifi-7-backoff-security-testing-and-threat-prediction",
+      "repo": "https://github.com/cepdnaclk/e20-4yp-wifi-7-backoff-security-testing-and-threat-prediction",
+      "url": "https://cepdnaclk.github.io/e20-4yp-wifi-7-backoff-security-testing-and-threat-prediction"
    },
    {
       "name": "e21-CO227-PeraMorphiq",
@@ -2780,9 +2785,9 @@
       "url": "https://cepdnaclk.github.io/e20-4yp-Synthetic-Cardiac-MRI-Image-Generation-using-Deep-Generative-Models"
    },
    {
-      "name": "e20-4yp-context-aware-ai-sybil-mitigation-wban-iomt",
-      "repo": "https://github.com/cepdnaclk/e20-4yp-context-aware-ai-sybil-mitigation-wban-iomt",
-      "url": "https://cepdnaclk.github.io/e20-4yp-context-aware-ai-sybil-mitigation-wban-iomt"
+      "name": "e20-4yp-Context-Aware-Ai-Sybil-Mitigation-WBAN-IOMT",
+      "repo": "https://github.com/cepdnaclk/e20-4yp-Context-Aware-Ai-Sybil-Mitigation-WBAN-IOMT",
+      "url": "https://cepdnaclk.github.io/e20-4yp-Context-Aware-Ai-Sybil-Mitigation-WBAN-IOMT"
    },
    {
       "name": "e21-3yp-manikin-auscultation",
@@ -2793,5 +2798,25 @@
       "name": "e21-3yp-Smart-Laser-Distance-Meter",
       "repo": "https://github.com/cepdnaclk/e21-3yp-Smart-Laser-Distance-Meter",
       "url": "https://cepdnaclk.github.io/e21-3yp-Smart-Laser-Distance-Meter"
+   },
+   {
+      "name": "e21-3yp-RAID",
+      "repo": "https://github.com/cepdnaclk/e21-3yp-RAID",
+      "url": "https://cepdnaclk.github.io/e21-3yp-RAID"
+   },
+   {
+      "name": "e20-4yp-AI-legal-chain-resolver-II",
+      "repo": "https://github.com/cepdnaclk/e20-4yp-AI-legal-chain-resolver-II",
+      "url": "https://cepdnaclk.github.io/e20-4yp-AI-legal-chain-resolver-II"
+   },
+   {
+      "name": "e21-3yp-RouteLK",
+      "repo": "https://github.com/cepdnaclk/e21-3yp-RouteLK",
+      "url": "https://cepdnaclk.github.io/e21-3yp-RouteLK"
+   },
+   {
+      "name": "e21-3yp-group-16",
+      "repo": "https://github.com/cepdnaclk/e21-3yp-group-16",
+      "url": "https://cepdnaclk.github.io/e21-3yp-group-16"
    }
 ]

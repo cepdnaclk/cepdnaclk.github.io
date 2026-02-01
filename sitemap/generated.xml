@@ -1133,6 +1133,9 @@
 		<loc>https://cepdnaclk.github.io/e18-4yp-Neuromorphic-NoC-Architecture-for-SNNs</loc>
 	</url>
 	<url>
+		<loc>https://cepdnaclk.github.io/portal.ce.pdn.ac.lk</loc>
+	</url>
+	<url>
 		<loc>https://cepdnaclk.github.io/EF528_ShortFilm</loc>
 	</url>
 	<url>
@@ -1478,9 +1481,6 @@
 		<loc>https://cepdnaclk.github.io/e19-4yp-Out-of-domain-generalization-in-Computer-Vision</loc>
 	</url>
 	<url>
-		<loc>https://cepdnaclk.github.io/e19-4yp-NLP-Driven-IBN-Layered-Architecture-for-SDNs</loc>
-	</url>
-	<url>
 		<loc>https://cepdnaclk.github.io/e19-4yp-Voluntary-Computing-Operating-System</loc>
 	</url>
 	<url>
@@ -1560,6 +1560,9 @@
 	</url>
 	<url>
 		<loc>https://cepdnaclk.github.io/e20-4yp-backdoor-resilient-federated-nids</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e20-4yp-wifi-7-backoff-security-testing-and-threat-prediction</loc>
 	</url>
 	<url>
 		<loc>https://cepdnaclk.github.io/e21-CO227-PeraMorphiq</loc>
@@ -1670,12 +1673,24 @@
 		<loc>https://cepdnaclk.github.io/e20-4yp-Synthetic-Cardiac-MRI-Image-Generation-using-Deep-Generative-Models</loc>
 	</url>
 	<url>
-		<loc>https://cepdnaclk.github.io/e20-4yp-context-aware-ai-sybil-mitigation-wban-iomt</loc>
+		<loc>https://cepdnaclk.github.io/e20-4yp-Context-Aware-Ai-Sybil-Mitigation-WBAN-IOMT</loc>
 	</url>
 	<url>
 		<loc>https://cepdnaclk.github.io/e21-3yp-manikin-auscultation</loc>
 	</url>
 	<url>
 		<loc>https://cepdnaclk.github.io/e21-3yp-Smart-Laser-Distance-Meter</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e21-3yp-RAID</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e20-4yp-AI-legal-chain-resolver-II</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e21-3yp-RouteLK</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e21-3yp-group-16</loc>
 	</url>
 </urlset>
