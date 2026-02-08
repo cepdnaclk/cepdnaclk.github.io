@@ -2460,11 +2460,6 @@
       "url": "https://cepdnaclk.github.io/e19-4yp-AI-Powered-Knowledge-Management-System"
    },
    {
-      "name": "e19-4yp-Out-of-domain-generalization-in-Computer-Vision",
-      "repo": "https://github.com/cepdnaclk/e19-4yp-Out-of-domain-generalization-in-Computer-Vision",
-      "url": "https://cepdnaclk.github.io/e19-4yp-Out-of-domain-generalization-in-Computer-Vision"
-   },
-   {
       "name": "e19-4yp-Voluntary-Computing-Operating-System",
       "repo": "https://github.com/cepdnaclk/e19-4yp-Voluntary-Computing-Operating-System",
       "url": "https://cepdnaclk.github.io/e19-4yp-Voluntary-Computing-Operating-System"
@@ -2750,6 +2745,11 @@
       "url": "https://cepdnaclk.github.io/e20-4yp-voice-enabled-llm-agentic-construction-scheduler"
    },
    {
+      "name": "e20-4yp-Reducing-context-switching-latency-in-RTES",
+      "repo": "https://github.com/cepdnaclk/e20-4yp-Reducing-context-switching-latency-in-RTES",
+      "url": "https://cepdnaclk.github.io/e20-4yp-Reducing-context-switching-latency-in-RTES"
+   },
+   {
       "name": "e21-3yp-Smart-IV",
       "repo": "https://github.com/cepdnaclk/e21-3yp-Smart-IV",
       "url": "https://cepdnaclk.github.io/e21-3yp-Smart-IV"
@@ -2790,9 +2790,14 @@
       "url": "https://cepdnaclk.github.io/e20-4yp-Context-Aware-Ai-Sybil-Mitigation-WBAN-IOMT"
    },
    {
-      "name": "e21-3yp-manikin-auscultation",
-      "repo": "https://github.com/cepdnaclk/e21-3yp-manikin-auscultation",
-      "url": "https://cepdnaclk.github.io/e21-3yp-manikin-auscultation"
+      "name": "e21-3yp-ResQ",
+      "repo": "https://github.com/cepdnaclk/e21-3yp-ResQ",
+      "url": "https://cepdnaclk.github.io/e21-3yp-ResQ"
+   },
+   {
+      "name": "e21-3yp-smart-traffic-control-system",
+      "repo": "https://github.com/cepdnaclk/e21-3yp-smart-traffic-control-system",
+      "url": "https://cepdnaclk.github.io/e21-3yp-smart-traffic-control-system"
    },
    {
       "name": "e21-3yp-Smart-Laser-Distance-Meter",
@@ -2818,5 +2823,255 @@
       "name": "e21-3yp-group-16",
       "repo": "https://github.com/cepdnaclk/e21-3yp-group-16",
       "url": "https://cepdnaclk.github.io/e21-3yp-group-16"
+   },
+   {
+      "name": "servermonitoring",
+      "repo": "https://github.com/cepdnaclk/servermonitoring",
+      "url": "https://cepdnaclk.github.io/servermonitoring"
+   },
+   {
+      "name": "e23-co2060-Computer-vision-and-AI-lab-system",
+      "repo": "https://github.com/cepdnaclk/e23-co2060-Computer-vision-and-AI-lab-system",
+      "url": "https://cepdnaclk.github.io/e23-co2060-Computer-vision-and-AI-lab-system"
+   },
+   {
+      "name": "e21-3yp-SlideSense",
+      "repo": "https://github.com/cepdnaclk/e21-3yp-SlideSense",
+      "url": "https://cepdnaclk.github.io/e21-3yp-SlideSense"
+   },
+   {
+      "name": "e23-co2060-MPhil-PhD-Lifecycle-Management-System",
+      "repo": "https://github.com/cepdnaclk/e23-co2060-MPhil-PhD-Lifecycle-Management-System",
+      "url": "https://cepdnaclk.github.io/e23-co2060-MPhil-PhD-Lifecycle-Management-System"
+   },
+   {
+      "name": "e22-co2060-MediTriage",
+      "repo": "https://github.com/cepdnaclk/e22-co2060-MediTriage",
+      "url": "https://cepdnaclk.github.io/e22-co2060-MediTriage"
+   },
+   {
+      "name": "e22-co2060-NagroMS",
+      "repo": "https://github.com/cepdnaclk/e22-co2060-NagroMS",
+      "url": "https://cepdnaclk.github.io/e22-co2060-NagroMS"
+   },
+   {
+      "name": "e22-co2060-MyStay-Boarding-Platform",
+      "repo": "https://github.com/cepdnaclk/e22-co2060-MyStay-Boarding-Platform",
+      "url": "https://cepdnaclk.github.io/e22-co2060-MyStay-Boarding-Platform"
+   },
+   {
+      "name": "e23-2yp-ChronoCampus",
+      "repo": "https://github.com/cepdnaclk/e23-2yp-ChronoCampus",
+      "url": "https://cepdnaclk.github.io/e23-2yp-ChronoCampus"
+   },
+   {
+      "name": "e22-co2060-Web_Based_PAR_Index_System",
+      "repo": "https://github.com/cepdnaclk/e22-co2060-Web_Based_PAR_Index_System",
+      "url": "https://cepdnaclk.github.io/e22-co2060-Web_Based_PAR_Index_System"
+   },
+   {
+      "name": "e22-co2060-PearlPath",
+      "repo": "https://github.com/cepdnaclk/e22-co2060-PearlPath",
+      "url": "https://cepdnaclk.github.io/e22-co2060-PearlPath"
+   },
+   {
+      "name": "e23-co2060-TransitPro",
+      "repo": "https://github.com/cepdnaclk/e23-co2060-TransitPro",
+      "url": "https://cepdnaclk.github.io/e23-co2060-TransitPro"
+   },
+   {
+      "name": "e23-co2060-FindIT",
+      "repo": "https://github.com/cepdnaclk/e23-co2060-FindIT",
+      "url": "https://cepdnaclk.github.io/e23-co2060-FindIT"
+   },
+   {
+      "name": "e23-co2060-Alumnet",
+      "repo": "https://github.com/cepdnaclk/e23-co2060-Alumnet",
+      "url": "https://cepdnaclk.github.io/e23-co2060-Alumnet"
+   },
+   {
+      "name": "e22-co2060-OrthoPAR-Web-Platform",
+      "repo": "https://github.com/cepdnaclk/e22-co2060-OrthoPAR-Web-Platform",
+      "url": "https://cepdnaclk.github.io/e22-co2060-OrthoPAR-Web-Platform"
+   },
+   {
+      "name": "e22-co2060-gympappa-spooty-app",
+      "repo": "https://github.com/cepdnaclk/e22-co2060-gympappa-spooty-app",
+      "url": "https://cepdnaclk.github.io/e22-co2060-gympappa-spooty-app"
+   },
+   {
+      "name": "e21-3yp-RoadEye",
+      "repo": "https://github.com/cepdnaclk/e21-3yp-RoadEye",
+      "url": "https://cepdnaclk.github.io/e21-3yp-RoadEye"
+   },
+   {
+      "name": "e22-co2060-Crop-Yield-Optimization-and-Intelligent-Plant-Disease-Analysis",
+      "repo": "https://github.com/cepdnaclk/e22-co2060-Crop-Yield-Optimization-and-Intelligent-Plant-Disease-Analysis",
+      "url": "https://cepdnaclk.github.io/e22-co2060-Crop-Yield-Optimization-and-Intelligent-Plant-Disease-Analysis"
+   },
+   {
+      "name": "e22-co2060-PERA-SAM",
+      "repo": "https://github.com/cepdnaclk/e22-co2060-PERA-SAM",
+      "url": "https://cepdnaclk.github.io/e22-co2060-PERA-SAM"
+   },
+   {
+      "name": "e23-co2060-Kitchen-Foods-Platform",
+      "repo": "https://github.com/cepdnaclk/e23-co2060-Kitchen-Foods-Platform",
+      "url": "https://cepdnaclk.github.io/e23-co2060-Kitchen-Foods-Platform"
+   },
+   {
+      "name": "e23-co2060-Orthodontics-Workflow-Automation-System",
+      "repo": "https://github.com/cepdnaclk/e23-co2060-Orthodontics-Workflow-Automation-System",
+      "url": "https://cepdnaclk.github.io/e23-co2060-Orthodontics-Workflow-Automation-System"
+   },
+   {
+      "name": "e23-co2060-Maathacare",
+      "repo": "https://github.com/cepdnaclk/e23-co2060-Maathacare",
+      "url": "https://cepdnaclk.github.io/e23-co2060-Maathacare"
+   },
+   {
+      "name": "e23-co2060-GiftBox-Customization-Marketplace",
+      "repo": "https://github.com/cepdnaclk/e23-co2060-GiftBox-Customization-Marketplace",
+      "url": "https://cepdnaclk.github.io/e23-co2060-GiftBox-Customization-Marketplace"
+   },
+   {
+      "name": "e21-3yp-LOX",
+      "repo": "https://github.com/cepdnaclk/e21-3yp-LOX",
+      "url": "https://cepdnaclk.github.io/e21-3yp-LOX"
+   },
+   {
+      "name": "e23-co2060-Hotel-Management-System",
+      "repo": "https://github.com/cepdnaclk/e23-co2060-Hotel-Management-System",
+      "url": "https://cepdnaclk.github.io/e23-co2060-Hotel-Management-System"
+   },
+   {
+      "name": "e21-3yp-Drivora",
+      "repo": "https://github.com/cepdnaclk/e21-3yp-Drivora",
+      "url": "https://cepdnaclk.github.io/e21-3yp-Drivora"
+   },
+   {
+      "name": "e22-co2060-Patient-Management-System",
+      "repo": "https://github.com/cepdnaclk/e22-co2060-Patient-Management-System",
+      "url": "https://cepdnaclk.github.io/e22-co2060-Patient-Management-System"
+   },
+   {
+      "name": "e22-co2060-Project-KNOT",
+      "repo": "https://github.com/cepdnaclk/e22-co2060-Project-KNOT",
+      "url": "https://cepdnaclk.github.io/e22-co2060-Project-KNOT"
+   },
+   {
+      "name": "e21-3yp-GloveXcel",
+      "repo": "https://github.com/cepdnaclk/e21-3yp-GloveXcel",
+      "url": "https://cepdnaclk.github.io/e21-3yp-GloveXcel"
+   },
+   {
+      "name": "e23-co2060-stress-detection-and-analyzing-system",
+      "repo": "https://github.com/cepdnaclk/e23-co2060-stress-detection-and-analyzing-system",
+      "url": "https://cepdnaclk.github.io/e23-co2060-stress-detection-and-analyzing-system"
+   },
+   {
+      "name": "e22-co2060-AI-Integrated-Ecommerce-Platform",
+      "repo": "https://github.com/cepdnaclk/e22-co2060-AI-Integrated-Ecommerce-Platform",
+      "url": "https://cepdnaclk.github.io/e22-co2060-AI-Integrated-Ecommerce-Platform"
+   },
+   {
+      "name": "e23-co2060-2YP-SkillShare",
+      "repo": "https://github.com/cepdnaclk/e23-co2060-2YP-SkillShare",
+      "url": "https://cepdnaclk.github.io/e23-co2060-2YP-SkillShare"
+   },
+   {
+      "name": "e21-3yp-Drone-Swarm-",
+      "repo": "https://github.com/cepdnaclk/e21-3yp-Drone-Swarm-",
+      "url": "https://cepdnaclk.github.io/e21-3yp-Drone-Swarm-"
+   },
+   {
+      "name": "e22-co2060-Real-Time-Public-Bus-Tracking-System",
+      "repo": "https://github.com/cepdnaclk/e22-co2060-Real-Time-Public-Bus-Tracking-System",
+      "url": "https://cepdnaclk.github.io/e22-co2060-Real-Time-Public-Bus-Tracking-System"
+   },
+   {
+      "name": "e23-CO2060-Smart_Travel_Companion",
+      "repo": "https://github.com/cepdnaclk/e23-CO2060-Smart_Travel_Companion",
+      "url": "https://cepdnaclk.github.io/e23-CO2060-Smart_Travel_Companion"
+   },
+   {
+      "name": "e23-co2060-Blood-Banking-Management-System",
+      "repo": "https://github.com/cepdnaclk/e23-co2060-Blood-Banking-Management-System",
+      "url": "https://cepdnaclk.github.io/e23-co2060-Blood-Banking-Management-System"
+   },
+   {
+      "name": "e22-co2060-floodguard",
+      "repo": "https://github.com/cepdnaclk/e22-co2060-floodguard",
+      "url": "https://cepdnaclk.github.io/e22-co2060-floodguard"
+   },
+   {
+      "name": "e23-co2060-antigravity",
+      "repo": "https://github.com/cepdnaclk/e23-co2060-antigravity",
+      "url": "https://cepdnaclk.github.io/e23-co2060-antigravity"
+   },
+   {
+      "name": "e22-co2060-School-Van-Management-System",
+      "repo": "https://github.com/cepdnaclk/e22-co2060-School-Van-Management-System",
+      "url": "https://cepdnaclk.github.io/e22-co2060-School-Van-Management-System"
+   },
+   {
+      "name": "e20-4yp-Generative-Digital-Twin-Framework-for-Airport-Surveillance-Networks",
+      "repo": "https://github.com/cepdnaclk/e20-4yp-Generative-Digital-Twin-Framework-for-Airport-Surveillance-Networks",
+      "url": "https://cepdnaclk.github.io/e20-4yp-Generative-Digital-Twin-Framework-for-Airport-Surveillance-Networks"
+   },
+   {
+      "name": "e22-co2060-DMS",
+      "repo": "https://github.com/cepdnaclk/e22-co2060-DMS",
+      "url": "https://cepdnaclk.github.io/e22-co2060-DMS"
+   },
+   {
+      "name": "e22-co2060-hydro-risk-management",
+      "repo": "https://github.com/cepdnaclk/e22-co2060-hydro-risk-management",
+      "url": "https://cepdnaclk.github.io/e22-co2060-hydro-risk-management"
+   },
+   {
+      "name": "e22-co2060-Syncro",
+      "repo": "https://github.com/cepdnaclk/e22-co2060-Syncro",
+      "url": "https://cepdnaclk.github.io/e22-co2060-Syncro"
+   },
+   {
+      "name": "e21-3yp-group-18",
+      "repo": "https://github.com/cepdnaclk/e21-3yp-group-18",
+      "url": "https://cepdnaclk.github.io/e21-3yp-group-18"
+   },
+   {
+      "name": "e21-3yp-MirrorX",
+      "repo": "https://github.com/cepdnaclk/e21-3yp-MirrorX",
+      "url": "https://cepdnaclk.github.io/e21-3yp-MirrorX"
+   },
+   {
+      "name": "e21-3yp-Project-AURA",
+      "repo": "https://github.com/cepdnaclk/e21-3yp-Project-AURA",
+      "url": "https://cepdnaclk.github.io/e21-3yp-Project-AURA"
+   },
+   {
+      "name": "e23-co2060-GoTravel",
+      "repo": "https://github.com/cepdnaclk/e23-co2060-GoTravel",
+      "url": "https://cepdnaclk.github.io/e23-co2060-GoTravel"
+   },
+   {
+      "name": "e23-co2060-Health-Management-System",
+      "repo": "https://github.com/cepdnaclk/e23-co2060-Health-Management-System",
+      "url": "https://cepdnaclk.github.io/e23-co2060-Health-Management-System"
+   },
+   {
+      "name": "e21-3yp-SPECTRA-LEAF",
+      "repo": "https://github.com/cepdnaclk/e21-3yp-SPECTRA-LEAF",
+      "url": "https://cepdnaclk.github.io/e21-3yp-SPECTRA-LEAF"
+   },
+   {
+      "name": "e21-3yp-PathFinder",
+      "repo": "https://github.com/cepdnaclk/e21-3yp-PathFinder",
+      "url": "https://cepdnaclk.github.io/e21-3yp-PathFinder"
+   },
+   {
+      "name": "e21-3yp-spectron",
+      "repo": "https://github.com/cepdnaclk/e21-3yp-spectron",
+      "url": "https://cepdnaclk.github.io/e21-3yp-spectron"
    }
 ]

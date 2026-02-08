@@ -1478,9 +1478,6 @@
 		<loc>https://cepdnaclk.github.io/e19-4yp-AI-Powered-Knowledge-Management-System</loc>
 	</url>
 	<url>
-		<loc>https://cepdnaclk.github.io/e19-4yp-Out-of-domain-generalization-in-Computer-Vision</loc>
-	</url>
-	<url>
 		<loc>https://cepdnaclk.github.io/e19-4yp-Voluntary-Computing-Operating-System</loc>
 	</url>
 	<url>
@@ -1652,6 +1649,9 @@
 		<loc>https://cepdnaclk.github.io/e20-4yp-voice-enabled-llm-agentic-construction-scheduler</loc>
 	</url>
 	<url>
+		<loc>https://cepdnaclk.github.io/e20-4yp-Reducing-context-switching-latency-in-RTES</loc>
+	</url>
+	<url>
 		<loc>https://cepdnaclk.github.io/e21-3yp-Smart-IV</loc>
 	</url>
 	<url>
@@ -1676,7 +1676,10 @@
 		<loc>https://cepdnaclk.github.io/e20-4yp-Context-Aware-Ai-Sybil-Mitigation-WBAN-IOMT</loc>
 	</url>
 	<url>
-		<loc>https://cepdnaclk.github.io/e21-3yp-manikin-auscultation</loc>
+		<loc>https://cepdnaclk.github.io/e21-3yp-ResQ</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e21-3yp-smart-traffic-control-system</loc>
 	</url>
 	<url>
 		<loc>https://cepdnaclk.github.io/e21-3yp-Smart-Laser-Distance-Meter</loc>
@@ -1692,5 +1695,155 @@
 	</url>
 	<url>
 		<loc>https://cepdnaclk.github.io/e21-3yp-group-16</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/servermonitoring</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e23-co2060-Computer-vision-and-AI-lab-system</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e21-3yp-SlideSense</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e23-co2060-MPhil-PhD-Lifecycle-Management-System</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e22-co2060-MediTriage</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e22-co2060-NagroMS</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e22-co2060-MyStay-Boarding-Platform</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e23-2yp-ChronoCampus</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e22-co2060-Web_Based_PAR_Index_System</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e22-co2060-PearlPath</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e23-co2060-TransitPro</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e23-co2060-FindIT</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e23-co2060-Alumnet</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e22-co2060-OrthoPAR-Web-Platform</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e22-co2060-gympappa-spooty-app</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e21-3yp-RoadEye</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e22-co2060-Crop-Yield-Optimization-and-Intelligent-Plant-Disease-Analysis</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e22-co2060-PERA-SAM</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e23-co2060-Kitchen-Foods-Platform</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e23-co2060-Orthodontics-Workflow-Automation-System</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e23-co2060-Maathacare</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e23-co2060-GiftBox-Customization-Marketplace</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e21-3yp-LOX</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e23-co2060-Hotel-Management-System</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e21-3yp-Drivora</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e22-co2060-Patient-Management-System</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e22-co2060-Project-KNOT</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e21-3yp-GloveXcel</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e23-co2060-stress-detection-and-analyzing-system</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e22-co2060-AI-Integrated-Ecommerce-Platform</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e23-co2060-2YP-SkillShare</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e21-3yp-Drone-Swarm-</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e22-co2060-Real-Time-Public-Bus-Tracking-System</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e23-CO2060-Smart_Travel_Companion</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e23-co2060-Blood-Banking-Management-System</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e22-co2060-floodguard</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e23-co2060-antigravity</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e22-co2060-School-Van-Management-System</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e20-4yp-Generative-Digital-Twin-Framework-for-Airport-Surveillance-Networks</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e22-co2060-DMS</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e22-co2060-hydro-risk-management</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e22-co2060-Syncro</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e21-3yp-group-18</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e21-3yp-MirrorX</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e21-3yp-Project-AURA</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e23-co2060-GoTravel</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e23-co2060-Health-Management-System</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e21-3yp-SPECTRA-LEAF</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e21-3yp-PathFinder</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e21-3yp-spectron</loc>
 	</url>
 </urlset>
