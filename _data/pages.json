@@ -2795,9 +2795,9 @@
       "url": "https://cepdnaclk.github.io/e21-3yp-ResQ"
    },
    {
-      "name": "e21-3yp-smart-traffic-control-system",
-      "repo": "https://github.com/cepdnaclk/e21-3yp-smart-traffic-control-system",
-      "url": "https://cepdnaclk.github.io/e21-3yp-smart-traffic-control-system"
+      "name": "e21-3yp-HYDRA",
+      "repo": "https://github.com/cepdnaclk/e21-3yp-HYDRA",
+      "url": "https://cepdnaclk.github.io/e21-3yp-HYDRA"
    },
    {
       "name": "e21-3yp-Smart-Laser-Distance-Meter",
@@ -2820,9 +2820,9 @@
       "url": "https://cepdnaclk.github.io/e21-3yp-RouteLK"
    },
    {
-      "name": "e21-3yp-group-16",
-      "repo": "https://github.com/cepdnaclk/e21-3yp-group-16",
-      "url": "https://cepdnaclk.github.io/e21-3yp-group-16"
+      "name": "e21-3yp-Smart-Metrolac",
+      "repo": "https://github.com/cepdnaclk/e21-3yp-Smart-Metrolac",
+      "url": "https://cepdnaclk.github.io/e21-3yp-Smart-Metrolac"
    },
    {
       "name": "servermonitoring",
@@ -2860,9 +2860,9 @@
       "url": "https://cepdnaclk.github.io/e22-co2060-MyStay-Boarding-Platform"
    },
    {
-      "name": "e23-2yp-ChronoCampus",
-      "repo": "https://github.com/cepdnaclk/e23-2yp-ChronoCampus",
-      "url": "https://cepdnaclk.github.io/e23-2yp-ChronoCampus"
+      "name": "e23-co2060-ChronoCampus",
+      "repo": "https://github.com/cepdnaclk/e23-co2060-ChronoCampus",
+      "url": "https://cepdnaclk.github.io/e23-co2060-ChronoCampus"
    },
    {
       "name": "e22-co2060-Web_Based_PAR_Index_System",
@@ -3040,14 +3040,14 @@
       "url": "https://cepdnaclk.github.io/e21-3yp-group-18"
    },
    {
-      "name": "e21-3yp-MirrorX",
-      "repo": "https://github.com/cepdnaclk/e21-3yp-MirrorX",
-      "url": "https://cepdnaclk.github.io/e21-3yp-MirrorX"
+      "name": "e21-3yp-ReflectStudio",
+      "repo": "https://github.com/cepdnaclk/e21-3yp-ReflectStudio",
+      "url": "https://cepdnaclk.github.io/e21-3yp-ReflectStudio"
    },
    {
-      "name": "e21-3yp-Project-AURA",
-      "repo": "https://github.com/cepdnaclk/e21-3yp-Project-AURA",
-      "url": "https://cepdnaclk.github.io/e21-3yp-Project-AURA"
+      "name": "e21-3yp-AURA",
+      "repo": "https://github.com/cepdnaclk/e21-3yp-AURA",
+      "url": "https://cepdnaclk.github.io/e21-3yp-AURA"
    },
    {
       "name": "e23-co2060-GoTravel",
@@ -3070,8 +3070,28 @@
       "url": "https://cepdnaclk.github.io/e21-3yp-PathFinder"
    },
    {
+      "name": "e21-3yp-Smart-Dog-Collar",
+      "repo": "https://github.com/cepdnaclk/e21-3yp-Smart-Dog-Collar",
+      "url": "https://cepdnaclk.github.io/e21-3yp-Smart-Dog-Collar"
+   },
+   {
       "name": "e21-3yp-spectron",
       "repo": "https://github.com/cepdnaclk/e21-3yp-spectron",
       "url": "https://cepdnaclk.github.io/e21-3yp-spectron"
+   },
+   {
+      "name": "e21-3yp-Mountain-Climber-Health-and-GPS-Tracker",
+      "repo": "https://github.com/cepdnaclk/e21-3yp-Mountain-Climber-Health-and-GPS-Tracker",
+      "url": "https://cepdnaclk.github.io/e21-3yp-Mountain-Climber-Health-and-GPS-Tracker"
+   },
+   {
+      "name": "e21-3yp-dia-smart",
+      "repo": "https://github.com/cepdnaclk/e21-3yp-dia-smart",
+      "url": "https://cepdnaclk.github.io/e21-3yp-dia-smart"
+   },
+   {
+      "name": "e22-co2060-Tour-guide",
+      "repo": "https://github.com/cepdnaclk/e22-co2060-Tour-guide",
+      "url": "https://cepdnaclk.github.io/e22-co2060-Tour-guide"
    }
 ]
