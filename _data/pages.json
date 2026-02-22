@@ -2825,6 +2825,11 @@
       "url": "https://cepdnaclk.github.io/e21-3yp-Smart-Metrolac"
    },
    {
+      "name": "e20-4yp-On-Chip-Online-Learning-For-Neuromorphic-Hardware",
+      "repo": "https://github.com/cepdnaclk/e20-4yp-On-Chip-Online-Learning-For-Neuromorphic-Hardware",
+      "url": "https://cepdnaclk.github.io/e20-4yp-On-Chip-Online-Learning-For-Neuromorphic-Hardware"
+   },
+   {
       "name": "servermonitoring",
       "repo": "https://github.com/cepdnaclk/servermonitoring",
       "url": "https://cepdnaclk.github.io/servermonitoring"
@@ -3070,9 +3075,9 @@
       "url": "https://cepdnaclk.github.io/e21-3yp-PathFinder"
    },
    {
-      "name": "e21-3yp-Smart-Dog-Collar",
-      "repo": "https://github.com/cepdnaclk/e21-3yp-Smart-Dog-Collar",
-      "url": "https://cepdnaclk.github.io/e21-3yp-Smart-Dog-Collar"
+      "name": "e21-3yp-PetGuard-Pro",
+      "repo": "https://github.com/cepdnaclk/e21-3yp-PetGuard-Pro",
+      "url": "https://cepdnaclk.github.io/e21-3yp-PetGuard-Pro"
    },
    {
       "name": "e21-3yp-spectron",
@@ -3093,5 +3098,15 @@
       "name": "e22-co2060-Tour-guide",
       "repo": "https://github.com/cepdnaclk/e22-co2060-Tour-guide",
       "url": "https://cepdnaclk.github.io/e22-co2060-Tour-guide"
+   },
+   {
+      "name": "e20-4yp-ai-driven-automated-feedback-and-tutoring-system-for-higher-education",
+      "repo": "https://github.com/cepdnaclk/e20-4yp-ai-driven-automated-feedback-and-tutoring-system-for-higher-education",
+      "url": "https://cepdnaclk.github.io/e20-4yp-ai-driven-automated-feedback-and-tutoring-system-for-higher-education"
+   },
+   {
+      "name": "PeraCom-DECP",
+      "repo": "https://github.com/cepdnaclk/PeraCom-DECP",
+      "url": "https://cepdnaclk.github.io/PeraCom-DECP"
    }
 ]
