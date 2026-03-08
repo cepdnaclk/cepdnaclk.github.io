@@ -2765,6 +2765,11 @@
       "url": "https://cepdnaclk.github.io/e20-4yp-A-Hierarchical-Hybrid-Framework-for-Intrusion-Detection-in-Network-and-Application-Layers"
    },
    {
+      "name": "e22-co2060-AI-Smart-Assistant",
+      "repo": "https://github.com/cepdnaclk/e22-co2060-AI-Smart-Assistant",
+      "url": "https://cepdnaclk.github.io/e22-co2060-AI-Smart-Assistant"
+   },
+   {
       "name": "e20-4yp-AI-Enabled-Digital-Twin-for-Crack-Evolution-in-Concrete-Beams-",
       "repo": "https://github.com/cepdnaclk/e20-4yp-AI-Enabled-Digital-Twin-for-Crack-Evolution-in-Concrete-Beams-",
       "url": "https://cepdnaclk.github.io/e20-4yp-AI-Enabled-Digital-Twin-for-Crack-Evolution-in-Concrete-Beams-"
@@ -2823,11 +2828,6 @@
       "name": "e21-3yp-Smart-Metrolac",
       "repo": "https://github.com/cepdnaclk/e21-3yp-Smart-Metrolac",
       "url": "https://cepdnaclk.github.io/e21-3yp-Smart-Metrolac"
-   },
-   {
-      "name": "e20-4yp-On-Chip-Online-Learning-For-Neuromorphic-Hardware",
-      "repo": "https://github.com/cepdnaclk/e20-4yp-On-Chip-Online-Learning-For-Neuromorphic-Hardware",
-      "url": "https://cepdnaclk.github.io/e20-4yp-On-Chip-Online-Learning-For-Neuromorphic-Hardware"
    },
    {
       "name": "servermonitoring",
@@ -2970,6 +2970,11 @@
       "url": "https://cepdnaclk.github.io/e21-3yp-GloveXcel"
    },
    {
+      "name": "e23-co2060-RoadAid",
+      "repo": "https://github.com/cepdnaclk/e23-co2060-RoadAid",
+      "url": "https://cepdnaclk.github.io/e23-co2060-RoadAid"
+   },
+   {
       "name": "e23-co2060-stress-detection-and-analyzing-system",
       "repo": "https://github.com/cepdnaclk/e23-co2060-stress-detection-and-analyzing-system",
       "url": "https://cepdnaclk.github.io/e23-co2060-stress-detection-and-analyzing-system"
@@ -2980,14 +2985,14 @@
       "url": "https://cepdnaclk.github.io/e22-co2060-AI-Integrated-Ecommerce-Platform"
    },
    {
-      "name": "e23-co2060-2YP-SkillShare",
-      "repo": "https://github.com/cepdnaclk/e23-co2060-2YP-SkillShare",
-      "url": "https://cepdnaclk.github.io/e23-co2060-2YP-SkillShare"
+      "name": "e23-co2060-SkillShare",
+      "repo": "https://github.com/cepdnaclk/e23-co2060-SkillShare",
+      "url": "https://cepdnaclk.github.io/e23-co2060-SkillShare"
    },
    {
-      "name": "e21-3yp-Drone-Swarm-",
-      "repo": "https://github.com/cepdnaclk/e21-3yp-Drone-Swarm-",
-      "url": "https://cepdnaclk.github.io/e21-3yp-Drone-Swarm-"
+      "name": "e21-3yp-Drone-Swarm",
+      "repo": "https://github.com/cepdnaclk/e21-3yp-Drone-Swarm",
+      "url": "https://cepdnaclk.github.io/e21-3yp-Drone-Swarm"
    },
    {
       "name": "e22-co2060-Real-Time-Public-Bus-Tracking-System",
@@ -3010,9 +3015,9 @@
       "url": "https://cepdnaclk.github.io/e22-co2060-floodguard"
    },
    {
-      "name": "e23-co2060-antigravity",
-      "repo": "https://github.com/cepdnaclk/e23-co2060-antigravity",
-      "url": "https://cepdnaclk.github.io/e23-co2060-antigravity"
+      "name": "e23-co2060-Merch4Change",
+      "repo": "https://github.com/cepdnaclk/e23-co2060-Merch4Change",
+      "url": "https://cepdnaclk.github.io/e23-co2060-Merch4Change"
    },
    {
       "name": "e22-co2060-School-Van-Management-System",
@@ -3038,6 +3043,11 @@
       "name": "e22-co2060-Syncro",
       "repo": "https://github.com/cepdnaclk/e22-co2060-Syncro",
       "url": "https://cepdnaclk.github.io/e22-co2060-Syncro"
+   },
+   {
+      "name": "e22-co2060-travel-plan-assistant",
+      "repo": "https://github.com/cepdnaclk/e22-co2060-travel-plan-assistant",
+      "url": "https://cepdnaclk.github.io/e22-co2060-travel-plan-assistant"
    },
    {
       "name": "e21-3yp-group-18",
@@ -3085,6 +3095,11 @@
       "url": "https://cepdnaclk.github.io/e21-3yp-spectron"
    },
    {
+      "name": "e21-3yp-GUARD",
+      "repo": "https://github.com/cepdnaclk/e21-3yp-GUARD",
+      "url": "https://cepdnaclk.github.io/e21-3yp-GUARD"
+   },
+   {
       "name": "e21-3yp-Mountain-Climber-Health-and-GPS-Tracker",
       "repo": "https://github.com/cepdnaclk/e21-3yp-Mountain-Climber-Health-and-GPS-Tracker",
       "url": "https://cepdnaclk.github.io/e21-3yp-Mountain-Climber-Health-and-GPS-Tracker"
@@ -3108,5 +3123,20 @@
       "name": "PeraCom-DECP",
       "repo": "https://github.com/cepdnaclk/PeraCom-DECP",
       "url": "https://cepdnaclk.github.io/PeraCom-DECP"
+   },
+   {
+      "name": "e20-co326-Measuring-Light-Intensity-in-a-Company-Before-It-Dies",
+      "repo": "https://github.com/cepdnaclk/e20-co326-Measuring-Light-Intensity-in-a-Company-Before-It-Dies",
+      "url": "https://cepdnaclk.github.io/e20-co326-Measuring-Light-Intensity-in-a-Company-Before-It-Dies"
+   },
+   {
+      "name": "e20-co542-heart-disease-prediction",
+      "repo": "https://github.com/cepdnaclk/e20-co542-heart-disease-prediction",
+      "url": "https://cepdnaclk.github.io/e20-co542-heart-disease-prediction"
+   },
+   {
+      "name": "e22-co2060-PowerShare-SL",
+      "repo": "https://github.com/cepdnaclk/e22-co2060-PowerShare-SL",
+      "url": "https://cepdnaclk.github.io/e22-co2060-PowerShare-SL"
    }
 ]
