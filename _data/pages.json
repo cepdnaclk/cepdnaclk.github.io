@@ -2735,6 +2735,11 @@
       "url": "https://cepdnaclk.github.io/e20-4yp-symbolic-music-generation-with-xLSTM"
    },
    {
+      "name": "e20-4yp-ECG-Based-MI-Detection",
+      "repo": "https://github.com/cepdnaclk/e20-4yp-ECG-Based-MI-Detection",
+      "url": "https://cepdnaclk.github.io/e20-4yp-ECG-Based-MI-Detection"
+   },
+   {
       "name": "e20-4yp-Federated-Agentic-Defense-For-Zero-Day-Attacks",
       "repo": "https://github.com/cepdnaclk/e20-4yp-Federated-Agentic-Defense-For-Zero-Day-Attacks",
       "url": "https://cepdnaclk.github.io/e20-4yp-Federated-Agentic-Defense-For-Zero-Day-Attacks"
@@ -2823,6 +2828,11 @@
       "name": "e21-3yp-RouteLK",
       "repo": "https://github.com/cepdnaclk/e21-3yp-RouteLK",
       "url": "https://cepdnaclk.github.io/e21-3yp-RouteLK"
+   },
+   {
+      "name": "e20-fyp-ai-atrial-fib-detection",
+      "repo": "https://github.com/cepdnaclk/e20-fyp-ai-atrial-fib-detection",
+      "url": "https://cepdnaclk.github.io/e20-fyp-ai-atrial-fib-detection"
    },
    {
       "name": "e21-3yp-Smart-Metrolac",
@@ -3050,9 +3060,9 @@
       "url": "https://cepdnaclk.github.io/e22-co2060-travel-plan-assistant"
    },
    {
-      "name": "e21-3yp-group-18",
-      "repo": "https://github.com/cepdnaclk/e21-3yp-group-18",
-      "url": "https://cepdnaclk.github.io/e21-3yp-group-18"
+      "name": "e21-3yp-CluckNet",
+      "repo": "https://github.com/cepdnaclk/e21-3yp-CluckNet",
+      "url": "https://cepdnaclk.github.io/e21-3yp-CluckNet"
    },
    {
       "name": "e21-3yp-ReflectStudio",
@@ -3138,5 +3148,15 @@
       "name": "e22-co2060-PowerShare-SL",
       "repo": "https://github.com/cepdnaclk/e22-co2060-PowerShare-SL",
       "url": "https://cepdnaclk.github.io/e22-co2060-PowerShare-SL"
+   },
+   {
+      "name": "e20-4yp-Adversarial-and-Noise-Robust-Training-for-Lightweight-Audio-Event-Detection",
+      "repo": "https://github.com/cepdnaclk/e20-4yp-Adversarial-and-Noise-Robust-Training-for-Lightweight-Audio-Event-Detection",
+      "url": "https://cepdnaclk.github.io/e20-4yp-Adversarial-and-Noise-Robust-Training-for-Lightweight-Audio-Event-Detection"
+   },
+   {
+      "name": "E20-CO528-Department-Engagement-and-Career-Platform",
+      "repo": "https://github.com/cepdnaclk/E20-CO528-Department-Engagement-and-Career-Platform",
+      "url": "https://cepdnaclk.github.io/E20-CO528-Department-Engagement-and-Career-Platform"
    }
 ]
