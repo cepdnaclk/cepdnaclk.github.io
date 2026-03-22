@@ -2780,6 +2780,11 @@
       "url": "https://cepdnaclk.github.io/e20-4yp-AI-Enabled-Digital-Twin-for-Crack-Evolution-in-Concrete-Beams-"
    },
    {
+      "name": "e20-4yp-Impact-of-Hybrid-Structured-Random-Projections-on-GNN-Performance",
+      "repo": "https://github.com/cepdnaclk/e20-4yp-Impact-of-Hybrid-Structured-Random-Projections-on-GNN-Performance",
+      "url": "https://cepdnaclk.github.io/e20-4yp-Impact-of-Hybrid-Structured-Random-Projections-on-GNN-Performance"
+   },
+   {
       "name": "e20-4yp-SinhSafe",
       "repo": "https://github.com/cepdnaclk/e20-4yp-SinhSafe",
       "url": "https://cepdnaclk.github.io/e20-4yp-SinhSafe"
@@ -2830,14 +2835,19 @@
       "url": "https://cepdnaclk.github.io/e21-3yp-RouteLK"
    },
    {
-      "name": "e20-fyp-ai-atrial-fib-detection",
-      "repo": "https://github.com/cepdnaclk/e20-fyp-ai-atrial-fib-detection",
-      "url": "https://cepdnaclk.github.io/e20-fyp-ai-atrial-fib-detection"
+      "name": "e20-4yp-ai-atrial-fib-detection",
+      "repo": "https://github.com/cepdnaclk/e20-4yp-ai-atrial-fib-detection",
+      "url": "https://cepdnaclk.github.io/e20-4yp-ai-atrial-fib-detection"
    },
    {
       "name": "e21-3yp-Smart-Metrolac",
       "repo": "https://github.com/cepdnaclk/e21-3yp-Smart-Metrolac",
       "url": "https://cepdnaclk.github.io/e21-3yp-Smart-Metrolac"
+   },
+   {
+      "name": "e20-4yp-On-Chip-Online-Learning-For-Neuromorphic-Hardware",
+      "repo": "https://github.com/cepdnaclk/e20-4yp-On-Chip-Online-Learning-For-Neuromorphic-Hardware",
+      "url": "https://cepdnaclk.github.io/e20-4yp-On-Chip-Online-Learning-For-Neuromorphic-Hardware"
    },
    {
       "name": "servermonitoring",
@@ -3135,9 +3145,9 @@
       "url": "https://cepdnaclk.github.io/PeraCom-DECP"
    },
    {
-      "name": "e20-co326-Measuring-Light-Intensity-in-a-Company-Before-It-Dies",
-      "repo": "https://github.com/cepdnaclk/e20-co326-Measuring-Light-Intensity-in-a-Company-Before-It-Dies",
-      "url": "https://cepdnaclk.github.io/e20-co326-Measuring-Light-Intensity-in-a-Company-Before-It-Dies"
+      "name": "e20-co326-Digital-Twin-LED-Luminaire-Monitor",
+      "repo": "https://github.com/cepdnaclk/e20-co326-Digital-Twin-LED-Luminaire-Monitor",
+      "url": "https://cepdnaclk.github.io/e20-co326-Digital-Twin-LED-Luminaire-Monitor"
    },
    {
       "name": "e20-co542-heart-disease-prediction",
@@ -3155,8 +3165,18 @@
       "url": "https://cepdnaclk.github.io/e20-4yp-Adversarial-and-Noise-Robust-Training-for-Lightweight-Audio-Event-Detection"
    },
    {
-      "name": "E20-CO528-Department-Engagement-and-Career-Platform",
-      "repo": "https://github.com/cepdnaclk/E20-CO528-Department-Engagement-and-Career-Platform",
-      "url": "https://cepdnaclk.github.io/E20-CO528-Department-Engagement-and-Career-Platform"
+      "name": "e20-co528-Department-Engagement-and-Career-Platform",
+      "repo": "https://github.com/cepdnaclk/e20-co528-Department-Engagement-and-Career-Platform",
+      "url": "https://cepdnaclk.github.io/e20-co528-Department-Engagement-and-Career-Platform"
+   },
+   {
+      "name": "e20-4yp-Multi-Agent-LLM-Framework-for-Automated-Feedback-in-VR-Nursing-Training",
+      "repo": "https://github.com/cepdnaclk/e20-4yp-Multi-Agent-LLM-Framework-for-Automated-Feedback-in-VR-Nursing-Training",
+      "url": "https://cepdnaclk.github.io/e20-4yp-Multi-Agent-LLM-Framework-for-Automated-Feedback-in-VR-Nursing-Training"
+   },
+   {
+      "name": "e20-co523-C-Lite-Interpreter",
+      "repo": "https://github.com/cepdnaclk/e20-co523-C-Lite-Interpreter",
+      "url": "https://cepdnaclk.github.io/e20-co523-C-Lite-Interpreter"
    }
 ]
