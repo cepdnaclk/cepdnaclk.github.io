@@ -1640,6 +1640,9 @@
 		<loc>https://cepdnaclk.github.io/e20-4yp-symbolic-music-generation-with-xLSTM</loc>
 	</url>
 	<url>
+		<loc>https://cepdnaclk.github.io/e20-4yp-onchip-offline-neuromorphic-computing</loc>
+	</url>
+	<url>
 		<loc>https://cepdnaclk.github.io/e20-4yp-ECG-Based-MI-Detection</loc>
 	</url>
 	<url>
@@ -1653,6 +1656,9 @@
 	</url>
 	<url>
 		<loc>https://cepdnaclk.github.io/e21-3yp-Smart-IV</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e20-4yp-Lightweight-Deep-Learning-Models-for-Detection-of-Neurological-Disorders-Using-EEG-Signals</loc>
 	</url>
 	<url>
 		<loc>https://cepdnaclk.github.io/soc-design</loc>
@@ -1680,6 +1686,9 @@
 	</url>
 	<url>
 		<loc>https://cepdnaclk.github.io/e20-4yp-Context-Aware-Ai-Sybil-Mitigation-WBAN-IOMT</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e20-4yp-Neuromorphic-Smart-Sensor-for-Autonomous-Underwater-Vehicles</loc>
 	</url>
 	<url>
 		<loc>https://cepdnaclk.github.io/e21-3yp-ResQ</loc>
@@ -1731,9 +1740,6 @@
 	</url>
 	<url>
 		<loc>https://cepdnaclk.github.io/e23-co2060-ChronoCampus</loc>
-	</url>
-	<url>
-		<loc>https://cepdnaclk.github.io/e22-co2060-Web_Based_PAR_Index_System</loc>
 	</url>
 	<url>
 		<loc>https://cepdnaclk.github.io/e22-co2060-PearlPath</loc>
@@ -1883,10 +1889,16 @@
 		<loc>https://cepdnaclk.github.io/e20-4yp-ai-driven-automated-feedback-and-tutoring-system-for-higher-education</loc>
 	</url>
 	<url>
-		<loc>https://cepdnaclk.github.io/PeraCom-DECP</loc>
+		<loc>https://cepdnaclk.github.io/e20-co528-PeraCom-DECP</loc>
 	</url>
 	<url>
 		<loc>https://cepdnaclk.github.io/e20-co326-Digital-Twin-LED-Luminaire-Monitor</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e20-co326-hvac-blower-digital-twin-predictive-maintenance-group-20</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e20-4yp-VLM-Guided-Phenotyping-of-KOA</loc>
 	</url>
 	<url>
 		<loc>https://cepdnaclk.github.io/e20-co542-heart-disease-prediction</loc>
@@ -1904,12 +1916,15 @@
 		<loc>https://cepdnaclk.github.io/e20-4yp-Multi-Agent-LLM-Framework-for-Automated-Feedback-in-VR-Nursing-Training</loc>
 	</url>
 	<url>
+		<loc>https://cepdnaclk.github.io/e20-4yp-Automated-Code-Smell-Detection-and-Refactoring-with-LLMs</loc>
+	</url>
+	<url>
 		<loc>https://cepdnaclk.github.io/e20-co523-C-Lite-Interpreter</loc>
 	</url>
 	<url>
 		<loc>https://cepdnaclk.github.io/e23-co2060-University-Digital-ID-sbt</loc>
 	</url>
 	<url>
-		<loc>https://cepdnaclk.github.io/e20-co326-Motor-Health-Monitoring-Digital-Twin-with-Edge-Anomaly-Detection</loc>
+		<loc>https://cepdnaclk.github.io/e20-co326-Motor-Thermal-Monitoring-Digital-Twin</loc>
 	</url>
 </urlset>

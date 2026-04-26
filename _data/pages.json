@@ -2730,6 +2730,11 @@
       "url": "https://cepdnaclk.github.io/e20-4yp-symbolic-music-generation-with-xLSTM"
    },
    {
+      "name": "e20-4yp-onchip-offline-neuromorphic-computing",
+      "repo": "https://github.com/cepdnaclk/e20-4yp-onchip-offline-neuromorphic-computing",
+      "url": "https://cepdnaclk.github.io/e20-4yp-onchip-offline-neuromorphic-computing"
+   },
+   {
       "name": "e20-4yp-ECG-Based-MI-Detection",
       "repo": "https://github.com/cepdnaclk/e20-4yp-ECG-Based-MI-Detection",
       "url": "https://cepdnaclk.github.io/e20-4yp-ECG-Based-MI-Detection"
@@ -2753,6 +2758,11 @@
       "name": "e21-3yp-Smart-IV",
       "repo": "https://github.com/cepdnaclk/e21-3yp-Smart-IV",
       "url": "https://cepdnaclk.github.io/e21-3yp-Smart-IV"
+   },
+   {
+      "name": "e20-4yp-Lightweight-Deep-Learning-Models-for-Detection-of-Neurological-Disorders-Using-EEG-Signals",
+      "repo": "https://github.com/cepdnaclk/e20-4yp-Lightweight-Deep-Learning-Models-for-Detection-of-Neurological-Disorders-Using-EEG-Signals",
+      "url": "https://cepdnaclk.github.io/e20-4yp-Lightweight-Deep-Learning-Models-for-Detection-of-Neurological-Disorders-Using-EEG-Signals"
    },
    {
       "name": "soc-design",
@@ -2798,6 +2808,11 @@
       "name": "e20-4yp-Context-Aware-Ai-Sybil-Mitigation-WBAN-IOMT",
       "repo": "https://github.com/cepdnaclk/e20-4yp-Context-Aware-Ai-Sybil-Mitigation-WBAN-IOMT",
       "url": "https://cepdnaclk.github.io/e20-4yp-Context-Aware-Ai-Sybil-Mitigation-WBAN-IOMT"
+   },
+   {
+      "name": "e20-4yp-Neuromorphic-Smart-Sensor-for-Autonomous-Underwater-Vehicles",
+      "repo": "https://github.com/cepdnaclk/e20-4yp-Neuromorphic-Smart-Sensor-for-Autonomous-Underwater-Vehicles",
+      "url": "https://cepdnaclk.github.io/e20-4yp-Neuromorphic-Smart-Sensor-for-Autonomous-Underwater-Vehicles"
    },
    {
       "name": "e21-3yp-ResQ",
@@ -2883,11 +2898,6 @@
       "name": "e23-co2060-ChronoCampus",
       "repo": "https://github.com/cepdnaclk/e23-co2060-ChronoCampus",
       "url": "https://cepdnaclk.github.io/e23-co2060-ChronoCampus"
-   },
-   {
-      "name": "e22-co2060-Web_Based_PAR_Index_System",
-      "repo": "https://github.com/cepdnaclk/e22-co2060-Web_Based_PAR_Index_System",
-      "url": "https://cepdnaclk.github.io/e22-co2060-Web_Based_PAR_Index_System"
    },
    {
       "name": "e22-co2060-PearlPath",
@@ -3135,14 +3145,24 @@
       "url": "https://cepdnaclk.github.io/e20-4yp-ai-driven-automated-feedback-and-tutoring-system-for-higher-education"
    },
    {
-      "name": "PeraCom-DECP",
-      "repo": "https://github.com/cepdnaclk/PeraCom-DECP",
-      "url": "https://cepdnaclk.github.io/PeraCom-DECP"
+      "name": "e20-co528-PeraCom-DECP",
+      "repo": "https://github.com/cepdnaclk/e20-co528-PeraCom-DECP",
+      "url": "https://cepdnaclk.github.io/e20-co528-PeraCom-DECP"
    },
    {
       "name": "e20-co326-Digital-Twin-LED-Luminaire-Monitor",
       "repo": "https://github.com/cepdnaclk/e20-co326-Digital-Twin-LED-Luminaire-Monitor",
       "url": "https://cepdnaclk.github.io/e20-co326-Digital-Twin-LED-Luminaire-Monitor"
+   },
+   {
+      "name": "e20-co326-hvac-blower-digital-twin-predictive-maintenance-group-20",
+      "repo": "https://github.com/cepdnaclk/e20-co326-hvac-blower-digital-twin-predictive-maintenance-group-20",
+      "url": "https://cepdnaclk.github.io/e20-co326-hvac-blower-digital-twin-predictive-maintenance-group-20"
+   },
+   {
+      "name": "e20-4yp-VLM-Guided-Phenotyping-of-KOA",
+      "repo": "https://github.com/cepdnaclk/e20-4yp-VLM-Guided-Phenotyping-of-KOA",
+      "url": "https://cepdnaclk.github.io/e20-4yp-VLM-Guided-Phenotyping-of-KOA"
    },
    {
       "name": "e20-co542-heart-disease-prediction",
@@ -3170,6 +3190,11 @@
       "url": "https://cepdnaclk.github.io/e20-4yp-Multi-Agent-LLM-Framework-for-Automated-Feedback-in-VR-Nursing-Training"
    },
    {
+      "name": "e20-4yp-Automated-Code-Smell-Detection-and-Refactoring-with-LLMs",
+      "repo": "https://github.com/cepdnaclk/e20-4yp-Automated-Code-Smell-Detection-and-Refactoring-with-LLMs",
+      "url": "https://cepdnaclk.github.io/e20-4yp-Automated-Code-Smell-Detection-and-Refactoring-with-LLMs"
+   },
+   {
       "name": "e20-co523-C-Lite-Interpreter",
       "repo": "https://github.com/cepdnaclk/e20-co523-C-Lite-Interpreter",
       "url": "https://cepdnaclk.github.io/e20-co523-C-Lite-Interpreter"
@@ -3180,8 +3205,8 @@
       "url": "https://cepdnaclk.github.io/e23-co2060-University-Digital-ID-sbt"
    },
    {
-      "name": "e20-co326-Motor-Health-Monitoring-Digital-Twin-with-Edge-Anomaly-Detection",
-      "repo": "https://github.com/cepdnaclk/e20-co326-Motor-Health-Monitoring-Digital-Twin-with-Edge-Anomaly-Detection",
-      "url": "https://cepdnaclk.github.io/e20-co326-Motor-Health-Monitoring-Digital-Twin-with-Edge-Anomaly-Detection"
+      "name": "e20-co326-Motor-Thermal-Monitoring-Digital-Twin",
+      "repo": "https://github.com/cepdnaclk/e20-co326-Motor-Thermal-Monitoring-Digital-Twin",
+      "url": "https://cepdnaclk.github.io/e20-co326-Motor-Thermal-Monitoring-Digital-Twin"
    }
 ]
