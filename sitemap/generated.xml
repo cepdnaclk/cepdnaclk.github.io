@@ -1694,6 +1694,9 @@
 		<loc>https://cepdnaclk.github.io/e21-3yp-ResQ</loc>
 	</url>
 	<url>
+		<loc>https://cepdnaclk.github.io/e21-3yp-spectron-dashboard</loc>
+	</url>
+	<url>
 		<loc>https://cepdnaclk.github.io/e21-3yp-HYDRA</loc>
 	</url>
 	<url>
@@ -1742,6 +1745,9 @@
 		<loc>https://cepdnaclk.github.io/e23-co2060-ChronoCampus</loc>
 	</url>
 	<url>
+		<loc>https://cepdnaclk.github.io/e22-co2060-Web_Based_PAR_Index_System</loc>
+	</url>
+	<url>
 		<loc>https://cepdnaclk.github.io/e22-co2060-PearlPath</loc>
 	</url>
 	<url>
@@ -1767,6 +1773,9 @@
 	</url>
 	<url>
 		<loc>https://cepdnaclk.github.io/e22-co2060-PERA-SAM</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e23-co2060-NexClinic</loc>
 	</url>
 	<url>
 		<loc>https://cepdnaclk.github.io/e23-co2060-Kitchen-Foods-Platform</loc>
@@ -1889,9 +1898,6 @@
 		<loc>https://cepdnaclk.github.io/e20-4yp-ai-driven-automated-feedback-and-tutoring-system-for-higher-education</loc>
 	</url>
 	<url>
-		<loc>https://cepdnaclk.github.io/e20-co528-PeraCom-DECP</loc>
-	</url>
-	<url>
 		<loc>https://cepdnaclk.github.io/e20-co326-Digital-Twin-LED-Luminaire-Monitor</loc>
 	</url>
 	<url>
@@ -1926,5 +1932,26 @@
 	</url>
 	<url>
 		<loc>https://cepdnaclk.github.io/e20-co326-Motor-Thermal-Monitoring-Digital-Twin</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e20-co326-MQTT-Data-Anomaly-Detection</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e20-co326-Peak-Load-Detection-System</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e20-co528-PeraCom-DECP</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e20-co326-Smart-Lighting-Control</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e20-co326-Smart-Humidity-Monitoring-Digital-Twin</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e20-co523-C_LITE-Interpreter</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e20-co523-Mini-C-Interpreter</loc>
 	</url>
 </urlset>

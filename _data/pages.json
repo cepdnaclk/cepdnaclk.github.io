@@ -2820,6 +2820,11 @@
       "url": "https://cepdnaclk.github.io/e21-3yp-ResQ"
    },
    {
+      "name": "e21-3yp-spectron-dashboard",
+      "repo": "https://github.com/cepdnaclk/e21-3yp-spectron-dashboard",
+      "url": "https://cepdnaclk.github.io/e21-3yp-spectron-dashboard"
+   },
+   {
       "name": "e21-3yp-HYDRA",
       "repo": "https://github.com/cepdnaclk/e21-3yp-HYDRA",
       "url": "https://cepdnaclk.github.io/e21-3yp-HYDRA"
@@ -2900,6 +2905,11 @@
       "url": "https://cepdnaclk.github.io/e23-co2060-ChronoCampus"
    },
    {
+      "name": "e22-co2060-Web_Based_PAR_Index_System",
+      "repo": "https://github.com/cepdnaclk/e22-co2060-Web_Based_PAR_Index_System",
+      "url": "https://cepdnaclk.github.io/e22-co2060-Web_Based_PAR_Index_System"
+   },
+   {
       "name": "e22-co2060-PearlPath",
       "repo": "https://github.com/cepdnaclk/e22-co2060-PearlPath",
       "url": "https://cepdnaclk.github.io/e22-co2060-PearlPath"
@@ -2943,6 +2953,11 @@
       "name": "e22-co2060-PERA-SAM",
       "repo": "https://github.com/cepdnaclk/e22-co2060-PERA-SAM",
       "url": "https://cepdnaclk.github.io/e22-co2060-PERA-SAM"
+   },
+   {
+      "name": "e23-co2060-NexClinic",
+      "repo": "https://github.com/cepdnaclk/e23-co2060-NexClinic",
+      "url": "https://cepdnaclk.github.io/e23-co2060-NexClinic"
    },
    {
       "name": "e23-co2060-Kitchen-Foods-Platform",
@@ -3145,11 +3160,6 @@
       "url": "https://cepdnaclk.github.io/e20-4yp-ai-driven-automated-feedback-and-tutoring-system-for-higher-education"
    },
    {
-      "name": "e20-co528-PeraCom-DECP",
-      "repo": "https://github.com/cepdnaclk/e20-co528-PeraCom-DECP",
-      "url": "https://cepdnaclk.github.io/e20-co528-PeraCom-DECP"
-   },
-   {
       "name": "e20-co326-Digital-Twin-LED-Luminaire-Monitor",
       "repo": "https://github.com/cepdnaclk/e20-co326-Digital-Twin-LED-Luminaire-Monitor",
       "url": "https://cepdnaclk.github.io/e20-co326-Digital-Twin-LED-Luminaire-Monitor"
@@ -3208,5 +3218,40 @@
       "name": "e20-co326-Motor-Thermal-Monitoring-Digital-Twin",
       "repo": "https://github.com/cepdnaclk/e20-co326-Motor-Thermal-Monitoring-Digital-Twin",
       "url": "https://cepdnaclk.github.io/e20-co326-Motor-Thermal-Monitoring-Digital-Twin"
+   },
+   {
+      "name": "e20-co326-MQTT-Data-Anomaly-Detection",
+      "repo": "https://github.com/cepdnaclk/e20-co326-MQTT-Data-Anomaly-Detection",
+      "url": "https://cepdnaclk.github.io/e20-co326-MQTT-Data-Anomaly-Detection"
+   },
+   {
+      "name": "e20-co326-Peak-Load-Detection-System",
+      "repo": "https://github.com/cepdnaclk/e20-co326-Peak-Load-Detection-System",
+      "url": "https://cepdnaclk.github.io/e20-co326-Peak-Load-Detection-System"
+   },
+   {
+      "name": "e20-co528-PeraCom-DECP",
+      "repo": "https://github.com/cepdnaclk/e20-co528-PeraCom-DECP",
+      "url": "https://cepdnaclk.github.io/e20-co528-PeraCom-DECP"
+   },
+   {
+      "name": "e20-co326-Smart-Lighting-Control",
+      "repo": "https://github.com/cepdnaclk/e20-co326-Smart-Lighting-Control",
+      "url": "https://cepdnaclk.github.io/e20-co326-Smart-Lighting-Control"
+   },
+   {
+      "name": "e20-co326-Smart-Humidity-Monitoring-Digital-Twin",
+      "repo": "https://github.com/cepdnaclk/e20-co326-Smart-Humidity-Monitoring-Digital-Twin",
+      "url": "https://cepdnaclk.github.io/e20-co326-Smart-Humidity-Monitoring-Digital-Twin"
+   },
+   {
+      "name": "e20-co523-C_LITE-Interpreter",
+      "repo": "https://github.com/cepdnaclk/e20-co523-C_LITE-Interpreter",
+      "url": "https://cepdnaclk.github.io/e20-co523-C_LITE-Interpreter"
+   },
+   {
+      "name": "e20-co523-Mini-C-Interpreter",
+      "repo": "https://github.com/cepdnaclk/e20-co523-Mini-C-Interpreter",
+      "url": "https://cepdnaclk.github.io/e20-co523-Mini-C-Interpreter"
    }
 ]
