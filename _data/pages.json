@@ -2820,9 +2820,14 @@
       "url": "https://cepdnaclk.github.io/e21-3yp-ResQ"
    },
    {
-      "name": "e21-3yp-spectron-dashboard",
-      "repo": "https://github.com/cepdnaclk/e21-3yp-spectron-dashboard",
-      "url": "https://cepdnaclk.github.io/e21-3yp-spectron-dashboard"
+      "name": "e21-3yp-spectron",
+      "repo": "https://github.com/cepdnaclk/e21-3yp-spectron",
+      "url": "https://cepdnaclk.github.io/e21-3yp-spectron"
+   },
+   {
+      "name": "e20-4yp-neuromorphic-memory-optimization",
+      "repo": "https://github.com/cepdnaclk/e20-4yp-neuromorphic-memory-optimization",
+      "url": "https://cepdnaclk.github.io/e20-4yp-neuromorphic-memory-optimization"
    },
    {
       "name": "e21-3yp-HYDRA",
@@ -3128,11 +3133,6 @@
       "name": "e21-3yp-PetGuard-Pro",
       "repo": "https://github.com/cepdnaclk/e21-3yp-PetGuard-Pro",
       "url": "https://cepdnaclk.github.io/e21-3yp-PetGuard-Pro"
-   },
-   {
-      "name": "e21-3yp-spectron",
-      "repo": "https://github.com/cepdnaclk/e21-3yp-spectron",
-      "url": "https://cepdnaclk.github.io/e21-3yp-spectron"
    },
    {
       "name": "e21-3yp-GUARD",

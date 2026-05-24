@@ -1694,7 +1694,10 @@
 		<loc>https://cepdnaclk.github.io/e21-3yp-ResQ</loc>
 	</url>
 	<url>
-		<loc>https://cepdnaclk.github.io/e21-3yp-spectron-dashboard</loc>
+		<loc>https://cepdnaclk.github.io/e21-3yp-spectron</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e20-4yp-neuromorphic-memory-optimization</loc>
 	</url>
 	<url>
 		<loc>https://cepdnaclk.github.io/e21-3yp-HYDRA</loc>
@@ -1878,9 +1881,6 @@
 	</url>
 	<url>
 		<loc>https://cepdnaclk.github.io/e21-3yp-PetGuard-Pro</loc>
-	</url>
-	<url>
-		<loc>https://cepdnaclk.github.io/e21-3yp-spectron</loc>
 	</url>
 	<url>
 		<loc>https://cepdnaclk.github.io/e21-3yp-GUARD</loc>
