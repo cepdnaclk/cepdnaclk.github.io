@@ -1865,9 +1865,6 @@
 		<loc>https://cepdnaclk.github.io/e21-3yp-ReflectStudio</loc>
 	</url>
 	<url>
-		<loc>https://cepdnaclk.github.io/e21-3yp-AURA</loc>
-	</url>
-	<url>
 		<loc>https://cepdnaclk.github.io/e23-co2060-GoTravel</loc>
 	</url>
 	<url>
@@ -1953,5 +1950,8 @@
 	</url>
 	<url>
 		<loc>https://cepdnaclk.github.io/e20-co523-Mini-C-Interpreter</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e20-4yp-Self-Supervised-Learning-for-CNN-Transformer-Hybrids-under-Parameter-and-Label-Constraints</loc>
 	</url>
 </urlset>
