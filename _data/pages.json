@@ -2850,6 +2850,11 @@
       "url": "https://cepdnaclk.github.io/e20-4yp-ai-atrial-fib-detection"
    },
    {
+      "name": "e21-3yp-Smart-Metrolac",
+      "repo": "https://github.com/cepdnaclk/e21-3yp-Smart-Metrolac",
+      "url": "https://cepdnaclk.github.io/e21-3yp-Smart-Metrolac"
+   },
+   {
       "name": "e20-4yp-On-Chip-Online-Learning-For-Neuromorphic-Hardware",
       "repo": "https://github.com/cepdnaclk/e20-4yp-On-Chip-Online-Learning-For-Neuromorphic-Hardware",
       "url": "https://cepdnaclk.github.io/e20-4yp-On-Chip-Online-Learning-For-Neuromorphic-Hardware"
@@ -3250,6 +3255,16 @@
       "url": "https://cepdnaclk.github.io/e23-co543-DefectVision-Intelligent-Surface-Defect-Detection-Using-Deep-Learning"
    },
    {
+      "name": "e22-co543-Medical-Image-Abnormality-Cassification-Segmentation",
+      "repo": "https://github.com/cepdnaclk/e22-co543-Medical-Image-Abnormality-Cassification-Segmentation",
+      "url": "https://cepdnaclk.github.io/e22-co543-Medical-Image-Abnormality-Cassification-Segmentation"
+   },
+   {
+      "name": "e23-co5430-Sparse-3D-reconstruction-from-multiple-images",
+      "repo": "https://github.com/cepdnaclk/e23-co5430-Sparse-3D-reconstruction-from-multiple-images",
+      "url": "https://cepdnaclk.github.io/e23-co5430-Sparse-3D-reconstruction-from-multiple-images"
+   },
+   {
       "name": "e22-co2060-OptiFlow",
       "repo": "https://github.com/cepdnaclk/e22-co2060-OptiFlow",
       "url": "https://cepdnaclk.github.io/e22-co2060-OptiFlow"
@@ -3258,6 +3273,16 @@
       "name": "e23-co226--co2050--Medico-Legal_Case_Management_System-",
       "repo": "https://github.com/cepdnaclk/e23-co226--co2050--Medico-Legal_Case_Management_System-",
       "url": "https://cepdnaclk.github.io/e23-co226--co2050--Medico-Legal_Case_Management_System-"
+   },
+   {
+      "name": "e22-co226-Forensa-Fronsic-Database-Management-System",
+      "repo": "https://github.com/cepdnaclk/e22-co226-Forensa-Fronsic-Database-Management-System",
+      "url": "https://cepdnaclk.github.io/e22-co226-Forensa-Fronsic-Database-Management-System"
+   },
+   {
+      "name": "e22-co226-ForensicSys-Medico-Forensic-DBMS",
+      "repo": "https://github.com/cepdnaclk/e22-co226-ForensicSys-Medico-Forensic-DBMS",
+      "url": "https://cepdnaclk.github.io/e22-co226-ForensicSys-Medico-Forensic-DBMS"
    },
    {
       "name": "e22-co226-ForenSys_",
