@@ -1961,6 +1961,9 @@
 		<loc>https://cepdnaclk.github.io/e22-co543-Medical-Image-Abnormality-Cassification-Segmentation</loc>
 	</url>
 	<url>
+		<loc>https://cepdnaclk.github.io/e23-co5430-PCB-Bare-Board-Defect-Detection</loc>
+	</url>
+	<url>
 		<loc>https://cepdnaclk.github.io/e23-co5430-Sparse-3D-reconstruction-from-multiple-images</loc>
 	</url>
 	<url>
@@ -1983,5 +1986,11 @@
 	</url>
 	<url>
 		<loc>https://cepdnaclk.github.io/e22-co226-ForenSys_</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e22-co543-traffic-sign-detection</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e22-co542-Air-Pollution-Forecasting-Using-Temporal-NNs-Team-VectorX</loc>
 	</url>
 </urlset>
