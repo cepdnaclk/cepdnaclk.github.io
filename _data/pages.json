@@ -3265,9 +3265,9 @@
       "url": "https://cepdnaclk.github.io/e22-co543-Medical-Image-Abnormality-Cassification-Segmentation"
    },
    {
-      "name": "e23-co5430-PCB-Bare-Board-Defect-Detection",
-      "repo": "https://github.com/cepdnaclk/e23-co5430-PCB-Bare-Board-Defect-Detection",
-      "url": "https://cepdnaclk.github.io/e23-co5430-PCB-Bare-Board-Defect-Detection"
+      "name": "e23-co543-PCB-Bare-Board-Defect-Detection",
+      "repo": "https://github.com/cepdnaclk/e23-co543-PCB-Bare-Board-Defect-Detection",
+      "url": "https://cepdnaclk.github.io/e23-co543-PCB-Bare-Board-Defect-Detection"
    },
    {
       "name": "e23-co5430-Sparse-3D-reconstruction-from-multiple-images",
@@ -3310,6 +3310,11 @@
       "url": "https://cepdnaclk.github.io/e22-co226-ForenSys_"
    },
    {
+      "name": "e22-co542-Tira-miss-u-Fabric_Defect_Detection_Using_NNs",
+      "repo": "https://github.com/cepdnaclk/e22-co542-Tira-miss-u-Fabric_Defect_Detection_Using_NNs",
+      "url": "https://cepdnaclk.github.io/e22-co542-Tira-miss-u-Fabric_Defect_Detection_Using_NNs"
+   },
+   {
       "name": "e22-co543-traffic-sign-detection",
       "repo": "https://github.com/cepdnaclk/e22-co543-traffic-sign-detection",
       "url": "https://cepdnaclk.github.io/e22-co543-traffic-sign-detection"
@@ -3318,5 +3323,10 @@
       "name": "e22-co542-Air-Pollution-Forecasting-Using-Temporal-NNs-Team-VectorX",
       "repo": "https://github.com/cepdnaclk/e22-co542-Air-Pollution-Forecasting-Using-Temporal-NNs-Team-VectorX",
       "url": "https://cepdnaclk.github.io/e22-co542-Air-Pollution-Forecasting-Using-Temporal-NNs-Team-VectorX"
+   },
+   {
+      "name": "e22-co226-Forensic-Medical-Records-Management-System",
+      "repo": "https://github.com/cepdnaclk/e22-co226-Forensic-Medical-Records-Management-System",
+      "url": "https://cepdnaclk.github.io/e22-co226-Forensic-Medical-Records-Management-System"
    }
 ]
