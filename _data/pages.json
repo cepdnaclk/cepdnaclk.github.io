@@ -1960,9 +1960,9 @@
       "url": "https://cepdnaclk.github.io/e18-4yp-Generating-Patient-Clinical-Letters-Using-LLMs"
    },
    {
-      "name": "e18-4yp-Detection-And-Repair-Data-Quality-Issues-In-Process-Mining",
-      "repo": "https://github.com/cepdnaclk/e18-4yp-Detection-And-Repair-Data-Quality-Issues-In-Process-Mining",
-      "url": "https://cepdnaclk.github.io/e18-4yp-Detection-And-Repair-Data-Quality-Issues-In-Process-Mining"
+      "name": "e18-4yp-Identification-And-Resolution-Of-Selected-Imperfection-Patterns-In-Process-Mining",
+      "repo": "https://github.com/cepdnaclk/e18-4yp-Identification-And-Resolution-Of-Selected-Imperfection-Patterns-In-Process-Mining",
+      "url": "https://cepdnaclk.github.io/e18-4yp-Identification-And-Resolution-Of-Selected-Imperfection-Patterns-In-Process-Mining"
    },
    {
       "name": "e18-4yp-Dengue-outbreak-prediction-in-Sri-Lanka-using-machine-learning-techniques",
@@ -2178,11 +2178,6 @@
       "name": "e20-co227-Job-Magnet",
       "repo": "https://github.com/cepdnaclk/e20-co227-Job-Magnet",
       "url": "https://cepdnaclk.github.io/e20-co227-Job-Magnet"
-   },
-   {
-      "name": "e20-co227-Denture-Design-Studio",
-      "repo": "https://github.com/cepdnaclk/e20-co227-Denture-Design-Studio",
-      "url": "https://cepdnaclk.github.io/e20-co227-Denture-Design-Studio"
    },
    {
       "name": "e20-co227-BookWallet",
@@ -3150,6 +3145,11 @@
       "url": "https://cepdnaclk.github.io/e22-co2060-bloodmsystem"
    },
    {
+      "name": "e23-2yp-peracom-swms",
+      "repo": "https://github.com/cepdnaclk/e23-2yp-peracom-swms",
+      "url": "https://cepdnaclk.github.io/e23-2yp-peracom-swms"
+   },
+   {
       "name": "e21-3yp-Mountain-Climber-Health-and-GPS-Tracker",
       "repo": "https://github.com/cepdnaclk/e21-3yp-Mountain-Climber-Health-and-GPS-Tracker",
       "url": "https://cepdnaclk.github.io/e21-3yp-Mountain-Climber-Health-and-GPS-Tracker"
@@ -3300,9 +3300,9 @@
       "url": "https://cepdnaclk.github.io/e22-co2060-OptiFlow"
    },
    {
-      "name": "e23-co226--co2050--Medico-Legal_Case_Management_System-",
-      "repo": "https://github.com/cepdnaclk/e23-co226--co2050--Medico-Legal_Case_Management_System-",
-      "url": "https://cepdnaclk.github.io/e23-co226--co2050--Medico-Legal_Case_Management_System-"
+      "name": "e23-co226--co2050--Medico-Legal_Case_Management_System",
+      "repo": "https://github.com/cepdnaclk/e23-co226--co2050--Medico-Legal_Case_Management_System",
+      "url": "https://cepdnaclk.github.io/e23-co226--co2050--Medico-Legal_Case_Management_System"
    },
    {
       "name": "e23-co542-Fabric-Defect-Detection-and-Localisation-Using-Deep-Neural-Networks",
