@@ -1310,6 +1310,9 @@
 		<loc>https://cepdnaclk.github.io/e20-co227-Job-Magnet</loc>
 	</url>
 	<url>
+		<loc>https://cepdnaclk.github.io/e20-co227-Denture-Design-Studio</loc>
+	</url>
+	<url>
 		<loc>https://cepdnaclk.github.io/e20-co227-BookWallet</loc>
 	</url>
 	<url>
@@ -1874,9 +1877,6 @@
 		<loc>https://cepdnaclk.github.io/e23-co2060-Health-Management-System</loc>
 	</url>
 	<url>
-		<loc>https://cepdnaclk.github.io/e21-3yp-SPECTRA-LEAF</loc>
-	</url>
-	<url>
 		<loc>https://cepdnaclk.github.io/e21-3yp-PathFinder</loc>
 	</url>
 	<url>
@@ -1976,7 +1976,7 @@
 		<loc>https://cepdnaclk.github.io/e23-co5430-Sparse-3D-reconstruction-from-multiple-images</loc>
 	</url>
 	<url>
-		<loc>https://cepdnaclk.github.io/e22-co5430-Road-ane-sidewalk-segmentation</loc>
+		<loc>https://cepdnaclk.github.io/e22-co543-Road-ane-sidewalk-segmentation</loc>
 	</url>
 	<url>
 		<loc>https://cepdnaclk.github.io/e22-co2060-OptiFlow</loc>
@@ -2007,5 +2007,11 @@
 	</url>
 	<url>
 		<loc>https://cepdnaclk.github.io/e22-co226-Forensic-Medical-Records-Management-System</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e22-3yp-MedFlow</loc>
+	</url>
+	<url>
+		<loc>https://cepdnaclk.github.io/e22-3yp-Ventra</loc>
 	</url>
 </urlset>

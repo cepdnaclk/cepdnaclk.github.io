@@ -2180,6 +2180,11 @@
       "url": "https://cepdnaclk.github.io/e20-co227-Job-Magnet"
    },
    {
+      "name": "e20-co227-Denture-Design-Studio",
+      "repo": "https://github.com/cepdnaclk/e20-co227-Denture-Design-Studio",
+      "url": "https://cepdnaclk.github.io/e20-co227-Denture-Design-Studio"
+   },
+   {
       "name": "e20-co227-BookWallet",
       "repo": "https://github.com/cepdnaclk/e20-co227-BookWallet",
       "url": "https://cepdnaclk.github.io/e20-co227-BookWallet"
@@ -3120,11 +3125,6 @@
       "url": "https://cepdnaclk.github.io/e23-co2060-Health-Management-System"
    },
    {
-      "name": "e21-3yp-SPECTRA-LEAF",
-      "repo": "https://github.com/cepdnaclk/e21-3yp-SPECTRA-LEAF",
-      "url": "https://cepdnaclk.github.io/e21-3yp-SPECTRA-LEAF"
-   },
-   {
       "name": "e21-3yp-PathFinder",
       "repo": "https://github.com/cepdnaclk/e21-3yp-PathFinder",
       "url": "https://cepdnaclk.github.io/e21-3yp-PathFinder"
@@ -3290,9 +3290,9 @@
       "url": "https://cepdnaclk.github.io/e23-co5430-Sparse-3D-reconstruction-from-multiple-images"
    },
    {
-      "name": "e22-co5430-Road-ane-sidewalk-segmentation",
-      "repo": "https://github.com/cepdnaclk/e22-co5430-Road-ane-sidewalk-segmentation",
-      "url": "https://cepdnaclk.github.io/e22-co5430-Road-ane-sidewalk-segmentation"
+      "name": "e22-co543-Road-ane-sidewalk-segmentation",
+      "repo": "https://github.com/cepdnaclk/e22-co543-Road-ane-sidewalk-segmentation",
+      "url": "https://cepdnaclk.github.io/e22-co543-Road-ane-sidewalk-segmentation"
    },
    {
       "name": "e22-co2060-OptiFlow",
@@ -3343,5 +3343,15 @@
       "name": "e22-co226-Forensic-Medical-Records-Management-System",
       "repo": "https://github.com/cepdnaclk/e22-co226-Forensic-Medical-Records-Management-System",
       "url": "https://cepdnaclk.github.io/e22-co226-Forensic-Medical-Records-Management-System"
+   },
+   {
+      "name": "e22-3yp-MedFlow",
+      "repo": "https://github.com/cepdnaclk/e22-3yp-MedFlow",
+      "url": "https://cepdnaclk.github.io/e22-3yp-MedFlow"
+   },
+   {
+      "name": "e22-3yp-Ventra",
+      "repo": "https://github.com/cepdnaclk/e22-3yp-Ventra",
+      "url": "https://cepdnaclk.github.io/e22-3yp-Ventra"
    }
 ]
