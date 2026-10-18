@@ -3125,6 +3125,11 @@
       "url": "https://cepdnaclk.github.io/e23-co2060-Health-Management-System"
    },
    {
+      "name": "e21-3yp-SPECTRA-LEAF",
+      "repo": "https://github.com/cepdnaclk/e21-3yp-SPECTRA-LEAF",
+      "url": "https://cepdnaclk.github.io/e21-3yp-SPECTRA-LEAF"
+   },
+   {
       "name": "e21-3yp-PathFinder",
       "repo": "https://github.com/cepdnaclk/e21-3yp-PathFinder",
       "url": "https://cepdnaclk.github.io/e21-3yp-PathFinder"
@@ -3345,6 +3350,11 @@
       "url": "https://cepdnaclk.github.io/e22-co226-Forensic-Medical-Records-Management-System"
    },
    {
+      "name": "e22-3yp-Syncrobots",
+      "repo": "https://github.com/cepdnaclk/e22-3yp-Syncrobots",
+      "url": "https://cepdnaclk.github.io/e22-3yp-Syncrobots"
+   },
+   {
       "name": "e22-3yp-MedFlow",
       "repo": "https://github.com/cepdnaclk/e22-3yp-MedFlow",
       "url": "https://cepdnaclk.github.io/e22-3yp-MedFlow"
@@ -3353,5 +3363,70 @@
       "name": "e22-3yp-Ventra",
       "repo": "https://github.com/cepdnaclk/e22-3yp-Ventra",
       "url": "https://cepdnaclk.github.io/e22-3yp-Ventra"
+   },
+   {
+      "name": "e22-3yp-Echo",
+      "repo": "https://github.com/cepdnaclk/e22-3yp-Echo",
+      "url": "https://cepdnaclk.github.io/e22-3yp-Echo"
+   },
+   {
+      "name": "e22-3yp-Smart_STEM_Experiment_Kit",
+      "repo": "https://github.com/cepdnaclk/e22-3yp-Smart_STEM_Experiment_Kit",
+      "url": "https://cepdnaclk.github.io/e22-3yp-Smart_STEM_Experiment_Kit"
+   },
+   {
+      "name": "e22-3yp-Ciora",
+      "repo": "https://github.com/cepdnaclk/e22-3yp-Ciora",
+      "url": "https://cepdnaclk.github.io/e22-3yp-Ciora"
+   },
+   {
+      "name": "e22-3yp-NETH",
+      "repo": "https://github.com/cepdnaclk/e22-3yp-NETH",
+      "url": "https://cepdnaclk.github.io/e22-3yp-NETH"
+   },
+   {
+      "name": "e22-Forensic-Tiramissu",
+      "repo": "https://github.com/cepdnaclk/e22-Forensic-Tiramissu",
+      "url": "https://cepdnaclk.github.io/e22-Forensic-Tiramissu"
+   },
+   {
+      "name": "e22-3yp-Smart_Jaundice",
+      "repo": "https://github.com/cepdnaclk/e22-3yp-Smart_Jaundice",
+      "url": "https://cepdnaclk.github.io/e22-3yp-Smart_Jaundice"
+   },
+   {
+      "name": "e22-3yp-HydraSense-smart-water-bottle",
+      "repo": "https://github.com/cepdnaclk/e22-3yp-HydraSense-smart-water-bottle",
+      "url": "https://cepdnaclk.github.io/e22-3yp-HydraSense-smart-water-bottle"
+   },
+   {
+      "name": "e22-3yp-RoadEye",
+      "repo": "https://github.com/cepdnaclk/e22-3yp-RoadEye",
+      "url": "https://cepdnaclk.github.io/e22-3yp-RoadEye"
+   },
+   {
+      "name": "e22_3YP_I.V.I.S",
+      "repo": "https://github.com/cepdnaclk/e22_3YP_I.V.I.S",
+      "url": "https://cepdnaclk.github.io/e22_3YP_I.V.I.S"
+   },
+   {
+      "name": "e22-3yp-Agricultural-Hexabot-Robot",
+      "repo": "https://github.com/cepdnaclk/e22-3yp-Agricultural-Hexabot-Robot",
+      "url": "https://cepdnaclk.github.io/e22-3yp-Agricultural-Hexabot-Robot"
+   },
+   {
+      "name": "e22-3yp-himummy",
+      "repo": "https://github.com/cepdnaclk/e22-3yp-himummy",
+      "url": "https://cepdnaclk.github.io/e22-3yp-himummy"
+   },
+   {
+      "name": "e22-3yp-fes-foot-drop-orthosis",
+      "repo": "https://github.com/cepdnaclk/e22-3yp-fes-foot-drop-orthosis",
+      "url": "https://cepdnaclk.github.io/e22-3yp-fes-foot-drop-orthosis"
+   },
+   {
+      "name": "e22-3yp-AgriScout",
+      "repo": "https://github.com/cepdnaclk/e22-3yp-AgriScout",
+      "url": "https://cepdnaclk.github.io/e22-3yp-AgriScout"
    }
 ]
